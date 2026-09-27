@@ -1,0 +1,88 @@
+--BPS-0730: Status: Blue Pearl Visual Verification Suite Version 2026.4.68770.nightlyBuilds_2026.4.68770 07/16/2026 07:20. Windows (64-bit).
+Copyright (c) 2004-2026 Blue Pearl Software, Inc
+Portions of this software are (c) 2015 The Qt Company Ltd and other contributors under the GNU LGPL version 3 license.
+--BPS-0730: Status: Installation Path: C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64
+--BPS-0730: Status: Running as: aptay@Adiuvo_Adam
+--BPS-0730: Status: Running from: C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-035335-vhdl-skill/qwen3.5_4b/fifo
+--BPS-0730: Status: Unprocessed CLI Arguments: -root=sync_fifo -output=C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-035335-vhdl-skill\qwen3.5_4b\fifo\bps_final -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd}; BPS::run analyze -forceload
+--BPS-0730: Status: Effective CLI Arguments: 
+   -root=sync_fifo
+   -output=C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-035335-vhdl-skill\qwen3.5_4b\fifo\bps_final
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd}; BPS::run analyze -forceload"
+--BPS-0730: Status: Reading initialization file: 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/bps_setup.tcl'
+--BPS-0730: Status: Opening log file: 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-035335-vhdl-skill/qwen3.5_4b/fifo/bps_final/bluepearl.log' @ '22/09/2026 16:14'
+Time: Tue Sep 22 16:14:20 2026
+--BPS-0730: Status: Running user initialization program: 'source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd}; BPS::run analyze -forceload'
+*** args: analyze -forceload
+--BPS-0730: Status: Processing CDC in a Transitive manner.
+--BPS-0730: Status: Reading design...
+I-VHDL-1504: default VHDL library search path is now "C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin"
+I-VERI-9014: The Verilog search library for imported/instantiated design units now includes 'work'
+I-VNLR-9000: The Verilog netlist search library for imported/instantiated design units now includes 'work'
+I-VHDL-9010: The VHDL search library for imported/instantiated design units now includes 'work'
+I-SORT-9000: Pre-Analyzing 'VHDL 2008' file 'C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd' into library 'work'
+--VHDL-1481: Analyzing VHDL 2008 file 'C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd' into library 'work'
+--VHDL-1493: Restoring VHDL unit 'ieee.std_logic_1164' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/ieee/std_logic_1164.vdb'
+--VHDL-1493: Restoring VHDL unit 'std.standard' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/std/standard.vdb'
+--VHDL-1493: Restoring VHDL unit 'std.textio' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/std/textio.vdb'
+--VHDL-1493: Restoring VHDL unit 'ieee.numeric_std' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/ieee/numeric_std.vdb'
+I-VHDL-1012: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(8): analyzing entity 'sync_fifo'
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(15):     ; i_rst   : IN  std_ulogic;                  -- reset, active high
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(15):      ^
+E-VHDL-1261: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(15): syntax error near ';', expecting '<identifier>'
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(16):     ; i_wr_en : IN  std_ulogic;                  -- write enable
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(16):      ^
+E-VHDL-1261: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(16): syntax error near ';', expecting '<identifier>'
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(17):     ; i_wr_data : IN  std_logic_vector(g_width-1 DOWNTO 0)  -- data to write
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(17):      ^
+E-VHDL-1261: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(17): syntax error near ';', expecting '<identifier>'
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(19):     ; i_rd_data : OUT std_logic_vector(g_width-1 DOWNTO 0)  -- data to read
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(19):      ^
+E-VHDL-1261: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(19): syntax error near ';', expecting '<identifier>'
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(21):     ; o_empty : OUT std_ulogic                   -- empty flag
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(21):      ^
+E-VHDL-1261: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(21): syntax error near ';', expecting '<identifier>'
+E-VHDL-1284: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(8): unit 'sync_fifo' is ignored due to previous errors
+--VHDL-1482: VHDL file 'C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd' is ignored due to errors
+--BPS-0730: Status: Determining HDL top level units
+===============================
+Blue Pearl Missing Modules/Objects Report created on: Tue Sep 22 16:14:20 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-035335-vhdl-skill/qwen3.5_4b/fifo/bps_final/sync_fifo.missing_modules.rpt'.
+===============================
+Missing Modules: 0
+===============================
+===============================
+Time to generate Missing Modules/Objects report: 0.06 seconds
+--BPS-0730: Status: Finished elaborating design.
+--BPS-0730: Status: Finished Reading Design. Elapsed Time: 0.11 seconds.
+E-BPS-0752: ERROR: Termination due to non-recoverable errors
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-035335-vhdl-skill/qwen3.5_4b/fifo/bps_final/DesignSummary.rpt'.
+Time to generate Design Summary report: 0.01 seconds
+===============================
+Message ID Summary Report:
+Property Check  BPS-0730: 16 comments
+Property Check  BPS-0752: 1 error
+Property Check SORT-9000: 1 informational
+Property Check VERI-9014: 1 informational
+Property Check VHDL-1012: 1 informational
+Property Check VHDL-1261: 5 errors
+Property Check VHDL-1284: 1 error
+Property Check VHDL-1481: 1 comment
+Property Check VHDL-1482: 1 comment
+Property Check VHDL-1493: 4 comments
+Property Check VHDL-1504: 1 informational
+Property Check VHDL-1750: 10 informationals
+Property Check VHDL-9010: 1 informational
+Property Check VNLR-9000: 1 informational
+
+Property Check Message Severity Summary:
+7 errors
+0 warnings
+16 informationals
+22 comments
+--BPS-0730: Status: Total analysis Elapsed Time: 0 seconds
+E-BPS-0752: ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd}; BPS::run analyze -forceload
+E-BPS-0752: ERROR: BPS::run - Failed to read in netlist.
+application-specific initialization failed: BPS::run - Failed to read in netlist.

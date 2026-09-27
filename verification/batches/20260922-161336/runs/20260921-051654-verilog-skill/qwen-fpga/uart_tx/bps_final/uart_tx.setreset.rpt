@@ -1,0 +1,8 @@
+===============================
+Blue Pearl Sets/Resets Report created on: Tue Sep 22 16:15:02 2026
+===============================
+Reset/Set: uart_tx.rst is Asynchronous. It is a Primary Reset signal which is active High with reset logic None and is not synchronously de-asserted. Fanout: 3.
+===============================
+1 primary set/resets identified and reported.
+0 internal set/resets identified and reported.
+===============================

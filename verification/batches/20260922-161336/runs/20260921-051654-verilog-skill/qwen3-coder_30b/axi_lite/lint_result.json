@@ -1,0 +1,383 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:07+0100",
+  "language": "verilog",
+  "model": "qwen3-coder_30b",
+  "task": "axi_lite",
+  "source": "20260921-051654-verilog-skill\\qwen3-coder_30b\\axi_lite.sv",
+  "sha256": "5ed6956cd1be865bf8c3432fe143c87ef94054212ccf655d6ab1f88449ad18ad",
+  "interface_errors": [],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_awaddr",
+      "awaddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "s_axi_awvalid",
+      "awvalid",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_awready",
+      "awready",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_wdata",
+      "wdata",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "s_axi_wstrb",
+      "wstrb",
+      "in",
+      "[3:0]"
+    ],
+    [
+      "s_axi_wvalid",
+      "wvalid",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_wready",
+      "wready",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_bresp",
+      "bresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "s_axi_bvalid",
+      "bvalid",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_bready",
+      "bready",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_araddr",
+      "araddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "s_axi_arvalid",
+      "arvalid",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_arready",
+      "arready",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_rdata",
+      "rdata",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "s_axi_rresp",
+      "rresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "s_axi_rvalid",
+      "rvalid",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_rready",
+      "rready",
+      "in",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen3-coder_30b\\axi_lite\\bps_final",
+    "returncode": 0,
+    "seconds": 2.08,
+    "status": "COMPLETE",
+    "warnings": 48,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0530",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(62): Module: 'axil_regs' Missing Else-Block assignment to 'axil_regs.aw_valid_reg' for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(56): latch inferred for net 'aw_valid_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(56): 'aw_valid_reg' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0530",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(82): Module: 'axil_regs' Missing Else-Block assignment to 'axil_regs.w_valid_reg' for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(76): latch inferred for net 'w_valid_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(76): 'w_valid_reg' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0530",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(102): Module: 'axil_regs' Missing Else-Block assignment to 'axil_regs.b_valid_reg' for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(96): latch inferred for net 'b_valid_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(96): 'b_valid_reg' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0530",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(122): Module: 'axil_regs' Missing Else-Block assignment to 'axil_regs.ar_valid_reg' for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(116): latch inferred for net 'ar_valid_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(116): 'ar_valid_reg' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0530",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(142): Module: 'axil_regs' Missing Else-Block assignment to 'axil_regs.r_valid_reg' for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(136): latch inferred for net 'r_valid_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(136): 'r_valid_reg' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(31): Module: 'axil_regs' Signal 'axil_regs.aw_valid_reg' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(39): Module: 'axil_regs' Signal 'axil_regs.b_valid_reg' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(47): Module: 'axil_regs' Signal 'axil_regs.r_valid_reg' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(40): Module: 'axil_regs' Signal 'axil_regs.b_resp_reg[1:0]' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0802",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(11): Module: 'axil_regs' Signal 'axil_regs.s_axi_bresp' is used but has no driver(s)."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0801",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(40): Module: 'axil_regs' Signal 'axil_regs.b_resp_reg' is undriven but is used in the design."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(263): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.ar_addr_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.aw_addr_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(159): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.current_state'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(263): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.r_data_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(263): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.r_resp_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.reg0'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.reg1'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.reg2'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.reg3'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.w_data_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' The asynchronous reset signal 'axil_regs.rst_n' is not synchronously deasserted for the following register: 'axil_regs.w_strb_reg'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(159): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.current_state."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.aw_addr_reg."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.reg0."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.reg1."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.reg2."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.reg3."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.w_data_reg."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(212): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.w_strb_reg."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(263): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.ar_addr_reg."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(263): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.r_data_reg."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(263): Module: 'axil_regs' Asynchronous preset/clear used with register: axil_regs.r_resp_reg."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0948",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(56): Module: 'axil_regs' Latch 'axil_regs.aw_valid_reg' created or inferred."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0948",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(76): Module: 'axil_regs' Latch 'axil_regs.w_valid_reg' created or inferred."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0948",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(96): Module: 'axil_regs' Latch 'axil_regs.b_valid_reg' created or inferred."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0948",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(116): Module: 'axil_regs' Latch 'axil_regs.ar_valid_reg' created or inferred."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0948",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv(136): Module: 'axil_regs' Latch 'axil_regs.r_valid_reg' created or inferred."
+      }
+    ]
+  }
+}

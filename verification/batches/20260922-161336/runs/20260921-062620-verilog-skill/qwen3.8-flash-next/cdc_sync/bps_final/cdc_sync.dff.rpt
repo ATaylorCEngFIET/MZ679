@@ -1,0 +1,9 @@
+===============================
+Blue Pearl DFFs Report created on: Tue Sep 22 16:15:39 2026
+===============================
+3 D-type flip-flop registers:
+===============================
+cdc_sync.sync_reg[1:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 1
+cdc_sync.sync_reg_0 type Dff Data Clock Domain:  Clock Pin's Domain: clk_group Fanout: 1
+cdc_sync.sync_reg_1 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 1
+===============================

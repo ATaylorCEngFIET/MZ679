@@ -1,0 +1,71 @@
+{
+  "source_run": "20260921-062620-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:39+0100",
+  "language": "verilog",
+  "model": "qwen3.8-flash-next",
+  "task": "fifo",
+  "source": "20260921-062620-verilog-skill\\qwen3.8-flash-next\\fifo.sv",
+  "sha256": "36543cbaec59c20fddaf93ebe6a3e3095a070908cc31d6eb77308c2214c0bf26",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-062620-verilog-skill\\qwen3.8-flash-next\\fifo\\bps_final",
+    "returncode": 0,
+    "seconds": 2.09,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

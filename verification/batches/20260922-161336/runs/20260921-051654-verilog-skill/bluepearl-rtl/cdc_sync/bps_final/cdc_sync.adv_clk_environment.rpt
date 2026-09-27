@@ -1,0 +1,14 @@
+===============================
+Blue Pearl Advanced Clock Environment Report Report created on: Tue Sep 22 16:14:36 2026
+===============================
+Advanced Clock Environment Report:
+From clock: Unknown Clock To clock: clk_dest
+Synchronized: 2
+Unsynchronized: 0
+Issue: Unknown Clock interacts with clock clk_dest in both a synchronized and unsynchronized manner (33% unsynchronized). Recommendation: add synchronizers on unsynchronized CDCs.
+
+From clock: clk_dest To clock: Unknown Clock
+Synchronized: 0
+Unsynchronized: 1
+Issue: clk_dest interacts with clock Unknown Clock in both a synchronized and unsynchronized manner (33% unsynchronized). Recommendation: add synchronizers on unsynchronized CDCs.
+===============================

@@ -1,0 +1,107 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:13:46+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\fifo.vhd",
+  "sha256": "6b28ae1eb917b5e24e118e1e7947a23b2453c058471d0b38f838e9a630483c63",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_wr_en",
+      "wr_en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_wr_data",
+      "wr_data",
+      "in",
+      "std_logic_vector(g_width-1 downto 0)"
+    ],
+    [
+      "i_rd_en",
+      "rd_en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_rd_data",
+      "rd_data",
+      "out",
+      "std_logic_vector(g_width-1 downto 0)"
+    ],
+    [
+      "o_full",
+      "full",
+      "out",
+      "std_logic"
+    ],
+    [
+      "o_empty",
+      "empty",
+      "out",
+      "std_logic                   "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\gemma4-fpga\\fifo\\bps_final",
+    "returncode": 101,
+    "seconds": 1.62,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 7,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/fifo.vhd(6): syntax error near 'map', expecting '('"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1059",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/fifo.vhd(22): entity 'sync_fifo' is not yet compiled"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/fifo.vhd(30): 'g_depth' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1283",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/fifo.vhd(1): unexpected EOF"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/gemma4-fpga/fifo.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:17:40+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "cdc_sync",
+  "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\cdc_sync.vhd",
+  "sha256": "26fd6c7c9994e8970dd83f173bc8ee7eb80f5eff6e1424622b07b9ad7b3cebbd",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk_src",
+      "clk_src",
+      "in",
+      "std_ulogic                   "
+    ],
+    [
+      "i_clk_dst",
+      "clk",
+      "in",
+      "std_ulogic                   "
+    ],
+    [
+      "i_in",
+      "din",
+      "in",
+      "std_ulogic                   "
+    ],
+    [
+      "o_out",
+      "dout",
+      "out",
+      "std_ulogic                   "
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

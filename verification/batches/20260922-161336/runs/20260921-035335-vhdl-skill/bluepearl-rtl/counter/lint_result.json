@@ -1,0 +1,47 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:13:39+0100",
+  "language": "vhdl",
+  "model": "bluepearl-rtl",
+  "task": "counter",
+  "source": "20260921-035335-vhdl-skill\\bluepearl-rtl\\counter.vhd",
+  "sha256": "ff8806b56b9463f2e680ff93b891e5c68406d4e1a845842f9158287da9ea5250",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_en",
+      "en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_count",
+      "count",
+      "out",
+      "unsigned(3 DOWNTO 0)           "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\bluepearl-rtl\\counter\\bps_final",
+    "returncode": 0,
+    "seconds": 1.87,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

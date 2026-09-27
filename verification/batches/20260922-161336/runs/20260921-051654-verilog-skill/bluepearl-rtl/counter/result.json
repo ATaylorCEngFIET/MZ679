@@ -1,0 +1,51 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:18:45+0100",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "task": "counter",
+  "source": "20260921-051654-verilog-skill\\bluepearl-rtl\\counter.sv",
+  "sha256": "c59e4d938033ba1da63d10cc4718bfd4f3b3a4ae072f4aeca33df7c869b9b658",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "en",
+      "en",
+      "in",
+      ""
+    ],
+    [
+      "count",
+      "count",
+      "out",
+      "[3:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 321,
+        "failures": 0,
+        "seconds": 18.45,
+        "returncode": 0
+      }
+    ]
+  }
+}

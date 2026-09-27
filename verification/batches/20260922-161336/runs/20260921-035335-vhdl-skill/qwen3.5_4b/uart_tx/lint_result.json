@@ -1,0 +1,157 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:20+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "uart_tx",
+  "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd",
+  "sha256": "a074c041acc0ccc7df01a7cdebe7dc551682f9ad0934d1876584f8775ccc726b",
+  "interface_errors": [
+    "Missing required generic/parameter BAUD"
+  ],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic          "
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic          "
+    ],
+    [
+      "i_data",
+      "data",
+      "in",
+      "std_logic_vector(7 DOWNTO 0)   "
+    ],
+    [
+      "i_data_valid",
+      "data_valid",
+      "in",
+      "std_ulogic         "
+    ],
+    [
+      "o_tx",
+      "tx",
+      "out",
+      "std_ulogic           "
+    ],
+    [
+      "o_busy",
+      "busy",
+      "out",
+      "std_ulogic           "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx\\bps_final",
+    "returncode": 101,
+    "seconds": 1.93,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 19,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(11): 'i_rst' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(11): syntax error near ':', expecting ')' or ';'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1059",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(19): entity 'uart_tx' is not yet compiled"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(38): 'i_data' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(35): 'i_data_valid' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(35): 'i_data_valid' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(31): 'i_rst' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(31): 'i_rst' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(43): 'o_tx' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(45): 'o_tx' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(53): 'o_tx' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(55): 'o_tx' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(30): 'i_clk' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(30): 'i_clk' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(59): 'o_busy' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1445",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(28): sensitivity list can only have static signal names"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

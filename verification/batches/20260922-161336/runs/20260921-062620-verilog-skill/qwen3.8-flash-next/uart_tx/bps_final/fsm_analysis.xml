@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="uart_tx(state-next_state)" Language="Verilog" SingleProcess="No" CurrStateVar="state" NextStateVar="next_state" ResetState="IDLE" FileID="0" LineNum="46">
+            <States NumStates="5">
+                <State Name="IDLE" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="47">
+                    <Transition To="START" FileID="0" LineNum="54"/>
+                </State>
+                <State Name="START" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="64">
+                    <Transition To="DATA" FileID="0" LineNum="70"/>
+                </State>
+                <State Name="DATA" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="77">
+                    <Transition To="STOP" FileID="0" LineNum="84"/>
+                </State>
+                <State Name="STOP" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="94">
+                    <Transition To="IDLE" FileID="0" LineNum="100"/>
+                </State>
+                <State Name="Default" ResetState="No" DefaultState="Yes" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="107">
+                    <Transition To="IDLE" FileID="0" LineNum="108"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/uart_tx.sv" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

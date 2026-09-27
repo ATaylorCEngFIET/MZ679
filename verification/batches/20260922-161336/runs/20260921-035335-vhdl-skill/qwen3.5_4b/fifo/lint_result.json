@@ -1,0 +1,117 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:19+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\fifo.vhd",
+  "sha256": "796e7e3e23586d9628b968a546b419adc7e97dfa378347a96f3aea49b14384a6",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_en",
+      "wr_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_data",
+      "wr_data",
+      "in",
+      "std_logic_vector(g_width-1 DOWNTO 0)  "
+    ],
+    [
+      "i_rd_en",
+      "rd_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rd_data",
+      "rd_data",
+      "out",
+      "std_logic_vector(g_width-1 DOWNTO 0)  "
+    ],
+    [
+      "o_full",
+      "full",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_empty",
+      "empty",
+      "out",
+      "std_ulogic                   "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3.5_4b\\fifo\\bps_final",
+    "returncode": 101,
+    "seconds": 1.69,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 9,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(15): syntax error near ';', expecting '<identifier>'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(16): syntax error near ';', expecting '<identifier>'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(17): syntax error near ';', expecting '<identifier>'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(19): syntax error near ';', expecting '<identifier>'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(21): syntax error near ';', expecting '<identifier>'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd(8): unit 'sync_fifo' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/fifo.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

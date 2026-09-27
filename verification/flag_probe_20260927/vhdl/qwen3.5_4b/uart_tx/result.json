@@ -1,0 +1,24 @@
+{
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "uart_tx",
+  "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd",
+  "sha256": "a074c041acc0ccc7df01a7cdebe7dc551682f9ad0934d1876584f8775ccc726b",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vcom",
+    "-2008",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd(11): (vcom-1136) Unknown identifier \"i_rst\".",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd(11): Bad resolution function (STD_ULOGIC) for type (error).",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd(11): near \":\": (vcom-1576) expecting ';' or ')'."
+  ],
+  "directory": "flag_probe_20260927\\vhdl\\qwen3.5_4b\\uart_tx"
+}

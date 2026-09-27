@@ -1,0 +1,228 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:13+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "axi_lite",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv",
+  "sha256": "79b512d35b436e8613b71a1dc82eb97d7523b2d747badcc9784b5fcacd046cfc",
+  "interface_errors": [
+    "Wrong port direction rvalid",
+    "Wrong port direction rdata",
+    "Wrong port direction bready",
+    "Wrong port direction rready"
+  ],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "awaddr",
+      "awaddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "awvalid",
+      "awvalid",
+      "in",
+      ""
+    ],
+    [
+      "awready",
+      "awready",
+      "out",
+      ""
+    ],
+    [
+      "wdata",
+      "wdata",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "wstrb",
+      "wstrb",
+      "in",
+      "[2:0]"
+    ],
+    [
+      "wvalid",
+      "wvalid",
+      "in",
+      ""
+    ],
+    [
+      "wready",
+      "wready",
+      "out",
+      ""
+    ],
+    [
+      "bresp",
+      "bresp",
+      "in",
+      "[1:0]"
+    ],
+    [
+      "bvalid",
+      "bvalid",
+      "out",
+      ""
+    ],
+    [
+      "bready",
+      "bready",
+      "out",
+      ""
+    ],
+    [
+      "araddr",
+      "araddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "arvalid",
+      "arvalid",
+      "in",
+      ""
+    ],
+    [
+      "arready",
+      "arready",
+      "out",
+      ""
+    ],
+    [
+      "rdata",
+      "rdata",
+      "in",
+      ""
+    ],
+    [
+      "rvalid",
+      "rvalid",
+      "in",
+      ""
+    ],
+    [
+      "rready",
+      "rready",
+      "out",
+      ""
+    ],
+    [
+      "rresp",
+      "rresp",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite\\bps_final",
+    "returncode": 101,
+    "seconds": 1.69,
+    "status": "COMPLETE",
+    "warnings": 4,
+    "errors": 12,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VERI-1100",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(156): procedural assignment to a non-register 'bresp' is not permitted"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1214",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(156): assignment to input 'bresp'"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1100",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(156): procedural assignment to a non-register 'bresp' is not permitted"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1100",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(197): procedural assignment to a non-register 'bresp' is not permitted"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1214",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(197): assignment to input 'bresp'"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1100",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(197): procedural assignment to a non-register 'bresp' is not permitted"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1100",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(264): procedural assignment to a non-register 'bresp' is not permitted"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1214",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(264): assignment to input 'bresp'"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1100",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(264): procedural assignment to a non-register 'bresp' is not permitted"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1100",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(307): procedural assignment to a non-register 'bresp' is not permitted"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1214",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(307): assignment to input 'bresp'"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1100",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(307): procedural assignment to a non-register 'bresp' is not permitted"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1072",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv(1): module 'axil_regs' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/axi_lite.sv}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "source_run": "20260921-062307-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:24:41+0100",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "fifo",
+  "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd",
+  "sha256": "7f1e3bb49fb5c6b78d46656d3dbf8a1e81fc00424f3c822e9eba75187ce7faba",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_en",
+      "wr_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_data",
+      "wr_data",
+      "in",
+      "std_ulogic_vector(g_width - 1 DOWNTO 0)"
+    ],
+    [
+      "i_rd_en",
+      "rd_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_rd_data",
+      "rd_data",
+      "out",
+      "std_ulogic_vector(g_width - 1 DOWNTO 0)"
+    ],
+    [
+      "o_full",
+      "full",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_empty",
+      "empty",
+      "out",
+      "std_ulogic"
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

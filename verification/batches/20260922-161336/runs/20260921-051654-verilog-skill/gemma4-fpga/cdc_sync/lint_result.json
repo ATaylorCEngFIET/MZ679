@@ -1,0 +1,58 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:40+0100",
+  "language": "verilog",
+  "model": "gemma4-fpga",
+  "task": "cdc_sync",
+  "source": "20260921-051654-verilog-skill\\gemma4-fpga\\cdc_sync.sv",
+  "sha256": "19d366a9b75ae4105a63f793b35af7b1a5345169e90df4db05b49f2962ba6ae2",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "_in",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "_out",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\gemma4-fpga\\cdc_sync\\bps_final",
+    "returncode": 0,
+    "seconds": 1.96,
+    "status": "COMPLETE",
+    "warnings": 2,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-051654-verilog-skill/gemma4-fpga/cdc_sync.sv(26): Module: 'cdc_sync' Signal 'cdc_sync.sync_stage_0' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-051654-verilog-skill/gemma4-fpga/cdc_sync.sv(40): Module: 'cdc_sync' Signal 'cdc_sync.internal_chain' is dangling."
+      }
+    ]
+  }
+}

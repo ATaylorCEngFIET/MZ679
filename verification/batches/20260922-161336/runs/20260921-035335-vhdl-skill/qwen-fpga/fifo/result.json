@@ -1,0 +1,67 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:16:32+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\qwen-fpga\\fifo.vhd",
+  "sha256": "01c9850063c4cdf53d89c9c9121dfa8b502a7dccea5bf70984f75c1bcfe65116",
+  "interface_errors": [
+    "Missing required generic/parameter DEPTH"
+  ],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "std_logic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_data",
+      "rd_data",
+      "out",
+      "std_logic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      "std_ulogic        "
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

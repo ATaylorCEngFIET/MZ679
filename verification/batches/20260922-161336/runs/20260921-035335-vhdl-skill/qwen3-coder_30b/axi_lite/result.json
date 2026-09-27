@@ -1,0 +1,155 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:17:01+0100",
+  "language": "vhdl",
+  "model": "qwen3-coder_30b",
+  "task": "axi_lite",
+  "source": "20260921-035335-vhdl-skill\\qwen3-coder_30b\\axi_lite.vhd",
+  "sha256": "6b575944caebf8afde9953c6e2ecbc3649f370532db0c646556d1caeb8bef78c",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awvalid",
+      "awvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_awready",
+      "awready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_awaddr",
+      "awaddr",
+      "in",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "i_wvalid",
+      "wvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_wready",
+      "wready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_wdata",
+      "wdata",
+      "in",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "i_wstrb",
+      "wstrb",
+      "in",
+      "std_ulogic_vector(3 DOWNTO 0)"
+    ],
+    [
+      "o_bvalid",
+      "bvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_bready",
+      "bready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_bresp",
+      "bresp",
+      "out",
+      "std_ulogic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "i_arvalid",
+      "arvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_arready",
+      "arready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_araddr",
+      "araddr",
+      "in",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_rvalid",
+      "rvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_rready",
+      "rready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_rdata",
+      "rdata",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_rresp",
+      "rresp",
+      "out",
+      "std_ulogic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "o_reg0",
+      "reg0",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_reg1",
+      "reg1",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_reg2",
+      "reg2",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_reg3",
+      "reg3",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)  "
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

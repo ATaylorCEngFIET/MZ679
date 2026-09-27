@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSClockInteractionReport>
+    <ClockGroups>
+        <ClockGroup Name="i_clk_group">
+            <Clock Name="i_clk" FileID="0" LineNum="13"/>
+        </ClockGroup>
+    </ClockGroups>
+    <ClockInteractions/>
+    <ClockGroupInteractions/>
+    <FileIDs>
+        <File name="../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/counter.vhd" id="0"/>
+    </FileIDs>
+</BPSClockInteractionReport>

@@ -1,0 +1,61 @@
+QuestaSim Base Edition-64 vcom 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 16:18:07 on Sep 22,2026
+vcom -2008 -work work C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd 
+** Note: (vcom-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity axil_regs
+-- Compiling architecture rtl of axil_regs
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(49): Nonresolved signal 's_reg0' has multiple sources.
+  Drivers:
+    C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(111):Process write_proc
+       Driven at:
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(125)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(124)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(123)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(122)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(115)
+    C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(55):Process fsm_proc
+       Driven at:
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(64)
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(50): Nonresolved signal 's_reg1' has multiple sources.
+  Drivers:
+    C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(111):Process write_proc
+       Driven at:
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(130)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(129)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(128)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(127)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(116)
+    C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(55):Process fsm_proc
+       Driven at:
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(65)
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(51): Nonresolved signal 's_reg2' has multiple sources.
+  Drivers:
+    C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(111):Process write_proc
+       Driven at:
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(135)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(134)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(133)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(132)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(117)
+    C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(55):Process fsm_proc
+       Driven at:
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(66)
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(52): Nonresolved signal 's_reg3' has multiple sources.
+  Drivers:
+    C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(111):Process write_proc
+       Driven at:
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(140)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(139)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(138)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(137)
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(118)
+    C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(55):Process fsm_proc
+       Driven at:
+          C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(67)
+** Note: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\axi_lite.vhd(166): VHDL Compiler exiting
+End time: 16:18:07 on Sep 22,2026, Elapsed time: 0:00:00
+Errors: 4, Warnings: 0

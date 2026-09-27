@@ -1,0 +1,18 @@
+===============================
+Blue Pearl DFFs Report created on: Tue Sep 22 16:14:06 2026
+===============================
+12 D-type flip-flop registers:
+===============================
+uart_tx.s_count[12:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 3
+uart_tx.s_state[3:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 14
+uart_tx.n276[7:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 1
+uart_tx.s_busy_int type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 13
+uart_tx.n299 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+uart_tx.n316 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+uart_tx.n333 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+uart_tx.n350 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+uart_tx.n367 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+uart_tx.n384 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+uart_tx.n401 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+uart_tx.n418 type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+===============================

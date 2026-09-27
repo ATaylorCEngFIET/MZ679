@@ -1,0 +1,125 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:17+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "bugfix",
+  "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\bugfix.vhd",
+  "sha256": "9dcf69a4d4d96b293af898dc4514e17c77332130730e1924d5eabafe10a7ffc2",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_sel",
+      "sel",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_a",
+      "a",
+      "in",
+      "std_logic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "i_b",
+      "b",
+      "in",
+      "std_logic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "o_q",
+      "q",
+      "out",
+      "std_logic_vector(7 DOWNTO 0)   "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3.5_4b\\bugfix\\bps_final",
+    "returncode": 0,
+    "seconds": 1.92,
+    "status": "COMPLETE",
+    "warnings": 13,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0530",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(27): Module: 'mux_reg(rtl)' Missing Else-Block assignment to 'mux_reg(rtl).s_muxed_data' for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0527",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(27): Module: 'mux_reg(rtl)' Missing Else-Block for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1840",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): latch inferred for net 's_muxed_data[7]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1840",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): latch inferred for net 's_muxed_data[6]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1840",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): latch inferred for net 's_muxed_data[5]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1840",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): latch inferred for net 's_muxed_data[4]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1840",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): latch inferred for net 's_muxed_data[3]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1840",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): latch inferred for net 's_muxed_data[2]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1840",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): latch inferred for net 's_muxed_data[1]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1840",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): latch inferred for net 's_muxed_data[0]'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(20): Module: 'mux_reg(rtl)' Signal 'mux_reg(rtl).s_muxed_data' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0538",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): Module: 'mux_reg' Constant propagates to 'mux_reg.s_muxed_data' enabling latch 'mux_reg.s_muxed_data'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0948",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd(23): Module: 'mux_reg' Latch 'mux_reg.s_muxed_data' created or inferred."
+      }
+    ]
+  }
+}

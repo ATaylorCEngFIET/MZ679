@@ -1,0 +1,51 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:22:23+0100",
+  "language": "verilog",
+  "model": "qwen3-coder_30b",
+  "task": "counter",
+  "source": "20260921-051654-verilog-skill\\qwen3-coder_30b\\counter.sv",
+  "sha256": "de8cccc901cc82b9a0bdccda38456743e36e0e4318020286b63e89f925cc1f05",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "en",
+      "en",
+      "in",
+      ""
+    ],
+    [
+      "count",
+      "count",
+      "out",
+      "[3:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 321,
+        "failures": 0,
+        "seconds": 18.46,
+        "returncode": 0
+      }
+    ]
+  }
+}

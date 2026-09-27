@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Missing Modules/Objects" Created="Tue Sep 22 16:14:02 2026">
+    <Headers>
+        <Header Column="0" Name="Object Name" IntegerValue="No"/>
+        <Header Column="1" Name="Usage Language" IntegerValue="No"/>
+        <Header Column="2" Name="Definition Language" IntegerValue="No"/>
+        <Header Column="3" Name="Definition Library" IntegerValue="No"/>
+        <Header Column="4" Name="Definition Location" IntegerValue="No"/>
+        <Header Column="5" Name="Definition Name" IntegerValue="No"/>
+    </Headers>
+    <Row FileID="-1" LineNum="-1">
+        <Column Column="0" Data="t_sync_chain"/>
+        <Column Column="1" Data="VHDL"/>
+        <Column Column="2" Data="&lt;UNDEFINED&gt;"/>
+        <Column Column="3" Data=""/>
+        <Column Column="4" Data=""/>
+        <Column Column="5" Data=""/>
+    </Row>
+    <FileIDs>
+        <File name="" id="-1"/>
+    </FileIDs>
+</BluePearlReport>

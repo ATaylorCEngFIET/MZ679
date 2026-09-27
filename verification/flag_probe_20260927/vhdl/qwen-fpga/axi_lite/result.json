@@ -1,0 +1,25 @@
+{
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "axi_lite",
+  "source": "20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd",
+  "sha256": "ed01a9ec5ff6066fc1793cee2e64c3f480ca1c51b8f2e35e52e9926227956b0d",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vcom",
+    "-2008",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd(119): near \"?\": (vcom-1576) expecting ')'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd(125): (vcom-1581) No feasible entries for prefix operator '??'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd(125): Type error resolving prefix expression \"??\" as type std.STANDARD.BOOLEAN.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd(125): near \"IN\": (vcom-1576) expecting ';'."
+  ],
+  "directory": "flag_probe_20260927\\vhdl\\qwen-fpga\\axi_lite"
+}

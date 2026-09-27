@@ -1,0 +1,51 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:21:15+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "counter",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\counter.sv",
+  "sha256": "740022d5044d55c71e46c858ad6f9b037189fe44016b72070b3fc77e9242dd76",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "en",
+      "en",
+      "in",
+      ""
+    ],
+    [
+      "count",
+      "count",
+      "out",
+      "[3:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 321,
+        "failures": 0,
+        "seconds": 18.49,
+        "returncode": 0
+      }
+    ]
+  }
+}

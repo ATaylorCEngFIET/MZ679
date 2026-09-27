@@ -1,0 +1,22 @@
+{
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\qwen-fpga\\fifo.vhd",
+  "sha256": "01c9850063c4cdf53d89c9c9121dfa8b502a7dccea5bf70984f75c1bcfe65116",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vcom",
+    "-2008",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\fifo.vhd"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\fifo.vhd(25): (vcom-1136) Unknown identifier \"CEIL_LOG2_REAL\"."
+  ],
+  "directory": "flag_probe_20260927\\vhdl\\qwen-fpga\\fifo"
+}

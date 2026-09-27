@@ -1,0 +1,7 @@
+===============================
+Blue Pearl Latches Report created on: Tue Sep 22 16:14:19 2026
+===============================
+1 D-type latch registers:
+===============================
+mux_reg.s_muxed_data[7:0] type D-latch register Data Clock Domain:  Clock Pin's Domain:  Fanout: 0
+===============================

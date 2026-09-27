@@ -1,0 +1,23 @@
+{
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "fifo",
+  "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd",
+  "sha256": "7f1e3bb49fb5c6b78d46656d3dbf8a1e81fc00424f3c822e9eba75187ce7faba",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vcom",
+    "-2008",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd(116): Type error resolving infix expression \"=\" as type ieee.std_logic_1164.STD_ULOGIC.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd(118): Type error resolving infix expression \"and\" as type ieee.std_logic_1164.STD_ULOGIC."
+  ],
+  "directory": "flag_probe_20260927\\vhdl\\qwen3.8-flash-next\\fifo"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="axil_regs(w_state)" Language="Verilog" SingleProcess="Yes" CurrStateVar="w_state" NextStateVar="" ResetState="IDLE" FileID="0" LineNum="91">
+            <States NumStates="3">
+                <State Name="IDLE" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="92">
+                    <Transition To="WRITE_RESP" FileID="0" LineNum="94"/>
+                </State>
+                <State Name="WRITE_RESP" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="103">
+                    <Transition To="IDLE" FileID="0" LineNum="108"/>
+                </State>
+                <State Name="Default" ResetState="No" DefaultState="Yes" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="111">
+                    <Transition To="IDLE" FileID="0" LineNum="111"/>
+                </State>
+            </States>
+        </FSM>
+        <FSM Name="axil_regs(r_state)" Language="Verilog" SingleProcess="Yes" CurrStateVar="r_state" NextStateVar="" ResetState="IDLE" FileID="0" LineNum="125">
+            <States NumStates="3">
+                <State Name="IDLE" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="126">
+                    <Transition To="READ_WAIT_DATA" FileID="0" LineNum="129"/>
+                </State>
+                <State Name="READ_WAIT_DATA" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="132">
+                    <Transition To="IDLE" FileID="0" LineNum="145"/>
+                </State>
+                <State Name="Default" ResetState="No" DefaultState="Yes" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="148">
+                    <Transition To="IDLE" FileID="0" LineNum="148"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/axi_lite.sv" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

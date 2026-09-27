@@ -1,0 +1,355 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:15+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "axi_lite",
+  "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd",
+  "sha256": "66113f17e40a62169a30aa4bfac38a69470237faa98bc61ababdd2e2f3200a38",
+  "interface_errors": [
+    "Missing required port bvalid",
+    "Missing required port bready"
+  ],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3",
+    "Missing requested/AXI port bresp"
+  ],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awvalid",
+      "awvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awready",
+      "awready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_awaddr",
+      "awaddr",
+      "in",
+      "unsigned(31 DOWNTO 0)"
+    ],
+    [
+      "i_awlen",
+      "awlen",
+      "in",
+      "unsigned(7 DOWNTO 0)"
+    ],
+    [
+      "i_wvalid",
+      "wvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wready",
+      "wready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_wdata",
+      "wdata",
+      "in",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "i_wstrb",
+      "wstrb",
+      "in",
+      "std_logic_vector(3 DOWNTO 0)"
+    ],
+    [
+      "i_arvalid",
+      "arvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_arready",
+      "arready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_araddr",
+      "araddr",
+      "in",
+      "unsigned(31 DOWNTO 0)"
+    ],
+    [
+      "i_rvalid",
+      "rvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_rready",
+      "rready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_rdata",
+      "rdata",
+      "out",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_rresp",
+      "rresp",
+      "out",
+      "std_logic_vector(1 DOWNTO 0)    "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite\\bps_final",
+    "returncode": 101,
+    "seconds": 1.71,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 44,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(98): syntax error near 'v_idx', expecting '\"'\"' or '('"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1352",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(98): 'integer' is not a variable"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(99): syntax error near 'v_offset', expecting '\"'\"' or '('"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1352",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(99): 'integer' is not a variable"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(99): 'v_idx' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(118): syntax error near 'v_byte_offset', expecting '\"'\"' or '('"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1352",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(118): 'integer' is not a variable"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(122): 'v_byte_offset' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(122): 'v_byte_offset' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(122): type error near 'v_byte_offset'; expected type 'natural'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1120",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(122): indexed name is not a 'unresolved_unsigned'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(121): 's_wstrb' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(121): 's_wstrb' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(125): 'v_byte_offset' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(125): 'v_byte_offset' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(125): type error near 'v_byte_offset'; expected type 'natural'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1120",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(125): indexed name is not a 'unresolved_unsigned'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(124): 's_wstrb' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(124): 's_wstrb' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(128): 'v_byte_offset' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(128): 'v_byte_offset' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(128): type error near 'v_byte_offset'; expected type 'natural'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1120",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(128): indexed name is not a 'unresolved_unsigned'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(127): 's_wstrb' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(127): 's_wstrb' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(131): 'v_byte_offset' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(131): 'v_byte_offset' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(131): type error near 'v_byte_offset'; expected type 'natural'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1120",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(131): indexed name is not a 'unresolved_unsigned'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(130): 's_wstrb' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(130): 's_wstrb' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(175): syntax error near 'v_idx', expecting '\"'\"' or '('"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1352",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(175): 'integer' is not a variable"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(176): syntax error near 'v_offset', expecting '\"'\"' or '('"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1352",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(176): 'integer' is not a variable"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(176): 'v_idx' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(212): 'o_reg0' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(213): 'o_reg1' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(214): 'o_reg2' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(215): 'o_reg3' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd(40): unit 'rtl' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/axi_lite.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

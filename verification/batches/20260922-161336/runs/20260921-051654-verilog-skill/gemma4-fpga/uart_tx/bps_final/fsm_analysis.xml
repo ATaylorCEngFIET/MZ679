@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="uart_tx(state)" Language="Verilog" SingleProcess="Yes" CurrStateVar="state" NextStateVar="" ResetState="IDLE" FileID="0" LineNum="44">
+            <States NumStates="5">
+                <State Name="IDLE" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="45">
+                    <Transition To="START" FileID="0" LineNum="51"/>
+                    <Transition To="IDLE" FileID="0" LineNum="53"/>
+                </State>
+                <State Name="START" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="57">
+                    <Transition To="DATA" FileID="0" LineNum="61"/>
+                </State>
+                <State Name="DATA" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="67">
+                    <Transition To="STOP" FileID="0" LineNum="71"/>
+                </State>
+                <State Name="STOP" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="80">
+                    <Transition To="IDLE" FileID="0" LineNum="83"/>
+                </State>
+                <State Name="Default" ResetState="No" DefaultState="Yes" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="89">
+                    <Transition To="IDLE" FileID="0" LineNum="89"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/gemma4-fpga/uart_tx.sv" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

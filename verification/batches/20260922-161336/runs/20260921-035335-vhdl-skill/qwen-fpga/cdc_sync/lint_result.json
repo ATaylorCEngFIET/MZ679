@@ -1,0 +1,182 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:00+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "cdc_sync",
+  "source": "20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd",
+  "sha256": "bd1de1d75b4acc5463b8dde2c1d6d23a22e412a48541d7ed80d2dd986197976a",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk_src",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_data",
+      "din",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_synced",
+      "dout",
+      "out",
+      "std_logic        "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync\\bps_final",
+    "returncode": 101,
+    "seconds": 1.67,
+    "status": "COMPLETE",
+    "warnings": 1,
+    "errors": 27,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(57): syntax error near 'TYPE'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(57): syntax error near ')', expecting '|' or '!' or '=>'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(57): type error near 'std_logic'; expected type ' void'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(58): 't_sync_chain' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(58): 't_sync_chain' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(60): syntax error near 'BEGIN'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1236",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(62): 's_chain' is not a signal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(70): 's' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1149",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(70): prefix of attribute 'range' should denote a scalar or array type"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1236",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(72): 's_chain' is not a signal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1236",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(74): 's_chain' is not a signal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(73): 's' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1149",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(73): prefix of attribute 'right' should denote a scalar or array type"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(73): 's' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1149",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(73): prefix of attribute 'right' should denote a scalar or array type"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(71): 's' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1149",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(71): prefix of attribute 'left' should denote a scalar or array type"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(71): 's' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1149",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(71): prefix of attribute 'left' should denote a scalar or array type"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1223",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(95): 'sync_chain_proc' is already declared in this region"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1236",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(99): 's_chain' is not a signal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1236",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(103): 's_chain' is not a signal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(109): 's_chain' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd(18): unit 'rtl' is ignored due to previous errors"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-1005",
+        "message": "A definition for 't_sync_chain' could not be found."
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen-fpga/cdc_sync.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

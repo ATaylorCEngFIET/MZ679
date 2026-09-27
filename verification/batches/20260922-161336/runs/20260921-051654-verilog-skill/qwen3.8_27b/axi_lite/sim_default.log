@@ -1,0 +1,65 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-051654-verilog-skill\qwen3.8_27b\axi_lite\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 16:23:37 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL R data/valid stable while stalled t=446000
+# CHECK_FAIL R data/valid stable while stalled t=456000
+# CHECK_FAIL R data/valid stable while stalled t=466000
+# CHECK_FAIL R data/valid stable while stalled t=476000
+# CHECK_FAIL R data/valid stable while stalled t=536000
+# CHECK_FAIL R data/valid stable while stalled t=546000
+# CHECK_FAIL R data/valid stable while stalled t=556000
+# CHECK_FAIL R data/valid stable while stalled t=566000
+# CHECK_FAIL R data/valid stable while stalled t=626000
+# CHECK_FAIL R data/valid stable while stalled t=636000
+# CHECK_FAIL R data/valid stable while stalled t=646000
+# CHECK_FAIL R data/valid stable while stalled t=656000
+# CHECK_FAIL R data/valid stable while stalled t=716000
+# CHECK_FAIL R data/valid stable while stalled t=726000
+# CHECK_FAIL R data/valid stable while stalled t=736000
+# CHECK_FAIL R data/valid stable while stalled t=746000
+# CHECK_FAIL R data/valid stable while stalled t=946000
+# CHECK_FAIL R data/valid stable while stalled t=956000
+# CHECK_FAIL R data/valid stable while stalled t=966000
+# CHECK_FAIL R data/valid stable while stalled t=976000
+# CHECK_FAIL R data/valid stable while stalled t=1176000
+# CHECK_FAIL R data/valid stable while stalled t=1186000
+# CHECK_FAIL R data/valid stable while stalled t=1196000
+# CHECK_FAIL R data/valid stable while stalled t=1206000
+# CHECK_FAIL R data/valid stable while stalled t=1356000
+# CHECK_FAIL R data/valid stable while stalled t=1366000
+# CHECK_FAIL R data/valid stable while stalled t=1376000
+# CHECK_FAIL R data/valid stable while stalled t=1386000
+# CHECK_FAIL R data/valid stable while stalled t=1536000
+# CHECK_FAIL R data/valid stable while stalled t=1546000
+# CHECK_FAIL R data/valid stable while stalled t=1556000
+# CHECK_FAIL R data/valid stable while stalled t=1566000
+# RESULT checks=160 failures=32
+# ** Note: $finish    : tb.sv(13)
+#    Time: 1606 ns  Iteration: 0  Instance: /tb
+# End time: 16:23:58 on Sep 22,2026, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

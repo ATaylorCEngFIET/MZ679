@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:22:17+0100",
+  "language": "verilog",
+  "model": "qwen3-coder_30b",
+  "task": "cdc_sync",
+  "source": "20260921-051654-verilog-skill\\qwen3-coder_30b\\cdc_sync.sv",
+  "sha256": "f8a77c85e4c30d76f691aa3f51671964e108744824a530ac672b577112700a50",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk_src",
+      "clk_src",
+      "in",
+      ""
+    ],
+    [
+      "clk_dst",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "din",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "dout",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 400,
+        "failures": 39,
+        "seconds": 18.43,
+        "returncode": 0
+      },
+      {
+        "variant": "stages3",
+        "status": "FAIL",
+        "checks": 400,
+        "failures": 30,
+        "seconds": 18.89,
+        "returncode": 0
+      }
+    ]
+  }
+}

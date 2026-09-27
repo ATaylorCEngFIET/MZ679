@@ -1,0 +1,297 @@
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-051654-verilog-skill\bluepearl-rtl\uart_tx\divisor13.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" -gDIVISOR=13 
+# Start time: 16:19:18 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL 8N1 bit=1 cycle=0 payload=55 t=206000
+# CHECK_FAIL 8N1 bit=1 cycle=1 payload=55 t=216000
+# CHECK_FAIL 8N1 bit=1 cycle=2 payload=55 t=226000
+# CHECK_FAIL 8N1 bit=1 cycle=3 payload=55 t=236000
+# CHECK_FAIL 8N1 bit=1 cycle=4 payload=55 t=246000
+# CHECK_FAIL 8N1 bit=1 cycle=5 payload=55 t=256000
+# CHECK_FAIL 8N1 bit=1 cycle=6 payload=55 t=266000
+# CHECK_FAIL 8N1 bit=1 cycle=7 payload=55 t=276000
+# CHECK_FAIL 8N1 bit=1 cycle=8 payload=55 t=286000
+# CHECK_FAIL 8N1 bit=1 cycle=9 payload=55 t=296000
+# CHECK_FAIL 8N1 bit=1 cycle=10 payload=55 t=306000
+# CHECK_FAIL 8N1 bit=1 cycle=11 payload=55 t=316000
+# CHECK_FAIL 8N1 bit=1 cycle=12 payload=55 t=326000
+# CHECK_FAIL 8N1 bit=3 cycle=0 payload=55 t=466000
+# CHECK_FAIL 8N1 bit=3 cycle=1 payload=55 t=476000
+# CHECK_FAIL 8N1 bit=3 cycle=2 payload=55 t=486000
+# CHECK_FAIL 8N1 bit=3 cycle=3 payload=55 t=496000
+# CHECK_FAIL 8N1 bit=3 cycle=4 payload=55 t=506000
+# CHECK_FAIL 8N1 bit=3 cycle=5 payload=55 t=516000
+# CHECK_FAIL 8N1 bit=3 cycle=6 payload=55 t=526000
+# CHECK_FAIL 8N1 bit=3 cycle=7 payload=55 t=536000
+# CHECK_FAIL 8N1 bit=3 cycle=8 payload=55 t=546000
+# CHECK_FAIL 8N1 bit=3 cycle=9 payload=55 t=556000
+# CHECK_FAIL 8N1 bit=3 cycle=10 payload=55 t=566000
+# CHECK_FAIL 8N1 bit=3 cycle=11 payload=55 t=576000
+# CHECK_FAIL 8N1 bit=3 cycle=12 payload=55 t=586000
+# CHECK_FAIL 8N1 bit=5 cycle=0 payload=55 t=726000
+# CHECK_FAIL 8N1 bit=5 cycle=1 payload=55 t=736000
+# CHECK_FAIL 8N1 bit=5 cycle=2 payload=55 t=746000
+# CHECK_FAIL 8N1 bit=5 cycle=3 payload=55 t=756000
+# CHECK_FAIL 8N1 bit=5 cycle=4 payload=55 t=766000
+# CHECK_FAIL 8N1 bit=5 cycle=5 payload=55 t=776000
+# CHECK_FAIL 8N1 bit=5 cycle=6 payload=55 t=786000
+# CHECK_FAIL 8N1 bit=5 cycle=7 payload=55 t=796000
+# CHECK_FAIL 8N1 bit=5 cycle=8 payload=55 t=806000
+# CHECK_FAIL 8N1 bit=5 cycle=9 payload=55 t=816000
+# CHECK_FAIL 8N1 bit=5 cycle=10 payload=55 t=826000
+# CHECK_FAIL 8N1 bit=5 cycle=11 payload=55 t=836000
+# CHECK_FAIL 8N1 bit=5 cycle=12 payload=55 t=846000
+# CHECK_FAIL 8N1 bit=7 cycle=0 payload=55 t=986000
+# CHECK_FAIL 8N1 bit=7 cycle=1 payload=55 t=996000
+# CHECK_FAIL 8N1 bit=7 cycle=2 payload=55 t=1006000
+# CHECK_FAIL 8N1 bit=7 cycle=3 payload=55 t=1016000
+# CHECK_FAIL 8N1 bit=7 cycle=4 payload=55 t=1026000
+# CHECK_FAIL 8N1 bit=7 cycle=5 payload=55 t=1036000
+# CHECK_FAIL 8N1 bit=7 cycle=6 payload=55 t=1046000
+# CHECK_FAIL 8N1 bit=7 cycle=7 payload=55 t=1056000
+# CHECK_FAIL 8N1 bit=7 cycle=8 payload=55 t=1066000
+# CHECK_FAIL 8N1 bit=7 cycle=9 payload=55 t=1076000
+# CHECK_FAIL 8N1 bit=7 cycle=10 payload=55 t=1086000
+# CHECK_FAIL 8N1 bit=7 cycle=11 payload=55 t=1096000
+# CHECK_FAIL 8N1 bit=7 cycle=12 payload=55 t=1106000
+# CHECK_FAIL 8N1 bit=9 cycle=0 payload=55 t=1246000
+# CHECK_FAIL 8N1 bit=9 cycle=1 payload=55 t=1256000
+# CHECK_FAIL 8N1 bit=9 cycle=2 payload=55 t=1266000
+# CHECK_FAIL 8N1 bit=9 cycle=3 payload=55 t=1276000
+# CHECK_FAIL 8N1 bit=9 cycle=4 payload=55 t=1286000
+# CHECK_FAIL 8N1 bit=9 cycle=5 payload=55 t=1296000
+# CHECK_FAIL 8N1 bit=9 cycle=6 payload=55 t=1306000
+# CHECK_FAIL 8N1 bit=9 cycle=7 payload=55 t=1316000
+# CHECK_FAIL 8N1 bit=9 cycle=8 payload=55 t=1326000
+# CHECK_FAIL 8N1 bit=9 cycle=9 payload=55 t=1336000
+# CHECK_FAIL 8N1 bit=9 cycle=10 payload=55 t=1346000
+# CHECK_FAIL 8N1 bit=9 cycle=11 payload=55 t=1356000
+# CHECK_FAIL 8N1 bit=9 cycle=12 payload=55 t=1366000
+# CHECK_FAIL busy releases after stop t=1766000
+# CHECK_FAIL idle high t=1766000
+# CHECK_FAIL 8N1 bit=2 cycle=0 payload=a6 t=2296000
+# CHECK_FAIL 8N1 bit=2 cycle=1 payload=a6 t=2306000
+# CHECK_FAIL 8N1 bit=2 cycle=2 payload=a6 t=2316000
+# CHECK_FAIL 8N1 bit=2 cycle=3 payload=a6 t=2326000
+# CHECK_FAIL 8N1 bit=2 cycle=4 payload=a6 t=2336000
+# CHECK_FAIL 8N1 bit=2 cycle=5 payload=a6 t=2346000
+# CHECK_FAIL 8N1 bit=2 cycle=6 payload=a6 t=2356000
+# CHECK_FAIL 8N1 bit=2 cycle=7 payload=a6 t=2366000
+# CHECK_FAIL 8N1 bit=2 cycle=8 payload=a6 t=2376000
+# CHECK_FAIL 8N1 bit=2 cycle=9 payload=a6 t=2386000
+# CHECK_FAIL 8N1 bit=2 cycle=10 payload=a6 t=2396000
+# CHECK_FAIL 8N1 bit=2 cycle=11 payload=a6 t=2406000
+# CHECK_FAIL 8N1 bit=2 cycle=12 payload=a6 t=2416000
+# CHECK_FAIL 8N1 bit=3 cycle=0 payload=a6 t=2426000
+# CHECK_FAIL 8N1 bit=3 cycle=1 payload=a6 t=2436000
+# CHECK_FAIL 8N1 bit=3 cycle=2 payload=a6 t=2446000
+# CHECK_FAIL 8N1 bit=3 cycle=3 payload=a6 t=2456000
+# CHECK_FAIL 8N1 bit=3 cycle=4 payload=a6 t=2466000
+# CHECK_FAIL 8N1 bit=3 cycle=5 payload=a6 t=2476000
+# CHECK_FAIL 8N1 bit=3 cycle=6 payload=a6 t=2486000
+# CHECK_FAIL 8N1 bit=3 cycle=7 payload=a6 t=2496000
+# CHECK_FAIL 8N1 bit=3 cycle=8 payload=a6 t=2506000
+# CHECK_FAIL 8N1 bit=3 cycle=9 payload=a6 t=2516000
+# CHECK_FAIL 8N1 bit=3 cycle=10 payload=a6 t=2526000
+# CHECK_FAIL 8N1 bit=3 cycle=11 payload=a6 t=2536000
+# CHECK_FAIL 8N1 bit=3 cycle=12 payload=a6 t=2546000
+# CHECK_FAIL 8N1 bit=6 cycle=0 payload=a6 t=2816000
+# CHECK_FAIL 8N1 bit=6 cycle=1 payload=a6 t=2826000
+# CHECK_FAIL 8N1 bit=6 cycle=2 payload=a6 t=2836000
+# CHECK_FAIL 8N1 bit=6 cycle=3 payload=a6 t=2846000
+# CHECK_FAIL 8N1 bit=6 cycle=4 payload=a6 t=2856000
+# CHECK_FAIL 8N1 bit=6 cycle=5 payload=a6 t=2866000
+# CHECK_FAIL 8N1 bit=6 cycle=6 payload=a6 t=2876000
+# CHECK_FAIL 8N1 bit=6 cycle=7 payload=a6 t=2886000
+# CHECK_FAIL 8N1 bit=6 cycle=8 payload=a6 t=2896000
+# CHECK_FAIL 8N1 bit=6 cycle=9 payload=a6 t=2906000
+# CHECK_FAIL 8N1 bit=6 cycle=10 payload=a6 t=2916000
+# CHECK_FAIL 8N1 bit=6 cycle=11 payload=a6 t=2926000
+# CHECK_FAIL 8N1 bit=6 cycle=12 payload=a6 t=2936000
+# CHECK_FAIL 8N1 bit=8 cycle=0 payload=a6 t=3076000
+# CHECK_FAIL 8N1 bit=8 cycle=1 payload=a6 t=3086000
+# CHECK_FAIL 8N1 bit=8 cycle=2 payload=a6 t=3096000
+# CHECK_FAIL 8N1 bit=8 cycle=3 payload=a6 t=3106000
+# CHECK_FAIL 8N1 bit=8 cycle=4 payload=a6 t=3116000
+# CHECK_FAIL 8N1 bit=8 cycle=5 payload=a6 t=3126000
+# CHECK_FAIL 8N1 bit=8 cycle=6 payload=a6 t=3136000
+# CHECK_FAIL 8N1 bit=8 cycle=7 payload=a6 t=3146000
+# CHECK_FAIL 8N1 bit=8 cycle=8 payload=a6 t=3156000
+# CHECK_FAIL 8N1 bit=8 cycle=9 payload=a6 t=3166000
+# CHECK_FAIL 8N1 bit=8 cycle=10 payload=a6 t=3176000
+# CHECK_FAIL 8N1 bit=8 cycle=11 payload=a6 t=3186000
+# CHECK_FAIL 8N1 bit=8 cycle=12 payload=a6 t=3196000
+# CHECK_FAIL 8N1 bit=9 cycle=0 payload=a6 t=3206000
+# CHECK_FAIL 8N1 bit=9 cycle=1 payload=a6 t=3216000
+# CHECK_FAIL 8N1 bit=9 cycle=2 payload=a6 t=3226000
+# CHECK_FAIL 8N1 bit=9 cycle=3 payload=a6 t=3236000
+# CHECK_FAIL 8N1 bit=9 cycle=4 payload=a6 t=3246000
+# CHECK_FAIL 8N1 bit=9 cycle=5 payload=a6 t=3256000
+# CHECK_FAIL 8N1 bit=9 cycle=6 payload=a6 t=3266000
+# CHECK_FAIL 8N1 bit=9 cycle=7 payload=a6 t=3276000
+# CHECK_FAIL 8N1 bit=9 cycle=8 payload=a6 t=3286000
+# CHECK_FAIL 8N1 bit=9 cycle=9 payload=a6 t=3296000
+# CHECK_FAIL 8N1 bit=9 cycle=10 payload=a6 t=3306000
+# CHECK_FAIL 8N1 bit=9 cycle=11 payload=a6 t=3316000
+# CHECK_FAIL 8N1 bit=9 cycle=12 payload=a6 t=3326000
+# CHECK_FAIL busy releases after stop t=3726000
+# CHECK_FAIL idle high t=3726000
+# CHECK_FAIL 8N1 bit=9 cycle=0 payload=00 t=5166000
+# CHECK_FAIL 8N1 bit=9 cycle=1 payload=00 t=5176000
+# CHECK_FAIL 8N1 bit=9 cycle=2 payload=00 t=5186000
+# CHECK_FAIL 8N1 bit=9 cycle=3 payload=00 t=5196000
+# CHECK_FAIL 8N1 bit=9 cycle=4 payload=00 t=5206000
+# CHECK_FAIL 8N1 bit=9 cycle=5 payload=00 t=5216000
+# CHECK_FAIL 8N1 bit=9 cycle=6 payload=00 t=5226000
+# CHECK_FAIL 8N1 bit=9 cycle=7 payload=00 t=5236000
+# CHECK_FAIL 8N1 bit=9 cycle=8 payload=00 t=5246000
+# CHECK_FAIL 8N1 bit=9 cycle=9 payload=00 t=5256000
+# CHECK_FAIL 8N1 bit=9 cycle=10 payload=00 t=5266000
+# CHECK_FAIL 8N1 bit=9 cycle=11 payload=00 t=5276000
+# CHECK_FAIL 8N1 bit=9 cycle=12 payload=00 t=5286000
+# CHECK_FAIL busy releases after stop t=5686000
+# CHECK_FAIL idle high t=5686000
+# CHECK_FAIL 8N1 bit=1 cycle=0 payload=ff t=6086000
+# CHECK_FAIL 8N1 bit=1 cycle=1 payload=ff t=6096000
+# CHECK_FAIL 8N1 bit=1 cycle=2 payload=ff t=6106000
+# CHECK_FAIL 8N1 bit=1 cycle=3 payload=ff t=6116000
+# CHECK_FAIL 8N1 bit=1 cycle=4 payload=ff t=6126000
+# CHECK_FAIL 8N1 bit=1 cycle=5 payload=ff t=6136000
+# CHECK_FAIL 8N1 bit=1 cycle=6 payload=ff t=6146000
+# CHECK_FAIL 8N1 bit=1 cycle=7 payload=ff t=6156000
+# CHECK_FAIL 8N1 bit=1 cycle=8 payload=ff t=6166000
+# CHECK_FAIL 8N1 bit=1 cycle=9 payload=ff t=6176000
+# CHECK_FAIL 8N1 bit=1 cycle=10 payload=ff t=6186000
+# CHECK_FAIL 8N1 bit=1 cycle=11 payload=ff t=6196000
+# CHECK_FAIL 8N1 bit=1 cycle=12 payload=ff t=6206000
+# CHECK_FAIL 8N1 bit=2 cycle=0 payload=ff t=6216000
+# CHECK_FAIL 8N1 bit=2 cycle=1 payload=ff t=6226000
+# CHECK_FAIL 8N1 bit=2 cycle=2 payload=ff t=6236000
+# CHECK_FAIL 8N1 bit=2 cycle=3 payload=ff t=6246000
+# CHECK_FAIL 8N1 bit=2 cycle=4 payload=ff t=6256000
+# CHECK_FAIL 8N1 bit=2 cycle=5 payload=ff t=6266000
+# CHECK_FAIL 8N1 bit=2 cycle=6 payload=ff t=6276000
+# CHECK_FAIL 8N1 bit=2 cycle=7 payload=ff t=6286000
+# CHECK_FAIL 8N1 bit=2 cycle=8 payload=ff t=6296000
+# CHECK_FAIL 8N1 bit=2 cycle=9 payload=ff t=6306000
+# CHECK_FAIL 8N1 bit=2 cycle=10 payload=ff t=6316000
+# CHECK_FAIL 8N1 bit=2 cycle=11 payload=ff t=6326000
+# CHECK_FAIL 8N1 bit=2 cycle=12 payload=ff t=6336000
+# CHECK_FAIL 8N1 bit=3 cycle=0 payload=ff t=6346000
+# CHECK_FAIL 8N1 bit=3 cycle=1 payload=ff t=6356000
+# CHECK_FAIL 8N1 bit=3 cycle=2 payload=ff t=6366000
+# CHECK_FAIL 8N1 bit=3 cycle=3 payload=ff t=6376000
+# CHECK_FAIL 8N1 bit=3 cycle=4 payload=ff t=6386000
+# CHECK_FAIL 8N1 bit=3 cycle=5 payload=ff t=6396000
+# CHECK_FAIL 8N1 bit=3 cycle=6 payload=ff t=6406000
+# CHECK_FAIL 8N1 bit=3 cycle=7 payload=ff t=6416000
+# CHECK_FAIL 8N1 bit=3 cycle=8 payload=ff t=6426000
+# CHECK_FAIL 8N1 bit=3 cycle=9 payload=ff t=6436000
+# CHECK_FAIL 8N1 bit=3 cycle=10 payload=ff t=6446000
+# CHECK_FAIL 8N1 bit=3 cycle=11 payload=ff t=6456000
+# CHECK_FAIL 8N1 bit=3 cycle=12 payload=ff t=6466000
+# CHECK_FAIL 8N1 bit=4 cycle=0 payload=ff t=6476000
+# CHECK_FAIL 8N1 bit=4 cycle=1 payload=ff t=6486000
+# CHECK_FAIL 8N1 bit=4 cycle=2 payload=ff t=6496000
+# CHECK_FAIL 8N1 bit=4 cycle=3 payload=ff t=6506000
+# CHECK_FAIL 8N1 bit=4 cycle=4 payload=ff t=6516000
+# CHECK_FAIL 8N1 bit=4 cycle=5 payload=ff t=6526000
+# CHECK_FAIL 8N1 bit=4 cycle=6 payload=ff t=6536000
+# CHECK_FAIL 8N1 bit=4 cycle=7 payload=ff t=6546000
+# CHECK_FAIL 8N1 bit=4 cycle=8 payload=ff t=6556000
+# CHECK_FAIL 8N1 bit=4 cycle=9 payload=ff t=6566000
+# CHECK_FAIL 8N1 bit=4 cycle=10 payload=ff t=6576000
+# CHECK_FAIL 8N1 bit=4 cycle=11 payload=ff t=6586000
+# CHECK_FAIL 8N1 bit=4 cycle=12 payload=ff t=6596000
+# CHECK_FAIL 8N1 bit=5 cycle=0 payload=ff t=6606000
+# CHECK_FAIL 8N1 bit=5 cycle=1 payload=ff t=6616000
+# CHECK_FAIL 8N1 bit=5 cycle=2 payload=ff t=6626000
+# CHECK_FAIL 8N1 bit=5 cycle=3 payload=ff t=6636000
+# CHECK_FAIL 8N1 bit=5 cycle=4 payload=ff t=6646000
+# CHECK_FAIL 8N1 bit=5 cycle=5 payload=ff t=6656000
+# CHECK_FAIL 8N1 bit=5 cycle=6 payload=ff t=6666000
+# CHECK_FAIL 8N1 bit=5 cycle=7 payload=ff t=6676000
+# CHECK_FAIL 8N1 bit=5 cycle=8 payload=ff t=6686000
+# CHECK_FAIL 8N1 bit=5 cycle=9 payload=ff t=6696000
+# CHECK_FAIL 8N1 bit=5 cycle=10 payload=ff t=6706000
+# CHECK_FAIL 8N1 bit=5 cycle=11 payload=ff t=6716000
+# CHECK_FAIL 8N1 bit=5 cycle=12 payload=ff t=6726000
+# CHECK_FAIL 8N1 bit=6 cycle=0 payload=ff t=6736000
+# CHECK_FAIL 8N1 bit=6 cycle=1 payload=ff t=6746000
+# CHECK_FAIL 8N1 bit=6 cycle=2 payload=ff t=6756000
+# CHECK_FAIL 8N1 bit=6 cycle=3 payload=ff t=6766000
+# CHECK_FAIL 8N1 bit=6 cycle=4 payload=ff t=6776000
+# CHECK_FAIL 8N1 bit=6 cycle=5 payload=ff t=6786000
+# CHECK_FAIL 8N1 bit=6 cycle=6 payload=ff t=6796000
+# CHECK_FAIL 8N1 bit=6 cycle=7 payload=ff t=6806000
+# CHECK_FAIL 8N1 bit=6 cycle=8 payload=ff t=6816000
+# CHECK_FAIL 8N1 bit=6 cycle=9 payload=ff t=6826000
+# CHECK_FAIL 8N1 bit=6 cycle=10 payload=ff t=6836000
+# CHECK_FAIL 8N1 bit=6 cycle=11 payload=ff t=6846000
+# CHECK_FAIL 8N1 bit=6 cycle=12 payload=ff t=6856000
+# CHECK_FAIL 8N1 bit=7 cycle=0 payload=ff t=6866000
+# CHECK_FAIL 8N1 bit=7 cycle=1 payload=ff t=6876000
+# CHECK_FAIL 8N1 bit=7 cycle=2 payload=ff t=6886000
+# CHECK_FAIL 8N1 bit=7 cycle=3 payload=ff t=6896000
+# CHECK_FAIL 8N1 bit=7 cycle=4 payload=ff t=6906000
+# CHECK_FAIL 8N1 bit=7 cycle=5 payload=ff t=6916000
+# CHECK_FAIL 8N1 bit=7 cycle=6 payload=ff t=6926000
+# CHECK_FAIL 8N1 bit=7 cycle=7 payload=ff t=6936000
+# CHECK_FAIL 8N1 bit=7 cycle=8 payload=ff t=6946000
+# CHECK_FAIL 8N1 bit=7 cycle=9 payload=ff t=6956000
+# CHECK_FAIL 8N1 bit=7 cycle=10 payload=ff t=6966000
+# CHECK_FAIL 8N1 bit=7 cycle=11 payload=ff t=6976000
+# CHECK_FAIL 8N1 bit=7 cycle=12 payload=ff t=6986000
+# CHECK_FAIL 8N1 bit=8 cycle=0 payload=ff t=6996000
+# CHECK_FAIL 8N1 bit=8 cycle=1 payload=ff t=7006000
+# CHECK_FAIL 8N1 bit=8 cycle=2 payload=ff t=7016000
+# CHECK_FAIL 8N1 bit=8 cycle=3 payload=ff t=7026000
+# CHECK_FAIL 8N1 bit=8 cycle=4 payload=ff t=7036000
+# CHECK_FAIL 8N1 bit=8 cycle=5 payload=ff t=7046000
+# CHECK_FAIL 8N1 bit=8 cycle=6 payload=ff t=7056000
+# CHECK_FAIL 8N1 bit=8 cycle=7 payload=ff t=7066000
+# CHECK_FAIL 8N1 bit=8 cycle=8 payload=ff t=7076000
+# CHECK_FAIL 8N1 bit=8 cycle=9 payload=ff t=7086000
+# CHECK_FAIL 8N1 bit=8 cycle=10 payload=ff t=7096000
+# CHECK_FAIL 8N1 bit=8 cycle=11 payload=ff t=7106000
+# CHECK_FAIL 8N1 bit=8 cycle=12 payload=ff t=7116000
+# CHECK_FAIL 8N1 bit=9 cycle=0 payload=ff t=7126000
+# CHECK_FAIL 8N1 bit=9 cycle=1 payload=ff t=7136000
+# CHECK_FAIL 8N1 bit=9 cycle=2 payload=ff t=7146000
+# CHECK_FAIL 8N1 bit=9 cycle=3 payload=ff t=7156000
+# CHECK_FAIL 8N1 bit=9 cycle=4 payload=ff t=7166000
+# CHECK_FAIL 8N1 bit=9 cycle=5 payload=ff t=7176000
+# CHECK_FAIL 8N1 bit=9 cycle=6 payload=ff t=7186000
+# CHECK_FAIL 8N1 bit=9 cycle=7 payload=ff t=7196000
+# CHECK_FAIL 8N1 bit=9 cycle=8 payload=ff t=7206000
+# CHECK_FAIL 8N1 bit=9 cycle=9 payload=ff t=7216000
+# CHECK_FAIL 8N1 bit=9 cycle=10 payload=ff t=7226000
+# CHECK_FAIL 8N1 bit=9 cycle=11 payload=ff t=7236000
+# CHECK_FAIL 8N1 bit=9 cycle=12 payload=ff t=7246000
+# CHECK_FAIL busy releases after stop t=7646000
+# CHECK_FAIL idle high t=7646000
+# RESULT checks=1004 failures=268
+# ** Note: $finish    : tb.sv(13)
+#    Time: 7936 ns  Iteration: 0  Instance: /tb
+# End time: 16:19:30 on Sep 22,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

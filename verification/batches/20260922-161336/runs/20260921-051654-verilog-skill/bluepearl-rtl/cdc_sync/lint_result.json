@@ -1,0 +1,73 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:34+0100",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "task": "cdc_sync",
+  "source": "20260921-051654-verilog-skill\\bluepearl-rtl\\cdc_sync.sv",
+  "sha256": "509bc417b4528802f78d79cf357a4cf76b1a75e81fd335e8d203b1ea646dc17a",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk_dest",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "async_in",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "sync_out",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\bluepearl-rtl\\cdc_sync\\bps_final",
+    "returncode": 0,
+    "seconds": 1.85,
+    "status": "COMPLETE",
+    "warnings": 5,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/cdc_sync.sv(14): Module: 'cdc_sync' Signal 'cdc_sync.sync_regs[1]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/cdc_sync.sv(20): Module: 'cdc_sync' The asynchronous reset signal 'cdc_sync.rst_n' is not synchronously deasserted for the following register: 'cdc_sync.sync_regs'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/cdc_sync.sv(54): Module: 'cdc_sync' The asynchronous reset signal 'cdc_sync.rst_n' is not synchronously deasserted for the following register: 'cdc_sync.sync_regs_attr'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/cdc_sync.sv(20): Module: 'cdc_sync' Asynchronous preset/clear used with register: cdc_sync.sync_regs."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/cdc_sync.sv(54): Module: 'cdc_sync' Asynchronous preset/clear used with register: cdc_sync.sync_regs_attr."
+      }
+    ]
+  }
+}

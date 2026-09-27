@@ -1,0 +1,59 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-035335-vhdl-skill\qwen3-coder_30b\uart_tx\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 16:17:36 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uart_tx(rtl)#1
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL busy during start/data t=70000
+# CHECK_FAIL busy during start/data t=1050000
+# CHECK_FAIL 8N1 bit=1 cycle=6 payload=a6 t=1186000
+# CHECK_FAIL 8N1 bit=1 cycle=7 payload=a6 t=1196000
+# CHECK_FAIL 8N1 bit=3 cycle=6 payload=a6 t=1346000
+# CHECK_FAIL 8N1 bit=3 cycle=7 payload=a6 t=1356000
+# CHECK_FAIL 8N1 bit=5 cycle=6 payload=a6 t=1506000
+# CHECK_FAIL 8N1 bit=5 cycle=7 payload=a6 t=1516000
+# CHECK_FAIL 8N1 bit=6 cycle=6 payload=a6 t=1586000
+# CHECK_FAIL 8N1 bit=6 cycle=7 payload=a6 t=1596000
+# CHECK_FAIL 8N1 bit=7 cycle=6 payload=a6 t=1666000
+# CHECK_FAIL 8N1 bit=7 cycle=7 payload=a6 t=1676000
+# CHECK_FAIL busy during start/data t=2020000
+# CHECK_FAIL 8N1 bit=8 cycle=5 payload=00 t=2706000
+# CHECK_FAIL 8N1 bit=8 cycle=6 payload=00 t=2716000
+# CHECK_FAIL 8N1 bit=8 cycle=7 payload=00 t=2726000
+# CHECK_FAIL busy during start/data t=2990000
+# CHECK_FAIL 8N1 bit=0 cycle=4 payload=ff t=3026000
+# CHECK_FAIL 8N1 bit=0 cycle=5 payload=ff t=3036000
+# CHECK_FAIL 8N1 bit=0 cycle=6 payload=ff t=3046000
+# CHECK_FAIL 8N1 bit=0 cycle=7 payload=ff t=3056000
+# RESULT checks=624 failures=21
+# ** Note: $finish    : tb.sv(13)
+#    Time: 3976 ns  Iteration: 0  Instance: /tb
+# End time: 16:17:48 on Sep 22,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

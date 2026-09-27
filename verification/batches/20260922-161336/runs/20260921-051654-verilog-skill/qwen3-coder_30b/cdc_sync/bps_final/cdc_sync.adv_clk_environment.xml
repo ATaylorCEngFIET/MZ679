@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Advanced Clock Environment Report" Created="Tue Sep 22 16:15:11 2026">
+    <Headers>
+        <Header Column="0" Name="From Clock" IntegerValue="No"/>
+        <Header Column="1" Name="From Clock Domain" IntegerValue="No"/>
+        <Header Column="2" Name="To Clock" IntegerValue="No"/>
+        <Header Column="3" Name="To Clock Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Synchronized DFFs" IntegerValue="Yes"/>
+        <Header Column="5" Name="Unsynchronized DFFs" IntegerValue="Yes"/>
+        <Header Column="6" Name="Derived?" IntegerValue="No"/>
+        <Header Column="7" Name="Equivalent?" IntegerValue="No"/>
+        <Header Column="8" Name="Recommendation" IntegerValue="No"/>
+    </Headers>
+    <Row FileID="0" LineNum="4">
+        <Column Column="0" Data="clk_src"/>
+        <Column Column="1" Data="clk_src_group"/>
+        <Column Column="2" Data="clk_dst"/>
+        <Column Column="3" Data="clk_dst_group"/>
+        <Column Column="4" Data="1"/>
+        <Column Column="5" Data="0"/>
+        <Column Column="6" Data=""/>
+        <Column Column="7" Data=""/>
+        <Column Column="8" Data=""/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/cdc_sync.sv" id="0"/>
+    </FileIDs>
+</BluePearlReport>

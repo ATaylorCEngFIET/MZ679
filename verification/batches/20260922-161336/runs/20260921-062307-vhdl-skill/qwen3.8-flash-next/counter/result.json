@@ -1,0 +1,53 @@
+{
+  "source_run": "20260921-062307-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:24:36+0100",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "counter",
+  "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\counter.vhd",
+  "sha256": "d132b50019171752d2d365dee05eb4b566e03deefb726fc831b3417987dbb076",
+  "interface_errors": [],
+  "request_findings": [
+    "count output is not declared unsigned; JSON requests unsigned output"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "en",
+      "en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "count",
+      "count",
+      "out",
+      "std_logic_vector(3 DOWNTO 0)"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 321,
+        "failures": 0,
+        "seconds": 18.54,
+        "returncode": 0
+      }
+    ]
+  }
+}

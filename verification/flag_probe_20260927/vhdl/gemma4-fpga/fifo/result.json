@@ -1,0 +1,22 @@
+{
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\fifo.vhd",
+  "sha256": "6b28ae1eb917b5e24e118e1e7947a23b2453c058471d0b38f838e9a630483c63",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vcom",
+    "-2008",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\gemma4-fpga\\fifo.vhd"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\gemma4-fpga\\fifo.vhd(6): near \"map\": (vcom-1576) expecting '('."
+  ],
+  "directory": "flag_probe_20260927\\vhdl\\gemma4-fpga\\fifo"
+}

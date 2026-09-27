@@ -1,0 +1,94 @@
+--BPS-0730: Status: Blue Pearl Visual Verification Suite Version 2026.4.68770.nightlyBuilds_2026.4.68770 07/16/2026 07:20. Windows (64-bit).
+Copyright (c) 2004-2026 Blue Pearl Software, Inc
+Portions of this software are (c) 2015 The Qt Company Ltd and other contributors under the GNU LGPL version 3 license.
+--BPS-0730: Status: Installation Path: C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64
+--BPS-0730: Status: Running as: aptay@Adiuvo_Adam
+--BPS-0730: Status: Running from: C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx
+--BPS-0730: Status: Unprocessed CLI Arguments: -root=uart_tx -output=C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-035335-vhdl-skill\qwen3.5_4b\uart_tx\bps_final -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd}; BPS::run analyze -forceload
+--BPS-0730: Status: Effective CLI Arguments: 
+   -root=uart_tx
+   -output=C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-035335-vhdl-skill\qwen3.5_4b\uart_tx\bps_final
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd}; BPS::run analyze -forceload"
+--BPS-0730: Status: Reading initialization file: 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/bps_setup.tcl'
+--BPS-0730: Status: Opening log file: 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx/bps_final/bluepearl.log' @ '22/09/2026 16:14'
+Time: Tue Sep 22 16:14:22 2026
+--BPS-0730: Status: Running user initialization program: 'source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd}; BPS::run analyze -forceload'
+*** args: analyze -forceload
+--BPS-0730: Status: Processing CDC in a Transitive manner.
+--BPS-0730: Status: Reading design...
+I-VHDL-1504: default VHDL library search path is now "C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin"
+I-VERI-9014: The Verilog search library for imported/instantiated design units now includes 'work'
+I-VNLR-9000: The Verilog netlist search library for imported/instantiated design units now includes 'work'
+I-VHDL-9010: The VHDL search library for imported/instantiated design units now includes 'work'
+I-SORT-9000: Pre-Analyzing 'VHDL 2008' file 'C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd' into library 'work'
+--VHDL-1481: Analyzing VHDL 2008 file 'C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd' into library 'work'
+--VHDL-1493: Restoring VHDL unit 'ieee.std_logic_1164' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/ieee/std_logic_1164.vdb'
+--VHDL-1493: Restoring VHDL unit 'std.standard' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/std/standard.vdb'
+--VHDL-1493: Restoring VHDL unit 'std.textio' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/std/textio.vdb'
+--VHDL-1493: Restoring VHDL unit 'ieee.numeric_std' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/ieee/numeric_std.vdb'
+I-VHDL-1012: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(5): analyzing entity 'uart_tx'
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(11): 'i_rst' is not declared
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(11):     i_rst      : IN  std_ulogic          -- reset, active high
+I-VHDL-1750: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(11):                 ^
+E-VHDL-1261: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(11): syntax error near ':', expecting ')' or ';'
+E-VHDL-1059: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(19): entity 'uart_tx' is not yet compiled
+I-VHDL-1010: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(19): analyzing architecture 'rtl' of 'uart_tx'
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(38): 'i_data' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(35): 'i_data_valid' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(35): 'i_data_valid' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(31): 'i_rst' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(31): 'i_rst' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(43): 'o_tx' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(45): 'o_tx' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(53): 'o_tx' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(55): 'o_tx' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(30): 'i_clk' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(30): 'i_clk' is not declared
+E-VHDL-1241: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(59): 'o_busy' is not declared
+E-VHDL-1445: ../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd(28): sensitivity list can only have static signal names
+--VHDL-1482: VHDL file 'C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd' is ignored due to errors
+--BPS-0730: Status: Determining HDL top level units
+===============================
+Blue Pearl Missing Modules/Objects Report created on: Tue Sep 22 16:14:22 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx/bps_final/uart_tx.missing_modules.rpt'.
+===============================
+Missing Modules: 0
+===============================
+===============================
+Time to generate Missing Modules/Objects report: 0.07 seconds
+--BPS-0730: Status: Finished elaborating design.
+--BPS-0730: Status: Finished Reading Design. Elapsed Time: 0.13 seconds.
+E-BPS-0752: ERROR: Termination due to non-recoverable errors
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx/bps_final/DesignSummary.rpt'.
+Time to generate Design Summary report: 0.01 seconds
+===============================
+Message ID Summary Report:
+Property Check  BPS-0730: 16 comments
+Property Check  BPS-0752: 1 error
+Property Check SORT-9000: 1 informational
+Property Check VERI-9014: 1 informational
+Property Check VHDL-1010: 1 informational
+Property Check VHDL-1012: 1 informational
+Property Check VHDL-1059: 1 error
+Property Check VHDL-1241: 13 errors
+Property Check VHDL-1261: 1 error
+Property Check VHDL-1445: 1 error
+Property Check VHDL-1481: 1 comment
+Property Check VHDL-1482: 1 comment
+Property Check VHDL-1493: 4 comments
+Property Check VHDL-1504: 1 informational
+Property Check VHDL-1750: 2 informationals
+Property Check VHDL-9010: 1 informational
+Property Check VNLR-9000: 1 informational
+
+Property Check Message Severity Summary:
+17 errors
+0 warnings
+9 informationals
+22 comments
+--BPS-0730: Status: Total analysis Elapsed Time: 0 seconds
+E-BPS-0752: ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.5_4b/uart_tx.vhd}; BPS::run analyze -forceload
+E-BPS-0752: ERROR: BPS::run - Failed to read in netlist.
+application-specific initialization failed: BPS::run - Failed to read in netlist.

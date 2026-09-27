@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Sets/Resets" Created="Tue Sep 22 16:15:09 2026">
+    <Headers>
+        <Header Column="0" Name="Reset/Set Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="SR Type" IntegerValue="No"/>
+        <Header Column="3" Name="Internal" IntegerValue="No"/>
+        <Header Column="4" Name="Staged" IntegerValue="No"/>
+        <Header Column="5" Name="Active" IntegerValue="No"/>
+        <Header Column="6" Name="Reset Logic" IntegerValue="No"/>
+        <Header Column="7" Name="Sync De-asserted" IntegerValue="No"/>
+        <Header Column="8" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <Row FileID="0" LineNum="3">
+        <Column Column="0" Data="axil_regs.rst_n"/>
+        <Column Column="1" Data="Asynchronous"/>
+        <Column Column="2" Data="Reset"/>
+        <Column Column="3" Data="No"/>
+        <Column Column="4" Data="No"/>
+        <Column Column="5" Data="Low"/>
+        <Column Column="6" Data="None"/>
+        <Column Column="7" Data="No"/>
+        <Column Column="8" Data="11"/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv" id="0"/>
+    </FileIDs>
+</BluePearlReport>

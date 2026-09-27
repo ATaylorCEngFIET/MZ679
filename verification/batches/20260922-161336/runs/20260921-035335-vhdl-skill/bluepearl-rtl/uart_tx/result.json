@@ -1,0 +1,71 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:43+0100",
+  "language": "vhdl",
+  "model": "bluepearl-rtl",
+  "task": "uart_tx",
+  "source": "20260921-035335-vhdl-skill\\bluepearl-rtl\\uart_tx.vhd",
+  "sha256": "5d3210f0817faff2f0ac304cbc453e8ac37bb35efdd8228c094e2987a87dff30",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_data",
+      "data",
+      "in",
+      "std_ulogic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "i_data_valid",
+      "data_valid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_tx",
+      "tx",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_busy",
+      "busy",
+      "out",
+      "std_ulogic                      "
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 624,
+        "failures": 0,
+        "seconds": 18.9,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "PASS",
+        "checks": 1004,
+        "failures": 0,
+        "seconds": 18.91,
+        "returncode": 0
+      }
+    ]
+  }
+}

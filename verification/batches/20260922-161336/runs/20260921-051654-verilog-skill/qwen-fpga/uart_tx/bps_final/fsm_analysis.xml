@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="uart_tx(current_state-next_state)" Language="Verilog" SingleProcess="No" CurrStateVar="current_state" NextStateVar="next_state" ResetState="IDLE" FileID="0" LineNum="50">
+            <States NumStates="11">
+                <State Name="IDLE" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="51">
+                    <Transition To="START" FileID="0" LineNum="53"/>
+                </State>
+                <State Name="START" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="56">
+                    <Transition To="DATA_0" FileID="0" LineNum="57"/>
+                </State>
+                <State Name="DATA_0" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="59">
+                    <Transition To="DATA_1" FileID="0" LineNum="60"/>
+                </State>
+                <State Name="DATA_1" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="62">
+                    <Transition To="DATA_2" FileID="0" LineNum="63"/>
+                </State>
+                <State Name="DATA_2" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="65">
+                    <Transition To="DATA_3" FileID="0" LineNum="66"/>
+                </State>
+                <State Name="DATA_3" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="68">
+                    <Transition To="DATA_4" FileID="0" LineNum="69"/>
+                </State>
+                <State Name="DATA_4" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="71">
+                    <Transition To="DATA_5" FileID="0" LineNum="72"/>
+                </State>
+                <State Name="DATA_5" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="74">
+                    <Transition To="DATA_6" FileID="0" LineNum="75"/>
+                </State>
+                <State Name="DATA_6" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="77">
+                    <Transition To="DATA_7" FileID="0" LineNum="78"/>
+                </State>
+                <State Name="DATA_7" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="80">
+                    <Transition To="STOP" FileID="0" LineNum="81"/>
+                </State>
+                <State Name="STOP" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="83">
+                    <Transition To="IDLE" FileID="0" LineNum="84"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/qwen-fpga/uart_tx.sv" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

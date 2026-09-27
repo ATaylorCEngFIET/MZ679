@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:19:23+0100",
+  "language": "verilog",
+  "model": "gemma4-fpga",
+  "task": "cdc_sync",
+  "source": "20260921-051654-verilog-skill\\gemma4-fpga\\cdc_sync.sv",
+  "sha256": "19d366a9b75ae4105a63f793b35af7b1a5345169e90df4db05b49f2962ba6ae2",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "_in",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "_out",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 400,
+        "failures": 0,
+        "seconds": 18.47,
+        "returncode": 0
+      },
+      {
+        "variant": "stages3",
+        "status": "PASS",
+        "checks": 400,
+        "failures": 0,
+        "seconds": 18.95,
+        "returncode": 0
+      }
+    ]
+  }
+}

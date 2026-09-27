@@ -1,0 +1,34 @@
+{
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "bugfix",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv",
+  "sha256": "d1a400998ea4269fc63a2cea6faaa852c664ae9df8750e91df96d0742d7e311c",
+  "baseline": "ELABORATION_FAIL",
+  "compile_command": [
+    "vlog",
+    "-sv",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv"
+  ],
+  "compile_returncode": 0,
+  "compile_pass": true,
+  "diagnostics": [],
+  "directory": "flag_probe_20260927\\verilog\\qwen-fpga\\bugfix",
+  "tb_compile_returncode": 0,
+  "optimize_command": [
+    "vopt",
+    "-permissive",
+    "work.tb",
+    "-o",
+    "tb_relaxed"
+  ],
+  "optimize_returncode": 0,
+  "optimize_pass": true,
+  "optimize_diagnostics": [
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv(17): (vopt-7033) Variable 'q' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv(11).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv(19): (vopt-7033) Variable 'q' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv(11)."
+  ]
+}

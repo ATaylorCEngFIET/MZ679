@@ -1,0 +1,725 @@
+[
+  {
+    "language": "vhdl",
+    "model": "bluepearl-rtl",
+    "task": "cdc_sync",
+    "source": "20260921-035335-vhdl-skill\\bluepearl-rtl\\cdc_sync.vhd",
+    "sha256": "923c427ef4556c9ced11b6a9593aa067c27872782f5648c5c536b6b3cc63b044",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\bluepearl-rtl\\cdc_sync.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\bluepearl-rtl\\cdc_sync.vhd(33): near \"ATTRIBUTE\": syntax error"
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\bluepearl-rtl\\cdc_sync"
+  },
+  {
+    "language": "vhdl",
+    "model": "gemma4-fpga",
+    "task": "cdc_sync",
+    "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\cdc_sync.vhd",
+    "sha256": "a218013b4be18756275094a6f2a6193a5ebffebebd55bd9cd76dbb97b5553efd",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\gemma4-fpga\\cdc_sync.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\gemma4-fpga\\cdc_sync.vhd(10): near \"map\": (vcom-1576) expecting '('."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\gemma4-fpga\\cdc_sync"
+  },
+  {
+    "language": "vhdl",
+    "model": "gemma4-fpga",
+    "task": "fifo",
+    "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\fifo.vhd",
+    "sha256": "6b28ae1eb917b5e24e118e1e7947a23b2453c058471d0b38f838e9a630483c63",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\gemma4-fpga\\fifo.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\gemma4-fpga\\fifo.vhd(6): near \"map\": (vcom-1576) expecting '('."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\gemma4-fpga\\fifo"
+  },
+  {
+    "language": "vhdl",
+    "model": "gemma4-fpga",
+    "task": "uart_tx",
+    "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\uart_tx.vhd",
+    "sha256": "ff33450868cbb19315920b5ea000b84fa592fc861badd296205218e376926667",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\gemma4-fpga\\uart_tx.vhd"
+    ],
+    "compile_returncode": 211,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\gemma4-fpga\\uart_tx.vhd(29): near \"ENUM\": syntax error"
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\gemma4-fpga\\uart_tx"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen-fpga",
+    "task": "axi_lite",
+    "source": "20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd",
+    "sha256": "ed01a9ec5ff6066fc1793cee2e64c3f480ca1c51b8f2e35e52e9926227956b0d",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd(119): near \"?\": (vcom-1576) expecting ')'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd(125): (vcom-1581) No feasible entries for prefix operator '??'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd(125): Type error resolving prefix expression \"??\" as type std.STANDARD.BOOLEAN.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd(125): near \"IN\": (vcom-1576) expecting ';'."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen-fpga\\axi_lite"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen-fpga",
+    "task": "cdc_sync",
+    "source": "20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd",
+    "sha256": "bd1de1d75b4acc5463b8dde2c1d6d23a22e412a48541d7ed80d2dd986197976a",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(57): near \"TYPE\": syntax error",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(70): (vcom-1136) Unknown identifier \"s\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(70): Prefix of attribute \"range\" must be appropriate for an array object or must denote an array subtype.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(70): (vcom-1489) Range of a parameter specification must be of a discrete type.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(71): (vcom-1136) Unknown identifier \"s\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(71): (vcom-1581) No feasible entries for infix operator '='.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(71): Type error resolving infix expression \"=\" as type std.STANDARD.BOOLEAN.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(72): Illegal target for signal assignment.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(72): (vcom-1581) No feasible entries for infix operator '+'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(72): (vcom-1136) Unknown identifier \"s_chain\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(73): (vcom-1136) Unknown identifier \"s\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(73): (vcom-1581) No feasible entries for infix operator '<'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(73): Type error resolving infix expression \"<\" as type std.STANDARD.BOOLEAN.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(74): Illegal target for signal assignment.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(74): (vcom-1581) No feasible entries for infix operator '+'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(74): (vcom-1136) Unknown identifier \"s_chain\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(95): Symbol \"sync_chain_proc\" has already been declared in this region.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(99): Illegal target for signal assignment.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(99): (vcom-1136) Unknown identifier \"s_chain\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(103): Illegal target for signal assignment.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(103): (vcom-1136) Unknown identifier \"s_chain\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\cdc_sync.vhd(109): (vcom-1136) Unknown identifier \"s_chain\"."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen-fpga\\cdc_sync"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen-fpga",
+    "task": "fifo",
+    "source": "20260921-035335-vhdl-skill\\qwen-fpga\\fifo.vhd",
+    "sha256": "01c9850063c4cdf53d89c9c9121dfa8b502a7dccea5bf70984f75c1bcfe65116",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\fifo.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen-fpga\\fifo.vhd(25): (vcom-1136) Unknown identifier \"CEIL_LOG2_REAL\"."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen-fpga\\fifo"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3-coder_30b",
+    "task": "axi_lite",
+    "source": "20260921-035335-vhdl-skill\\qwen3-coder_30b\\axi_lite.vhd",
+    "sha256": "6b575944caebf8afde9953c6e2ecbc3649f370532db0c646556d1caeb8bef78c",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\axi_lite.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\axi_lite.vhd(21): Nonresolved signal 'o_bresp' has multiple sources.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\axi_lite.vhd(28): Nonresolved signal 'o_rresp' has multiple sources."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3-coder_30b\\axi_lite"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3-coder_30b",
+    "task": "fifo",
+    "source": "20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd",
+    "sha256": "53a468abb62f96fa13912fe647f26e25ec60d2431dd1e6d2a500fa460c3d9167",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(31): (vcom-1600) No feasible entries for subprogram \"LOG2\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(72): (vcom-1581) No feasible entries for infix operator 'and'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(72): Type error resolving infix expression \"and\" as type ieee.std_logic_1164.STD_ULOGIC.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(74): (vcom-1581) No feasible entries for infix operator 'and'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(74): Type error resolving infix expression \"and\" as type ieee.std_logic_1164.STD_ULOGIC."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3-coder_30b\\fifo"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3.5_4b",
+    "task": "axi_lite",
+    "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd",
+    "sha256": "66113f17e40a62169a30aa4bfac38a69470237faa98bc61ababdd2e2f3200a38",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(98): near \"v_idx\": (vcom-1576) expecting == or '+' or '-' or '&'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(118): near \"v_byte_offset\": (vcom-1576) expecting == or '+' or '-' or '&'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(121): (vcom-1136) Unknown identifier \"s_wstrb\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(121): Type error resolving infix expression \"=\" as type std.STANDARD.BOOLEAN.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(122): (vcom-1136) Unknown identifier \"v_byte_offset\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(122): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(122): (vcom-1136) Unknown identifier \"v_byte_offset\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(122): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_ULOGIC_VECTOR.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(124): (vcom-1136) Unknown identifier \"s_wstrb\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(124): Type error resolving infix expression \"=\" as type std.STANDARD.BOOLEAN.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(125): (vcom-1136) Unknown identifier \"v_byte_offset\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(125): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(125): (vcom-1136) Unknown identifier \"v_byte_offset\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(125): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_ULOGIC_VECTOR.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(127): (vcom-1136) Unknown identifier \"s_wstrb\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(127): Type error resolving infix expression \"=\" as type std.STANDARD.BOOLEAN.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(128): (vcom-1136) Unknown identifier \"v_byte_offset\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(128): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(128): (vcom-1136) Unknown identifier \"v_byte_offset\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(128): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_ULOGIC_VECTOR.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(130): (vcom-1136) Unknown identifier \"s_wstrb\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(130): Type error resolving infix expression \"=\" as type std.STANDARD.BOOLEAN.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(131): (vcom-1136) Unknown identifier \"v_byte_offset\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(131): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(131): (vcom-1136) Unknown identifier \"v_byte_offset\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(131): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_ULOGIC_VECTOR.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(175): near \"v_idx\": (vcom-1576) expecting == or '+' or '-' or '&'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(212): Illegal target for signal assignment.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(212): (vcom-1136) Unknown identifier \"o_reg0\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(213): Illegal target for signal assignment.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(213): (vcom-1136) Unknown identifier \"o_reg1\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(214): Illegal target for signal assignment.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(214): (vcom-1136) Unknown identifier \"o_reg2\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(215): Illegal target for signal assignment.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(215): (vcom-1136) Unknown identifier \"o_reg3\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(67): Nonresolved signal 's_reg_state' has multiple sources.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd(68): Nonresolved signal 's_reg_next' has multiple sources."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3.5_4b\\axi_lite"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3.5_4b",
+    "task": "cdc_sync",
+    "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\cdc_sync.vhd",
+    "sha256": "26fd6c7c9994e8970dd83f173bc8ee7eb80f5eff6e1424622b07b9ad7b3cebbd",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\cdc_sync.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\cdc_sync.vhd(14): (vcom-1136) Unknown identifier \"i_clk_dst\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\cdc_sync.vhd(14): Bad resolution function (STD_ULOGIC) for type (error).",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\cdc_sync.vhd(14): near \":\": (vcom-1576) expecting ';' or ')'."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3.5_4b\\cdc_sync"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3.5_4b",
+    "task": "fifo",
+    "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\fifo.vhd",
+    "sha256": "796e7e3e23586d9628b968a546b419adc7e97dfa378347a96f3aea49b14384a6",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\fifo.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\fifo.vhd(15): near \";\": (vcom-1576) expecting IDENTIFIER."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3.5_4b\\fifo"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3.5_4b",
+    "task": "uart_tx",
+    "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd",
+    "sha256": "a074c041acc0ccc7df01a7cdebe7dc551682f9ad0934d1876584f8775ccc726b",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd(11): (vcom-1136) Unknown identifier \"i_rst\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd(11): Bad resolution function (STD_ULOGIC) for type (error).",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\uart_tx.vhd(11): near \":\": (vcom-1576) expecting ';' or ')'."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3.5_4b\\uart_tx"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3.8_27b",
+    "task": "axi_lite",
+    "source": "20260921-035335-vhdl-skill\\qwen3.8_27b\\axi_lite.vhd",
+    "sha256": "6356a4cb558735413e3ee7e010cb8f9ae12b6067b9b3bacc0f291a5a278e2d94",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\axi_lite.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\axi_lite.vhd(49): Nonresolved signal 's_reg0' has multiple sources.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\axi_lite.vhd(50): Nonresolved signal 's_reg1' has multiple sources.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\axi_lite.vhd(51): Nonresolved signal 's_reg2' has multiple sources.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\axi_lite.vhd(52): Nonresolved signal 's_reg3' has multiple sources."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3.8_27b\\axi_lite"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3.8_27b",
+    "task": "cdc_sync",
+    "source": "20260921-035335-vhdl-skill\\qwen3.8_27b\\cdc_sync.vhd",
+    "sha256": "e123d6659a13c2a313377665a9071a2f8107db9a51df029e74b50b9b44dc968e",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\cdc_sync.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\cdc_sync.vhd(24): near \"ATTRIBUTE\": syntax error"
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3.8_27b\\cdc_sync"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3.8_27b",
+    "task": "fifo",
+    "source": "20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd",
+    "sha256": "c54d65d964e8a75dbecae846a6cf140987239ced06b3030aee4c61854bcc2aff",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(26): near \"'\": (vcom-1576) expecting ';'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(31): (vcom-1136) Unknown identifier \"c_addr_width\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(31): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(31): Type error in range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(32): (vcom-1136) Unknown identifier \"c_addr_width\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(32): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(32): Type error in range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(64): (vcom-1136) Unknown identifier \"c_addr_width\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(64): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(64): Type error in range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(69): (vcom-1136) Unknown identifier \"c_addr_width\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(69): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(69): Type error in range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(72): (vcom-1136) Unknown identifier \"c_addr_width\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(72): (vcom-1136) Unknown identifier \"c_addr_width\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(73): (vcom-1136) Unknown identifier \"c_addr_width\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(73): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(73): (vcom-1136) Unknown identifier \"c_addr_width\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(73): (vcom-1591) Bad expression in left bound of range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(72): Type error resolving infix expression \"-\" as type std.STANDARD.NATURAL.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(72): Type error resolving infix expression \"-\" as type std.STANDARD.NATURAL.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(73): Type error in range expression.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd(73): Type error in range expression."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3.8_27b\\fifo"
+  },
+  {
+    "language": "verilog",
+    "model": "qwen-fpga",
+    "task": "axi_lite",
+    "source": "20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv",
+    "sha256": "8dfe4773f55969f58aa8ce41d361aa13dacf2ee61e219e9319444e88da5ea4c2",
+    "baseline": "ELABORATION_FAIL",
+    "compile_command": [
+      "vlog",
+      "-sv",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv"
+    ],
+    "compile_returncode": 0,
+    "compile_pass": true,
+    "diagnostics": [],
+    "directory": "flag_probe_20260927\\verilog\\qwen-fpga\\axi_lite",
+    "tb_compile_returncode": 0,
+    "optimize_command": [
+      "vopt",
+      "-permissive",
+      "work.tb",
+      "-o",
+      "tb_relaxed"
+    ],
+    "optimize_returncode": 0,
+    "optimize_pass": true,
+    "optimize_diagnostics": [
+      "** Warning: tb.sv(19): (vopt-2241) Connection width does not match width of port 'awprot'. The port definition is at: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(9).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(121): (vopt-7033) Variable 'rdata' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(60).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(122): (vopt-7033) Variable 'rresp' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(61).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(124): (vopt-7033) Variable 'rdata' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(60).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(125): (vopt-7033) Variable 'rresp' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(61)."
+    ]
+  },
+  {
+    "language": "verilog",
+    "model": "qwen-fpga",
+    "task": "bugfix",
+    "source": "20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv",
+    "sha256": "d1a400998ea4269fc63a2cea6faaa852c664ae9df8750e91df96d0742d7e311c",
+    "baseline": "ELABORATION_FAIL",
+    "compile_command": [
+      "vlog",
+      "-sv",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv"
+    ],
+    "compile_returncode": 0,
+    "compile_pass": true,
+    "diagnostics": [],
+    "directory": "flag_probe_20260927\\verilog\\qwen-fpga\\bugfix",
+    "tb_compile_returncode": 0,
+    "optimize_command": [
+      "vopt",
+      "-permissive",
+      "work.tb",
+      "-o",
+      "tb_relaxed"
+    ],
+    "optimize_returncode": 0,
+    "optimize_pass": true,
+    "optimize_diagnostics": [
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv(17): (vopt-7033) Variable 'q' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv(11).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv(19): (vopt-7033) Variable 'q' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv(11)."
+    ]
+  },
+  {
+    "language": "verilog",
+    "model": "qwen-fpga",
+    "task": "fifo",
+    "source": "20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv",
+    "sha256": "a24e717ae5bd2028528d0b80d24ef5d1e788c0854997d08aa31632690461c324",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vlog",
+      "-sv",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: (vlog-13069) C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv(47): near \"=\": syntax error, unexpected '='.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv(47): (vlog-13205) Syntax error found in the scope following 'full'. Is there a missing '::'?"
+    ],
+    "directory": "flag_probe_20260927\\verilog\\qwen-fpga\\fifo"
+  },
+  {
+    "language": "verilog",
+    "model": "qwen3-coder_30b",
+    "task": "fifo",
+    "source": "20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv",
+    "sha256": "c542b600d537f3d5f76f9a216d56f7722e9099893abff9eee2f7e4804be038ef",
+    "baseline": "ELABORATION_FAIL",
+    "compile_command": [
+      "vlog",
+      "-sv",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv"
+    ],
+    "compile_returncode": 0,
+    "compile_pass": true,
+    "diagnostics": [],
+    "directory": "flag_probe_20260927\\verilog\\qwen3-coder_30b\\fifo",
+    "tb_compile_returncode": 0,
+    "optimize_command": [
+      "vopt",
+      "-permissive",
+      "work.tb",
+      "-o",
+      "tb_relaxed"
+    ],
+    "optimize_returncode": 0,
+    "optimize_pass": true,
+    "optimize_diagnostics": [
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(61): (vopt-7033) Variable 'wr_addr' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(41).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(62): (vopt-7033) Variable 'rd_addr' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(42).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(63): (vopt-7033) Variable 'wr_wrap' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(43).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(64): (vopt-7033) Variable 'rd_wrap' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(44).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(66): (vopt-7033) Variable 'wr_addr' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(41).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(67): (vopt-7033) Variable 'rd_addr' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(42).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(68): (vopt-7033) Variable 'wr_wrap' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(43).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(69): (vopt-7033) Variable 'rd_wrap' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(44)."
+    ]
+  },
+  {
+    "language": "verilog",
+    "model": "qwen3.5_4b",
+    "task": "axi_lite",
+    "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv",
+    "sha256": "79b512d35b436e8613b71a1dc82eb97d7523b2d747badcc9784b5fcacd046cfc",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vlog",
+      "-sv",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(34): (vlog-13003) Enum member 'R_PENDING' has value that is outside the representable range of the enum.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(156): (vlog-2110) Illegal reference to net \"bresp\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(197): (vlog-2110) Illegal reference to net \"bresp\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(264): (vlog-2110) Illegal reference to net \"bresp\".",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(307): (vlog-2110) Illegal reference to net \"bresp\".",
+      "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(236): (vlog-2182) 'reg0' might be read before written in always_comb or always @* block.",
+      "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(237): (vlog-2182) 'reg1' might be read before written in always_comb or always @* block.",
+      "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(238): (vlog-2182) 'reg2' might be read before written in always_comb or always @* block.",
+      "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(239): (vlog-2182) 'reg3' might be read before written in always_comb or always @* block.",
+      "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(222): (vlog-2182) 'aw_pending' might be read before written in always_comb or always @* block.",
+      "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(272): (vlog-2182) 'ar_pending' might be read before written in always_comb or always @* block."
+    ],
+    "directory": "flag_probe_20260927\\verilog\\qwen3.5_4b\\axi_lite"
+  },
+  {
+    "language": "verilog",
+    "model": "qwen3.5_4b",
+    "task": "bugfix",
+    "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\bugfix.sv",
+    "sha256": "70f5f4e627246a98aa8b028f36ffa19028a6f48261e6bc04773214e179d44e89",
+    "baseline": "ELABORATION_FAIL",
+    "compile_command": [
+      "vlog",
+      "-sv",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\bugfix.sv"
+    ],
+    "compile_returncode": 0,
+    "compile_pass": true,
+    "diagnostics": [],
+    "directory": "flag_probe_20260927\\verilog\\qwen3.5_4b\\bugfix",
+    "tb_compile_returncode": 0,
+    "optimize_command": [
+      "vopt",
+      "-permissive",
+      "work.tb",
+      "-o",
+      "tb_relaxed"
+    ],
+    "optimize_returncode": 0,
+    "optimize_pass": true,
+    "optimize_diagnostics": [
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\bugfix.sv(20): (vopt-7033) Variable 'q' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\bugfix.sv(13).",
+      "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\bugfix.sv(22): (vopt-7033) Variable 'q' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\bugfix.sv(13)."
+    ]
+  },
+  {
+    "language": "verilog",
+    "model": "qwen3.5_4b",
+    "task": "fifo",
+    "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv",
+    "sha256": "7d4a1aa0be25d9b2e4cfff4f8b818ffc7394cd6bc7b7662cb03e9cd16551947a",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vlog",
+      "-sv",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv(5): (vlog-2730) Undefined variable: 'WIDTH'.",
+      "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv(5): (vlog-2618) 'wr_data' already declared in this scope (sync_fifo).",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv(5): (vlog-13294) Identifier must be declared with a port mode: wr_data."
+    ],
+    "directory": "flag_probe_20260927\\verilog\\qwen3.5_4b\\fifo"
+  },
+  {
+    "language": "verilog",
+    "model": "qwen3.5_4b",
+    "task": "uart_tx",
+    "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv",
+    "sha256": "919b1a60ac302e3725bc6b136cfa898361d1ac0b249c1fe1eb6e82a8d2903bbf",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vlog",
+      "-sv",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: (vlog-13069) C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(30): near \"logic\": syntax error, unexpected \"SystemVerilog keyword 'logic'\", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(38): (vlog-2730) Undefined variable: 'baud_counter'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(42): (vlog-2730) Undefined variable: 'state_reg'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(43): (vlog-2730) Undefined variable: 'data_valid_reg'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(44): (vlog-2730) Undefined variable: 'data_reg'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(45): (vlog-2730) Undefined variable: 'busy_reg'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(46): (vlog-2730) Undefined variable: 'tx_reg'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(138): (vlog-2730) Undefined variable: 'tx_reg'.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(139): (vlog-2730) Undefined variable: 'busy_reg'."
+    ],
+    "directory": "flag_probe_20260927\\verilog\\qwen3.5_4b\\uart_tx"
+  },
+  {
+    "language": "vhdl",
+    "model": "qwen3.8-flash-next",
+    "task": "fifo",
+    "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd",
+    "sha256": "7f1e3bb49fb5c6b78d46656d3dbf8a1e81fc00424f3c822e9eba75187ce7faba",
+    "baseline": "COMPILE_FAIL",
+    "compile_command": [
+      "vcom",
+      "-2008",
+      "-permissive",
+      "-work",
+      "work",
+      "C:\\hdl_projects\\ai_on_prem\\20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd"
+    ],
+    "compile_returncode": 2,
+    "compile_pass": false,
+    "diagnostics": [
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd(116): Type error resolving infix expression \"=\" as type ieee.std_logic_1164.STD_ULOGIC.",
+      "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-062307-vhdl-skill\\qwen3.8-flash-next\\fifo.vhd(118): Type error resolving infix expression \"and\" as type ieee.std_logic_1164.STD_ULOGIC."
+    ],
+    "directory": "flag_probe_20260927\\vhdl\\qwen3.8-flash-next\\fifo"
+  }
+]

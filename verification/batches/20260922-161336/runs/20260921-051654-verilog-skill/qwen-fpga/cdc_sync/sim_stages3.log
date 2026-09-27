@@ -1,0 +1,148 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-051654-verilog-skill\qwen-fpga\cdc_sync\stages3.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" -gNSTAGES=3 
+# Start time: 16:21:34 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL STAGES destination-edge latency t=116000
+# CHECK_FAIL STAGES destination-edge latency t=136000
+# CHECK_FAIL STAGES destination-edge latency t=146000
+# CHECK_FAIL STAGES destination-edge latency t=156000
+# CHECK_FAIL STAGES destination-edge latency t=166000
+# CHECK_FAIL STAGES destination-edge latency t=176000
+# CHECK_FAIL STAGES destination-edge latency t=186000
+# CHECK_FAIL STAGES destination-edge latency t=236000
+# CHECK_FAIL STAGES destination-edge latency t=246000
+# CHECK_FAIL STAGES destination-edge latency t=256000
+# CHECK_FAIL STAGES destination-edge latency t=266000
+# CHECK_FAIL STAGES destination-edge latency t=276000
+# CHECK_FAIL STAGES destination-edge latency t=286000
+# CHECK_FAIL STAGES destination-edge latency t=346000
+# CHECK_FAIL STAGES destination-edge latency t=356000
+# CHECK_FAIL STAGES destination-edge latency t=366000
+# CHECK_FAIL STAGES destination-edge latency t=376000
+# CHECK_FAIL STAGES destination-edge latency t=386000
+# CHECK_FAIL STAGES destination-edge latency t=396000
+# CHECK_FAIL STAGES destination-edge latency t=446000
+# CHECK_FAIL STAGES destination-edge latency t=456000
+# CHECK_FAIL STAGES destination-edge latency t=466000
+# CHECK_FAIL STAGES destination-edge latency t=476000
+# CHECK_FAIL STAGES destination-edge latency t=486000
+# CHECK_FAIL STAGES destination-edge latency t=496000
+# CHECK_FAIL STAGES destination-edge latency t=556000
+# CHECK_FAIL STAGES destination-edge latency t=566000
+# CHECK_FAIL STAGES destination-edge latency t=576000
+# CHECK_FAIL STAGES destination-edge latency t=586000
+# CHECK_FAIL STAGES destination-edge latency t=596000
+# CHECK_FAIL STAGES destination-edge latency t=606000
+# CHECK_FAIL STAGES destination-edge latency t=656000
+# CHECK_FAIL STAGES destination-edge latency t=666000
+# CHECK_FAIL STAGES destination-edge latency t=676000
+# CHECK_FAIL STAGES destination-edge latency t=686000
+# CHECK_FAIL STAGES destination-edge latency t=696000
+# CHECK_FAIL STAGES destination-edge latency t=706000
+# CHECK_FAIL STAGES destination-edge latency t=766000
+# CHECK_FAIL STAGES destination-edge latency t=776000
+# CHECK_FAIL STAGES destination-edge latency t=786000
+# CHECK_FAIL STAGES destination-edge latency t=796000
+# CHECK_FAIL STAGES destination-edge latency t=806000
+# CHECK_FAIL STAGES destination-edge latency t=816000
+# CHECK_FAIL STAGES destination-edge latency t=866000
+# CHECK_FAIL STAGES destination-edge latency t=876000
+# CHECK_FAIL STAGES destination-edge latency t=886000
+# CHECK_FAIL STAGES destination-edge latency t=896000
+# CHECK_FAIL STAGES destination-edge latency t=906000
+# CHECK_FAIL STAGES destination-edge latency t=916000
+# CHECK_FAIL STAGES destination-edge latency t=976000
+# CHECK_FAIL STAGES destination-edge latency t=986000
+# CHECK_FAIL STAGES destination-edge latency t=996000
+# CHECK_FAIL STAGES destination-edge latency t=1006000
+# CHECK_FAIL STAGES destination-edge latency t=1016000
+# CHECK_FAIL STAGES destination-edge latency t=1026000
+# CHECK_FAIL STAGES destination-edge latency t=1076000
+# CHECK_FAIL STAGES destination-edge latency t=1086000
+# CHECK_FAIL STAGES destination-edge latency t=1096000
+# CHECK_FAIL STAGES destination-edge latency t=1106000
+# CHECK_FAIL STAGES destination-edge latency t=1116000
+# CHECK_FAIL STAGES destination-edge latency t=1126000
+# CHECK_FAIL STAGES destination-edge latency t=1186000
+# CHECK_FAIL STAGES destination-edge latency t=1196000
+# CHECK_FAIL STAGES destination-edge latency t=1206000
+# CHECK_FAIL STAGES destination-edge latency t=1216000
+# CHECK_FAIL STAGES destination-edge latency t=1226000
+# CHECK_FAIL STAGES destination-edge latency t=1236000
+# CHECK_FAIL STAGES destination-edge latency t=1286000
+# CHECK_FAIL STAGES destination-edge latency t=1296000
+# CHECK_FAIL STAGES destination-edge latency t=1306000
+# CHECK_FAIL STAGES destination-edge latency t=1316000
+# CHECK_FAIL STAGES destination-edge latency t=1326000
+# CHECK_FAIL STAGES destination-edge latency t=1336000
+# CHECK_FAIL STAGES destination-edge latency t=1396000
+# CHECK_FAIL STAGES destination-edge latency t=1406000
+# CHECK_FAIL STAGES destination-edge latency t=1416000
+# CHECK_FAIL STAGES destination-edge latency t=1426000
+# CHECK_FAIL STAGES destination-edge latency t=1436000
+# CHECK_FAIL STAGES destination-edge latency t=1446000
+# CHECK_FAIL STAGES destination-edge latency t=1496000
+# CHECK_FAIL STAGES destination-edge latency t=1506000
+# CHECK_FAIL STAGES destination-edge latency t=1516000
+# CHECK_FAIL STAGES destination-edge latency t=1526000
+# CHECK_FAIL STAGES destination-edge latency t=1536000
+# CHECK_FAIL STAGES destination-edge latency t=1546000
+# CHECK_FAIL STAGES destination-edge latency t=1606000
+# CHECK_FAIL STAGES destination-edge latency t=1616000
+# CHECK_FAIL STAGES destination-edge latency t=1626000
+# CHECK_FAIL STAGES destination-edge latency t=1636000
+# CHECK_FAIL STAGES destination-edge latency t=1646000
+# CHECK_FAIL STAGES destination-edge latency t=1656000
+# CHECK_FAIL STAGES destination-edge latency t=1706000
+# CHECK_FAIL STAGES destination-edge latency t=1716000
+# CHECK_FAIL STAGES destination-edge latency t=1726000
+# CHECK_FAIL STAGES destination-edge latency t=1736000
+# CHECK_FAIL STAGES destination-edge latency t=1746000
+# CHECK_FAIL STAGES destination-edge latency t=1756000
+# CHECK_FAIL STAGES destination-edge latency t=1816000
+# CHECK_FAIL STAGES destination-edge latency t=1826000
+# CHECK_FAIL STAGES destination-edge latency t=1836000
+# CHECK_FAIL STAGES destination-edge latency t=1846000
+# CHECK_FAIL STAGES destination-edge latency t=1856000
+# CHECK_FAIL STAGES destination-edge latency t=1866000
+# CHECK_FAIL STAGES destination-edge latency t=1916000
+# CHECK_FAIL STAGES destination-edge latency t=1926000
+# CHECK_FAIL STAGES destination-edge latency t=1936000
+# CHECK_FAIL STAGES destination-edge latency t=1946000
+# CHECK_FAIL STAGES destination-edge latency t=1956000
+# CHECK_FAIL STAGES destination-edge latency t=1966000
+# CHECK_FAIL STAGES destination-edge latency t=2026000
+# CHECK_FAIL STAGES destination-edge latency t=2036000
+# CHECK_FAIL STAGES destination-edge latency t=2046000
+# CHECK_FAIL STAGES destination-edge latency t=2056000
+# CHECK_FAIL STAGES destination-edge latency t=2066000
+# CHECK_FAIL STAGES destination-edge latency t=2076000
+# RESULT checks=400 failures=115
+# ** Note: $finish    : tb.sv(13)
+#    Time: 2096 ns  Iteration: 0  Instance: /tb
+# End time: 16:21:45 on Sep 22,2026, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

@@ -1,0 +1,182 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:26+0100",
+  "language": "vhdl",
+  "model": "qwen3.8_27b",
+  "task": "axi_lite",
+  "source": "20260921-035335-vhdl-skill\\qwen3.8_27b\\axi_lite.vhd",
+  "sha256": "6356a4cb558735413e3ee7e010cb8f9ae12b6067b9b3bacc0f291a5a278e2d94",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_aclk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_aresetn",
+      "rst_n",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awvalid",
+      "awvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awaddr",
+      "awaddr",
+      "in",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_awready",
+      "awready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_wvalid",
+      "wvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wdata",
+      "wdata",
+      "in",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "i_wstrb",
+      "wstrb",
+      "in",
+      "std_ulogic_vector(3 DOWNTO 0)"
+    ],
+    [
+      "o_wready",
+      "wready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_bvalid",
+      "bvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_bready",
+      "bready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_bresp",
+      "bresp",
+      "out",
+      "std_ulogic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "i_arvalid",
+      "arvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_araddr",
+      "araddr",
+      "in",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_arready",
+      "arready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_rvalid",
+      "rvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_rready",
+      "rready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_rdata",
+      "rdata",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_rresp",
+      "rresp",
+      "out",
+      "std_ulogic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "o_reg0",
+      "reg0",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_reg1",
+      "reg1",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_reg2",
+      "reg2",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_reg3",
+      "reg3",
+      "out",
+      "std_ulogic_vector(31 DOWNTO 0)"
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3.8_27b\\axi_lite\\bps_final",
+    "returncode": 101,
+    "seconds": 1.89,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 4,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "BPS-0723",
+        "message": "Module: 'axil_regs.rtl' Problem elaborating axil_regs.rtl into library work. Please see previous messages."
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.8_27b/axi_lite.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

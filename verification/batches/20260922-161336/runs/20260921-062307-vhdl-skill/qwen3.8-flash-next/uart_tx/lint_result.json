@@ -1,0 +1,100 @@
+{
+  "source_run": "20260921-062307-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:35+0100",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "uart_tx",
+  "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\uart_tx.vhd",
+  "sha256": "916e21c5a9a3a2eaf6ef53f7eb897f563280670acb962921f4573fcbe28dac81",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "std_ulogic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      "std_ulogic                    "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-062307-vhdl-skill\\qwen3.8-flash-next\\uart_tx\\bps_final",
+    "returncode": 0,
+    "seconds": 1.95,
+    "status": "COMPLETE",
+    "warnings": 8,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd(34): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd(35): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd(36): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd(37): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd(38): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd(39): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd(40): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd(16): Module: 'uart_tx(rtl)' Signal 'uart_tx(rtl).data' is dangling."
+      }
+    ]
+  }
+}

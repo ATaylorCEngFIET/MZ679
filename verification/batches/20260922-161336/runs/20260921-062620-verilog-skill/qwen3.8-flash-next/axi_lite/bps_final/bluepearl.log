@@ -1,0 +1,98 @@
+--BPS-0730: Status: Opening log file: 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite/bps_final/bluepearl.log' @ '22/09/2026 16:15'
+--BPS-0730: Status: Blue Pearl Visual Verification Suite Version 2026.4.68770.nightlyBuilds_2026.4.68770 07/16/2026 07:20. Windows (64-bit).
+Copyright (c) 2004-2026 Blue Pearl Software, Inc
+Portions of this software are (c) 2015 The Qt Company Ltd and other contributors under the GNU LGPL version 3 license.
+--BPS-0730: Status: Installation Path: C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64
+--BPS-0730: Status: Running as: aptay@Adiuvo_Adam
+--BPS-0730: Status: Running from: C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite
+--BPS-0730: Status: Unprocessed CLI Arguments: -root=axil_regs -output=C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-062620-verilog-skill\qwen3.8-flash-next\axi_lite\bps_final -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv}; BPS::run analyze -forceload
+--BPS-0730: Status: Effective CLI Arguments: 
+   -root=axil_regs
+   -output=C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-062620-verilog-skill\qwen3.8-flash-next\axi_lite\bps_final
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv}; BPS::run analyze -forceload"
+--BPS-0730: Status: Reading initialization file: 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/bps_setup.tcl'
+Time: Tue Sep 22 16:15:37 2026
+--BPS-0730: Status: Running user initialization program: 'source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv}; BPS::run analyze -forceload'
+*** args: analyze -forceload
+--BPS-0730: Status: Processing CDC in a Transitive manner.
+--BPS-0730: Status: Reading design...
+I-VERI-1509: The Verilog library search path for library "std" is now "C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/verilog_packages/sdbs/std"
+I-VERI-9014: The Verilog search library for imported/instantiated design units now includes 'work'
+I-VNLR-9000: The Verilog netlist search library for imported/instantiated design units now includes 'work'
+I-VHDL-9010: The VHDL search library for imported/instantiated design units now includes 'work'
+I-SORT-9000: Pre-Analyzing 'System Verilog' file 'C:/hdl_projects/ai_on_prem/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv' into library 'work'
+--VERI-1482: Analyzing System Verilog file 'C:/hdl_projects/ai_on_prem/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv' into library 'work'
+I-VERI-9012: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(1): analyzing module 'axil_regs'
+--BPS-0730: Status: Determining HDL top level units
+--BPS-0730: Status: Running parse tree analysis phase 'Pre-Static Elaboration'
+W-BPS-0112: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(151): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools.
+W-BPS-0112: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(158): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools.
+W-BPS-0112: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(165): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools.
+W-BPS-0112: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(172): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools.
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Pre-Static Elaboration'
+--BPS-0729: Status: Elaborating (phase 1) into library work using the Verilog elaborator on 'axil_regs'
+I-VERI-1018: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(1): compiling module 'axil_regs'
+W-VERI-1924: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(27): variable 'rvalid' is driven by invalid combination of procedural drivers
+W-VERI-1971: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(192): 'rvalid' driven by this always_comb block should not be driven by any other process
+I-VERI-1972: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(208): found another procedural driver of 'rvalid' here
+--BPS-0730: Status: Finished Elaborating (phase 1).
+--BPS-0730: Status: Running parse tree analysis phase 'Pre-Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Pre-Elaboration'
+--BPS-0729: Status: Elaborating (phase 2) into library work using the Verilog elaborator on 'axil_regs'
+I-VERI-1018: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(1): compiling module 'axil_regs'
+W-VERI-2580: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(68): latch inferred for net 'aw_pending'
+W-VERI-1899: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(68): 'aw_pending' inside always_comb block does not represent combinational logic
+W-VERI-2580: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(68): latch inferred for net 'w_pending'
+W-VERI-1899: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(68): 'w_pending' inside always_comb block does not represent combinational logic
+E-ELAB-1000: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(208): Module: 'rvalid' net 'rvalid' is constantly driven from multiple places
+E-ELAB-1001: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(192): Module: 'axil_regs' found another driver here
+I-VERI-1073: ../../../../../../../20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv(1): module 'axil_regs' remains a black box due to errors in its contents
+--BPS-0730: Status: Running parse tree analysis phase 'Post-Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Post-Elaboration'
+--BPS-0730: Status: Finished Elaborating (phase 2).
+===============================
+Blue Pearl Missing Modules/Objects Report created on: Tue Sep 22 16:15:37 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite/bps_final/axil_regs.missing_modules.rpt'.
+===============================
+Missing Modules: 0
+===============================
+===============================
+Time to generate Missing Modules/Objects report: 0.01 seconds
+--BPS-0730: Status: Finished elaborating design.
+--BPS-0730: Status: Finished Reading Design. Elapsed Time: 0.23 seconds.
+E-BPS-0752: ERROR: Termination due to non-recoverable errors
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite/bps_final/DesignSummary.rpt'.
+Time to generate Design Summary report: 0.01 seconds
+===============================
+Message ID Summary Report:
+Property Check  BPS-0112: 4 warnings
+Property Check  BPS-0729: 2 comments
+Property Check  BPS-0730: 24 comments
+Property Check  BPS-0752: 1 error
+Property Check ELAB-1000: 1 error
+Property Check ELAB-1001: 1 error
+Property Check SORT-9000: 1 informational
+Property Check VERI-1018: 2 informationals
+Property Check VERI-1073: 1 informational
+Property Check VERI-1482: 1 comment
+Property Check VERI-1509: 1 informational
+Property Check VERI-1899: 2 warnings
+Property Check VERI-1924: 1 warning
+Property Check VERI-1971: 1 warning
+Property Check VERI-1972: 1 informational
+Property Check VERI-2580: 2 warnings
+Property Check VERI-9012: 1 informational
+Property Check VERI-9014: 1 informational
+Property Check VHDL-9010: 1 informational
+Property Check VNLR-9000: 1 informational
+
+Property Check Message Severity Summary:
+3 errors
+10 warnings
+10 informationals
+27 comments
+--BPS-0730: Status: Total analysis Elapsed Time: 0 seconds
+E-BPS-0752: ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-062620-verilog-skill/qwen3.8-flash-next/axi_lite.sv}; BPS::run analyze -forceload
+E-BPS-0752: ERROR: BPS::run - Failed to read in netlist.

@@ -1,0 +1,83 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:23:59+0100",
+  "language": "verilog",
+  "model": "qwen3.8_27b",
+  "task": "fifo",
+  "source": "20260921-051654-verilog-skill\\qwen3.8_27b\\fifo.sv",
+  "sha256": "4b73960dd81b8e10a8aa368ea39f688b3d7baa64ef04342076bd0e50375b4280",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 3455,
+        "failures": 519,
+        "seconds": 18.43,
+        "returncode": 0
+      },
+      {
+        "variant": "width16_depth4",
+        "status": "FAIL",
+        "checks": 3381,
+        "failures": 509,
+        "seconds": 18.58,
+        "returncode": 0
+      }
+    ]
+  }
+}

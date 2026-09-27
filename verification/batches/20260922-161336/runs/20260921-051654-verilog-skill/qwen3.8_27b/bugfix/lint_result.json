@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:26+0100",
+  "language": "verilog",
+  "model": "qwen3.8_27b",
+  "task": "bugfix",
+  "source": "20260921-051654-verilog-skill\\qwen3.8_27b\\bugfix.sv",
+  "sha256": "14a6872a9ec0e0ed5e56e8a8e724be2613cbbbbd0621d4ce698673a94d17fc14",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      ""
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "[7:0]"
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen3.8_27b\\bugfix\\bps_final",
+    "returncode": 0,
+    "seconds": 1.83,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

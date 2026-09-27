@@ -1,0 +1,71 @@
+{
+  "source_run": "20260921-062307-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:24:41+0100",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "uart_tx",
+  "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\uart_tx.vhd",
+  "sha256": "916e21c5a9a3a2eaf6ef53f7eb897f563280670acb962921f4573fcbe28dac81",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "std_ulogic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      "std_ulogic                    "
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 624,
+        "failures": 128,
+        "seconds": 18.68,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "FAIL",
+        "checks": 1004,
+        "failures": 208,
+        "seconds": 18.62,
+        "returncode": 0
+      }
+    ]
+  }
+}

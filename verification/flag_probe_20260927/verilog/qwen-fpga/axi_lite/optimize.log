@@ -1,0 +1,22 @@
+QuestaSim Base Edition-64 vopt 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 13:23:10 on Sep 27,2026
+vopt -permissive work.tb -o tb_relaxed 
+** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+
+Top level modules:
+	tb
+
+Analyzing design...
+-- Loading module tb
+-- Loading module axil_regs
+** Warning: tb.sv(19): (vopt-2241) Connection width does not match width of port 'awprot'. The port definition is at: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(9).
+Optimizing 2 design-units (inlining 1/2 module instances):
+-- Inlining module axil_regs(fast)
+-- Optimizing module tb(fast)
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(121): (vopt-7033) Variable 'rdata' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(60).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(122): (vopt-7033) Variable 'rresp' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(61).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(124): (vopt-7033) Variable 'rdata' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(60).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(125): (vopt-7033) Variable 'rresp' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv(61).
+Optimized design name is tb_relaxed
+End time: 13:23:10 on Sep 27,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 5

@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:11+0100",
+  "language": "vhdl",
+  "model": "qwen3-coder_30b",
+  "task": "bugfix",
+  "source": "20260921-035335-vhdl-skill\\qwen3-coder_30b\\bugfix.vhd",
+  "sha256": "6329c1a222ea3434e91b1eb0f431781283439df455a328e4e263c553f939894a",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_sel",
+      "sel",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_a",
+      "a",
+      "in",
+      "std_ulogic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "i_b",
+      "b",
+      "in",
+      "std_ulogic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "o_q",
+      "q",
+      "out",
+      "std_ulogic_vector(7 DOWNTO 0)    "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\bugfix\\bps_final",
+    "returncode": 0,
+    "seconds": 1.86,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

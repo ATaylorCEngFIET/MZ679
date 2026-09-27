@@ -1,0 +1,10 @@
+QuestaSim Base Edition-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 16:19:25 on Sep 22,2026
+vlog -sv -work work C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\gemma4-fpga\counter.sv 
+** Note: (vlog-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Compiling module counter4
+
+Top level modules:
+	counter4
+End time: 16:19:26 on Sep 22,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

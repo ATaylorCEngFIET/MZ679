@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSClockInteractionReport>
+    <ClockGroups>
+        <ClockGroup Name="i_clk_group">
+            <Clock Name="i_clk" FileID="0" LineNum="17"/>
+        </ClockGroup>
+    </ClockGroups>
+    <ClockInteractions/>
+    <ClockGroupInteractions/>
+    <FileIDs>
+        <File name="../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd" id="0"/>
+    </FileIDs>
+</BPSClockInteractionReport>

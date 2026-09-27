@@ -1,0 +1,20 @@
+===============================
+Blue Pearl DFFs Report created on: Tue Sep 22 16:13:44 2026
+===============================
+14 D-type flip-flop registers:
+===============================
+axil_regs.s_aw_done type Dff Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 2
+axil_regs.s_w_done type Dff Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 2
+axil_regs.s_b_valid type Dff Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 1
+axil_regs.s_b_resp[1:0] type Dff register Data Clock Domain:  Clock Pin's Domain: i_clk_group Fanout: 1
+axil_regs.s_write_complete type Dff Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 129
+axil_regs.s_aw_addr[7:0] type Dff register Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 4
+axil_regs.s_reg0[31:0] type Dff register Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 4
+axil_regs.s_reg1[31:0] type Dff register Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 5
+axil_regs.s_reg2[31:0] type Dff register Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 6
+axil_regs.s_reg3[31:0] type Dff register Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 6
+axil_regs.s_ar_done type Dff Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 36
+axil_regs.s_r_valid type Dff Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 1
+axil_regs.s_r_resp[1:0] type Dff register Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 2
+axil_regs.s_r_data[31:0] type Dff register Data Clock Domain: i_clk_group Clock Pin's Domain: i_clk_group Fanout: 2
+===============================

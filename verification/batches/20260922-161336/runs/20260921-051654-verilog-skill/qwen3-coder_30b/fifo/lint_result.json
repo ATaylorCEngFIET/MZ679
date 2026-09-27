@@ -1,0 +1,252 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:11+0100",
+  "language": "verilog",
+  "model": "qwen3-coder_30b",
+  "task": "fifo",
+  "source": "20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv",
+  "sha256": "c542b600d537f3d5f76f9a216d56f7722e9099893abff9eee2f7e4804be038ef",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo\\bps_final",
+    "returncode": 101,
+    "seconds": 2.27,
+    "status": "COMPLETE",
+    "warnings": 33,
+    "errors": 3,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "VERI-1924",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(18): variable 'wr_addr' is driven by invalid combination of procedural drivers"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1971",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'wr_addr' driven by this always_comb block should not be driven by any other process"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1924",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(18): variable 'rd_addr' is driven by invalid combination of procedural drivers"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1971",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'rd_addr' driven by this always_comb block should not be driven by any other process"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1924",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(19): variable 'wr_wrap' is driven by invalid combination of procedural drivers"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1971",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'wr_wrap' driven by this always_comb block should not be driven by any other process"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1924",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(19): variable 'rd_wrap' is driven by invalid combination of procedural drivers"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1971",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'rd_wrap' driven by this always_comb block should not be driven by any other process"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1209",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(47): expression size 5 truncated to fit in target size 4"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0530",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(48): Module: 'sync_fifo' Missing Else-Block assignment to 'sync_fifo.wr_wrap' for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1209",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(53): expression size 5 truncated to fit in target size 4"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0530",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(54): Module: 'sync_fifo' Missing Else-Block assignment to 'sync_fifo.rd_wrap' for IF statement could create implied latches."
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'wr_addr[3]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'wr_addr' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'wr_addr[2]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'wr_addr' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'wr_addr[1]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'wr_addr' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'wr_addr[0]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'wr_addr' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'rd_addr[3]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'rd_addr' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'rd_addr[2]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'rd_addr' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'rd_addr[1]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'rd_addr' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'rd_addr[0]'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'rd_addr' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'wr_wrap'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'wr_wrap' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-2580",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): latch inferred for net 'rd_wrap'"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1899",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(40): 'rd_wrap' inside always_comb block does not represent combinational logic"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-9015",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv(75): index width is 5, it may assume value outside of prefix range [0:15] for 'ram'"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3-coder_30b/fifo.sv}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

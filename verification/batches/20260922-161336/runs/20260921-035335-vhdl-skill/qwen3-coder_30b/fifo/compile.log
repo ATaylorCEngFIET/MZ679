@@ -1,0 +1,21 @@
+QuestaSim Base Edition-64 vcom 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 16:17:29 on Sep 22,2026
+vcom -2008 -work work C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3-coder_30b\fifo.vhd 
+** Note: (vcom-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity sync_fifo
+-- Compiling architecture rtl of sync_fifo
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3-coder_30b\fifo.vhd(31): (vcom-1600) No feasible entries for subprogram "LOG2".
+   Visible subprograms are:
+      (explicit) MATH_REAL.LOG2[std.STANDARD.REAL return std.STANDARD.REAL] at vhdl_src/ieee/1076-2code.vhd(362)
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3-coder_30b\fifo.vhd(72): (vcom-1581) No feasible entries for infix operator 'and'.
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3-coder_30b\fifo.vhd(72): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_ULOGIC.
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3-coder_30b\fifo.vhd(74): (vcom-1581) No feasible entries for infix operator 'and'.
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3-coder_30b\fifo.vhd(74): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_ULOGIC.
+** Note: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3-coder_30b\fifo.vhd(79): VHDL Compiler exiting
+End time: 16:17:29 on Sep 22,2026, Elapsed time: 0:00:00
+Errors: 5, Warnings: 0

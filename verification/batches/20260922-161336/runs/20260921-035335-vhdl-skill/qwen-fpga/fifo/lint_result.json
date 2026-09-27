@@ -1,0 +1,100 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:02+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\qwen-fpga\\fifo.vhd",
+  "sha256": "01c9850063c4cdf53d89c9c9121dfa8b502a7dccea5bf70984f75c1bcfe65116",
+  "interface_errors": [
+    "Missing required port rd_data",
+    "Missing required generic/parameter DEPTH"
+  ],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "std_logic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_data",
+      "data",
+      "out",
+      "std_logic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      "std_ulogic        "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen-fpga\\fifo\\bps_final",
+    "returncode": 101,
+    "seconds": 1.66,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 5,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/fifo.vhd(25): 'ceil_log2_real' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/fifo.vhd(24): unit 'rtl' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen-fpga/fifo.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

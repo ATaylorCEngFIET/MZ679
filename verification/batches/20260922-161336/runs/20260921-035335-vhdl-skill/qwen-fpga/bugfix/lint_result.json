@@ -1,0 +1,80 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:00+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "bugfix",
+  "source": "20260921-035335-vhdl-skill\\qwen-fpga\\bugfix.vhd",
+  "sha256": "bd17c6bd5447769c0ae66719ff379e67aaff9cff12dad01c5bd3168d5279048f",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      "std_logic"
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "std_logic_vector(7 downto 0)   "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen-fpga\\bugfix\\bps_final",
+    "returncode": 101,
+    "seconds": 1.79,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 4,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "BPS-0723",
+        "message": "Module: 'mux_reg.rtl' Problem elaborating mux_reg.rtl into library work. Please see previous messages."
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen-fpga/bugfix.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

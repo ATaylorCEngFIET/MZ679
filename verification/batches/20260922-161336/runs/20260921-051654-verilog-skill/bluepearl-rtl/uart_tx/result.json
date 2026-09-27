@@ -1,0 +1,71 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:18:52+0100",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "task": "uart_tx",
+  "source": "20260921-051654-verilog-skill\\bluepearl-rtl\\uart_tx.sv",
+  "sha256": "d696910044c9139a9184e92b867aa854e73951ce810911c0de32ab2433a7bc6e",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 624,
+        "failures": 168,
+        "seconds": 18.57,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "FAIL",
+        "checks": 1004,
+        "failures": 268,
+        "seconds": 18.46,
+        "returncode": 0
+      }
+    ]
+  }
+}

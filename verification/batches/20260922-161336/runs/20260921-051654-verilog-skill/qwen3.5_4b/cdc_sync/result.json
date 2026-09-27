@@ -1,0 +1,43 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:22:48+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "cdc_sync",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\cdc_sync.sv",
+  "sha256": "7b2c1f0cd22c6be16fed7ed3734ed2cc6850c6b7564fc30c418e30bff5d1d633",
+  "interface_errors": [
+    "Missing required generic/parameter STAGES"
+  ],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk_src",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n_src",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "in_bit",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "out_bit",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "INTERFACE_FAIL"
+  }
+}

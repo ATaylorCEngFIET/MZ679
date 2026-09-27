@@ -1,0 +1,53 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:14+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "uart_tx",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\uart_tx.vhd",
+  "sha256": "ff33450868cbb19315920b5ea000b84fa592fc861badd296205218e376926667",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_data",
+      "data",
+      "in",
+      "std_logic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "i_data_valid",
+      "data_valid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_tx",
+      "tx",
+      "out",
+      "std_logic"
+    ],
+    [
+      "o_busy",
+      "busy",
+      "out",
+      "std_logic                         "
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

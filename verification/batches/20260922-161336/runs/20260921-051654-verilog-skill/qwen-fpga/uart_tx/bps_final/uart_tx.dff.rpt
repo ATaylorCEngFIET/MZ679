@@ -1,0 +1,10 @@
+===============================
+Blue Pearl DFFs Report created on: Tue Sep 22 16:15:03 2026
+===============================
+4 D-type flip-flop registers:
+===============================
+uart_tx.current_state[3:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 31
+uart_tx.baud_counter[3:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+uart_tx.baud_tick type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 9
+uart_tx.shift_register[7:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 1
+===============================

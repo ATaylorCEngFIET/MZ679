@@ -1,0 +1,117 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:59+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "fifo",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv",
+  "sha256": "a24e717ae5bd2028528d0b80d24ef5d1e788c0854997d08aa31632690461c324",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen-fpga\\fifo\\bps_final",
+    "returncode": 101,
+    "seconds": 1.71,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 9,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VERI-1137",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/fifo.sv(47): syntax error near '='"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1281",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/fifo.sv(47): 'full' is not a type"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1281",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/fifo.sv(47): 'full' is not a type"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1281",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/fifo.sv(50): 'empty' is not a type"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1281",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/fifo.sv(50): 'empty' is not a type"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1072",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/fifo.sv(1): module 'sync_fifo' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen-fpga/fifo.sv}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

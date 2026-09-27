@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="DFFs" Created="Tue Sep 22 16:14:15 2026">
+    <Headers>
+        <Header Column="0" Name="Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="Data Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Clock Pin's Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <Row FileID="0" LineNum="26">
+        <Column Column="0" Data="counter4.s_count[3:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="3"/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260921-035335-vhdl-skill/qwen3-coder_30b/counter.vhd" id="0"/>
+    </FileIDs>
+</BluePearlReport>

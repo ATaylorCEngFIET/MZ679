@@ -1,0 +1,58 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:22:52+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "uart_tx",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv",
+  "sha256": "919b1a60ac302e3725bc6b136cfa898361d1ac0b249c1fe1eb6e82a8d2903bbf",
+  "interface_errors": [
+    "Missing required generic/parameter CLK_HZ",
+    "Missing required generic/parameter BAUD"
+  ],
+  "request_findings": [
+    "Required active-high rst port missing (reset adapted for behavioral testing)"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

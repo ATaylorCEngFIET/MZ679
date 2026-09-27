@@ -1,0 +1,170 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:13:47+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "uart_tx",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\uart_tx.vhd",
+  "sha256": "ff33450868cbb19315920b5ea000b84fa592fc861badd296205218e376926667",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_data",
+      "data",
+      "in",
+      "std_logic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "i_data_valid",
+      "data_valid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_tx",
+      "tx",
+      "out",
+      "std_logic"
+    ],
+    [
+      "o_busy",
+      "busy",
+      "out",
+      "std_logic                         "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\gemma4-fpga\\uart_tx\\bps_final",
+    "returncode": 101,
+    "seconds": 1.69,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 22,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(29): syntax error near 'ENUM'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(36): syntax error near 'END', expecting 'function'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1520",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(39): illegal use of incomplete type"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(41): 'c_clk_per_bit' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(53): 's_idle' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(66): 's_start' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(73): 's_data' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(72): 'c_clk_per_bit' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(72): 'c_clk_per_bit' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(83): 's_stop' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(82): 'c_clk_per_bit' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(82): 'c_clk_per_bit' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(92): 's_idle' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(91): 'c_clk_per_bit' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(91): 'c_clk_per_bit' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1036",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(59): case expression type 't_state_type' is not a discrete or 1-dimensional character array type"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1036",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(108): case expression type 't_state_type' is not a discrete or 1-dimensional character array type"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1432",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(36): missing full type definition for 't_state_type'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd(23): unit 'rtl' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/gemma4-fpga/uart_tx.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:53+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "axi_lite",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\axi_lite.vhd",
+  "sha256": "c9ebe847edfea9da2fdba1784924628415574693d760265220d1838ce26f0085",
+  "interface_errors": [],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3"
+  ],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_awaddr",
+      "awaddr",
+      "in",
+      "std_logic_vector(g_addr_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_awvalid",
+      "awvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_awready",
+      "awready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "i_wdata",
+      "wdata",
+      "in",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "i_wstrb",
+      "wstrb",
+      "in",
+      "std_logic_vector(3 DOWNTO 0)"
+    ],
+    [
+      "i_wvalid",
+      "wvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_wready",
+      "wready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "o_bvalid",
+      "bvalid",
+      "out",
+      "std_logic"
+    ],
+    [
+      "o_bresp",
+      "bresp",
+      "out",
+      "std_logic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "i_bready",
+      "bready",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_araddr",
+      "araddr",
+      "in",
+      "std_logic_vector(g_addr_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_arvalid",
+      "arvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_arready",
+      "arready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "o_rdata",
+      "rdata",
+      "out",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_rvalid",
+      "rvalid",
+      "out",
+      "std_logic"
+    ],
+    [
+      "o_rresp",
+      "rresp",
+      "out",
+      "std_logic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "i_rready",
+      "rready",
+      "in",
+      "std_logic"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 118,
+        "failures": 66,
+        "seconds": 19.23,
+        "returncode": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-051654-verilog-skill\qwen3.5_4b\counter\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 16:22:56 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL reset clears counter t=50000
+# CHECK_FAIL increment/hold/wrap/reset priority t=76000
+# CHECK_FAIL increment/hold/wrap/reset priority t=86000
+# CHECK_FAIL increment/hold/wrap/reset priority t=96000
+# CHECK_FAIL increment/hold/wrap/reset priority t=106000
+# CHECK_FAIL increment/hold/wrap/reset priority t=116000
+# CHECK_FAIL increment/hold/wrap/reset priority t=126000
+# CHECK_FAIL increment/hold/wrap/reset priority t=136000
+# CHECK_FAIL increment/hold/wrap/reset priority t=146000
+# CHECK_FAIL increment/hold/wrap/reset priority t=156000
+# CHECK_FAIL increment/hold/wrap/reset priority t=166000
+# CHECK_FAIL increment/hold/wrap/reset priority t=176000
+# CHECK_FAIL increment/hold/wrap/reset priority t=186000
+# CHECK_FAIL increment/hold/wrap/reset priority t=196000
+# CHECK_FAIL increment/hold/wrap/reset priority t=206000
+# CHECK_FAIL increment/hold/wrap/reset priority t=216000
+# CHECK_FAIL increment/hold/wrap/reset priority t=226000
+# CHECK_FAIL increment/hold/wrap/reset priority t=236000
+# CHECK_FAIL increment/hold/wrap/reset priority t=256000
+# CHECK_FAIL increment/hold/wrap/reset priority t=266000
+# CHECK_FAIL increment/hold/wrap/reset priority t=276000
+# CHECK_FAIL increment/hold/wrap/reset priority t=286000
+# CHECK_FAIL increment/hold/wrap/reset priority t=296000
+# CHECK_FAIL increment/hold/wrap/reset priority t=306000
+# CHECK_FAIL increment/hold/wrap/reset priority t=316000
+# CHECK_FAIL increment/hold/wrap/reset priority t=326000
+# CHECK_FAIL increment/hold/wrap/reset priority t=336000
+# CHECK_FAIL increment/hold/wrap/reset priority t=346000
+# CHECK_FAIL increment/hold/wrap/reset priority t=356000
+# CHECK_FAIL increment/hold/wrap/reset priority t=366000
+# CHECK_FAIL increment/hold/wrap/reset priority t=376000
+# CHECK_FAIL increment/hold/wrap/reset priority t=386000
+# CHECK_FAIL increment/hold/wrap/reset priority t=396000
+# CHECK_FAIL increment/hold/wrap/reset priority t=406000
+# CHECK_FAIL increment/hold/wrap/reset priority t=416000
+# CHECK_FAIL increment/hold/wrap/reset priority t=426000
+# CHECK_FAIL increment/hold/wrap/reset priority t=446000
+# CHECK_FAIL increment/hold/wrap/reset priority t=456000
+# CHECK_FAIL increment/hold/wrap/reset priority t=466000
+# CHECK_FAIL increment/hold/wrap/reset priority t=476000
+# CHECK_FAIL increment/hold/wrap/reset priority t=486000
+# CHECK_FAIL increment/hold/wrap/reset priority t=496000
+# CHECK_FAIL increment/hold/wrap/reset priority t=506000
+# CHECK_FAIL increment/hold/wrap/reset priority t=516000
+# CHECK_FAIL increment/hold/wrap/reset priority t=526000
+# CHECK_FAIL increment/hold/wrap/reset priority t=536000
+# CHECK_FAIL increment/hold/wrap/reset priority t=546000
+# CHECK_FAIL increment/hold/wrap/reset priority t=556000
+# CHECK_FAIL increment/hold/wrap/reset priority t=566000
+# CHECK_FAIL increment/hold/wrap/reset priority t=576000
+# CHECK_FAIL increment/hold/wrap/reset priority t=586000
+# CHECK_FAIL increment/hold/wrap/reset priority t=596000
+# CHECK_FAIL increment/hold/wrap/reset priority t=606000
+# CHECK_FAIL increment/hold/wrap/reset priority t=636000
+# CHECK_FAIL increment/hold/wrap/reset priority t=646000
+# CHECK_FAIL increment/hold/wrap/reset priority t=656000
+# CHECK_FAIL increment/hold/wrap/reset priority t=666000
+# CHECK_FAIL increment/hold/wrap/reset priority t=676000
+# CHECK_FAIL increment/hold/wrap/reset priority t=686000
+# CHECK_FAIL increment/hold/wrap/reset priority t=696000
+# CHECK_FAIL increment/hold/wrap/reset priority t=706000
+# CHECK_FAIL increment/hold/wrap/reset priority t=716000
+# CHECK_FAIL increment/hold/wrap/reset priority t=726000
+# CHECK_FAIL increment/hold/wrap/reset priority t=736000
+# CHECK_FAIL increment/hold/wrap/reset priority t=746000
+# CHECK_FAIL increment/hold/wrap/reset priority t=756000
+# CHECK_FAIL increment/hold/wrap/reset priority t=766000
+# CHECK_FAIL increment/hold/wrap/reset priority t=776000
+# CHECK_FAIL synchronous reset/clocked output t=782000
+# CHECK_FAIL increment/hold/wrap/reset priority t=786000
+# CHECK_FAIL increment/hold/wrap/reset priority t=796000
+# CHECK_FAIL increment/hold/wrap/reset priority t=806000
+# CHECK_FAIL increment/hold/wrap/reset priority t=816000
+# CHECK_FAIL increment/hold/wrap/reset priority t=826000
+# CHECK_FAIL increment/hold/wrap/reset priority t=836000
+# CHECK_FAIL increment/hold/wrap/reset priority t=846000
+# CHECK_FAIL increment/hold/wrap/reset priority t=856000
+# CHECK_FAIL increment/hold/wrap/reset priority t=866000
+# CHECK_FAIL increment/hold/wrap/reset priority t=876000
+# CHECK_FAIL increment/hold/wrap/reset priority t=886000
+# CHECK_FAIL increment/hold/wrap/reset priority t=896000
+# CHECK_FAIL increment/hold/wrap/reset priority t=906000
+# CHECK_FAIL increment/hold/wrap/reset priority t=916000
+# CHECK_FAIL increment/hold/wrap/reset priority t=926000
+# CHECK_FAIL increment/hold/wrap/reset priority t=936000
+# CHECK_FAIL increment/hold/wrap/reset priority t=946000
+# CHECK_FAIL increment/hold/wrap/reset priority t=966000
+# CHECK_FAIL increment/hold/wrap/reset priority t=976000
+# CHECK_FAIL increment/hold/wrap/reset priority t=986000
+# CHECK_FAIL increment/hold/wrap/reset priority t=996000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1006000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1016000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1026000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1036000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1046000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1056000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1066000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1076000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1086000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1096000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1106000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1116000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1126000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1136000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1156000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1166000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1176000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1196000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1206000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1216000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1226000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1236000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1246000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1256000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1266000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1276000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1286000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1296000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1306000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1316000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1326000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1336000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1346000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1356000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1376000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1386000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1396000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1406000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1416000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1426000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1436000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1446000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1456000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1466000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1476000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1486000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1496000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1506000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1516000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1526000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1536000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1546000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1566000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1576000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1586000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1596000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1606000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1616000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1626000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1636000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1646000
+# CHECK_FAIL increment/hold/wrap/reset priority t=1656000
+# RESULT checks=321 failures=152
+# ** Note: $finish    : tb.sv(13)
+#    Time: 1656 ns  Iteration: 0  Instance: /tb
+# End time: 16:23:07 on Sep 22,2026, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

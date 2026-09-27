@@ -1,0 +1,65 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:13+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\fifo.vhd",
+  "sha256": "6b28ae1eb917b5e24e118e1e7947a23b2453c058471d0b38f838e9a630483c63",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_wr_en",
+      "wr_en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_wr_data",
+      "wr_data",
+      "in",
+      "std_logic_vector(g_width-1 downto 0)"
+    ],
+    [
+      "i_rd_en",
+      "rd_en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_rd_data",
+      "rd_data",
+      "out",
+      "std_logic_vector(g_width-1 downto 0)"
+    ],
+    [
+      "o_full",
+      "full",
+      "out",
+      "std_logic"
+    ],
+    [
+      "o_empty",
+      "empty",
+      "out",
+      "std_logic                   "
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

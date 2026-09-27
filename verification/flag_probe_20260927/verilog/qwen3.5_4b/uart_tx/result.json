@@ -1,0 +1,30 @@
+{
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "uart_tx",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv",
+  "sha256": "919b1a60ac302e3725bc6b136cfa898361d1ac0b249c1fe1eb6e82a8d2903bbf",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vlog",
+    "-sv",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: (vlog-13069) C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(30): near \"logic\": syntax error, unexpected \"SystemVerilog keyword 'logic'\", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(38): (vlog-2730) Undefined variable: 'baud_counter'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(42): (vlog-2730) Undefined variable: 'state_reg'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(43): (vlog-2730) Undefined variable: 'data_valid_reg'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(44): (vlog-2730) Undefined variable: 'data_reg'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(45): (vlog-2730) Undefined variable: 'busy_reg'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(46): (vlog-2730) Undefined variable: 'tx_reg'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(138): (vlog-2730) Undefined variable: 'tx_reg'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv(139): (vlog-2730) Undefined variable: 'busy_reg'."
+  ],
+  "directory": "flag_probe_20260927\\verilog\\qwen3.5_4b\\uart_tx"
+}

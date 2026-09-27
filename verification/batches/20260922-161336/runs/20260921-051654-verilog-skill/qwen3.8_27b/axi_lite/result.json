@@ -1,0 +1,165 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:23:29+0100",
+  "language": "verilog",
+  "model": "qwen3.8_27b",
+  "task": "axi_lite",
+  "source": "20260921-051654-verilog-skill\\qwen3.8_27b\\axi_lite.sv",
+  "sha256": "0746590de5c360e2afc9fbd0a7e020d3af4ccbaf055a0a91954c8fec19f345c5",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "awvalid",
+      "awvalid",
+      "in",
+      ""
+    ],
+    [
+      "awready",
+      "awready",
+      "out",
+      ""
+    ],
+    [
+      "awaddr",
+      "awaddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "wvalid",
+      "wvalid",
+      "in",
+      ""
+    ],
+    [
+      "wready",
+      "wready",
+      "out",
+      ""
+    ],
+    [
+      "wdata",
+      "wdata",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "wstrb",
+      "wstrb",
+      "in",
+      "[3:0]"
+    ],
+    [
+      "bvalid",
+      "bvalid",
+      "out",
+      ""
+    ],
+    [
+      "bready",
+      "bready",
+      "in",
+      ""
+    ],
+    [
+      "bresp",
+      "bresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "arvalid",
+      "arvalid",
+      "in",
+      ""
+    ],
+    [
+      "arready",
+      "arready",
+      "out",
+      ""
+    ],
+    [
+      "araddr",
+      "araddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "rvalid",
+      "rvalid",
+      "out",
+      ""
+    ],
+    [
+      "rready",
+      "rready",
+      "in",
+      ""
+    ],
+    [
+      "rdata",
+      "rdata",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "rresp",
+      "rresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "reg0",
+      "reg0",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg1",
+      "reg1",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg2",
+      "reg2",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg3",
+      "reg3",
+      "out",
+      "[31:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 160,
+        "failures": 32,
+        "seconds": 28.7,
+        "returncode": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+===============================
+Blue Pearl Latches Report created on: Tue Sep 22 16:15:09 2026
+===============================
+5 D-type latch registers:
+===============================
+axil_regs.aw_valid_reg type D-latch Data Clock Domain:  Clock Pin's Domain: clk_group Fanout: 0
+axil_regs.w_valid_reg type D-latch Data Clock Domain:  Clock Pin's Domain: clk_group Fanout: 1
+axil_regs.b_valid_reg type D-latch Data Clock Domain:  Clock Pin's Domain: clk_group Fanout: 0
+axil_regs.ar_valid_reg type D-latch Data Clock Domain:  Clock Pin's Domain: clk_group Fanout: 1
+axil_regs.r_valid_reg type D-latch Data Clock Domain:  Clock Pin's Domain: clk_group Fanout: 0
+===============================

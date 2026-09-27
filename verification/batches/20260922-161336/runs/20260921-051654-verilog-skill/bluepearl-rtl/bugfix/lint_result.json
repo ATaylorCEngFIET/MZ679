@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:34+0100",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "task": "bugfix",
+  "source": "20260921-051654-verilog-skill\\bluepearl-rtl\\bugfix.sv",
+  "sha256": "a5bcca74974bd2cf1ba77c6d1127cfe097ad7469bfabd682d6e3302794251a7d",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      ""
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "[7:0]"
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\bluepearl-rtl\\bugfix\\bps_final",
+    "returncode": 0,
+    "seconds": 1.87,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

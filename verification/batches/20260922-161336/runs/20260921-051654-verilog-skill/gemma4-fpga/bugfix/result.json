@@ -1,0 +1,63 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:19:16+0100",
+  "language": "verilog",
+  "model": "gemma4-fpga",
+  "task": "bugfix",
+  "source": "20260921-051654-verilog-skill\\gemma4-fpga\\bugfix.sv",
+  "sha256": "3785cffdc530e77248327aa17b86ac3beda325c9bec6411a9d8334de14b022ad",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      ""
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "[7:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 513,
+        "failures": 0,
+        "seconds": 18.47,
+        "returncode": 0
+      }
+    ]
+  }
+}

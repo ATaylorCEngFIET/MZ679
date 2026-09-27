@@ -1,0 +1,71 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:19:35+0100",
+  "language": "verilog",
+  "model": "gemma4-fpga",
+  "task": "uart_tx",
+  "source": "20260921-051654-verilog-skill\\gemma4-fpga\\uart_tx.sv",
+  "sha256": "e7bf4e87ff0568e112e7412e45bac2f70f6fc9b69a72c46398f5d21e661f0b3f",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "data_in",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 624,
+        "failures": 0,
+        "seconds": 18.47,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "PASS",
+        "checks": 1004,
+        "failures": 0,
+        "seconds": 18.4,
+        "returncode": 0
+      }
+    ]
+  }
+}

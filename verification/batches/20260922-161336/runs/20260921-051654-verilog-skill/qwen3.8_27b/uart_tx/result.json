@@ -1,0 +1,71 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:24:04+0100",
+  "language": "verilog",
+  "model": "qwen3.8_27b",
+  "task": "uart_tx",
+  "source": "20260921-051654-verilog-skill\\qwen3.8_27b\\uart_tx.sv",
+  "sha256": "4ede34f0bf35673371c19ac7df47fdcdcd1ee3c87def017b6441d7d6bb6a006c",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 624,
+        "failures": 256,
+        "seconds": 18.48,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "FAIL",
+        "checks": 1004,
+        "failures": 416,
+        "seconds": 18.35,
+        "returncode": 0
+      }
+    ]
+  }
+}

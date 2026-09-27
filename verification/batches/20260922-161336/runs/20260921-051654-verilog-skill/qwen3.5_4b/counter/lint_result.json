@@ -1,0 +1,60 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:16+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "counter",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\counter.sv",
+  "sha256": "83889a5410e188b3f651cf9a71f3ca1418c44f08913a75432c1c1093ba68f04f",
+  "interface_errors": [],
+  "request_findings": [
+    "Required active-high rst port missing (reset adapted for behavioral testing)"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "en",
+      "en",
+      "in",
+      ""
+    ],
+    [
+      "count",
+      "count",
+      "out",
+      "[3:0]"
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen3.5_4b\\counter\\bps_final",
+    "returncode": 0,
+    "seconds": 1.86,
+    "status": "COMPLETE",
+    "warnings": 2,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/counter.sv(13): Module: 'counter4' The asynchronous reset signal 'counter4.rst_n' is not synchronously deasserted for the following register: 'counter4.count'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/counter.sv(13): Module: 'counter4' Asynchronous preset/clear used with register: counter4.count."
+      }
+    ]
+  }
+}

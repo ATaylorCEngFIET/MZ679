@@ -1,0 +1,17 @@
+===============================
+Blue Pearl DFFs Report created on: Tue Sep 22 16:15:09 2026
+===============================
+11 D-type flip-flop registers:
+===============================
+axil_regs.current_state[2:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 16
+axil_regs.aw_addr_reg[31:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 17
+axil_regs.w_data_reg[31:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 4
+axil_regs.w_strb_reg[3:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 32
+axil_regs.reg0[31:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+axil_regs.reg1[31:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+axil_regs.reg2[31:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+axil_regs.reg3[31:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+axil_regs.ar_addr_reg[31:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 5
+axil_regs.r_data_reg[31:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+axil_regs.r_resp_reg[1:0] type reset Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+===============================

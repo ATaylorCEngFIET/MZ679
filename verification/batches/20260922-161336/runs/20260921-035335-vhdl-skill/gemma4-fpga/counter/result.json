@@ -1,0 +1,53 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:13+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "counter",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\counter.vhd",
+  "sha256": "b275c977fcd64102a2184e680667d0929ceb71026733e8f7b6639caa263e6e41",
+  "interface_errors": [],
+  "request_findings": [
+    "count output is not declared unsigned; JSON requests unsigned output"
+  ],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_en",
+      "en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_count",
+      "count",
+      "out",
+      "std_logic_vector(3 downto 0)            "
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 321,
+        "failures": 0,
+        "seconds": 19.16,
+        "returncode": 0
+      }
+    ]
+  }
+}

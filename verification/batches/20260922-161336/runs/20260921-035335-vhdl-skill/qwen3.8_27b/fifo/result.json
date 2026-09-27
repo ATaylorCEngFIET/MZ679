@@ -1,0 +1,65 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:18:14+0100",
+  "language": "vhdl",
+  "model": "qwen3.8_27b",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\qwen3.8_27b\\fifo.vhd",
+  "sha256": "c54d65d964e8a75dbecae846a6cf140987239ced06b3030aee4c61854bcc2aff",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_en",
+      "wr_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_data",
+      "wr_data",
+      "in",
+      "std_ulogic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_rd_en",
+      "rd_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_rd_data",
+      "rd_data",
+      "out",
+      "std_ulogic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_full",
+      "full",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_empty",
+      "empty",
+      "out",
+      "std_ulogic"
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

@@ -1,0 +1,10 @@
+QuestaSim Base Edition-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 16:22:52 on Sep 22,2026
+vlog -sv -work work C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\fifo.sv 
+** Note: (vlog-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Compiling module sync_fifo
+** Error: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\fifo.sv(5): (vlog-2730) Undefined variable: 'WIDTH'.
+** Error (suppressible): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\fifo.sv(5): (vlog-2388) 'wr_data' already declared in this scope (sync_fifo) at C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\fifo.sv(5).
+** Error: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\fifo.sv(5): (vlog-13294) Identifier must be declared with a port mode: wr_data.
+End time: 16:22:52 on Sep 22,2026, Elapsed time: 0:00:00
+Errors: 3, Warnings: 0

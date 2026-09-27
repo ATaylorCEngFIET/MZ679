@@ -1,0 +1,23 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-035335-vhdl-skill\bluepearl-rtl\axi_lite\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 16:14:30 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+
+# Loading sv_std.std
+# Loading work.tb(fast)
+# ** Error: License checkout has been disallowed because
+# only one session is allowed to run on an uncounted nodelocked
+# license and an instance of QuestaSim is already running with a
+# nodelocked license on this machine.
+# ** Fatal: (vsim-3039) Instantiation of 'axil_regs' failed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: tb.sv Line: 19
+# FATAL ERROR while loading design
+# Error loading design
+Error loading design
+# End time: 16:14:54 on Sep 22,2026, Elapsed time: 0:00:24
+# Errors: 2, Warnings: 0

@@ -1,0 +1,220 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:17+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "uart_tx",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx.sv",
+  "sha256": "919b1a60ac302e3725bc6b136cfa898361d1ac0b249c1fe1eb6e82a8d2903bbf",
+  "interface_errors": [
+    "Missing required generic/parameter CLK_HZ",
+    "Missing required generic/parameter BAUD"
+  ],
+  "request_findings": [
+    "Required active-high rst port missing (reset adapted for behavioral testing)"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen3.5_4b\\uart_tx\\bps_final",
+    "returncode": 101,
+    "seconds": 2.2,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 31,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VERI-1137",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(30): syntax error near 'logic'"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-2344",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(30): SystemVerilog keyword 'logic' used in incorrect context"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(38): 'baud_counter' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(42): 'state_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(43): 'data_valid_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(44): 'data_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(45): 'busy_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(46): 'tx_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(49): 'state_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(50): 'data_valid_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(51): 'data_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(52): 'busy_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(53): 'baud_counter' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(55): 'state_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(57): 'data_valid_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(58): 'state_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(59): 'data_valid_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(60): 'data_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(61): 'busy_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(65): 'state_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(69): 'state_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(70): 'tx_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(70): 'data_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(75): 'state_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(76): 'tx_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(76): 'data_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(81): 'state_reg' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1072",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(1): module 'uart_tx' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

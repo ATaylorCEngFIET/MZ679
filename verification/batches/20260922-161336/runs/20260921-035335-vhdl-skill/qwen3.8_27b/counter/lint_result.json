@@ -1,0 +1,49 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:30+0100",
+  "language": "vhdl",
+  "model": "qwen3.8_27b",
+  "task": "counter",
+  "source": "20260921-035335-vhdl-skill\\qwen3.8_27b\\counter.vhd",
+  "sha256": "e39d176f217a9d061edcb71e1bf6b177f34d1e0f1046d34373f2dc3fff34110b",
+  "interface_errors": [],
+  "request_findings": [
+    "count output is not declared unsigned; JSON requests unsigned output"
+  ],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_en",
+      "en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_count",
+      "count",
+      "out",
+      "std_ulogic_vector(3 DOWNTO 0)   "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3.8_27b\\counter\\bps_final",
+    "returncode": 0,
+    "seconds": 2.08,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

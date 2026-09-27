@@ -1,0 +1,146 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:20:58+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "axi_lite",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv",
+  "sha256": "8dfe4773f55969f58aa8ce41d361aa13dacf2ee61e219e9319444e88da5ea4c2",
+  "interface_errors": [],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "awvalid",
+      "awvalid",
+      "in",
+      ""
+    ],
+    [
+      "awready",
+      "awready",
+      "out",
+      ""
+    ],
+    [
+      "awaddr",
+      "awaddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "awprot",
+      "awprot",
+      "in",
+      "[1:0]"
+    ],
+    [
+      "wvalid",
+      "wvalid",
+      "in",
+      ""
+    ],
+    [
+      "wready",
+      "wready",
+      "out",
+      ""
+    ],
+    [
+      "wdata",
+      "wdata",
+      "in",
+      "[DATA_WIDTH-1:0]"
+    ],
+    [
+      "wstrb",
+      "wstrb",
+      "in",
+      "[DATA_WIDTH/8-1:0]"
+    ],
+    [
+      "bvalid",
+      "bvalid",
+      "out",
+      ""
+    ],
+    [
+      "bready",
+      "bready",
+      "in",
+      ""
+    ],
+    [
+      "bresp",
+      "bresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "arvalid",
+      "arvalid",
+      "in",
+      ""
+    ],
+    [
+      "arready",
+      "arready",
+      "out",
+      ""
+    ],
+    [
+      "araddr",
+      "araddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "rvalid",
+      "rvalid",
+      "out",
+      ""
+    ],
+    [
+      "rready",
+      "rready",
+      "in",
+      ""
+    ],
+    [
+      "rdata",
+      "rdata",
+      "out",
+      "[DATA_WIDTH-1:0]"
+    ],
+    [
+      "rresp",
+      "rresp",
+      "out",
+      "[1:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "ELAB_OR_TOOL_FAIL",
+        "checks": 0,
+        "failures": null,
+        "seconds": 8.46,
+        "returncode": 12
+      }
+    ]
+  }
+}

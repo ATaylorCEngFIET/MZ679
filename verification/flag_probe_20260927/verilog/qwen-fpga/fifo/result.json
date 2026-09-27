@@ -1,0 +1,23 @@
+{
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "fifo",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv",
+  "sha256": "a24e717ae5bd2028528d0b80d24ef5d1e788c0854997d08aa31632690461c324",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vlog",
+    "-sv",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: (vlog-13069) C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv(47): near \"=\": syntax error, unexpected '='.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\fifo.sv(47): (vlog-13205) Syntax error found in the scope following 'full'. Is there a missing '::'?"
+  ],
+  "directory": "flag_probe_20260927\\verilog\\qwen-fpga\\fifo"
+}

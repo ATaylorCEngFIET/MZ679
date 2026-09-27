@@ -1,0 +1,75 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:38+0100",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "task": "uart_tx",
+  "source": "20260921-051654-verilog-skill\\bluepearl-rtl\\uart_tx.sv",
+  "sha256": "d696910044c9139a9184e92b867aa854e73951ce810911c0de32ab2433a7bc6e",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\bluepearl-rtl\\uart_tx\\bps_final",
+    "returncode": 0,
+    "seconds": 2.12,
+    "status": "COMPLETE",
+    "warnings": 3,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "VERI-9001",
+        "message": "../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/uart_tx.sv(2): expression 'CLK_HZ' size 26 truncated to fit in target size 1"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-9001",
+        "message": "../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/uart_tx.sv(3): expression 'BAUD' size 17 truncated to fit in target size 1"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1190",
+        "message": "../../../../../../../20260921-051654-verilog-skill/bluepearl-rtl/uart_tx.sv(13): attempt to divide by 0; returning x"
+      }
+    ]
+  }
+}

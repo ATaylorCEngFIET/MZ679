@@ -1,0 +1,11 @@
+QuestaSim Base Edition-64 vcom 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 16:24:26 on Sep 22,2026
+vcom -2008 -work work C:\hdl_projects\ai_on_prem\20260921-062307-vhdl-skill\qwen3.8-flash-next\bugfix.vhd 
+** Note: (vcom-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_reg
+-- Compiling architecture rtl of mux_reg
+End time: 16:24:26 on Sep 22,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

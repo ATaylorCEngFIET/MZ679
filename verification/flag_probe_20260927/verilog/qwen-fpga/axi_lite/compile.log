@@ -1,0 +1,10 @@
+QuestaSim Base Edition-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 13:23:09 on Sep 27,2026
+vlog -sv -permissive -work work C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\axi_lite.sv 
+** Note: (vlog-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Compiling module axil_regs
+
+Top level modules:
+	axil_regs
+End time: 13:23:09 on Sep 27,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

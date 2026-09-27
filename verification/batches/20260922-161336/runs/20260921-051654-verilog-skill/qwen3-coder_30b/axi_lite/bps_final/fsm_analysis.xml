@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="axil_regs(current_state-next_state)" Language="Verilog" SingleProcess="No" CurrStateVar="current_state" NextStateVar="next_state" ResetState="IDLE" FileID="0" LineNum="167">
+            <States NumStates="5">
+                <State Name="IDLE" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="168">
+                    <Transition To="WRITE_ADDR" FileID="0" LineNum="170"/>
+                    <Transition To="READ_ADDR" FileID="0" LineNum="172"/>
+                </State>
+                <State Name="WRITE_ADDR" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="176">
+                    <Transition To="WRITE_DATA" FileID="0" LineNum="178"/>
+                </State>
+                <State Name="WRITE_DATA" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="182">
+                    <Transition To="IDLE" FileID="0" LineNum="184"/>
+                </State>
+                <State Name="READ_ADDR" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="188">
+                    <Transition To="READ_DATA" FileID="0" LineNum="190"/>
+                </State>
+                <State Name="READ_DATA" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="194">
+                    <Transition To="IDLE" FileID="0" LineNum="196"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

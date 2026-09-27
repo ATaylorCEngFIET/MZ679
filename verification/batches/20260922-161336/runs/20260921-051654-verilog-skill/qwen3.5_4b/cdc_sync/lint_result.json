@@ -1,0 +1,80 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:15+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "cdc_sync",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\cdc_sync.sv",
+  "sha256": "7b2c1f0cd22c6be16fed7ed3734ed2cc6850c6b7564fc30c418e30bff5d1d633",
+  "interface_errors": [
+    "Missing required generic/parameter STAGES"
+  ],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk_src",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n_src",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "in_bit",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "out_bit",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen3.5_4b\\cdc_sync\\bps_final",
+    "returncode": 101,
+    "seconds": 1.89,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 6,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VERI-1348",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/cdc_sync.sv(44): an enum variable may only be assigned the same enum typed variable or one of its values"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1348",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/cdc_sync.sv(64): an enum variable may only be assigned the same enum typed variable or one of its values"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1072",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/cdc_sync.sv(1): module 'cdc_sync' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/cdc_sync.sv}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

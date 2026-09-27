@@ -1,0 +1,83 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:28+0100",
+  "language": "vhdl",
+  "model": "qwen3.8_27b",
+  "task": "cdc_sync",
+  "source": "20260921-035335-vhdl-skill\\qwen3.8_27b\\cdc_sync.vhd",
+  "sha256": "e123d6659a13c2a313377665a9071a2f8107db9a51df029e74b50b9b44dc968e",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_data",
+      "din",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_data",
+      "dout",
+      "out",
+      "std_ulogic                     "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3.8_27b\\cdc_sync\\bps_final",
+    "returncode": 101,
+    "seconds": 1.87,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 7,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.8_27b/cdc_sync.vhd(24): syntax error near 'ATTRIBUTE'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1223",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.8_27b/cdc_sync.vhd(24): 's_sync' is already declared in this region"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1276",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.8_27b/cdc_sync.vhd(24): type ' void' does not match with a string literal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3.8_27b/cdc_sync.vhd(20): unit 'rtl' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen3.8_27b/cdc_sync.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

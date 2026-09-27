@@ -1,0 +1,26 @@
+{
+  "language": "vhdl",
+  "model": "qwen3-coder_30b",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd",
+  "sha256": "53a468abb62f96fa13912fe647f26e25ec60d2431dd1e6d2a500fa460c3d9167",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vcom",
+    "-2008",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(31): (vcom-1600) No feasible entries for subprogram \"LOG2\".",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(72): (vcom-1581) No feasible entries for infix operator 'and'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(72): Type error resolving infix expression \"and\" as type ieee.std_logic_1164.STD_ULOGIC.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(74): (vcom-1581) No feasible entries for infix operator 'and'.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\fifo.vhd(74): Type error resolving infix expression \"and\" as type ieee.std_logic_1164.STD_ULOGIC."
+  ],
+  "directory": "flag_probe_20260927\\vhdl\\qwen3-coder_30b\\fifo"
+}

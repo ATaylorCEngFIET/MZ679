@@ -1,0 +1,112 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:13:41+0100",
+  "language": "vhdl",
+  "model": "bluepearl-rtl",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\bluepearl-rtl\\fifo.vhd",
+  "sha256": "9dc1cb526ac6cfb235efec9e493ce44309218d47c24d714a3a9aa5a700c50225",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_en",
+      "wr_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_data",
+      "wr_data",
+      "in",
+      "std_ulogic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_rd_en",
+      "rd_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_rd_data",
+      "rd_data",
+      "out",
+      "std_ulogic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_full",
+      "full",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_empty",
+      "empty",
+      "out",
+      "std_ulogic              "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\bluepearl-rtl\\fifo\\bps_final",
+    "returncode": 0,
+    "seconds": 1.93,
+    "status": "COMPLETE",
+    "warnings": 8,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/fifo.vhd(35): Module: 'sync_fifo(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/fifo.vhd(36): Module: 'sync_fifo(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/fifo.vhd(37): Module: 'sync_fifo(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/fifo.vhd(38): Module: 'sync_fifo(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/fifo.vhd(39): Module: 'sync_fifo(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/fifo.vhd(40): Module: 'sync_fifo(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0552",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/fifo.vhd(40): Module: 'sync_fifo(rtl)' Signal 'sync_fifo(rtl).s_depth_u' has initial value assigned via declaration."
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1794",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/fifo.vhd(40): using initial value for 's_depth_u' since it is never assigned"
+      }
+    ]
+  }
+}

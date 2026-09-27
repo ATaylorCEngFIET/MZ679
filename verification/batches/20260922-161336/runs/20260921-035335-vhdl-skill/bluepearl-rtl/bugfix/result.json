@@ -1,0 +1,63 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:22+0100",
+  "language": "vhdl",
+  "model": "bluepearl-rtl",
+  "task": "bugfix",
+  "source": "20260921-035335-vhdl-skill\\bluepearl-rtl\\bugfix.vhd",
+  "sha256": "180ae3e850e3a494904b4dafca8d87c42afa41cd835464620b3f42771a35a0ad",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_sel",
+      "sel",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_a",
+      "a",
+      "in",
+      "std_ulogic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "i_b",
+      "b",
+      "in",
+      "std_ulogic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "o_q",
+      "q",
+      "out",
+      "std_ulogic_vector(7 DOWNTO 0)   "
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 513,
+        "failures": 0,
+        "seconds": 30.66,
+        "returncode": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:22:48+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "counter",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\counter.sv",
+  "sha256": "83889a5410e188b3f651cf9a71f3ca1418c44f08913a75432c1c1093ba68f04f",
+  "interface_errors": [],
+  "request_findings": [
+    "Required active-high rst port missing (reset adapted for behavioral testing)"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "en",
+      "en",
+      "in",
+      ""
+    ],
+    [
+      "count",
+      "count",
+      "out",
+      "[3:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 321,
+        "failures": 152,
+        "seconds": 18.44,
+        "returncode": 0
+      }
+    ]
+  }
+}

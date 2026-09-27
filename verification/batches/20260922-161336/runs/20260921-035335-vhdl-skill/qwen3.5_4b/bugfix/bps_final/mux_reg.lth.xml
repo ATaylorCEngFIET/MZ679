@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Latches" Created="Tue Sep 22 16:14:19 2026">
+    <Headers>
+        <Header Column="0" Name="Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="Data Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Clock Pin's Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <Row FileID="0" LineNum="23">
+        <Column Column="0" Data="mux_reg.s_muxed_data[7:0]"/>
+        <Column Column="1" Data="D-latch register"/>
+        <Column Column="2" Data=""/>
+        <Column Column="3" Data=""/>
+        <Column Column="4" Data="0"/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260921-035335-vhdl-skill/qwen3.5_4b/bugfix.vhd" id="0"/>
+    </FileIDs>
+</BluePearlReport>

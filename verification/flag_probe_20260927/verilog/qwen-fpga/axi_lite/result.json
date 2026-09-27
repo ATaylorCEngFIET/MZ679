@@ -1,0 +1,37 @@
+{
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "axi_lite",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv",
+  "sha256": "8dfe4773f55969f58aa8ce41d361aa13dacf2ee61e219e9319444e88da5ea4c2",
+  "baseline": "ELABORATION_FAIL",
+  "compile_command": [
+    "vlog",
+    "-sv",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv"
+  ],
+  "compile_returncode": 0,
+  "compile_pass": true,
+  "diagnostics": [],
+  "directory": "flag_probe_20260927\\verilog\\qwen-fpga\\axi_lite",
+  "tb_compile_returncode": 0,
+  "optimize_command": [
+    "vopt",
+    "-permissive",
+    "work.tb",
+    "-o",
+    "tb_relaxed"
+  ],
+  "optimize_returncode": 0,
+  "optimize_pass": true,
+  "optimize_diagnostics": [
+    "** Warning: tb.sv(19): (vopt-2241) Connection width does not match width of port 'awprot'. The port definition is at: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(9).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(121): (vopt-7033) Variable 'rdata' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(60).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(122): (vopt-7033) Variable 'rresp' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(61).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(124): (vopt-7033) Variable 'rdata' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(60).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(125): (vopt-7033) Variable 'rresp' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen-fpga\\axi_lite.sv(61)."
+  ]
+}

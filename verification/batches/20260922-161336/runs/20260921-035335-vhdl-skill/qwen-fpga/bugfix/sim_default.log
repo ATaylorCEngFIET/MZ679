@@ -1,0 +1,295 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-035335-vhdl-skill\qwen-fpga\bugfix\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 16:16:20 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mux_reg(rtl)#1
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL output and reset synchronous t=62000
+# CHECK_FAIL output and reset synchronous t=72000
+# CHECK_FAIL output and reset synchronous t=82000
+# CHECK_FAIL output and reset synchronous t=92000
+# CHECK_FAIL output and reset synchronous t=102000
+# CHECK_FAIL output and reset synchronous t=112000
+# CHECK_FAIL output and reset synchronous t=122000
+# CHECK_FAIL output and reset synchronous t=132000
+# CHECK_FAIL output and reset synchronous t=142000
+# CHECK_FAIL output and reset synchronous t=152000
+# CHECK_FAIL output and reset synchronous t=162000
+# CHECK_FAIL output and reset synchronous t=172000
+# CHECK_FAIL output and reset synchronous t=182000
+# CHECK_FAIL output and reset synchronous t=192000
+# CHECK_FAIL output and reset synchronous t=202000
+# CHECK_FAIL output and reset synchronous t=212000
+# CHECK_FAIL output and reset synchronous t=222000
+# CHECK_FAIL output and reset synchronous t=232000
+# CHECK_FAIL output and reset synchronous t=242000
+# CHECK_FAIL output and reset synchronous t=252000
+# CHECK_FAIL output and reset synchronous t=262000
+# CHECK_FAIL output and reset synchronous t=272000
+# CHECK_FAIL output and reset synchronous t=282000
+# CHECK_FAIL output and reset synchronous t=292000
+# CHECK_FAIL output and reset synchronous t=302000
+# CHECK_FAIL output and reset synchronous t=312000
+# CHECK_FAIL output and reset synchronous t=322000
+# CHECK_FAIL output and reset synchronous t=332000
+# CHECK_FAIL output and reset synchronous t=342000
+# CHECK_FAIL output and reset synchronous t=352000
+# CHECK_FAIL output and reset synchronous t=362000
+# CHECK_FAIL output and reset synchronous t=372000
+# CHECK_FAIL output and reset synchronous t=382000
+# CHECK_FAIL output and reset synchronous t=392000
+# CHECK_FAIL registered mux both paths t=396000
+# CHECK_FAIL output and reset synchronous t=402000
+# CHECK_FAIL output and reset synchronous t=412000
+# CHECK_FAIL output and reset synchronous t=422000
+# CHECK_FAIL output and reset synchronous t=432000
+# CHECK_FAIL output and reset synchronous t=442000
+# CHECK_FAIL output and reset synchronous t=452000
+# CHECK_FAIL output and reset synchronous t=462000
+# CHECK_FAIL output and reset synchronous t=472000
+# CHECK_FAIL output and reset synchronous t=482000
+# CHECK_FAIL output and reset synchronous t=492000
+# CHECK_FAIL output and reset synchronous t=502000
+# CHECK_FAIL output and reset synchronous t=512000
+# CHECK_FAIL output and reset synchronous t=522000
+# CHECK_FAIL output and reset synchronous t=532000
+# CHECK_FAIL output and reset synchronous t=542000
+# CHECK_FAIL output and reset synchronous t=552000
+# CHECK_FAIL output and reset synchronous t=562000
+# CHECK_FAIL output and reset synchronous t=572000
+# CHECK_FAIL output and reset synchronous t=582000
+# CHECK_FAIL output and reset synchronous t=592000
+# CHECK_FAIL output and reset synchronous t=602000
+# CHECK_FAIL output and reset synchronous t=612000
+# CHECK_FAIL output and reset synchronous t=622000
+# CHECK_FAIL output and reset synchronous t=632000
+# CHECK_FAIL output and reset synchronous t=642000
+# CHECK_FAIL output and reset synchronous t=652000
+# CHECK_FAIL output and reset synchronous t=662000
+# CHECK_FAIL output and reset synchronous t=672000
+# CHECK_FAIL output and reset synchronous t=682000
+# CHECK_FAIL output and reset synchronous t=692000
+# CHECK_FAIL output and reset synchronous t=702000
+# CHECK_FAIL output and reset synchronous t=712000
+# CHECK_FAIL output and reset synchronous t=722000
+# CHECK_FAIL output and reset synchronous t=732000
+# CHECK_FAIL output and reset synchronous t=742000
+# CHECK_FAIL output and reset synchronous t=752000
+# CHECK_FAIL output and reset synchronous t=762000
+# CHECK_FAIL output and reset synchronous t=772000
+# CHECK_FAIL output and reset synchronous t=782000
+# CHECK_FAIL output and reset synchronous t=792000
+# CHECK_FAIL output and reset synchronous t=802000
+# CHECK_FAIL output and reset synchronous t=812000
+# CHECK_FAIL output and reset synchronous t=822000
+# CHECK_FAIL output and reset synchronous t=832000
+# CHECK_FAIL output and reset synchronous t=842000
+# CHECK_FAIL output and reset synchronous t=852000
+# CHECK_FAIL output and reset synchronous t=862000
+# CHECK_FAIL output and reset synchronous t=872000
+# CHECK_FAIL output and reset synchronous t=882000
+# CHECK_FAIL output and reset synchronous t=892000
+# CHECK_FAIL output and reset synchronous t=902000
+# CHECK_FAIL output and reset synchronous t=912000
+# CHECK_FAIL output and reset synchronous t=922000
+# CHECK_FAIL output and reset synchronous t=932000
+# CHECK_FAIL output and reset synchronous t=942000
+# CHECK_FAIL output and reset synchronous t=952000
+# CHECK_FAIL output and reset synchronous t=962000
+# CHECK_FAIL output and reset synchronous t=972000
+# CHECK_FAIL output and reset synchronous t=982000
+# CHECK_FAIL output and reset synchronous t=992000
+# CHECK_FAIL output and reset synchronous t=1002000
+# CHECK_FAIL output and reset synchronous t=1012000
+# CHECK_FAIL output and reset synchronous t=1022000
+# CHECK_FAIL output and reset synchronous t=1032000
+# CHECK_FAIL output and reset synchronous t=1042000
+# CHECK_FAIL output and reset synchronous t=1052000
+# CHECK_FAIL output and reset synchronous t=1062000
+# CHECK_FAIL output and reset synchronous t=1072000
+# CHECK_FAIL output and reset synchronous t=1082000
+# CHECK_FAIL output and reset synchronous t=1092000
+# CHECK_FAIL output and reset synchronous t=1102000
+# CHECK_FAIL output and reset synchronous t=1112000
+# CHECK_FAIL output and reset synchronous t=1122000
+# CHECK_FAIL output and reset synchronous t=1132000
+# CHECK_FAIL output and reset synchronous t=1142000
+# CHECK_FAIL output and reset synchronous t=1152000
+# CHECK_FAIL output and reset synchronous t=1162000
+# CHECK_FAIL output and reset synchronous t=1172000
+# CHECK_FAIL output and reset synchronous t=1182000
+# CHECK_FAIL output and reset synchronous t=1192000
+# CHECK_FAIL output and reset synchronous t=1202000
+# CHECK_FAIL output and reset synchronous t=1212000
+# CHECK_FAIL output and reset synchronous t=1222000
+# CHECK_FAIL output and reset synchronous t=1232000
+# CHECK_FAIL output and reset synchronous t=1242000
+# CHECK_FAIL output and reset synchronous t=1252000
+# CHECK_FAIL output and reset synchronous t=1262000
+# CHECK_FAIL output and reset synchronous t=1272000
+# CHECK_FAIL output and reset synchronous t=1282000
+# CHECK_FAIL output and reset synchronous t=1292000
+# CHECK_FAIL output and reset synchronous t=1302000
+# CHECK_FAIL output and reset synchronous t=1312000
+# CHECK_FAIL output and reset synchronous t=1322000
+# CHECK_FAIL output and reset synchronous t=1332000
+# CHECK_FAIL output and reset synchronous t=1352000
+# CHECK_FAIL output and reset synchronous t=1362000
+# CHECK_FAIL output and reset synchronous t=1372000
+# CHECK_FAIL output and reset synchronous t=1382000
+# CHECK_FAIL output and reset synchronous t=1392000
+# CHECK_FAIL output and reset synchronous t=1402000
+# CHECK_FAIL output and reset synchronous t=1412000
+# CHECK_FAIL output and reset synchronous t=1422000
+# CHECK_FAIL output and reset synchronous t=1432000
+# CHECK_FAIL output and reset synchronous t=1442000
+# CHECK_FAIL output and reset synchronous t=1452000
+# CHECK_FAIL output and reset synchronous t=1462000
+# CHECK_FAIL output and reset synchronous t=1472000
+# CHECK_FAIL output and reset synchronous t=1482000
+# CHECK_FAIL output and reset synchronous t=1492000
+# CHECK_FAIL output and reset synchronous t=1502000
+# CHECK_FAIL output and reset synchronous t=1512000
+# CHECK_FAIL output and reset synchronous t=1522000
+# CHECK_FAIL output and reset synchronous t=1532000
+# CHECK_FAIL output and reset synchronous t=1542000
+# CHECK_FAIL output and reset synchronous t=1552000
+# CHECK_FAIL output and reset synchronous t=1562000
+# CHECK_FAIL output and reset synchronous t=1572000
+# CHECK_FAIL output and reset synchronous t=1582000
+# CHECK_FAIL output and reset synchronous t=1592000
+# CHECK_FAIL output and reset synchronous t=1602000
+# CHECK_FAIL output and reset synchronous t=1612000
+# CHECK_FAIL output and reset synchronous t=1622000
+# CHECK_FAIL output and reset synchronous t=1632000
+# CHECK_FAIL output and reset synchronous t=1642000
+# CHECK_FAIL output and reset synchronous t=1652000
+# CHECK_FAIL output and reset synchronous t=1662000
+# CHECK_FAIL output and reset synchronous t=1672000
+# CHECK_FAIL output and reset synchronous t=1682000
+# CHECK_FAIL output and reset synchronous t=1692000
+# CHECK_FAIL output and reset synchronous t=1702000
+# CHECK_FAIL output and reset synchronous t=1712000
+# CHECK_FAIL output and reset synchronous t=1722000
+# CHECK_FAIL output and reset synchronous t=1732000
+# CHECK_FAIL output and reset synchronous t=1742000
+# CHECK_FAIL output and reset synchronous t=1752000
+# CHECK_FAIL output and reset synchronous t=1762000
+# CHECK_FAIL output and reset synchronous t=1772000
+# CHECK_FAIL output and reset synchronous t=1782000
+# CHECK_FAIL output and reset synchronous t=1792000
+# CHECK_FAIL output and reset synchronous t=1802000
+# CHECK_FAIL output and reset synchronous t=1812000
+# CHECK_FAIL output and reset synchronous t=1822000
+# CHECK_FAIL output and reset synchronous t=1832000
+# CHECK_FAIL output and reset synchronous t=1842000
+# CHECK_FAIL output and reset synchronous t=1852000
+# CHECK_FAIL output and reset synchronous t=1862000
+# CHECK_FAIL output and reset synchronous t=1872000
+# CHECK_FAIL output and reset synchronous t=1882000
+# CHECK_FAIL output and reset synchronous t=1892000
+# CHECK_FAIL output and reset synchronous t=1902000
+# CHECK_FAIL output and reset synchronous t=1912000
+# CHECK_FAIL output and reset synchronous t=1922000
+# CHECK_FAIL output and reset synchronous t=1932000
+# CHECK_FAIL output and reset synchronous t=1942000
+# CHECK_FAIL output and reset synchronous t=1952000
+# CHECK_FAIL output and reset synchronous t=1962000
+# CHECK_FAIL output and reset synchronous t=1972000
+# CHECK_FAIL output and reset synchronous t=1982000
+# CHECK_FAIL output and reset synchronous t=1992000
+# CHECK_FAIL output and reset synchronous t=2002000
+# CHECK_FAIL output and reset synchronous t=2012000
+# CHECK_FAIL output and reset synchronous t=2022000
+# CHECK_FAIL output and reset synchronous t=2032000
+# CHECK_FAIL output and reset synchronous t=2042000
+# CHECK_FAIL output and reset synchronous t=2052000
+# CHECK_FAIL output and reset synchronous t=2062000
+# CHECK_FAIL output and reset synchronous t=2072000
+# CHECK_FAIL output and reset synchronous t=2082000
+# CHECK_FAIL output and reset synchronous t=2092000
+# CHECK_FAIL output and reset synchronous t=2102000
+# CHECK_FAIL output and reset synchronous t=2112000
+# CHECK_FAIL output and reset synchronous t=2122000
+# CHECK_FAIL output and reset synchronous t=2132000
+# CHECK_FAIL output and reset synchronous t=2142000
+# CHECK_FAIL output and reset synchronous t=2152000
+# CHECK_FAIL output and reset synchronous t=2162000
+# CHECK_FAIL output and reset synchronous t=2172000
+# CHECK_FAIL output and reset synchronous t=2182000
+# CHECK_FAIL output and reset synchronous t=2192000
+# CHECK_FAIL output and reset synchronous t=2202000
+# CHECK_FAIL output and reset synchronous t=2212000
+# CHECK_FAIL output and reset synchronous t=2222000
+# CHECK_FAIL output and reset synchronous t=2232000
+# CHECK_FAIL output and reset synchronous t=2242000
+# CHECK_FAIL output and reset synchronous t=2252000
+# CHECK_FAIL output and reset synchronous t=2262000
+# CHECK_FAIL output and reset synchronous t=2272000
+# CHECK_FAIL output and reset synchronous t=2282000
+# CHECK_FAIL output and reset synchronous t=2292000
+# CHECK_FAIL output and reset synchronous t=2302000
+# CHECK_FAIL output and reset synchronous t=2312000
+# CHECK_FAIL output and reset synchronous t=2322000
+# CHECK_FAIL output and reset synchronous t=2332000
+# CHECK_FAIL output and reset synchronous t=2342000
+# CHECK_FAIL output and reset synchronous t=2352000
+# CHECK_FAIL output and reset synchronous t=2362000
+# CHECK_FAIL output and reset synchronous t=2372000
+# CHECK_FAIL output and reset synchronous t=2382000
+# CHECK_FAIL output and reset synchronous t=2392000
+# CHECK_FAIL output and reset synchronous t=2402000
+# CHECK_FAIL output and reset synchronous t=2412000
+# CHECK_FAIL output and reset synchronous t=2422000
+# CHECK_FAIL output and reset synchronous t=2432000
+# CHECK_FAIL output and reset synchronous t=2442000
+# CHECK_FAIL output and reset synchronous t=2452000
+# CHECK_FAIL output and reset synchronous t=2462000
+# CHECK_FAIL output and reset synchronous t=2472000
+# CHECK_FAIL output and reset synchronous t=2482000
+# CHECK_FAIL output and reset synchronous t=2492000
+# CHECK_FAIL output and reset synchronous t=2502000
+# CHECK_FAIL output and reset synchronous t=2512000
+# CHECK_FAIL output and reset synchronous t=2522000
+# CHECK_FAIL output and reset synchronous t=2532000
+# CHECK_FAIL output and reset synchronous t=2542000
+# CHECK_FAIL output and reset synchronous t=2552000
+# CHECK_FAIL output and reset synchronous t=2562000
+# CHECK_FAIL output and reset synchronous t=2572000
+# CHECK_FAIL output and reset synchronous t=2582000
+# CHECK_FAIL output and reset synchronous t=2592000
+# CHECK_FAIL output and reset synchronous t=2602000
+# CHECK_FAIL output and reset synchronous t=2612000
+# OBSERVATION unknown-select q=69 (unspecified, not scored)
+# RESULT checks=513 failures=256
+# ** Note: $finish    : tb.sv(13)
+#    Time: 2626 ns  Iteration: 0  Instance: /tb
+# End time: 16:16:32 on Sep 22,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

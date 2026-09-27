@@ -1,0 +1,14 @@
+QuestaSim Base Edition-64 vcom 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 16:18:09 on Sep 22,2026
+vcom -2008 -work work C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\cdc_sync.vhd 
+** Note: (vcom-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cdc_sync
+-- Compiling architecture rtl of cdc_sync
+** Error: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\cdc_sync.vhd(24): near "ATTRIBUTE": syntax error
+** Note: C:\hdl_projects\ai_on_prem\20260921-035335-vhdl-skill\qwen3.8_27b\cdc_sync.vhd(42): VHDL Compiler exiting
+End time: 16:18:10 on Sep 22,2026, Elapsed time: 0:00:01
+Errors: 1, Warnings: 0

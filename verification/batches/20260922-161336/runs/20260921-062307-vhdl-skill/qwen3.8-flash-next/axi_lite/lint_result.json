@@ -1,0 +1,257 @@
+{
+  "source_run": "20260921-062307-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:30+0100",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "axi_lite",
+  "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\axi_lite.vhd",
+  "sha256": "1bb2c2a090d432ea3cf8a5d11c23b9c25b93de437103f87c5a152f301b5288df",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awaddr",
+      "awaddr",
+      "in",
+      "std_ulogic_vector(g_addr_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_awvalid",
+      "awvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_awready",
+      "awready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_wdata",
+      "wdata",
+      "in",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_wstrb",
+      "wstrb",
+      "in",
+      "std_ulogic_vector(g_data_width/8-1 DOWNTO 0)"
+    ],
+    [
+      "i_wvalid",
+      "wvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_wready",
+      "wready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_bresp",
+      "bresp",
+      "out",
+      "std_ulogic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "o_bvalid",
+      "bvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_bready",
+      "bready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_araddr",
+      "araddr",
+      "in",
+      "std_ulogic_vector(g_addr_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_arvalid",
+      "arvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_arready",
+      "arready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_rdata",
+      "rdata",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_rresp",
+      "rresp",
+      "out",
+      "std_ulogic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "o_rvalid",
+      "rvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_rready",
+      "rready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_reg0",
+      "reg0",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_reg1",
+      "reg1",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_reg2",
+      "reg2",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_reg3",
+      "reg3",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-062307-vhdl-skill\\qwen3.8-flash-next\\axi_lite\\bps_final",
+    "returncode": 0,
+    "seconds": 1.98,
+    "status": "COMPLETE",
+    "warnings": 19,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(59): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(60): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(61): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(62): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(63): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(65): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(66): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(67): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(68): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(69): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(71): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(72): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(73): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(75): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1251",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(272): 's_reg' should be on the sensitivity list of the process"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1251",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(274): 's_reg' should be on the sensitivity list of the process"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1251",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(276): 's_reg' should be on the sensitivity list of the process"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1251",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(278): 's_reg' should be on the sensitivity list of the process"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1613",
+        "message": "../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/axi_lite.vhd(268): incomplete sensitivity list specified; assuming completeness"
+      }
+    ]
+  }
+}

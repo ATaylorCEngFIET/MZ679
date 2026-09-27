@@ -1,0 +1,71 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:17:29+0100",
+  "language": "vhdl",
+  "model": "qwen3-coder_30b",
+  "task": "uart_tx",
+  "source": "20260921-035335-vhdl-skill\\qwen3-coder_30b\\uart_tx.vhd",
+  "sha256": "4d043457d7b632eeece71f0ca86b4a95e9068e51885c599d0fd06a85a59ab246",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_data",
+      "data",
+      "in",
+      "std_ulogic_vector(7 DOWNTO 0)"
+    ],
+    [
+      "i_data_valid",
+      "data_valid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_tx",
+      "tx",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_busy",
+      "busy",
+      "out",
+      "std_ulogic        "
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 624,
+        "failures": 21,
+        "seconds": 18.73,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "FAIL",
+        "checks": 1004,
+        "failures": 21,
+        "seconds": 18.81,
+        "returncode": 0
+      }
+    ]
+  }
+}

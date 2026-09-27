@@ -1,0 +1,103 @@
+--BPS-0730: Status: Blue Pearl Visual Verification Suite Version 2026.4.68770.nightlyBuilds_2026.4.68770 07/16/2026 07:20. Windows (64-bit).
+Copyright (c) 2004-2026 Blue Pearl Software, Inc
+Portions of this software are (c) 2015 The Qt Company Ltd and other contributors under the GNU LGPL version 3 license.
+--BPS-0730: Status: Installation Path: C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64
+--BPS-0730: Status: Running as: aptay@Adiuvo_Adam
+--BPS-0730: Status: Running from: C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx
+--BPS-0730: Status: Unprocessed CLI Arguments: -root=uart_tx -output=C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-051654-verilog-skill\qwen3.5_4b\uart_tx\bps_final -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv}; BPS::run analyze -forceload
+--BPS-0730: Status: Effective CLI Arguments: 
+   -root=uart_tx
+   -output=C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-051654-verilog-skill\qwen3.5_4b\uart_tx\bps_final
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv}; BPS::run analyze -forceload"
+--BPS-0730: Status: Reading initialization file: 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/bps_setup.tcl'
+--BPS-0730: Status: Opening log file: 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx/bps_final/bluepearl.log' @ '22/09/2026 16:15'
+Time: Tue Sep 22 16:15:19 2026
+--BPS-0730: Status: Running user initialization program: 'source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv}; BPS::run analyze -forceload'
+*** args: analyze -forceload
+--BPS-0730: Status: Processing CDC in a Transitive manner.
+--BPS-0730: Status: Reading design...
+I-VERI-1509: The Verilog library search path for library "std" is now "C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/verilog_packages/sdbs/std"
+I-VERI-9014: The Verilog search library for imported/instantiated design units now includes 'work'
+I-VNLR-9000: The Verilog netlist search library for imported/instantiated design units now includes 'work'
+I-VHDL-9010: The VHDL search library for imported/instantiated design units now includes 'work'
+I-SORT-9000: Pre-Analyzing 'System Verilog' file 'C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv' into library 'work'
+--VERI-1482: Analyzing System Verilog file 'C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv' into library 'work'
+I-VERI-9012: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(1): analyzing module 'uart_tx'
+I-VERI-2124: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(30):     reg logic [3:0] state_reg;
+I-VERI-2124: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(30):              ^
+E-VERI-1137: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(30): syntax error near 'logic'
+E-VERI-2344: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(30): SystemVerilog keyword 'logic' used in incorrect context
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(38): 'baud_counter' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(42): 'state_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(43): 'data_valid_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(44): 'data_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(45): 'busy_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(46): 'tx_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(49): 'state_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(50): 'data_valid_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(51): 'data_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(52): 'busy_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(53): 'baud_counter' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(55): 'state_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(57): 'data_valid_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(58): 'state_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(59): 'data_valid_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(60): 'data_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(61): 'busy_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(65): 'state_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(69): 'state_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(70): 'tx_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(70): 'data_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(75): 'state_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(76): 'tx_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(76): 'data_reg' is not declared
+E-VERI-1128: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(81): 'state_reg' is not declared
+** Maximum message limit for message VERI-1128 has been reached.
+E-VERI-1072: ../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv(1): module 'uart_tx' is ignored due to previous errors
+--VERI-1483: Verilog file 'C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv' ignored due to errors
+--BPS-0730: Status: Determining HDL top level units
+===============================
+Blue Pearl Missing Modules/Objects Report created on: Tue Sep 22 16:15:20 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx/bps_final/uart_tx.missing_modules.rpt'.
+===============================
+Missing Modules: 0
+===============================
+===============================
+Time to generate Missing Modules/Objects report: 0.05 seconds
+--BPS-0730: Status: Finished elaborating design.
+--BPS-0730: Status: Finished Reading Design. Elapsed Time: 0.15 seconds.
+E-BPS-0752: ERROR: Termination due to non-recoverable errors
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/verification/batches/20260922-161336/runs/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx/bps_final/DesignSummary.rpt'.
+Time to generate Design Summary report: 0.01 seconds
+===============================
+Message ID Summary Report:
+Property Check  BPS-0730: 16 comments
+Property Check  BPS-0752: 1 error
+Property Check SORT-9000: 1 informational
+Property Check VERI-1072: 1 error
+Property Check VERI-1128: 51 errors
+Property Check VERI-1137: 1 error
+Property Check VERI-1482: 1 comment
+Property Check VERI-1483: 1 comment
+Property Check VERI-1509: 1 informational
+Property Check VERI-2124: 2 informationals
+Property Check VERI-2344: 1 error
+Property Check VERI-9012: 1 informational
+Property Check VERI-9014: 1 informational
+Property Check VHDL-9010: 1 informational
+Property Check VNLR-9000: 1 informational
+
+** Maximum message limit was reached for some messages.
+** You can increase the message limit on the 'Design Settings -> Log Options' dialog or by setting 'default_message_limit' in TCL.
+
+Property Check Message Severity Summary:
+55 errors
+0 warnings
+8 informationals
+18 comments
+--BPS-0730: Status: Total analysis Elapsed Time: 0 seconds
+E-BPS-0752: ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/uart_tx.sv}; BPS::run analyze -forceload
+E-BPS-0752: ERROR: BPS::run - Failed to read in netlist.
+application-specific initialization failed: BPS::run - Failed to read in netlist.

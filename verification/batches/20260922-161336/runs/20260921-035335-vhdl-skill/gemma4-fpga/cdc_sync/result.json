@@ -1,0 +1,41 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:13+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "cdc_sync",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\cdc_sync.vhd",
+  "sha256": "a218013b4be18756275094a6f2a6193a5ebffebebd55bd9cd76dbb97b5553efd",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_data",
+      "din",
+      "in",
+      "std_logic"
+    ],
+    [
+      "o_data",
+      "dout",
+      "out",
+      "std_logic                                 "
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

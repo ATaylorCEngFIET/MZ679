@@ -1,0 +1,83 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:22+0100",
+  "language": "vhdl",
+  "model": "bluepearl-rtl",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\bluepearl-rtl\\fifo.vhd",
+  "sha256": "9dc1cb526ac6cfb235efec9e493ce44309218d47c24d714a3a9aa5a700c50225",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_en",
+      "wr_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wr_data",
+      "wr_data",
+      "in",
+      "std_ulogic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_rd_en",
+      "rd_en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_rd_data",
+      "rd_data",
+      "out",
+      "std_ulogic_vector(g_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_full",
+      "full",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_empty",
+      "empty",
+      "out",
+      "std_ulogic              "
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 3455,
+        "failures": 519,
+        "seconds": 30.65,
+        "returncode": 0
+      },
+      {
+        "variant": "width16_depth4",
+        "status": "FAIL",
+        "checks": 3381,
+        "failures": 509,
+        "seconds": 18.96,
+        "returncode": 0
+      }
+    ]
+  }
+}

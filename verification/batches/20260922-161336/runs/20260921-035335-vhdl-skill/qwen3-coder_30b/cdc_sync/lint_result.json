@@ -1,0 +1,53 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:12+0100",
+  "language": "vhdl",
+  "model": "qwen3-coder_30b",
+  "task": "cdc_sync",
+  "source": "20260921-035335-vhdl-skill\\qwen3-coder_30b\\cdc_sync.vhd",
+  "sha256": "13ae9432484c3a2d011d214ea73463a8ac21e71395a08e5bad1c9a2f3309ef9d",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk_src",
+      "clk_src",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_sig_src",
+      "din",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_clk_dst",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_sig_dst",
+      "dout",
+      "out",
+      "std_ulogic         "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen3-coder_30b\\cdc_sync\\bps_final",
+    "returncode": 0,
+    "seconds": 1.91,
+    "status": "COMPLETE",
+    "warnings": 1,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen3-coder_30b/cdc_sync.vhd(14): Module: 'cdc_sync(rtl)' Signal 'cdc_sync(rtl).i_clk_src' is dangling."
+      }
+    ]
+  }
+}

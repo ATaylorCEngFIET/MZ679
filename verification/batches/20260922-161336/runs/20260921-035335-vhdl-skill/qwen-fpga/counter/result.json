@@ -1,0 +1,51 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:16:31+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "counter",
+  "source": "20260921-035335-vhdl-skill\\qwen-fpga\\counter.vhd",
+  "sha256": "eb58e49ef1581c4450d50360c5bd4dcdbfdee751799d73e9c2ce79a016e2f0e8",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_en",
+      "en",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_count",
+      "count",
+      "out",
+      "unsigned(3 DOWNTO 0)            "
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 321,
+        "failures": 0,
+        "seconds": 18.72,
+        "returncode": 0
+      }
+    ]
+  }
+}

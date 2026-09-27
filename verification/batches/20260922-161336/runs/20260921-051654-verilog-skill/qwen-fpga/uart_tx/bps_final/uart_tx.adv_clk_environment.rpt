@@ -1,0 +1,14 @@
+===============================
+Blue Pearl Advanced Clock Environment Report Report created on: Tue Sep 22 16:15:02 2026
+===============================
+Advanced Clock Environment Report:
+From clock: Unknown Clock To clock: clk
+Synchronized: 1
+Unsynchronized: 2
+Issue: Unknown Clock interacts with clock clk in both a synchronized and unsynchronized manner (80% unsynchronized). Clocks are in different domains and above threshold of 80% unsynchronized. Recommendation: Determine if clock domains should be merged, or add synchronizers to unsynchronized CDCs. Turning on automatic detection of clock domains may merge these domains automatically.
+
+From clock: clk To clock: Unknown Clock
+Synchronized: 0
+Unsynchronized: 2
+Issue: clk interacts with clock Unknown Clock in both a synchronized and unsynchronized manner (80% unsynchronized). Clocks are in different domains and above threshold of 80% unsynchronized. Recommendation: Determine if clock domains should be merged, or add synchronizers to unsynchronized CDCs. Turning on automatic detection of clock domains may merge these domains automatically.
+===============================

@@ -1,0 +1,32 @@
+{
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "axi_lite",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv",
+  "sha256": "79b512d35b436e8613b71a1dc82eb97d7523b2d747badcc9784b5fcacd046cfc",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vlog",
+    "-sv",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(34): (vlog-13003) Enum member 'R_PENDING' has value that is outside the representable range of the enum.",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(156): (vlog-2110) Illegal reference to net \"bresp\".",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(197): (vlog-2110) Illegal reference to net \"bresp\".",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(264): (vlog-2110) Illegal reference to net \"bresp\".",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(307): (vlog-2110) Illegal reference to net \"bresp\".",
+    "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(236): (vlog-2182) 'reg0' might be read before written in always_comb or always @* block.",
+    "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(237): (vlog-2182) 'reg1' might be read before written in always_comb or always @* block.",
+    "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(238): (vlog-2182) 'reg2' might be read before written in always_comb or always @* block.",
+    "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(239): (vlog-2182) 'reg3' might be read before written in always_comb or always @* block.",
+    "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(222): (vlog-2182) 'aw_pending' might be read before written in always_comb or always @* block.",
+    "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv(272): (vlog-2182) 'ar_pending' might be read before written in always_comb or always @* block."
+  ],
+  "directory": "flag_probe_20260927\\verilog\\qwen3.5_4b\\axi_lite"
+}

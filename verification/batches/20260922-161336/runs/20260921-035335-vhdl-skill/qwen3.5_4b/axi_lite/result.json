@@ -1,0 +1,128 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:17:30+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "axi_lite",
+  "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\axi_lite.vhd",
+  "sha256": "66113f17e40a62169a30aa4bfac38a69470237faa98bc61ababdd2e2f3200a38",
+  "interface_errors": [
+    "Missing required port bvalid",
+    "Missing required port bready"
+  ],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3",
+    "Missing requested/AXI port bresp"
+  ],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awvalid",
+      "awvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awready",
+      "awready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_awaddr",
+      "awaddr",
+      "in",
+      "unsigned(31 DOWNTO 0)"
+    ],
+    [
+      "i_awlen",
+      "awlen",
+      "in",
+      "unsigned(7 DOWNTO 0)"
+    ],
+    [
+      "i_wvalid",
+      "wvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_wready",
+      "wready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_wdata",
+      "wdata",
+      "in",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "i_wstrb",
+      "wstrb",
+      "in",
+      "std_logic_vector(3 DOWNTO 0)"
+    ],
+    [
+      "i_arvalid",
+      "arvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_arready",
+      "arready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_araddr",
+      "araddr",
+      "in",
+      "unsigned(31 DOWNTO 0)"
+    ],
+    [
+      "i_rvalid",
+      "rvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_rready",
+      "rready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_rdata",
+      "rdata",
+      "out",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "o_rresp",
+      "rresp",
+      "out",
+      "std_logic_vector(1 DOWNTO 0)    "
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

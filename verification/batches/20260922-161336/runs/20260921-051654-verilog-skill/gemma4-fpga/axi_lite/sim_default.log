@@ -1,0 +1,75 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-051654-verilog-skill\gemma4-fpga\axi_lite\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 16:19:11 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL BVALID independent of BREADY t=866000
+# CHECK_FAIL exposed register 0 t=896000
+# CHECK_FAIL BVALID independent of BREADY t=1706000
+# CHECK_FAIL exposed register 0 t=1736000
+# CHECK_FAIL exposed register 1 t=1736000
+# CHECK_FAIL BVALID independent of BREADY t=2546000
+# CHECK_FAIL exposed register 0 t=2576000
+# CHECK_FAIL exposed register 1 t=2576000
+# CHECK_FAIL exposed register 2 t=2576000
+# CHECK_FAIL BVALID independent of BREADY t=3386000
+# CHECK_FAIL exposed register 0 t=3416000
+# CHECK_FAIL exposed register 1 t=3416000
+# CHECK_FAIL exposed register 2 t=3416000
+# CHECK_FAIL exposed register 3 t=3416000
+# CHECK_FAIL RVALID independent of RREADY t=4226000
+# CHECK_FAIL RVALID independent of RREADY t=5066000
+# CHECK_FAIL RVALID independent of RREADY t=5906000
+# CHECK_FAIL RVALID independent of RREADY t=6746000
+# CHECK_FAIL BVALID independent of BREADY t=7636000
+# CHECK_FAIL exposed register 0 t=7666000
+# CHECK_FAIL exposed register 1 t=7666000
+# CHECK_FAIL exposed register 2 t=7666000
+# CHECK_FAIL exposed register 3 t=7666000
+# CHECK_FAIL RVALID independent of RREADY t=8476000
+# CHECK_FAIL BVALID independent of BREADY t=9366000
+# CHECK_FAIL exposed register 0 t=9396000
+# CHECK_FAIL exposed register 1 t=9396000
+# CHECK_FAIL exposed register 2 t=9396000
+# CHECK_FAIL exposed register 3 t=9396000
+# CHECK_FAIL RVALID independent of RREADY t=10206000
+# CHECK_FAIL BVALID independent of BREADY t=11046000
+# CHECK_FAIL exposed register 0 t=11076000
+# CHECK_FAIL exposed register 1 t=11076000
+# CHECK_FAIL exposed register 2 t=11076000
+# CHECK_FAIL exposed register 3 t=11076000
+# CHECK_FAIL RVALID independent of RREADY t=11886000
+# CHECK_FAIL BVALID independent of BREADY t=12726000
+# CHECK_FAIL exposed register 0 t=12756000
+# CHECK_FAIL exposed register 1 t=12756000
+# CHECK_FAIL exposed register 2 t=12756000
+# CHECK_FAIL exposed register 3 t=12756000
+# CHECK_FAIL RVALID independent of RREADY t=13566000
+# RESULT checks=72 failures=42
+# ** Note: $finish    : tb.sv(13)
+#    Time: 13596 ns  Iteration: 0  Instance: /tb
+# End time: 16:19:23 on Sep 22,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

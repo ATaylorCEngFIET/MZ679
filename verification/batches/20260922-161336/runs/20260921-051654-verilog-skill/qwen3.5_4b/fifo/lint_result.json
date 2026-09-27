@@ -1,0 +1,109 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:16+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "fifo",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv",
+  "sha256": "7d4a1aa0be25d9b2e4cfff4f8b818ffc7394cd6bc7b7662cb03e9cd16551947a",
+  "interface_errors": [
+    "Missing required port rd_data",
+    "Missing required generic/parameter WIDTH"
+  ],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo\\bps_final",
+    "returncode": 101,
+    "seconds": 1.68,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 8,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/fifo.sv(5): 'WIDTH' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1952",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/fifo.sv(5): range must be bounded by constant expressions"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1128",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/fifo.sv(22): 'WIDTH' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1952",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/fifo.sv(22): range must be bounded by constant expressions"
+      },
+      {
+        "severity": "error",
+        "id": "VERI-1072",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen3.5_4b/fifo.sv(1): module 'sync_fifo' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen3.5_4b/fifo.sv}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

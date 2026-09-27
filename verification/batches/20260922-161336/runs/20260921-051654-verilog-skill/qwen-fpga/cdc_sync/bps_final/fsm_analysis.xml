@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="cdc_sync(current_stage-next_stage)" Language="Verilog" SingleProcess="No" CurrStateVar="current_stage" NextStateVar="next_stage" ResetState="STAGE_0" FileID="0" LineNum="27">
+            <States NumStates="4">
+                <State Name="STAGE_0" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="28">
+                    <Transition To="STAGE_1" FileID="0" LineNum="28"/>
+                </State>
+                <State Name="STAGE_1" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="29">
+                    <Transition To="STAGE_2" FileID="0" LineNum="29"/>
+                </State>
+                <State Name="STAGE_2" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="Yes" FileID="0" LineNum="27"/>
+                <State Name="Default" ResetState="No" DefaultState="Yes" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="30">
+                    <Transition To="&lt;unknown&gt;" FileID="0" LineNum="30"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/qwen-fpga/cdc_sync.sv" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

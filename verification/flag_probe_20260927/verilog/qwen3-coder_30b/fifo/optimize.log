@@ -1,0 +1,25 @@
+QuestaSim Base Edition-64 vopt 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 13:23:13 on Sep 27,2026
+vopt -permissive work.tb -o tb_relaxed 
+** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+
+Top level modules:
+	tb
+
+Analyzing design...
+-- Loading module tb
+-- Loading module sync_fifo
+Optimizing 2 design-units (inlining 1/2 module instances):
+-- Inlining module sync_fifo(fast)
+-- Optimizing module tb(fast)
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(61): (vopt-7033) Variable 'wr_addr' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(41).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(62): (vopt-7033) Variable 'rd_addr' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(42).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(63): (vopt-7033) Variable 'wr_wrap' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(43).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(64): (vopt-7033) Variable 'rd_wrap' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(44).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(66): (vopt-7033) Variable 'wr_addr' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(41).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(67): (vopt-7033) Variable 'rd_addr' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(42).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(68): (vopt-7033) Variable 'wr_wrap' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(43).
+** Warning (downgraded): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(69): (vopt-7033) Variable 'rd_wrap' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3-coder_30b\fifo.sv(44).
+Optimized design name is tb_relaxed
+End time: 13:23:14 on Sep 27,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 8

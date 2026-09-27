@@ -1,0 +1,22 @@
+{
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "fifo",
+  "source": "20260921-035335-vhdl-skill\\qwen3.5_4b\\fifo.vhd",
+  "sha256": "796e7e3e23586d9628b968a546b419adc7e97dfa378347a96f3aea49b14384a6",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vcom",
+    "-2008",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\fifo.vhd"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-035335-vhdl-skill\\qwen3.5_4b\\fifo.vhd(15): near \";\": (vcom-1576) expecting IDENTIFIER."
+  ],
+  "directory": "flag_probe_20260927\\vhdl\\qwen3.5_4b\\fifo"
+}

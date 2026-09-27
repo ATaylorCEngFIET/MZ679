@@ -1,0 +1,15 @@
+﻿language,model,model_label,designs,behavior_pass,request_pass,compile_fail,elaboration_fail,interface_fail,behavioral_fail,lint_errors,lint_warnings,lint_incomplete
+vhdl,bluepearl-rtl,bluepearl-rtl,6,3,3,1,0,0,2,6,9,0
+vhdl,gemma4-fpga,Gemma 4 12B,6,2,1,3,0,0,1,37,6,0
+vhdl,qwen-fpga,Qwen 3.5 9B,6,1,1,3,0,1,1,39,5,0
+vhdl,qwen3-coder_30b,Qwen3-Coder 30B,6,3,2,2,0,0,1,13,1,0
+vhdl,qwen3.5_4b,Qwen 3.5 4B,6,2,1,4,0,0,0,82,13,0
+vhdl,qwen3.8-flash-next,Qwen3.8-Flash-Next,6,3,2,1,0,0,2,7,27,0
+vhdl,qwen3.8_27b,Qwen3.8 27B,6,2,1,3,0,0,1,20,0,0
+verilog,bluepearl-rtl,bluepearl-rtl,6,4,4,0,0,0,2,0,13,0
+verilog,gemma4-fpga,Gemma 4 12B,6,4,3,0,0,0,2,0,10,0
+verilog,qwen-fpga,Qwen 3.5 9B,6,1,1,1,2,0,2,75,17,0
+verilog,qwen3-coder_30b,Qwen3-Coder 30B,6,2,2,0,1,0,3,3,84,0
+verilog,qwen3.5_4b,Qwen 3.5 4B,6,0,0,3,1,1,1,78,8,0
+verilog,qwen3.8-flash-next,Qwen3.8-Flash-Next,6,3,3,0,0,1,2,3,11,0
+verilog,qwen3.8_27b,Qwen3.8 27B,6,3,2,0,0,0,3,0,7,0

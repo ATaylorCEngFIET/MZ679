@@ -1,0 +1,85 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:14:57+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "bugfix",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\bugfix.sv",
+  "sha256": "d1a400998ea4269fc63a2cea6faaa852c664ae9df8750e91df96d0742d7e311c",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      ""
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "[7:0]"
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen-fpga\\bugfix\\bps_final",
+    "returncode": 101,
+    "seconds": 1.76,
+    "status": "COMPLETE",
+    "warnings": 2,
+    "errors": 3,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "VERI-1924",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/bugfix.sv(7): variable 'q' is driven by invalid combination of procedural drivers"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1971",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/bugfix.sv(9): 'q' driven by this always_comb block should not be driven by any other process"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/20260921-051654-verilog-skill/qwen-fpga/bugfix.sv}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

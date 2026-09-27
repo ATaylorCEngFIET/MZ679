@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:21:08+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "cdc_sync",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\cdc_sync.sv",
+  "sha256": "297561ac1d1265fe37ec7f56032c592eb770b7f932a65e8a93b24ce417936af4",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "data_in",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "data_out",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 400,
+        "failures": 114,
+        "seconds": 18.5,
+        "returncode": 0
+      },
+      {
+        "variant": "stages3",
+        "status": "FAIL",
+        "checks": 400,
+        "failures": 115,
+        "seconds": 18.85,
+        "returncode": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="DFFs" Created="Tue Sep 22 16:15:09 2026">
+    <Headers>
+        <Header Column="0" Name="Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="Data Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Clock Pin's Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <Row FileID="0" LineNum="159">
+        <Column Column="0" Data="axil_regs.current_state[2:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="16"/>
+    </Row>
+    <Row FileID="0" LineNum="212">
+        <Column Column="0" Data="axil_regs.aw_addr_reg[31:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="17"/>
+    </Row>
+    <Row FileID="0" LineNum="212">
+        <Column Column="0" Data="axil_regs.w_data_reg[31:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="4"/>
+    </Row>
+    <Row FileID="0" LineNum="212">
+        <Column Column="0" Data="axil_regs.w_strb_reg[3:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="32"/>
+    </Row>
+    <Row FileID="0" LineNum="212">
+        <Column Column="0" Data="axil_regs.reg0[31:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="212">
+        <Column Column="0" Data="axil_regs.reg1[31:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="212">
+        <Column Column="0" Data="axil_regs.reg2[31:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="212">
+        <Column Column="0" Data="axil_regs.reg3[31:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="263">
+        <Column Column="0" Data="axil_regs.ar_addr_reg[31:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="5"/>
+    </Row>
+    <Row FileID="0" LineNum="263">
+        <Column Column="0" Data="axil_regs.r_data_reg[31:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="263">
+        <Column Column="0" Data="axil_regs.r_resp_reg[1:0]"/>
+        <Column Column="1" Data="reset Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv" id="0"/>
+    </FileIDs>
+</BluePearlReport>

@@ -1,0 +1,18 @@
+QuestaSim Base Edition-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 16:22:42 on Sep 22,2026
+vlog -sv -work work C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv 
+** Note: (vlog-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Compiling module axil_regs
+** Error: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(34): (vlog-13003) Enum member 'R_PENDING' has value that is outside the representable range of the enum.
+** Error: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(156): (vlog-2110) Illegal reference to net "bresp".
+** Error: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(197): (vlog-2110) Illegal reference to net "bresp".
+** Error: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(264): (vlog-2110) Illegal reference to net "bresp".
+** Error: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(307): (vlog-2110) Illegal reference to net "bresp".
+** Warning: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(236): (vlog-2182) 'reg0' might be read before written in always_comb or always @* block.
+** Warning: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(237): (vlog-2182) 'reg1' might be read before written in always_comb or always @* block.
+** Warning: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(238): (vlog-2182) 'reg2' might be read before written in always_comb or always @* block.
+** Warning: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(239): (vlog-2182) 'reg3' might be read before written in always_comb or always @* block.
+** Warning: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(222): (vlog-2182) 'aw_pending' might be read before written in always_comb or always @* block.
+** Warning: C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen3.5_4b\axi_lite.sv(272): (vlog-2182) 'ar_pending' might be read before written in always_comb or always @* block.
+End time: 16:22:42 on Sep 22,2026, Elapsed time: 0:00:00
+Errors: 5, Warnings: 6

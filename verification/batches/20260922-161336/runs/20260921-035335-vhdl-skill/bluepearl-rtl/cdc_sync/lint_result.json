@@ -1,0 +1,88 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:13:39+0100",
+  "language": "vhdl",
+  "model": "bluepearl-rtl",
+  "task": "cdc_sync",
+  "source": "20260921-035335-vhdl-skill\\bluepearl-rtl\\cdc_sync.vhd",
+  "sha256": "923c427ef4556c9ced11b6a9593aa067c27872782f5648c5c536b6b3cc63b044",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_async",
+      "din",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_sync",
+      "dout",
+      "out",
+      "std_ulogic                      "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\bluepearl-rtl\\cdc_sync\\bps_final",
+    "returncode": 101,
+    "seconds": 1.67,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 8,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/cdc_sync.vhd(33): syntax error near 'ATTRIBUTE'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1223",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/cdc_sync.vhd(33): 's_sync_reg' is already declared in this region"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1276",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/cdc_sync.vhd(33): type ' void' does not match with a string literal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1275",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/cdc_sync.vhd(41): type of aggregate cannot be determined without context ; 0 visible types match here"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/bluepearl-rtl/cdc_sync.vhd(21): unit 'rtl' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/bluepearl-rtl/cdc_sync.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

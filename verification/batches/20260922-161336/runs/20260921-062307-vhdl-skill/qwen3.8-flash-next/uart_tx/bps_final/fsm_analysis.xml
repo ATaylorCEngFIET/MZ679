@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="uart_tx(rtl)(s_state)" Language="VHDL" SingleProcess="Yes" CurrStateVar="s_state" NextStateVar="" ResetState="s_idle" FileID="0" LineNum="76">
+            <States NumStates="5">
+                <State Name="s_idle" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="77">
+                    <Transition To="s_start" FileID="0" LineNum="83"/>
+                </State>
+                <State Name="s_start" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="87">
+                    <Transition To="s_data" FileID="0" LineNum="91"/>
+                </State>
+                <State Name="s_data" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="94">
+                    <Transition To="s_stop" FileID="0" LineNum="102"/>
+                </State>
+                <State Name="s_stop" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="106">
+                    <Transition To="s_idle" FileID="0" LineNum="110"/>
+                </State>
+                <State Name="Others" ResetState="No" DefaultState="Yes" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="113">
+                    <Transition To="s_idle" FileID="0" LineNum="114"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260921-062307-vhdl-skill/qwen3.8-flash-next/uart_tx.vhd" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

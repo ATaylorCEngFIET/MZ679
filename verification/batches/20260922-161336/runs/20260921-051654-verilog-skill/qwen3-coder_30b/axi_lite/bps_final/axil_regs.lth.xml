@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Latches" Created="Tue Sep 22 16:15:09 2026">
+    <Headers>
+        <Header Column="0" Name="Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="Data Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Clock Pin's Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <Row FileID="0" LineNum="56">
+        <Column Column="0" Data="axil_regs.aw_valid_reg"/>
+        <Column Column="1" Data="D-latch"/>
+        <Column Column="2" Data=""/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="0"/>
+    </Row>
+    <Row FileID="0" LineNum="76">
+        <Column Column="0" Data="axil_regs.w_valid_reg"/>
+        <Column Column="1" Data="D-latch"/>
+        <Column Column="2" Data=""/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="1"/>
+    </Row>
+    <Row FileID="0" LineNum="96">
+        <Column Column="0" Data="axil_regs.b_valid_reg"/>
+        <Column Column="1" Data="D-latch"/>
+        <Column Column="2" Data=""/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="0"/>
+    </Row>
+    <Row FileID="0" LineNum="116">
+        <Column Column="0" Data="axil_regs.ar_valid_reg"/>
+        <Column Column="1" Data="D-latch"/>
+        <Column Column="2" Data=""/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="1"/>
+    </Row>
+    <Row FileID="0" LineNum="136">
+        <Column Column="0" Data="axil_regs.r_valid_reg"/>
+        <Column Column="1" Data="D-latch"/>
+        <Column Column="2" Data=""/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="0"/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260921-051654-verilog-skill/qwen3-coder_30b/axi_lite.sv" id="0"/>
+    </FileIDs>
+</BluePearlReport>

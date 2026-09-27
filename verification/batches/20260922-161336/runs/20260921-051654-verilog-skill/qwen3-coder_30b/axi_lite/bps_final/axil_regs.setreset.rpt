@@ -1,0 +1,9 @@
+===============================
+Blue Pearl Sets/Resets Report created on: Tue Sep 22 16:15:09 2026
+===============================
+Reset/Set: axil_regs.rst_n is Asynchronous. It is a Primary Reset signal which is active Low with reset logic None and is not synchronously de-asserted. Fanout: 11.
+===============================
+1 primary set/resets identified and reported.
+0 internal set/resets identified and reported.
+1 primary synchronous set/resets identified but not reported.
+===============================

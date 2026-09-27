@@ -1,0 +1,165 @@
+{
+  "source_run": "20260921-062307-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:24:10+0100",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "axi_lite",
+  "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\axi_lite.vhd",
+  "sha256": "1bb2c2a090d432ea3cf8a5d11c23b9c25b93de437103f87c5a152f301b5288df",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_awaddr",
+      "awaddr",
+      "in",
+      "std_ulogic_vector(g_addr_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_awvalid",
+      "awvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_awready",
+      "awready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_wdata",
+      "wdata",
+      "in",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_wstrb",
+      "wstrb",
+      "in",
+      "std_ulogic_vector(g_data_width/8-1 DOWNTO 0)"
+    ],
+    [
+      "i_wvalid",
+      "wvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_wready",
+      "wready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_bresp",
+      "bresp",
+      "out",
+      "std_ulogic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "o_bvalid",
+      "bvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_bready",
+      "bready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_araddr",
+      "araddr",
+      "in",
+      "std_ulogic_vector(g_addr_width-1 DOWNTO 0)"
+    ],
+    [
+      "i_arvalid",
+      "arvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_arready",
+      "arready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "o_rdata",
+      "rdata",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_rresp",
+      "rresp",
+      "out",
+      "std_ulogic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "o_rvalid",
+      "rvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "i_rready",
+      "rready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_reg0",
+      "reg0",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_reg1",
+      "reg1",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_reg2",
+      "reg2",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ],
+    [
+      "o_reg3",
+      "reg3",
+      "out",
+      "std_ulogic_vector(g_data_width-1 DOWNTO 0)"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 160,
+        "failures": 8,
+        "seconds": 18.69,
+        "returncode": 0
+      }
+    ]
+  }
+}

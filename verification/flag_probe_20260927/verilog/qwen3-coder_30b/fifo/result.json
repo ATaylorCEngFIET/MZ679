@@ -1,0 +1,40 @@
+{
+  "language": "verilog",
+  "model": "qwen3-coder_30b",
+  "task": "fifo",
+  "source": "20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv",
+  "sha256": "c542b600d537f3d5f76f9a216d56f7722e9099893abff9eee2f7e4804be038ef",
+  "baseline": "ELABORATION_FAIL",
+  "compile_command": [
+    "vlog",
+    "-sv",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv"
+  ],
+  "compile_returncode": 0,
+  "compile_pass": true,
+  "diagnostics": [],
+  "directory": "flag_probe_20260927\\verilog\\qwen3-coder_30b\\fifo",
+  "tb_compile_returncode": 0,
+  "optimize_command": [
+    "vopt",
+    "-permissive",
+    "work.tb",
+    "-o",
+    "tb_relaxed"
+  ],
+  "optimize_returncode": 0,
+  "optimize_pass": true,
+  "optimize_diagnostics": [
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(61): (vopt-7033) Variable 'wr_addr' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(41).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(62): (vopt-7033) Variable 'rd_addr' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(42).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(63): (vopt-7033) Variable 'wr_wrap' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(43).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(64): (vopt-7033) Variable 'rd_wrap' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(44).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(66): (vopt-7033) Variable 'wr_addr' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(41).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(67): (vopt-7033) Variable 'rd_addr' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(42).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(68): (vopt-7033) Variable 'wr_wrap' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(43).",
+    "** Warning (downgraded): C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(69): (vopt-7033) Variable 'rd_wrap' driven in a combinational block, may not be driven by any other process. See C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv(44)."
+  ]
+}

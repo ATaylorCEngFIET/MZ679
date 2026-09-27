@@ -1,0 +1,188 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:13:59+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "axi_lite",
+  "source": "20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite.vhd",
+  "sha256": "ed01a9ec5ff6066fc1793cee2e64c3f480ca1c51b8f2e35e52e9926227956b0d",
+  "interface_errors": [],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3"
+  ],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "aw_valid",
+      "awvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "aw_ready",
+      "awready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "aw_addr",
+      "awaddr",
+      "in",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "w_valid",
+      "wvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "w_ready",
+      "wready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "w_data",
+      "wdata",
+      "in",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "w_strb",
+      "wstrb",
+      "in",
+      "std_logic_vector(3 DOWNTO 0)"
+    ],
+    [
+      "b_valid",
+      "bvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "b_ready",
+      "bready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "b_resp",
+      "bresp",
+      "out",
+      "std_logic_vector(1 DOWNTO 0)"
+    ],
+    [
+      "ar_valid",
+      "arvalid",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "ar_ready",
+      "arready",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "ar_addr",
+      "araddr",
+      "in",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "r_valid",
+      "rvalid",
+      "out",
+      "std_ulogic"
+    ],
+    [
+      "r_ready",
+      "rready",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "r_data",
+      "rdata",
+      "out",
+      "std_logic_vector(31 DOWNTO 0)"
+    ],
+    [
+      "r_resp",
+      "rresp",
+      "out",
+      "std_logic_vector(1 DOWNTO 0)"
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\qwen-fpga\\axi_lite\\bps_final",
+    "returncode": 101,
+    "seconds": 1.67,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 9,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/axi_lite.vhd(119): syntax error near '?', expecting ')' or '\",\"'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/axi_lite.vhd(120): syntax error near '?', expecting ';' or 'when'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1052",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/axi_lite.vhd(125): 0 definitions of operator \"??\" match here"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/axi_lite.vhd(125): syntax error near 'IN', expecting ';'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/axi_lite.vhd(125): syntax error near ')', expecting ';' or 'when'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260921-035335-vhdl-skill/qwen-fpga/axi_lite.vhd(39): unit 'rtl' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/20260921-035335-vhdl-skill/qwen-fpga/axi_lite.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-062307-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:24:30+0100",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "cdc_sync",
+  "source": "20260921-062307-vhdl-skill\\qwen3.8-flash-next\\cdc_sync.vhd",
+  "sha256": "64a37bb0ceb7002697067d772ae3169530ce3c761783cfce9d43ffe3590e2954",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "i_d",
+      "din",
+      "in",
+      "std_ulogic"
+    ],
+    [
+      "o_q",
+      "dout",
+      "out",
+      "std_ulogic   "
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 400,
+        "failures": 0,
+        "seconds": 18.59,
+        "returncode": 0
+      },
+      {
+        "variant": "stages3",
+        "status": "PASS",
+        "checks": 400,
+        "failures": 0,
+        "seconds": 18.99,
+        "returncode": 0
+      }
+    ]
+  }
+}

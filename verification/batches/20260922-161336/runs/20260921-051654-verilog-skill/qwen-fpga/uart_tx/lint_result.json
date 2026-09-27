@@ -1,0 +1,90 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:01+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "uart_tx",
+  "source": "20260921-051654-verilog-skill\\qwen-fpga\\uart_tx.sv",
+  "sha256": "4bac26b8eca625ceb243d46658785a69d25a0f928545855559e7a3833351b8c0",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-051654-verilog-skill\\qwen-fpga\\uart_tx\\bps_final",
+    "returncode": 0,
+    "seconds": 2.01,
+    "status": "COMPLETE",
+    "warnings": 6,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/uart_tx.sv(93): Module: 'uart_tx' The asynchronous reset signal 'uart_tx.rst' is not synchronously deasserted for the following register: 'uart_tx.baud_counter'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/uart_tx.sv(42): Module: 'uart_tx' The asynchronous reset signal 'uart_tx.rst' is not synchronously deasserted for the following register: 'uart_tx.current_state'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/uart_tx.sv(110): Module: 'uart_tx' The asynchronous reset signal 'uart_tx.rst' is not synchronously deasserted for the following register: 'uart_tx.shift_register'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/uart_tx.sv(42): Module: 'uart_tx' Asynchronous preset/clear used with register: uart_tx.current_state."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/uart_tx.sv(93): Module: 'uart_tx' Asynchronous preset/clear used with register: uart_tx.baud_counter."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260921-051654-verilog-skill/qwen-fpga/uart_tx.sv(110): Module: 'uart_tx' Asynchronous preset/clear used with register: uart_tx.shift_register."
+      }
+    ]
+  }
+}

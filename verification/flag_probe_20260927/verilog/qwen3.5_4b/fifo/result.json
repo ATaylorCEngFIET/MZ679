@@ -1,0 +1,24 @@
+{
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "fifo",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv",
+  "sha256": "7d4a1aa0be25d9b2e4cfff4f8b818ffc7394cd6bc7b7662cb03e9cd16551947a",
+  "baseline": "COMPILE_FAIL",
+  "compile_command": [
+    "vlog",
+    "-sv",
+    "-permissive",
+    "-work",
+    "work",
+    "C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv"
+  ],
+  "compile_returncode": 2,
+  "compile_pass": false,
+  "diagnostics": [
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv(5): (vlog-2730) Undefined variable: 'WIDTH'.",
+    "** Warning: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv(5): (vlog-2618) 'wr_data' already declared in this scope (sync_fifo).",
+    "** Error: C:\\hdl_projects\\ai_on_prem\\20260921-051654-verilog-skill\\qwen3.5_4b\\fifo.sv(5): (vlog-13294) Identifier must be declared with a port mode: wr_data."
+  ],
+  "directory": "flag_probe_20260927\\verilog\\qwen3.5_4b\\fifo"
+}

@@ -1,0 +1,13 @@
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-051654-verilog-skill\qwen-fpga\bugfix\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 16:21:14 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# ** Error (suppressible): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\bugfix.sv(17): (vopt-7033) Variable 'q' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\bugfix.sv(11).
+# ** Error (suppressible): C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\bugfix.sv(19): (vopt-7033) Variable 'q' driven in a combinational block, may not be driven by any other process. See C:\hdl_projects\ai_on_prem\20260921-051654-verilog-skill\qwen-fpga\bugfix.sv(11).
+# Optimization failed
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated due to previous errors with code 12.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=0.
+# Error loading design
+# End time: 16:21:15 on Sep 22,2026, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0

@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-062620-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:15:37+0100",
+  "language": "verilog",
+  "model": "qwen3.8-flash-next",
+  "task": "bugfix",
+  "source": "20260921-062620-verilog-skill\\qwen3.8-flash-next\\bugfix.sv",
+  "sha256": "22474a2748191ed44a74f7d44b94e11a6fb169571db742e53458d197352a1c48",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      ""
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "[7:0]"
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-062620-verilog-skill\\qwen3.8-flash-next\\bugfix\\bps_final",
+    "returncode": 0,
+    "seconds": 1.84,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

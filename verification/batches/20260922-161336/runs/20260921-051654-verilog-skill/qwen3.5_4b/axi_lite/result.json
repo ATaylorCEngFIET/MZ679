@@ -1,0 +1,141 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:22:42+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "axi_lite",
+  "source": "20260921-051654-verilog-skill\\qwen3.5_4b\\axi_lite.sv",
+  "sha256": "79b512d35b436e8613b71a1dc82eb97d7523b2d747badcc9784b5fcacd046cfc",
+  "interface_errors": [
+    "Wrong port direction rvalid",
+    "Wrong port direction rdata",
+    "Wrong port direction bready",
+    "Wrong port direction rready"
+  ],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "awaddr",
+      "awaddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "awvalid",
+      "awvalid",
+      "in",
+      ""
+    ],
+    [
+      "awready",
+      "awready",
+      "out",
+      ""
+    ],
+    [
+      "wdata",
+      "wdata",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "wstrb",
+      "wstrb",
+      "in",
+      "[2:0]"
+    ],
+    [
+      "wvalid",
+      "wvalid",
+      "in",
+      ""
+    ],
+    [
+      "wready",
+      "wready",
+      "out",
+      ""
+    ],
+    [
+      "bresp",
+      "bresp",
+      "in",
+      "[1:0]"
+    ],
+    [
+      "bvalid",
+      "bvalid",
+      "out",
+      ""
+    ],
+    [
+      "bready",
+      "bready",
+      "out",
+      ""
+    ],
+    [
+      "araddr",
+      "araddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "arvalid",
+      "arvalid",
+      "in",
+      ""
+    ],
+    [
+      "arready",
+      "arready",
+      "out",
+      ""
+    ],
+    [
+      "rdata",
+      "rdata",
+      "in",
+      ""
+    ],
+    [
+      "rvalid",
+      "rvalid",
+      "in",
+      ""
+    ],
+    [
+      "rready",
+      "rready",
+      "out",
+      ""
+    ],
+    [
+      "rresp",
+      "rresp",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  }
+}

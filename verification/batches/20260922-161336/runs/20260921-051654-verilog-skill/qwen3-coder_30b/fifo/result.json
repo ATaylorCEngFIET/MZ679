@@ -1,0 +1,83 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:22:31+0100",
+  "language": "verilog",
+  "model": "qwen3-coder_30b",
+  "task": "fifo",
+  "source": "20260921-051654-verilog-skill\\qwen3-coder_30b\\fifo.sv",
+  "sha256": "c542b600d537f3d5f76f9a216d56f7722e9099893abff9eee2f7e4804be038ef",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "ELAB_OR_TOOL_FAIL",
+        "checks": 0,
+        "failures": null,
+        "seconds": 8.4,
+        "returncode": 12
+      },
+      {
+        "variant": "width16_depth4",
+        "status": "ELAB_OR_TOOL_FAIL",
+        "checks": 0,
+        "failures": null,
+        "seconds": 8.38,
+        "returncode": 12
+      }
+    ]
+  }
+}

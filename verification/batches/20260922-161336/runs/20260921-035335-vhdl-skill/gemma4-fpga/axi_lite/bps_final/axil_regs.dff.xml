@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="DFFs" Created="Tue Sep 22 16:13:44 2026">
+    <Headers>
+        <Header Column="0" Name="Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="Data Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Clock Pin's Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_aw_done"/>
+        <Column Column="1" Data="Dff"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_w_done"/>
+        <Column Column="1" Data="Dff"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_b_valid"/>
+        <Column Column="1" Data="Dff"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="1"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_b_resp[1:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data=""/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="1"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_write_complete"/>
+        <Column Column="1" Data="Dff"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="129"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_aw_addr[7:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="4"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_reg0[31:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="4"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_reg1[31:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="5"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_reg2[31:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="6"/>
+    </Row>
+    <Row FileID="0" LineNum="70">
+        <Column Column="0" Data="axil_regs.s_reg3[31:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="6"/>
+    </Row>
+    <Row FileID="0" LineNum="132">
+        <Column Column="0" Data="axil_regs.s_ar_done"/>
+        <Column Column="1" Data="Dff"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="36"/>
+    </Row>
+    <Row FileID="0" LineNum="132">
+        <Column Column="0" Data="axil_regs.s_r_valid"/>
+        <Column Column="1" Data="Dff"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="1"/>
+    </Row>
+    <Row FileID="0" LineNum="132">
+        <Column Column="0" Data="axil_regs.s_r_resp[1:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="132">
+        <Column Column="0" Data="axil_regs.s_r_data[31:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="i_clk_group"/>
+        <Column Column="3" Data="i_clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260921-035335-vhdl-skill/gemma4-fpga/axi_lite.vhd" id="0"/>
+    </FileIDs>
+</BluePearlReport>

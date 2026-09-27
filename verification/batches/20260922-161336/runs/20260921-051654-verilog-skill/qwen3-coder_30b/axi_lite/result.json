@@ -1,0 +1,146 @@
+{
+  "source_run": "20260921-051654-verilog-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:22:04+0100",
+  "language": "verilog",
+  "model": "qwen3-coder_30b",
+  "task": "axi_lite",
+  "source": "20260921-051654-verilog-skill\\qwen3-coder_30b\\axi_lite.sv",
+  "sha256": "5ed6956cd1be865bf8c3432fe143c87ef94054212ccf655d6ab1f88449ad18ad",
+  "interface_errors": [],
+  "request_findings": [
+    "Missing requested/AXI port reg0",
+    "Missing requested/AXI port reg1",
+    "Missing requested/AXI port reg2",
+    "Missing requested/AXI port reg3"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst_n",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_awaddr",
+      "awaddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "s_axi_awvalid",
+      "awvalid",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_awready",
+      "awready",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_wdata",
+      "wdata",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "s_axi_wstrb",
+      "wstrb",
+      "in",
+      "[3:0]"
+    ],
+    [
+      "s_axi_wvalid",
+      "wvalid",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_wready",
+      "wready",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_bresp",
+      "bresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "s_axi_bvalid",
+      "bvalid",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_bready",
+      "bready",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_araddr",
+      "araddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "s_axi_arvalid",
+      "arvalid",
+      "in",
+      ""
+    ],
+    [
+      "s_axi_arready",
+      "arready",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_rdata",
+      "rdata",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "s_axi_rresp",
+      "rresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "s_axi_rvalid",
+      "rvalid",
+      "out",
+      ""
+    ],
+    [
+      "s_axi_rready",
+      "rready",
+      "in",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 40,
+        "failures": 31,
+        "seconds": 18.49,
+        "returncode": 0
+      }
+    ]
+  }
+}

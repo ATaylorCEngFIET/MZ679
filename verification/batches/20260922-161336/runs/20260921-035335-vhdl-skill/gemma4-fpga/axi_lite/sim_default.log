@@ -1,0 +1,116 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\verification\batches\20260922-161336\runs\20260921-035335-vhdl-skill\gemma4-fpga\axi_lite\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 16:15:01 on Sep 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.axil_regs(rtl)#1
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# ** Warning: (vsim-86) Argument value -559038737 is not in bounds of subtype NATURAL.
+#    Time: 85 ns  Iteration: 1  Instance: /tb/dut
+# CHECK_FAIL B stable while stalled t=96000
+# CHECK_FAIL B stable while stalled t=106000
+# CHECK_FAIL B stable while stalled t=116000
+# CHECK_FAIL B stable while stalled t=126000
+# ** Warning: (vsim-86) Argument value -559038737 is not in bounds of subtype NATURAL.
+#    Time: 195 ns  Iteration: 1  Instance: /tb/dut
+# CHECK_FAIL B stable while stalled t=206000
+# CHECK_FAIL B stable while stalled t=216000
+# CHECK_FAIL B stable while stalled t=226000
+# CHECK_FAIL B stable while stalled t=236000
+# ** Warning: (vsim-86) Argument value -559038737 is not in bounds of subtype NATURAL.
+#    Time: 305 ns  Iteration: 1  Instance: /tb/dut
+# CHECK_FAIL B stable while stalled t=316000
+# CHECK_FAIL B stable while stalled t=326000
+# CHECK_FAIL B stable while stalled t=336000
+# CHECK_FAIL B stable while stalled t=346000
+# ** Warning: (vsim-86) Argument value -559038737 is not in bounds of subtype NATURAL.
+#    Time: 415 ns  Iteration: 1  Instance: /tb/dut
+# CHECK_FAIL B stable while stalled t=426000
+# CHECK_FAIL B stable while stalled t=436000
+# CHECK_FAIL B stable while stalled t=446000
+# CHECK_FAIL B stable while stalled t=456000
+# CHECK_FAIL readback register 0 expected 12345678 actual 21524111 t=516000
+# CHECK_FAIL R data/valid stable while stalled t=526000
+# CHECK_FAIL R data/valid stable while stalled t=536000
+# CHECK_FAIL R data/valid stable while stalled t=546000
+# CHECK_FAIL R data/valid stable while stalled t=556000
+# CHECK_FAIL readback register 1 expected 03254769 actual 21524111 t=616000
+# CHECK_FAIL R data/valid stable while stalled t=626000
+# CHECK_FAIL R data/valid stable while stalled t=636000
+# CHECK_FAIL R data/valid stable while stalled t=646000
+# CHECK_FAIL R data/valid stable while stalled t=656000
+# CHECK_FAIL readback register 2 expected 3016745a actual 21524111 t=716000
+# CHECK_FAIL R data/valid stable while stalled t=726000
+# CHECK_FAIL R data/valid stable while stalled t=736000
+# CHECK_FAIL R data/valid stable while stalled t=746000
+# CHECK_FAIL R data/valid stable while stalled t=756000
+# CHECK_FAIL readback register 3 expected 2107654b actual 21524111 t=816000
+# CHECK_FAIL R data/valid stable while stalled t=826000
+# CHECK_FAIL R data/valid stable while stalled t=836000
+# CHECK_FAIL R data/valid stable while stalled t=846000
+# CHECK_FAIL R data/valid stable while stalled t=856000
+# CHECK_FAIL BVALID independent of BREADY t=1756000
+# CHECK_FAIL readback register 1 expected cafe9876 actual 21524111 t=1806000
+# CHECK_FAIL R data/valid stable while stalled t=1816000
+# CHECK_FAIL R data/valid stable while stalled t=1826000
+# CHECK_FAIL R data/valid stable while stalled t=1836000
+# CHECK_FAIL R data/valid stable while stalled t=1846000
+# CHECK_FAIL BVALID independent of BREADY t=2746000
+# CHECK_FAIL readback register 2 expected 87654321 actual 21524111 t=2796000
+# CHECK_FAIL R data/valid stable while stalled t=2806000
+# CHECK_FAIL R data/valid stable while stalled t=2816000
+# CHECK_FAIL R data/valid stable while stalled t=2826000
+# CHECK_FAIL R data/valid stable while stalled t=2836000
+# ** Warning: (vsim-86) Argument value -559038737 is not in bounds of subtype NATURAL.
+#    Time: 2905 ns  Iteration: 1  Instance: /tb/dut
+# CHECK_FAIL B stable while stalled t=2916000
+# CHECK_FAIL B stable while stalled t=2926000
+# CHECK_FAIL B stable while stalled t=2936000
+# CHECK_FAIL B stable while stalled t=2946000
+# CHECK_FAIL readback register 0 expected 12bb56dd actual 21524111 t=3006000
+# CHECK_FAIL R data/valid stable while stalled t=3016000
+# CHECK_FAIL R data/valid stable while stalled t=3026000
+# CHECK_FAIL R data/valid stable while stalled t=3036000
+# CHECK_FAIL R data/valid stable while stalled t=3046000
+# ** Warning: (vsim-86) Argument value -559038737 is not in bounds of subtype NATURAL.
+#    Time: 3115 ns  Iteration: 1  Instance: /tb/dut
+# CHECK_FAIL B stable while stalled t=3126000
+# CHECK_FAIL B stable while stalled t=3136000
+# CHECK_FAIL B stable while stalled t=3146000
+# CHECK_FAIL B stable while stalled t=3156000
+# CHECK_FAIL readback register 3 expected 2107654b actual 21524111 t=3216000
+# CHECK_FAIL R data/valid stable while stalled t=3226000
+# CHECK_FAIL R data/valid stable while stalled t=3236000
+# CHECK_FAIL R data/valid stable while stalled t=3246000
+# CHECK_FAIL R data/valid stable while stalled t=3256000
+# RESULT checks=118 failures=66
+# ** Note: $finish    : tb.sv(13)
+#    Time: 3296 ns  Iteration: 0  Instance: /tb
+# End time: 16:15:13 on Sep 22,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 6

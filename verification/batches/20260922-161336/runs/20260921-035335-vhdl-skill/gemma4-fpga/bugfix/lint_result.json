@@ -1,0 +1,59 @@
+{
+  "source_run": "20260921-035335-vhdl-skill",
+  "batch": "20260922-161336",
+  "executed_at": "2026-09-22T16:13:43+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "bugfix",
+  "source": "20260921-035335-vhdl-skill\\gemma4-fpga\\bugfix.vhd",
+  "sha256": "1f55eb6302222faafa3576fdc46a505ff9b36d6b743ab7c593ed504875dfd426",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "i_clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_sel",
+      "sel",
+      "in",
+      "std_logic"
+    ],
+    [
+      "i_a",
+      "a",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "i_b",
+      "b",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "o_q",
+      "q",
+      "out",
+      "std_logic_vector(7 downto 0)  "
+    ]
+  ],
+  "lint": {
+    "directory": "batches\\20260922-161336\\runs\\20260921-035335-vhdl-skill\\gemma4-fpga\\bugfix\\bps_final",
+    "returncode": 0,
+    "seconds": 1.87,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

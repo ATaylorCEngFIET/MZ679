@@ -1,0 +1,17 @@
+===============================
+Blue Pearl DFFs Report created on: Tue Sep 22 16:15:26 2026
+===============================
+11 D-type flip-flop registers:
+===============================
+axil_regs.aw_pending type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 4
+axil_regs.w_pending type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 4
+axil_regs.bvalid_int type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 3
+axil_regs.rvalid_int type Dff Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 3
+axil_regs.awaddr_latch[31:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 17
+axil_regs.wdata_latch[31:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 4
+axil_regs.wstrb_latch[3:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 32
+axil_regs.r_reg0[31:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+axil_regs.r_reg1[31:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+axil_regs.r_reg2[31:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+axil_regs.r_reg3[31:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+===============================
