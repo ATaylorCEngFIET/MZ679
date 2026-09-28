@@ -1,0 +1,517 @@
+{
+  "date": "2026-09-28",
+  "scope": "Original protocol guide reference RTL, not model-generated results",
+  "tools": {
+    "questa": "2025.3",
+    "blue_pearl": "2026.4.68770"
+  },
+  "simulation": [
+    {
+      "language": "verilog",
+      "suite": "axis_fifo2",
+      "mode": null,
+      "status": "PASS",
+      "checks": 1472,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "axif_burst_cursor",
+      "mode": null,
+      "status": "PASS",
+      "checks": 1224,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "apb_regs",
+      "mode": null,
+      "status": "PASS",
+      "checks": 289,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "ahb_regs",
+      "mode": null,
+      "status": "PASS",
+      "checks": 17,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "spi",
+      "mode": 0,
+      "status": "PASS",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "spi",
+      "mode": 1,
+      "status": "PASS",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "spi",
+      "mode": 2,
+      "status": "PASS",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "spi",
+      "mode": 3,
+      "status": "PASS",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "i2c",
+      "mode": null,
+      "status": "PASS",
+      "checks": 26,
+      "failures": 0
+    },
+    {
+      "language": "verilog",
+      "suite": "i2c_bit_engine",
+      "mode": null,
+      "status": "PASS",
+      "checks": 9,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "axis_fifo2",
+      "mode": null,
+      "status": "PASS",
+      "checks": 1472,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "axif_burst_cursor",
+      "mode": null,
+      "status": "PASS",
+      "checks": 1224,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "apb_regs",
+      "mode": null,
+      "status": "PASS",
+      "checks": 289,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "ahb_regs",
+      "mode": null,
+      "status": "PASS",
+      "checks": 17,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "spi",
+      "mode": 0,
+      "status": "PASS",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "spi",
+      "mode": 1,
+      "status": "PASS",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "spi",
+      "mode": 2,
+      "status": "PASS",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "spi",
+      "mode": 3,
+      "status": "PASS",
+      "checks": 25,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "i2c",
+      "mode": null,
+      "status": "PASS",
+      "checks": 26,
+      "failures": 0
+    },
+    {
+      "language": "vhdl",
+      "suite": "i2c_bit_engine",
+      "mode": null,
+      "status": "PASS",
+      "checks": 9,
+      "failures": 0
+    }
+  ],
+  "lint": [
+    {
+      "language": "verilog",
+      "module": "ahb_regs",
+      "complete": true,
+      "errors": 0,
+      "warnings": 1,
+      "diagnostics": [
+        {
+          "id": "BPS-0534",
+          "count": 1,
+          "severity": "warning"
+        }
+      ],
+      "returncode": 0
+    },
+    {
+      "language": "verilog",
+      "module": "apb_regs",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "verilog",
+      "module": "axif_burst_cursor",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "verilog",
+      "module": "axis_fifo2",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "verilog",
+      "module": "i2c_bit_engine",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "verilog",
+      "module": "i2c_byte_master",
+      "complete": true,
+      "errors": 0,
+      "warnings": 1,
+      "diagnostics": [
+        {
+          "id": "VERI-1209",
+          "count": 1,
+          "severity": "warning"
+        }
+      ],
+      "returncode": 0
+    },
+    {
+      "language": "verilog",
+      "module": "i2c_byte_slave",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "verilog",
+      "module": "spi_byte_master",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "verilog",
+      "module": "spi_byte_slave",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "ahb_regs",
+      "complete": true,
+      "errors": 0,
+      "warnings": 1,
+      "diagnostics": [
+        {
+          "id": "BPS-0534",
+          "count": 1,
+          "severity": "warning"
+        }
+      ],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "apb_regs",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "axif_burst_cursor",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "axis_fifo2",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "i2c_bit_engine",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "i2c_byte_master",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "i2c_byte_slave",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "spi_byte_master",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    },
+    {
+      "language": "vhdl",
+      "module": "spi_byte_slave",
+      "complete": true,
+      "errors": 0,
+      "warnings": 0,
+      "diagnostics": [],
+      "returncode": 0
+    }
+  ],
+  "lint_policy_sha256": "218882f17f188fc540e8329bdc0863ce1fad8845fc1fac4ae5abee377fcd5471",
+  "guides": [
+    {
+      "path": "vhdl/protocols/vhdl_ahb.md",
+      "sha256": "42062fbfef9c06441061386d084a8a5cf3415302263150ac8a3cf4b375908109",
+      "references": [
+        {
+          "module": "ahb_regs",
+          "sha256": "907926f523d3ca3ddcb85aec1f93708c3f58b48990fcec96dfed2d4a0b5ba668"
+        }
+      ]
+    },
+    {
+      "path": "vhdl/protocols/vhdl_apb.md",
+      "sha256": "ce7d566e7743460e6172ecf8e6cc519f00f2280ed3ad8550a2058df980f0b089",
+      "references": [
+        {
+          "module": "apb_regs",
+          "sha256": "7228c93af9a0adca22a1ccc163edb7b3289e4bf6bde7d8b3d31c92c8261ba54c"
+        }
+      ]
+    },
+    {
+      "path": "vhdl/protocols/vhdl_axi_full.md",
+      "sha256": "9804deaeeaf105e7bad138a83f6feb61f4bf70d7aad8e2503a72c4d745a868c2",
+      "references": [
+        {
+          "module": "axif_burst_cursor",
+          "sha256": "719a8813df7000c1d80322cdd8184d8857fe1441f55643769d7b045e862405fb"
+        }
+      ]
+    },
+    {
+      "path": "vhdl/protocols/vhdl_axi_stream.md",
+      "sha256": "f42a138e1ef02e500a5fa304c17fe05f4d5819d8a3a5dae95b817f1468369f3c",
+      "references": [
+        {
+          "module": "axis_fifo2",
+          "sha256": "08e1d349d8bc7113b33f0f70045b89319de8f74c4bb3b27f98ab90af77ceaa6a"
+        }
+      ]
+    },
+    {
+      "path": "vhdl/protocols/vhdl_i2c.md",
+      "sha256": "cb4a52cedf10d5965e5e1971983c7e475ea9bc58b0d23a3be326c8baaf1cb114",
+      "references": [
+        {
+          "module": "i2c_bit_engine",
+          "sha256": "c956aa851b6d8321e73269cd6a8ae3fab8969a703f77090d8488e43d508dc760"
+        },
+        {
+          "module": "i2c_byte_master",
+          "sha256": "697dd437b18b029777a3c07fe51b1e3d70f6facbb1741bef4a2e3e4e689ba56d"
+        },
+        {
+          "module": "i2c_byte_slave",
+          "sha256": "453e22fa6cf710ab857a876da46ba6dc820bde57bc1b2f20d0d9fb799e4628c9"
+        }
+      ]
+    },
+    {
+      "path": "vhdl/protocols/vhdl_spi.md",
+      "sha256": "b77efcee0b0f95f4251aa23e877c420cd5130c739ecc4406bcc6e7cd96019501",
+      "references": [
+        {
+          "module": "spi_byte_master",
+          "sha256": "46e007207a234cc379366417d5ef066b3e333715702bdef87c93a0bc0f70cb8d"
+        },
+        {
+          "module": "spi_byte_slave",
+          "sha256": "e2b6ffc92d59d7256cc6bda4cf143eb3df57690f80d978364d29c6d9ccde0579"
+        }
+      ]
+    },
+    {
+      "path": "verilog/protocols/verilog_ahb.md",
+      "sha256": "4afa7b4aabf239f1a90da7f969bb7b7fe86a64a9f6a4990b1670eec8f8d20537",
+      "references": [
+        {
+          "module": "ahb_regs",
+          "sha256": "89eb6785069d2b0e7d84b96f299bbc67b1a30cfc6292bab963bef2346fe4dfe3"
+        }
+      ]
+    },
+    {
+      "path": "verilog/protocols/verilog_apb.md",
+      "sha256": "4e7908d53d60971a40e9b479dcbcc1bbb8d60ae20122d8e13a86144f7ae5dcfd",
+      "references": [
+        {
+          "module": "apb_regs",
+          "sha256": "161fa9a6c9dd621b16af35f2d04810485cc77368c2ee174bcbd2b5f1eb4707bf"
+        }
+      ]
+    },
+    {
+      "path": "verilog/protocols/verilog_axi_full.md",
+      "sha256": "2eb4b33ea032153bbdedc87f74c7d943fac6c1949e9d556b5b4660d09d197350",
+      "references": [
+        {
+          "module": "axif_burst_cursor",
+          "sha256": "ec1d70c12ebb5d4ae139cf18c8613a2b41ecc36ff3febcd92833e9b5722318cb"
+        }
+      ]
+    },
+    {
+      "path": "verilog/protocols/verilog_axi_stream.md",
+      "sha256": "e79bb2ebb83cccec1b8f05eb0c10b9aa2db96c8631762c03fb50b1617c493305",
+      "references": [
+        {
+          "module": "axis_fifo2",
+          "sha256": "daec041fb47491d19da050a2c0dfd6b00b95b2353549f45f32c1f29990a042cf"
+        }
+      ]
+    },
+    {
+      "path": "verilog/protocols/verilog_i2c.md",
+      "sha256": "050d075c9902e42992e417af9dc64be7816c857392879855c6077c7f0e69d6be",
+      "references": [
+        {
+          "module": "i2c_bit_engine",
+          "sha256": "0ab87aa3861ec46a23724519d3541c72b6cf24517707edc5914a2cc82b60b035"
+        },
+        {
+          "module": "i2c_byte_master",
+          "sha256": "854ec669c19ff282a3e287813c1d92022785a648388a711bc4c347f566324c5e"
+        },
+        {
+          "module": "i2c_byte_slave",
+          "sha256": "ba09588d9c160b76f9b8991e6e66ad0f63c2f3f00e34864dd1be01d29297a14b"
+        }
+      ]
+    },
+    {
+      "path": "verilog/protocols/verilog_spi.md",
+      "sha256": "052d3fd1e269041d9a965ce6de83cc59bd95e95152ce788ccb7b4008fa7133d5",
+      "references": [
+        {
+          "module": "spi_byte_master",
+          "sha256": "f5bc59f5c278d13a071255bf4950b98ecb93ab8555f272e636a479983d67af7c"
+        },
+        {
+          "module": "spi_byte_slave",
+          "sha256": "fe030fe69621b2e8632d740309f3962b554f43d17cc0898ac8e8f19fb39ae10b"
+        }
+      ]
+    }
+  ],
+  "existing_files": [
+    {
+      "path": "vhdl/vhdl_skill.md",
+      "sha256": "40d5e9c15aeec7ddbd2b66dfd070cb7d39beb417c01645b980e1e24c43347a44"
+    },
+    {
+      "path": "vhdl/vhdl_protocols.md",
+      "sha256": "0aeffa5ac70e11d8a92cb951850fa6d941cde0df925425749ce4762e9d72d3af"
+    },
+    {
+      "path": "verilog/verilog_skill.md",
+      "sha256": "7de09c8c8e559cbd348ec7f7e5e4bd53a7467ad0acaeb9e91cd267532069c954"
+    },
+    {
+      "path": "verilog/verilog_protocols.md",
+      "sha256": "ab00bdfa9f67e71f748e3c8c7d16bd173d1568f579f34723e509c7d84c881cfe"
+    }
+  ]
+}

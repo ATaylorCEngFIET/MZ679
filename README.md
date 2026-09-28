@@ -2,6 +2,7 @@
 
 - [Run one](run%20one/README.md): the previously published RTL and verification snapshot, generated on 21 September 2026.
 - [Run two — AMD-Halo](run%20two/README.md): 84 new AMD-Halo implementations generated on 28 September 2026 using the updated protocol skills, with saved simulation and Blue Pearl results.
+- [Protocol guide index](skills/README.md): AXI4-Stream, AXI4 Full, APB, AHB-Lite, and SPI/I2C master and slave guides in both languages, with reference validation results.
 - [VHDL skills](skills/vhdl/vhdl_skill.md) and [protocol examples](skills/vhdl/vhdl_protocols.md).
 - [SystemVerilog skills](skills/verilog/verilog_skill.md) and [protocol examples](skills/verilog/verilog_protocols.md).
 
