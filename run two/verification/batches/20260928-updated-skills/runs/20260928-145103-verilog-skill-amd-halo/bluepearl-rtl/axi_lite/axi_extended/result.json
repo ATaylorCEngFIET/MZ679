@@ -1,0 +1,12 @@
+{
+  "machine": "amd-halo",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "source": "20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\axi_lite.sv",
+  "sha256": "78b5c0b280751ad26c2f5674bcd92fd4acb77cee0c8022c0f56d7a7dc6f7c750",
+  "status": "PASS",
+  "checks": 907,
+  "failures": 0,
+  "failed_checks": [],
+  "seconds": 2.18
+}

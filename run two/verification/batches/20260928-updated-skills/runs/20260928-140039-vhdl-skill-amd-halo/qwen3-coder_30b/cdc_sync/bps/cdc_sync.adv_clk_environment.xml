@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Advanced Clock Environment Report" Created="Mon Sep 28 20:22:36 2026">
+    <Headers>
+        <Header Column="0" Name="From Clock" IntegerValue="No"/>
+        <Header Column="1" Name="From Clock Domain" IntegerValue="No"/>
+        <Header Column="2" Name="To Clock" IntegerValue="No"/>
+        <Header Column="3" Name="To Clock Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Synchronized DFFs" IntegerValue="Yes"/>
+        <Header Column="5" Name="Unsynchronized DFFs" IntegerValue="Yes"/>
+        <Header Column="6" Name="Derived?" IntegerValue="No"/>
+        <Header Column="7" Name="Equivalent?" IntegerValue="No"/>
+        <Header Column="8" Name="Recommendation" IntegerValue="No"/>
+    </Headers>
+    <FileIDs/>
+</BluePearlReport>

@@ -1,0 +1,83 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:24+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "bugfix",
+  "source": "20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\bugfix.sv",
+  "sha256": "f9e354b2397557c5d65267a7dc2bbb02f40adf0ec294404c81a43053958b8dfd",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      ""
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "[7:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 513,
+        "failures": 1,
+        "seconds": 2.46,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\bugfix\\bps",
+    "returncode": 0,
+    "seconds": 1.91,
+    "status": "COMPLETE",
+    "warnings": 2,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen-fpga/bugfix.sv(9): Module: 'mux_reg' The asynchronous reset signal 'mux_reg.rst' is not synchronously deasserted for the following register: 'mux_reg.q'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen-fpga/bugfix.sv(9): Module: 'mux_reg' Asynchronous preset/clear used with register: mux_reg.q."
+      }
+    ]
+  }
+}

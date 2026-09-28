@@ -1,0 +1,14 @@
+===============================
+Blue Pearl Advanced Clock Environment Report Report created on: Mon Sep 28 20:21:32 2026
+===============================
+Advanced Clock Environment Report:
+From clock: Unknown Clock To clock: aclk
+Synchronized: 0
+Unsynchronized: 12
+Issue: Unknown Clock interacts with clock aclk in an unsynchronized manner across domains. Recommendation: Add synchronizers or merge the domains. Turning on the option to auto-detect clock domains may help merge domains.
+
+From clock: aclk To clock: Unknown Clock
+Synchronized: 0
+Unsynchronized: 10
+Issue: aclk interacts with clock Unknown Clock in an unsynchronized manner across domains. Recommendation: Add synchronizers or merge the domains. Turning on the option to auto-detect clock domains may help merge domains.
+===============================

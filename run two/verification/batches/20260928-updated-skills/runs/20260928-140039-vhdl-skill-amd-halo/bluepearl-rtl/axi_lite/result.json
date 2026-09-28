@@ -1,0 +1,200 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:21:09+0100",
+  "language": "vhdl",
+  "model": "bluepearl-rtl",
+  "task": "axi_lite",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\bluepearl-rtl\\axi_lite.vhd",
+  "sha256": "6bba89ae9aed7b6a207cf94d1306d8f9ad715b5e9174896cbadc3429fcfa87ff",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "aclk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "aresetn",
+      "rst_n",
+      "in",
+      "std_logic"
+    ],
+    [
+      "awvalid",
+      "awvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "awready",
+      "awready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "awaddr",
+      "awaddr",
+      "in",
+      "std_logic_vector(31 downto 0)"
+    ],
+    [
+      "wvalid",
+      "wvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "wready",
+      "wready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "wdata",
+      "wdata",
+      "in",
+      "std_logic_vector(31 downto 0)"
+    ],
+    [
+      "wstrb",
+      "wstrb",
+      "in",
+      "std_logic_vector(3 downto 0)"
+    ],
+    [
+      "bvalid",
+      "bvalid",
+      "out",
+      "std_logic"
+    ],
+    [
+      "bready",
+      "bready",
+      "in",
+      "std_logic"
+    ],
+    [
+      "bresp",
+      "bresp",
+      "out",
+      "std_logic_vector(1 downto 0)"
+    ],
+    [
+      "arvalid",
+      "arvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "arready",
+      "arready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "araddr",
+      "araddr",
+      "in",
+      "std_logic_vector(31 downto 0)"
+    ],
+    [
+      "rvalid",
+      "rvalid",
+      "out",
+      "std_logic"
+    ],
+    [
+      "rready",
+      "rready",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rdata",
+      "rdata",
+      "out",
+      "std_logic_vector(31 downto 0)"
+    ],
+    [
+      "rresp",
+      "rresp",
+      "out",
+      "std_logic_vector(1 downto 0)"
+    ],
+    [
+      "reg0",
+      "reg0",
+      "out",
+      "std_logic_vector(31 downto 0))"
+    ],
+    [
+      "reg1",
+      "reg1",
+      "out",
+      "std_logic_vector(31 downto 0))"
+    ],
+    [
+      "reg2",
+      "reg2",
+      "out",
+      "std_logic_vector(31 downto 0))"
+    ],
+    [
+      "reg3",
+      "reg3",
+      "out",
+      "std_logic_vector(31 downto 0))"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 154,
+        "failures": 0,
+        "seconds": 3.34,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\bluepearl-rtl\\axi_lite\\bps",
+    "returncode": 0,
+    "seconds": 2.56,
+    "status": "COMPLETE",
+    "warnings": 5,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/bluepearl-rtl/axi_lite.vhd(17): Module: 'axil_regs(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/bluepearl-rtl/axi_lite.vhd(5): Module: 'axil_regs(rtl)' Signal 'axil_regs(rtl).awaddr[31:4]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/bluepearl-rtl/axi_lite.vhd(5): Module: 'axil_regs(rtl)' Signal 'axil_regs(rtl).awaddr[1:0]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/bluepearl-rtl/axi_lite.vhd(9): Module: 'axil_regs(rtl)' Signal 'axil_regs(rtl).araddr[31:4]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/bluepearl-rtl/axi_lite.vhd(9): Module: 'axil_regs(rtl)' Signal 'axil_regs(rtl).araddr[1:0]' is dangling."
+      }
+    ]
+  }
+}

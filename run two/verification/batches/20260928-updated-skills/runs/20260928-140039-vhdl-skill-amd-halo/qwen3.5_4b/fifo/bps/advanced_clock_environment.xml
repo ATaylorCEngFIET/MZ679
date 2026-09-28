@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSClockInteractionReport>
+    <ClockGroups>
+        <ClockGroup Name="clk_group">
+            <Clock Name="clk" FileID="0" LineNum="5"/>
+        </ClockGroup>
+    </ClockGroups>
+    <ClockInteractions/>
+    <ClockGroupInteractions/>
+    <FileIDs>
+        <File name="../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/fifo.vhd" id="0"/>
+    </FileIDs>
+</BPSClockInteractionReport>

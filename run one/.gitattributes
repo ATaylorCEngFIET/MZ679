@@ -1,0 +1,3 @@
+# Preserve original evidence bytes and recorded SHA-256 hashes.
+* -text
+*.png binary

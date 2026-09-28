@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Sets/Resets" Created="Mon Sep 28 20:21:29 2026">
+    <Headers>
+        <Header Column="0" Name="Reset/Set Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="SR Type" IntegerValue="No"/>
+        <Header Column="3" Name="Internal" IntegerValue="No"/>
+        <Header Column="4" Name="Staged" IntegerValue="No"/>
+        <Header Column="5" Name="Active" IntegerValue="No"/>
+        <Header Column="6" Name="Reset Logic" IntegerValue="No"/>
+        <Header Column="7" Name="Sync De-asserted" IntegerValue="No"/>
+        <Header Column="8" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <FileIDs/>
+</BluePearlReport>

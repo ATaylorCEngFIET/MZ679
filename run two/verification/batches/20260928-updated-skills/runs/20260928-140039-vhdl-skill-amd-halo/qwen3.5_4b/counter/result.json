@@ -1,0 +1,68 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:42+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "counter",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\counter.vhd",
+  "sha256": "ef4b2135aa5242ce3ee7b2072306bbd81111c26b17def81b9bd7c6591c84aa10",
+  "interface_errors": [],
+  "request_findings": [
+    "count output is not declared unsigned; JSON requests unsigned output"
+  ],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "en",
+      "en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "count",
+      "count",
+      "out",
+      "std_logic_vector(WIDTH-1 downto 0))"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 321,
+        "failures": 0,
+        "seconds": 2.7,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\counter\\bps",
+    "returncode": 0,
+    "seconds": 2.33,
+    "status": "COMPLETE",
+    "warnings": 1,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/counter.vhd(11): Module: 'counter4(rtl)' Initial statements should not be used."
+      }
+    ]
+  }
+}

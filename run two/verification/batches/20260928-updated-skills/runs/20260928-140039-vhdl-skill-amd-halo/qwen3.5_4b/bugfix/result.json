@@ -1,0 +1,78 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:36+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "bugfix",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\bugfix.vhd",
+  "sha256": "33f29f5b16d0937c7cd2617259725d718d0fdf75eb62d6e3cf276faa5100849a",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      "std_logic"
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "std_logic_vector(WIDTH-1 downto 0)"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "std_logic_vector(WIDTH-1 downto 0)"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "std_logic_vector(WIDTH-1 downto 0))"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 513,
+        "failures": 0,
+        "seconds": 2.86,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\bugfix\\bps",
+    "returncode": 0,
+    "seconds": 2.12,
+    "status": "COMPLETE",
+    "warnings": 1,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/bugfix.vhd(10): Module: 'mux_reg(rtl)' Initial statements should not be used."
+      }
+    ]
+  }
+}

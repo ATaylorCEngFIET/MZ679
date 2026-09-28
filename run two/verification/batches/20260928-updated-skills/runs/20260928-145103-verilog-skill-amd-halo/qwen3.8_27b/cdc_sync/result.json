@@ -1,0 +1,68 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:58+0100",
+  "language": "verilog",
+  "model": "qwen3.8_27b",
+  "task": "cdc_sync",
+  "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\cdc_sync.sv",
+  "sha256": "db4659d070f6b53ac60a73e7e5f78767ed059eff8f8ab3c4a88f41fdb932a51f",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "din",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "dout",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 400,
+        "failures": 0,
+        "seconds": 2.34,
+        "returncode": 0
+      },
+      {
+        "variant": "stages3",
+        "status": "PASS",
+        "checks": 400,
+        "failures": 0,
+        "seconds": 2.93,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\cdc_sync\\bps",
+    "returncode": 0,
+    "seconds": 1.92,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

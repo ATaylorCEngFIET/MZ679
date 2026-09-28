@@ -1,0 +1,92 @@
+{
+  "source_run": "20260928-151023-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:24:26+0100",
+  "language": "verilog",
+  "model": "qwen3.8-flash-next",
+  "task": "fifo",
+  "source": "20260928-151023-verilog-skill-amd-halo\\qwen3.8-flash-next\\fifo.sv",
+  "sha256": "e739bad259071c3f993f00672c2e99f3ea0a05af4386eff83e82306170c4cc16",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 3455,
+        "failures": 0,
+        "seconds": 2.45,
+        "returncode": 0
+      },
+      {
+        "variant": "width16_depth4",
+        "status": "PASS",
+        "checks": 3381,
+        "failures": 0,
+        "seconds": 2.47,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-151023-verilog-skill-amd-halo\\qwen3.8-flash-next\\fifo\\bps",
+    "returncode": 0,
+    "seconds": 2.0,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

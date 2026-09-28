@@ -1,0 +1,72 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:01+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "bugfix",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\gemma4-fpga\\bugfix.vhd",
+  "sha256": "c2e85cce4c81582dc161167b26c024c3ffd2f707c9d1f9848ac075b11c4ea972",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      "std_logic"
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "std_logic_vector(7 downto 0)"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 513,
+        "failures": 0,
+        "seconds": 2.54,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\gemma4-fpga\\bugfix\\bps",
+    "returncode": 0,
+    "seconds": 1.88,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

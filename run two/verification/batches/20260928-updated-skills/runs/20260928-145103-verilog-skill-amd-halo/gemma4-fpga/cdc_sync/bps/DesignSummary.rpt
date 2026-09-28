@@ -1,0 +1,101 @@
+===============================
+Blue Pearl Design Summary Report created on: Mon Sep 28 20:23:24 2026
+===============================
+Blue Pearl Version: 2026.4.68770.nightlyBuilds_2026.4.68770
+Running As: aptay@Adiuvo_Adam
+Running From: C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/gemma4-fpga/cdc_sync
+Original Command Line: -root=cdc_sync -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-145103-verilog-skill-amd-halo\gemma4-fpga\cdc_sync\bps -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/gemma4-fpga/cdc_sync.sv}; BPS::run analyze -forceload
+Effective Command Line: 
+   -root=cdc_sync
+   -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-145103-verilog-skill-amd-halo\gemma4-fpga\cdc_sync\bps
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/gemma4-fpga/cdc_sync.sv}; BPS::run analyze -forceload"
+===============================
+Compilation Unit Mode: Default
+Total Number of Files: 1
+	Compilation File Mode:Default
+	Files:
+	C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/gemma4-fpga/cdc_sync.sv - SystemVerilog - Translate off Disabled 
+===============================
+Parsing Settings:
+	Top Level Module: cdc_sync
+	Top Level Architecture: <unset>
+	Parameters/Generics:
+		<none>
+	Parameters/Generics to be Ignored:
+		<none>
+	Defines:
+		<none>
+	Include Directories:
+		<none>
+	Verilog Library Files:
+		<none>
+	Verilog Library Directories:
+		<none>
+	Verilog Library Directory Extensions:
+		.v
+	Verilog Module Library Search Path:
+		<none>
+	Autosort VHDL: yes
+	Autosort SV: yes
+===============================
+Top Level Design:
+	Name            : cdc_sync
+	Num Input Ports : 0
+	Num Output Ports: 0
+	Num Inout Ports : 0
+	Num Clocks      : 0
+	Num DFFs        : 1
+	Num Latches     : 0
+===============================
+Enabled Checks:
+	CLPR - There should be no combinational feedback loops. A combinational feedback loop with an odd number of inversions is an oscillator, and one with an even number of inversions is a home-made storage element. Either would create testing and verification issues.
+	CONSTANT - This check ensures that a constant value does not prevent the observability of other signals.
+	DANG - A signal in the design has no loads. Note that an unconnected input port within a module is also considered a dangling input.
+	DCI - Report duplicate case items.
+	MCA - The CASE statement must have an assignment to a variable in one of the case item blocks. The missing assignment results in an inferred latch.
+	MDR - A signal should not have multiple drivers.
+	MEA - The ELSE block of an IF statement must have an assignment to a variable that is assigned in the IF block. The missing assignment may result in an inferred latch.
+	MEB - The IF statement must have a matching ELSE block. The missing ELSE statement could result in an inferred latch.
+	MIA - The IF block of an IF statement must have an assignment to a variable. The missing assignment results in an inferred latch.
+	NO_DELAY - Designs should not contain delay statements. The check reports the use of delay statements.
+	NO_INITIAL - Designs should not have initial statements. The check reports the use of initial statements.
+	NOT_SYNTHESIZABLE - Report constructs that may not be synthesizable or may be partially synthesizable. Synthesis tools may differ on what they can synthesize.
+	PREV_ASSIGN - Report situation where an assignment may overwrite a previous assignment.
+	RRW - A read-write race condition may exist when the same variable can potentially be read from and written to in different always/initial blocks.
+	RSTASR - Report flip-flops that have both an asynchronous set and reset.
+	RSTS - Synchronous preset/clear must be used.
+	UBA - There should be no signals referenced before they are assigned within a non-sequential block. The check reports such signals. There is an option to also report signals that are referenced before they are assigned in sequential blocks.
+	UND - A signal is not driven.
+	UNI - Input pin of an primitive gate is not connected.
+	UNO - Output port of a module must be connected.
+	UNR - A bit-select or part-select of a net is not driven.
+	NO_SYNCH_DEASSERT_RST - Report on the reset signals not synchronously deasserted.
+	UNCONNECTED_UNDRIVEN_USED_NET - Report signals that are used but which trace back to a floating node.
+	UNCONNECTED_UNDRIVEN_USED_PIN - Report hierarchical instance pins that are unconnected but used internal to the instance.
+	LATCH_CREATED - Report on every latch created or inferred.
+===============================
+Modified Message Severities:
+	ELAB-1002 - MSG_WARNING -> MSG_IGNORE
+	ELAB-1013 - MSG_WARNING -> MSG_IGNORE
+===============================
+Message Summary:
+	Message ID:  BPS-0729: 7 comments - Status: %s on '%s'
+	Message ID:  BPS-0730: 134 comments - Status: %s
+	Message ID: SORT-9000: 1 informational - Pre-Analyzing '%s' file '%s' into library '%s'
+	Message ID: VERI-1018: 2 informationals - compiling module '%s'
+	Message ID: VERI-1482: 1 comment - Analyzing %s file '%s' into library '%s'
+	Message ID: VERI-1509: 1 informational - The Verilog library search path for library "%s" is now "%s"
+	Message ID: VERI-9012: 1 informational - analyzing module '%s'
+	Message ID: VERI-9014: 1 informational - The Verilog search library for imported/instantiated design units now includes '%s'
+	Message ID: VHDL-9010: 1 informational - The VHDL search library for imported/instantiated design units now includes '%s'
+	Message ID: VNLR-9000: 1 informational - The Verilog netlist search library for imported/instantiated design units now includes '%s'
+===============================
+Summary:
+	Total Number of Messages: 150
+	Number of Errors:         0
+	Number of Warnings:       0
+	Number of Informationals: 8
+	Number of Comments:       142
+===============================

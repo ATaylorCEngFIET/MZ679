@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Clocks" Created="Mon Sep 28 20:23:48 2026">
+    <Headers>
+        <Header Column="0" Name="Clock Name" IntegerValue="No"/>
+        <Header Column="1" Name="Clock Source (Internal Clocks Only)" IntegerValue="No"/>
+        <Header Column="2" Name="Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Primary Clock?" IntegerValue="No"/>
+        <Header Column="4" Name="Definition method" IntegerValue="No"/>
+        <Header Column="5" Name="Fanout" IntegerValue="Yes"/>
+        <Header Column="6" Name="Gated" IntegerValue="No"/>
+        <Header Column="7" Name="Multiple Drivers? (Internal Clocks Only)" IntegerValue="No"/>
+        <Header Column="8" Name="Driven by Blackbox? (Internal Clocks Only)" IntegerValue="No"/>
+    </Headers>
+    <Row FileID="0" LineNum="5">
+        <Column Column="0" Data="clk"/>
+        <Column Column="1" Data=""/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="Yes"/>
+        <Column Column="4" Data="automatically detected"/>
+        <Column Column="5" Data="22"/>
+        <Column Column="6" Data="No"/>
+        <Column Column="7" Data=""/>
+        <Column Column="8" Data=""/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3-coder_30b/fifo.sv" id="0"/>
+    </FileIDs>
+</BluePearlReport>

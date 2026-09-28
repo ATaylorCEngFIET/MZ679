@@ -1,0 +1,12 @@
+{
+  "machine": "amd-halo",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\gemma4-fpga\\axi_lite.vhd",
+  "sha256": "db993f29983ca19da0489c19543a9251cf430fc8392dac0294fa25564f3fdd46",
+  "status": "PASS",
+  "checks": 907,
+  "failures": 0,
+  "failed_checks": [],
+  "seconds": 2.4
+}

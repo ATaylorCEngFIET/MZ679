@@ -1,0 +1,72 @@
+{
+  "source_run": "20260928-150924-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:24:06+0100",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "task": "bugfix",
+  "source": "20260928-150924-vhdl-skill-amd-halo\\qwen3.8-flash-next\\bugfix.vhd",
+  "sha256": "4ce24cb198fc33f6e56d95b1b39a0f1949381e4a5c774a7e27da4f3d87db2215",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      "std_logic"
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "std_logic_vector(7 downto 0)"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 513,
+        "failures": 0,
+        "seconds": 2.66,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-150924-vhdl-skill-amd-halo\\qwen3.8-flash-next\\bugfix\\bps",
+    "returncode": 0,
+    "seconds": 2.07,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

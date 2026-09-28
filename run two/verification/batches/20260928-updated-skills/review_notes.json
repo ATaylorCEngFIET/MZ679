@@ -1,0 +1,20 @@
+{
+  "20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\bugfix.vhd": [
+    "Reset is outside rising_edge(clk) although rst is absent from the sensitivity list; reset can act on a falling clock edge and simulation/synthesis reset behaviour can differ."
+  ],
+  "20260928-140039-vhdl-skill-amd-halo\\qwen3-coder_30b\\bugfix.vhd": [
+    "Direct asynchronous reset remains without deassertion synchronization; the common repair test assumes synchronous reset."
+  ],
+  "20260928-140039-vhdl-skill-amd-halo\\qwen3-coder_30b\\cdc_sync.vhd": [
+    "The STAGES chain is clocked by clk_src; clk_dst is unused. This is not a destination-clock synchronizer."
+  ],
+  "20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\cdc_sync.vhd": [
+    "The chain shifts on clk_i and sync_out is driven both concurrently and on clk_o. This is not a valid STAGES-flop destination-clock synchronizer."
+  ],
+  "20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\bugfix.sv": [
+    "Direct asynchronous reset remains although the SystemVerilog repair request explicitly requires synchronous reset."
+  ],
+  "20260928-145103-verilog-skill-amd-halo\\qwen3.5_4b\\bugfix.sv": [
+    "Direct asynchronous reset remains although the SystemVerilog repair request explicitly requires synchronous reset."
+  ]
+}

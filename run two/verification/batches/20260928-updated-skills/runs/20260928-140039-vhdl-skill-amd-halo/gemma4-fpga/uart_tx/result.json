@@ -1,0 +1,101 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:11+0100",
+  "language": "vhdl",
+  "model": "gemma4-fpga",
+  "task": "uart_tx",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\gemma4-fpga\\uart_tx.vhd",
+  "sha256": "0341f652cb338689c3bed0f007d31f3b1edc7f9ac6f9425dcd64d9d7bd9a6305",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      "std_logic"
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      "std_logic)"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 624,
+        "failures": 112,
+        "seconds": 3.26,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "FAIL",
+        "checks": 1004,
+        "failures": 182,
+        "seconds": 3.33,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\gemma4-fpga\\uart_tx\\bps",
+    "returncode": 0,
+    "seconds": 2.16,
+    "status": "COMPLETE",
+    "warnings": 4,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/gemma4-fpga/uart_tx.vhd(16): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/gemma4-fpga/uart_tx.vhd(17): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/gemma4-fpga/uart_tx.vhd(18): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/gemma4-fpga/uart_tx.vhd(19): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      }
+    ]
+  }
+}

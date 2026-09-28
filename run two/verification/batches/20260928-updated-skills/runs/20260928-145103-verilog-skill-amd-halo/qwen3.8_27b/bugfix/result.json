@@ -1,0 +1,72 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:56+0100",
+  "language": "verilog",
+  "model": "qwen3.8_27b",
+  "task": "bugfix",
+  "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\bugfix.sv",
+  "sha256": "e2dd631bb41a2fd7a13655dc25a61f43d295f9c2de4733b365fd76464d6f2f52",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      ""
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "[7:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 513,
+        "failures": 0,
+        "seconds": 2.3,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\bugfix\\bps",
+    "returncode": 0,
+    "seconds": 1.9,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:08+0100",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "task": "fifo",
+  "source": "20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\fifo.sv",
+  "sha256": "df707a8050f279d1f52f81d3ccc1ba64a997f10fff9bf8e1b7b1279a68cc8ff8",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 3455,
+        "failures": 0,
+        "seconds": 2.61,
+        "returncode": 0
+      },
+      {
+        "variant": "width16_depth4",
+        "status": "PASS",
+        "checks": 3381,
+        "failures": 0,
+        "seconds": 2.35,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\fifo\\bps",
+    "returncode": 0,
+    "seconds": 1.94,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

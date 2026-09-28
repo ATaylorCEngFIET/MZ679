@@ -1,0 +1,91 @@
+--BPS-0730: Status: Blue Pearl Visual Verification Suite Version 2026.4.68770.nightlyBuilds_2026.4.68770 07/16/2026 07:20. Windows (64-bit).
+Copyright (c) 2004-2026 Blue Pearl Software, Inc
+Portions of this software are (c) 2015 The Qt Company Ltd and other contributors under the GNU LGPL version 3 license.
+--BPS-0730: Status: Installation Path: C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64
+--BPS-0730: Status: Running as: aptay@Adiuvo_Adam
+--BPS-0730: Status: Running from: C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync
+--BPS-0730: Status: Unprocessed CLI Arguments: -root=cdc_sync -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-140039-vhdl-skill-amd-halo\qwen3.5_4b\cdc_sync\bps -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd}; BPS::run analyze -forceload
+--BPS-0730: Status: Effective CLI Arguments: 
+   -root=cdc_sync
+   -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-140039-vhdl-skill-amd-halo\qwen3.5_4b\cdc_sync\bps
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd}; BPS::run analyze -forceload"
+--BPS-0730: Status: Reading initialization file: 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/bps_setup.tcl'
+--BPS-0730: Status: Opening log file: 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync/bps/bluepearl.log' @ '28/09/2026 20:22'
+Time: Mon Sep 28 20:22:48 2026
+--BPS-0730: Status: Running user initialization program: 'source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd}; BPS::run analyze -forceload'
+*** args: analyze -forceload
+--BPS-0730: Status: Processing CDC in a Transitive manner.
+--BPS-0730: Status: Reading design...
+I-VHDL-1504: default VHDL library search path is now "C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin"
+I-VERI-9014: The Verilog search library for imported/instantiated design units now includes 'work'
+I-VNLR-9000: The Verilog netlist search library for imported/instantiated design units now includes 'work'
+I-VHDL-9010: The VHDL search library for imported/instantiated design units now includes 'work'
+I-SORT-9000: Pre-Analyzing 'VHDL 2008' file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd' into library 'work'
+--VHDL-1481: Analyzing VHDL 2008 file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd' into library 'work'
+--VHDL-1493: Restoring VHDL unit 'ieee.std_logic_1164' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/ieee/std_logic_1164.vdb'
+--VHDL-1493: Restoring VHDL unit 'std.standard' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/std/standard.vdb'
+--VHDL-1493: Restoring VHDL unit 'std.textio' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/std/textio.vdb'
+--VHDL-1493: Restoring VHDL unit 'ieee.numeric_std' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/ieee/numeric_std.vdb'
+I-VHDL-1012: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd(3): analyzing entity 'cdc_sync'
+I-VHDL-1010: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd(9): analyzing architecture 'rtl' of 'cdc_sync'
+--BPS-0730: Status: Determining HDL top level units
+--BPS-0730: Status: Running parse tree analysis phase 'Pre-Static Elaboration'
+W-BPS-0272: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd(10): Module: 'cdc_sync(rtl)' Initial statements should not be used.
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Pre-Static Elaboration'
+--BPS-0729: Status: Elaborating (phase 1) into library work using the VHDL elaborator on 'cdc_sync.rtl'
+I-VHDL-1067: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd(3): processing 'cdc_sync(rtl)'
+--BPS-0730: Status: Finished Elaborating (phase 1).
+--BPS-0730: Status: Running parse tree analysis phase 'Pre-Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Pre-Elaboration'
+--BPS-0729: Status: Elaborating (phase 2) into library work using the VHDL elaborator on 'cdc_sync.rtl'
+I-VHDL-1067: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd(3): processing 'cdc_sync(rtl)'
+E-ELAB-1000: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd(14): Module: 'cdc_sync(rtl)' net 'sync_out' is constantly driven from multiple places
+E-ELAB-1001: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd(20): Module: 'cdc_sync(rtl)' found another driver here
+--BPS-0730: Status: Running parse tree analysis phase 'Post-Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Post-Elaboration'
+E-BPS-0723: Module: 'cdc_sync.rtl' Problem elaborating cdc_sync.rtl into library work. Please see previous messages.
+--BPS-0730: Status: Finished Elaborating (phase 2).
+===============================
+Blue Pearl Missing Modules/Objects Report created on: Mon Sep 28 20:22:49 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync/bps/cdc_sync.missing_modules.rpt'.
+===============================
+Missing Modules: 0
+===============================
+===============================
+Time to generate Missing Modules/Objects report: 0.01 seconds
+--BPS-0730: Status: Finished elaborating design.
+--BPS-0730: Status: Finished Reading Design. Elapsed Time: 0.25 seconds.
+E-BPS-0752: ERROR: Termination due to non-recoverable errors
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync/bps/DesignSummary.rpt'.
+Time to generate Design Summary report: 0.01 seconds
+===============================
+Message ID Summary Report:
+Property Check  BPS-0272: 1 warning
+Property Check  BPS-0723: 1 error
+Property Check  BPS-0729: 2 comments
+Property Check  BPS-0730: 24 comments
+Property Check  BPS-0752: 1 error
+Property Check ELAB-1000: 1 error
+Property Check ELAB-1001: 1 error
+Property Check SORT-9000: 1 informational
+Property Check VERI-9014: 1 informational
+Property Check VHDL-1010: 1 informational
+Property Check VHDL-1012: 1 informational
+Property Check VHDL-1067: 2 informationals
+Property Check VHDL-1481: 1 comment
+Property Check VHDL-1493: 4 comments
+Property Check VHDL-1504: 1 informational
+Property Check VHDL-9010: 1 informational
+Property Check VNLR-9000: 1 informational
+
+Property Check Message Severity Summary:
+4 errors
+1 warning
+9 informationals
+31 comments
+--BPS-0730: Status: Total analysis Elapsed Time: 0 seconds
+E-BPS-0752: ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd}; BPS::run analyze -forceload
+E-BPS-0752: ERROR: BPS::run - Failed to read in netlist.
+application-specific initialization failed: BPS::run - Failed to read in netlist.

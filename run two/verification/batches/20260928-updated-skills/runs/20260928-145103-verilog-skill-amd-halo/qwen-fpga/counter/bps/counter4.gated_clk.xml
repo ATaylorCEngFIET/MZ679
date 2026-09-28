@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Gated Clocks" Created="Mon Sep 28 20:23:34 2026">
+    <Headers>
+        <Header Column="0" Name="Gated Clock Name" IntegerValue="No"/>
+        <Header Column="1" Name="Clock Source" IntegerValue="No"/>
+        <Header Column="2" Name="Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <FileIDs/>
+</BluePearlReport>

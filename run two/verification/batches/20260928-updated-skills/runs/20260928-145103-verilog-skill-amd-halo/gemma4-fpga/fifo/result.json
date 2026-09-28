@@ -1,0 +1,92 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:18+0100",
+  "language": "verilog",
+  "model": "gemma4-fpga",
+  "task": "fifo",
+  "source": "20260928-145103-verilog-skill-amd-halo\\gemma4-fpga\\fifo.sv",
+  "sha256": "b1a51f74ff0100986b6c8d1b0153064ed855393d108e63e974c1ffcaa0e25488",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      ""
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      ""
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "[WIDTH-1:0]"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      ""
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 3455,
+        "failures": 0,
+        "seconds": 2.7,
+        "returncode": 0
+      },
+      {
+        "variant": "width16_depth4",
+        "status": "PASS",
+        "checks": 3381,
+        "failures": 0,
+        "seconds": 2.66,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\gemma4-fpga\\fifo\\bps",
+    "returncode": 0,
+    "seconds": 1.96,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

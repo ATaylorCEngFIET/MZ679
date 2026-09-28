@@ -1,0 +1,280 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:21:16+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "axi_lite",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\axi_lite.vhd",
+  "sha256": "bf9d14dbf2090c1c6c3702ba43108a87a78d07b2132edc082c49ba2cb0fdce5f",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "aclk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "aresetn",
+      "rst_n",
+      "in",
+      "std_logic"
+    ],
+    [
+      "awvalid",
+      "awvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "awready",
+      "awready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "awaddr",
+      "awaddr",
+      "in",
+      "std_logic_vector(ADDR_WIDTH-1 downto 0)"
+    ],
+    [
+      "wvalid",
+      "wvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "wready",
+      "wready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "wdata",
+      "wdata",
+      "in",
+      "std_logic_vector(31 downto 0)"
+    ],
+    [
+      "wstrb",
+      "wstrb",
+      "in",
+      "std_logic_vector(3 downto 0)"
+    ],
+    [
+      "bvalid",
+      "bvalid",
+      "out",
+      "std_logic"
+    ],
+    [
+      "bready",
+      "bready",
+      "in",
+      "std_logic"
+    ],
+    [
+      "bresp",
+      "bresp",
+      "out",
+      "std_logic_vector(1 downto 0)"
+    ],
+    [
+      "arvalid",
+      "arvalid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "arready",
+      "arready",
+      "out",
+      "std_logic"
+    ],
+    [
+      "araddr",
+      "araddr",
+      "in",
+      "std_logic_vector(ADDR_WIDTH-1 downto 0)"
+    ],
+    [
+      "rvalid",
+      "rvalid",
+      "out",
+      "std_logic"
+    ],
+    [
+      "rready",
+      "rready",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rdata",
+      "rdata",
+      "out",
+      "std_logic_vector(31 downto 0)"
+    ],
+    [
+      "rresp",
+      "rresp",
+      "out",
+      "std_logic_vector(1 downto 0)"
+    ],
+    [
+      "reg0",
+      "reg0",
+      "out",
+      "std_logic_vector(31 downto 0))"
+    ],
+    [
+      "reg1",
+      "reg1",
+      "out",
+      "std_logic_vector(31 downto 0))"
+    ],
+    [
+      "reg2",
+      "reg2",
+      "out",
+      "std_logic_vector(31 downto 0))"
+    ],
+    [
+      "reg3",
+      "reg3",
+      "out",
+      "std_logic_vector(31 downto 0))"
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\axi_lite\\bps",
+    "returncode": 101,
+    "seconds": 1.7,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 23,
+    "messages": [
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(47): syntax error near 'signal'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(47): type error near 'std_logic'; expected type ' void'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(48): syntax error near 'signal'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(48): type error near 'std_logic'; expected type ' void'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1261",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(49): syntax error near 'signal'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(49): type error near 'std_logic'; expected type ' void'"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1236",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(55): 'aw_fire' is not a signal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1236",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(56): 'w_fire' is not a signal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1236",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(57): 'ar_fire' is not a signal"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1275",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(67): type of aggregate cannot be determined without context ; 0 visible types match here"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(70): 'aw_fire' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(70): 'aw_fire' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(76): 'w_fire' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(76): 'w_fire' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(100): 'ar_addr_hold' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1241",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(100): 'ar_addr_hold' is not declared"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1155",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(100): type conversion expression type for 'unsigned' cannot be uniquely determined"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(99): 'ar_fire' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1312",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(99): 'ar_fire' is illegal in an expression"
+      },
+      {
+        "severity": "error",
+        "id": "VHDL-1284",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(16): unit 'rtl' is ignored due to previous errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

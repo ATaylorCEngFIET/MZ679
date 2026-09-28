@@ -1,0 +1,106 @@
+--BPS-0730: Status: Blue Pearl Visual Verification Suite Version 2026.4.68770.nightlyBuilds_2026.4.68770 07/16/2026 07:20. Windows (64-bit).
+Copyright (c) 2004-2026 Blue Pearl Software, Inc
+Portions of this software are (c) 2015 The Qt Company Ltd and other contributors under the GNU LGPL version 3 license.
+--BPS-0730: Status: Installation Path: C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64
+--BPS-0730: Status: Running as: aptay@Adiuvo_Adam
+--BPS-0730: Status: Running from: C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite
+--BPS-0730: Status: Unprocessed CLI Arguments: -root=axil_regs -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-140039-vhdl-skill-amd-halo\qwen3.5_4b\axi_lite\bps -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd}; BPS::run analyze -forceload
+--BPS-0730: Status: Effective CLI Arguments: 
+   -root=axil_regs
+   -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-140039-vhdl-skill-amd-halo\qwen3.5_4b\axi_lite\bps
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd}; BPS::run analyze -forceload"
+--BPS-0730: Status: Reading initialization file: 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/bps_setup.tcl'
+--BPS-0730: Status: Opening log file: 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite/bps/bluepearl.log' @ '28/09/2026 20:21'
+Time: Mon Sep 28 20:21:18 2026
+--BPS-0730: Status: Running user initialization program: 'source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd}; BPS::run analyze -forceload'
+*** args: analyze -forceload
+--BPS-0730: Status: Processing CDC in a Transitive manner.
+--BPS-0730: Status: Reading design...
+I-VHDL-1504: default VHDL library search path is now "C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin"
+I-VERI-9014: The Verilog search library for imported/instantiated design units now includes 'work'
+I-VNLR-9000: The Verilog netlist search library for imported/instantiated design units now includes 'work'
+I-VHDL-9010: The VHDL search library for imported/instantiated design units now includes 'work'
+I-SORT-9000: Pre-Analyzing 'VHDL 2008' file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd' into library 'work'
+--VHDL-1481: Analyzing VHDL 2008 file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd' into library 'work'
+--VHDL-1493: Restoring VHDL unit 'ieee.std_logic_1164' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/ieee/std_logic_1164.vdb'
+--VHDL-1493: Restoring VHDL unit 'std.standard' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/std/standard.vdb'
+--VHDL-1493: Restoring VHDL unit 'std.textio' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/std/textio.vdb'
+--VHDL-1493: Restoring VHDL unit 'ieee.numeric_std' from file 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/vhdl_packages/ieee_2008/bin/ieee/numeric_std.vdb'
+I-VHDL-1012: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(3): analyzing entity 'axil_regs'
+I-VHDL-1010: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(16): analyzing architecture 'rtl' of 'axil_regs'
+I-VHDL-1750: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(47):   signal aw_fire : std_logic;
+I-VHDL-1750: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(47):         ^
+E-VHDL-1261: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(47): syntax error near 'signal'
+E-VHDL-1272: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(47): type error near 'std_logic'; expected type ' void'
+I-VHDL-1750: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(48):   signal w_fire : std_logic;
+I-VHDL-1750: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(48):         ^
+E-VHDL-1261: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(48): syntax error near 'signal'
+E-VHDL-1272: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(48): type error near 'std_logic'; expected type ' void'
+I-VHDL-1750: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(49):   signal ar_fire : std_logic;
+I-VHDL-1750: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(49):         ^
+E-VHDL-1261: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(49): syntax error near 'signal'
+E-VHDL-1272: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(49): type error near 'std_logic'; expected type ' void'
+E-VHDL-1236: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(55): 'aw_fire' is not a signal
+E-VHDL-1236: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(56): 'w_fire' is not a signal
+E-VHDL-1236: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(57): 'ar_fire' is not a signal
+E-VHDL-1275: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(67): type of aggregate cannot be determined without context ; 0 visible types match here
+E-VHDL-1312: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(70): 'aw_fire' is illegal in an expression
+E-VHDL-1312: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(70): 'aw_fire' is illegal in an expression
+E-VHDL-1312: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(76): 'w_fire' is illegal in an expression
+E-VHDL-1312: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(76): 'w_fire' is illegal in an expression
+E-VHDL-1241: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(100): 'ar_addr_hold' is not declared
+E-VHDL-1241: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(100): 'ar_addr_hold' is not declared
+E-VHDL-1155: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(100): type conversion expression type for 'unsigned' cannot be uniquely determined
+E-VHDL-1312: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(99): 'ar_fire' is illegal in an expression
+E-VHDL-1312: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(99): 'ar_fire' is illegal in an expression
+E-VHDL-1284: ../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd(16): unit 'rtl' is ignored due to previous errors
+--VHDL-1482: VHDL file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd' is ignored due to errors
+--BPS-0730: Status: Determining HDL top level units
+===============================
+Blue Pearl Missing Modules/Objects Report created on: Mon Sep 28 20:21:18 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.missing_modules.rpt'.
+===============================
+Missing Modules: 0
+===============================
+===============================
+Time to generate Missing Modules/Objects report: 0.06 seconds
+--BPS-0730: Status: Finished elaborating design.
+--BPS-0730: Status: Finished Reading Design. Elapsed Time: 0.16 seconds.
+E-BPS-0752: ERROR: Termination due to non-recoverable errors
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite/bps/DesignSummary.rpt'.
+Time to generate Design Summary report: 0.01 seconds
+===============================
+Message ID Summary Report:
+Property Check  BPS-0730: 16 comments
+Property Check  BPS-0752: 1 error
+Property Check SORT-9000: 1 informational
+Property Check VERI-9014: 1 informational
+Property Check VHDL-1010: 1 informational
+Property Check VHDL-1012: 1 informational
+Property Check VHDL-1155: 1 error
+Property Check VHDL-1236: 3 errors
+Property Check VHDL-1241: 2 errors
+Property Check VHDL-1261: 3 errors
+Property Check VHDL-1272: 3 errors
+Property Check VHDL-1275: 1 error
+Property Check VHDL-1284: 1 error
+Property Check VHDL-1312: 6 errors
+Property Check VHDL-1481: 1 comment
+Property Check VHDL-1482: 1 comment
+Property Check VHDL-1493: 4 comments
+Property Check VHDL-1504: 1 informational
+Property Check VHDL-1750: 6 informationals
+Property Check VHDL-9010: 1 informational
+Property Check VNLR-9000: 1 informational
+
+Property Check Message Severity Summary:
+21 errors
+0 warnings
+13 informationals
+22 comments
+--BPS-0730: Status: Total analysis Elapsed Time: 0 seconds
+E-BPS-0752: ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/axi_lite.vhd}; BPS::run analyze -forceload
+E-BPS-0752: ERROR: BPS::run - Failed to read in netlist.
+application-specific initialization failed: BPS::run - Failed to read in netlist.

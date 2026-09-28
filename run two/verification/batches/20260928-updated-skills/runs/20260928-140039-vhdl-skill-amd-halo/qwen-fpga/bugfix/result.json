@@ -1,0 +1,98 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:13+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "bugfix",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\bugfix.vhd",
+  "sha256": "538f18d1ee95aa8e3043ea8da5e04e17eb4a668a1280153908667f5c8355ae69",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      "std_logic"
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "std_logic_vector(7 downto 0))"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 513,
+        "failures": 0,
+        "seconds": 2.53,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\bugfix\\bps",
+    "returncode": 0,
+    "seconds": 1.95,
+    "status": "COMPLETE",
+    "warnings": 5,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/bugfix.vhd(8): Module: 'mux_reg(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1251",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/bugfix.vhd(11): 'rst' should be on the sensitivity list of the process"
+      },
+      {
+        "severity": "warning",
+        "id": "VHDL-1613",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/bugfix.vhd(10): incomplete sensitivity list specified; assuming completeness"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/bugfix.vhd(11): Module: 'mux_reg' The asynchronous reset signal 'mux_reg.rst' is not synchronously deasserted for the following register: 'mux_reg.q'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/bugfix.vhd(11): Module: 'mux_reg' Asynchronous preset/clear used with register: mux_reg.q."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "machine": "amd-halo",
+  "language": "verilog",
+  "model": "qwen3.8-flash-next",
+  "source": "20260928-151023-verilog-skill-amd-halo\\qwen3.8-flash-next\\axi_lite.sv",
+  "sha256": "0cff27325528aa920c7f965e17eb6f4e5298d6577459fb44e23ceaa1fa337d5a",
+  "status": "PASS",
+  "checks": 907,
+  "failures": 0,
+  "failed_checks": [],
+  "seconds": 2.21
+}

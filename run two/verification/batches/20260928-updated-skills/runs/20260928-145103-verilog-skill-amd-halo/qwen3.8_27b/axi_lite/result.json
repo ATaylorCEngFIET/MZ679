@@ -1,0 +1,205 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:21:27+0100",
+  "language": "verilog",
+  "model": "qwen3.8_27b",
+  "task": "axi_lite",
+  "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\axi_lite.sv",
+  "sha256": "a40456288b3211c143920248253ce4b729e30c6c54fed40040026f1574c8d6fd",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "aclk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "aresetn",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "awvalid",
+      "awvalid",
+      "in",
+      ""
+    ],
+    [
+      "awready",
+      "awready",
+      "out",
+      ""
+    ],
+    [
+      "awaddr",
+      "awaddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "wvalid",
+      "wvalid",
+      "in",
+      ""
+    ],
+    [
+      "wready",
+      "wready",
+      "out",
+      ""
+    ],
+    [
+      "wdata",
+      "wdata",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "wstrb",
+      "wstrb",
+      "in",
+      "[3:0]"
+    ],
+    [
+      "bvalid",
+      "bvalid",
+      "out",
+      ""
+    ],
+    [
+      "bready",
+      "bready",
+      "in",
+      ""
+    ],
+    [
+      "bresp",
+      "bresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "arvalid",
+      "arvalid",
+      "in",
+      ""
+    ],
+    [
+      "arready",
+      "arready",
+      "out",
+      ""
+    ],
+    [
+      "araddr",
+      "araddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "rvalid",
+      "rvalid",
+      "out",
+      ""
+    ],
+    [
+      "rready",
+      "rready",
+      "in",
+      ""
+    ],
+    [
+      "rdata",
+      "rdata",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "rresp",
+      "rresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "reg0",
+      "reg0",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg1",
+      "reg1",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg2",
+      "reg2",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg3",
+      "reg3",
+      "out",
+      "[31:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 154,
+        "failures": 0,
+        "seconds": 2.37,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\axi_lite\\bps",
+    "returncode": 0,
+    "seconds": 1.96,
+    "status": "COMPLETE",
+    "warnings": 6,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0112",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.8_27b/axi_lite.sv(34): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0112",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.8_27b/axi_lite.sv(43): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.8_27b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awaddr[31:4]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.8_27b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awaddr[1:0]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.8_27b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.araddr[31:4]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.8_27b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.araddr[1:0]' is dangling."
+      }
+    ]
+  }
+}

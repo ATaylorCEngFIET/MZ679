@@ -1,0 +1,72 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:00+0100",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "task": "bugfix",
+  "source": "20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\bugfix.sv",
+  "sha256": "5d58e2af25bc2f46b114f136a1137a9e376398e40405a357587cd75e65f209ec",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      ""
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "[7:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 513,
+        "failures": 0,
+        "seconds": 2.67,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\bugfix\\bps",
+    "returncode": 0,
+    "seconds": 1.95,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

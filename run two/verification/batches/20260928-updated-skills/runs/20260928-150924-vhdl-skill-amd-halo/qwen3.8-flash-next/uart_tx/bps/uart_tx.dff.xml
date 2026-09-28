@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="DFFs" Created="Mon Sep 28 20:24:26 2026">
+    <Headers>
+        <Header Column="0" Name="Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="Data Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Clock Pin's Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <Row FileID="0" LineNum="23">
+        <Column Column="0" Data="uart_tx.state_r[1:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="20"/>
+    </Row>
+    <Row FileID="0" LineNum="23">
+        <Column Column="0" Data="uart_tx.baud_r[9:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="2"/>
+    </Row>
+    <Row FileID="0" LineNum="23">
+        <Column Column="0" Data="uart_tx.bit_r[2:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="7"/>
+    </Row>
+    <Row FileID="0" LineNum="23">
+        <Column Column="0" Data="uart_tx.tx"/>
+        <Column Column="1" Data="Dff"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="1"/>
+    </Row>
+    <Row FileID="0" LineNum="23">
+        <Column Column="0" Data="uart_tx.shift_r[7:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="3"/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260928-150924-vhdl-skill-amd-halo/qwen3.8-flash-next/uart_tx.vhd" id="0"/>
+    </FileIDs>
+</BluePearlReport>

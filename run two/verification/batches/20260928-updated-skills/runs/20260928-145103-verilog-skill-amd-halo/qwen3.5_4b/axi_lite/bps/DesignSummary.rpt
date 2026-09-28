@@ -1,0 +1,112 @@
+===============================
+Blue Pearl Design Summary Report created on: Mon Sep 28 20:21:29 2026
+===============================
+Blue Pearl Version: 2026.4.68770.nightlyBuilds_2026.4.68770
+Running As: aptay@Adiuvo_Adam
+Running From: C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite
+Original Command Line: -root=axil_regs -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-145103-verilog-skill-amd-halo\qwen3.5_4b\axi_lite\bps -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv}; BPS::run analyze -forceload
+Effective Command Line: 
+   -root=axil_regs
+   -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-145103-verilog-skill-amd-halo\qwen3.5_4b\axi_lite\bps
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv}; BPS::run analyze -forceload"
+===============================
+Compilation Unit Mode: Default
+Total Number of Files: 1
+	Compilation File Mode:Default
+	Files:
+	C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv - SystemVerilog - Translate off Disabled 
+===============================
+Parsing Settings:
+	Top Level Module: axil_regs
+	Top Level Architecture: <unset>
+	Parameters/Generics:
+		<none>
+	Parameters/Generics to be Ignored:
+		<none>
+	Defines:
+		<none>
+	Include Directories:
+		<none>
+	Verilog Library Files:
+		<none>
+	Verilog Library Directories:
+		<none>
+	Verilog Library Directory Extensions:
+		.v
+	Verilog Module Library Search Path:
+		<none>
+	Autosort VHDL: yes
+	Autosort SV: yes
+===============================
+Top Level Design:
+	Name            : axil_regs
+	Num Input Ports : 0
+	Num Output Ports: 0
+	Num Inout Ports : 0
+	Num Clocks      : 0
+	Num DFFs        : 5
+	Num Latches     : 0
+===============================
+Enabled Checks:
+	CLPR - There should be no combinational feedback loops. A combinational feedback loop with an odd number of inversions is an oscillator, and one with an even number of inversions is a home-made storage element. Either would create testing and verification issues.
+	CONSTANT - This check ensures that a constant value does not prevent the observability of other signals.
+	DANG - A signal in the design has no loads. Note that an unconnected input port within a module is also considered a dangling input.
+	DCI - Report duplicate case items.
+	MCA - The CASE statement must have an assignment to a variable in one of the case item blocks. The missing assignment results in an inferred latch.
+	MDR - A signal should not have multiple drivers.
+	MEA - The ELSE block of an IF statement must have an assignment to a variable that is assigned in the IF block. The missing assignment may result in an inferred latch.
+	MEB - The IF statement must have a matching ELSE block. The missing ELSE statement could result in an inferred latch.
+	MIA - The IF block of an IF statement must have an assignment to a variable. The missing assignment results in an inferred latch.
+	NO_DELAY - Designs should not contain delay statements. The check reports the use of delay statements.
+	NO_INITIAL - Designs should not have initial statements. The check reports the use of initial statements.
+	NOT_SYNTHESIZABLE - Report constructs that may not be synthesizable or may be partially synthesizable. Synthesis tools may differ on what they can synthesize.
+	PREV_ASSIGN - Report situation where an assignment may overwrite a previous assignment.
+	RRW - A read-write race condition may exist when the same variable can potentially be read from and written to in different always/initial blocks.
+	RSTASR - Report flip-flops that have both an asynchronous set and reset.
+	RSTS - Synchronous preset/clear must be used.
+	UBA - There should be no signals referenced before they are assigned within a non-sequential block. The check reports such signals. There is an option to also report signals that are referenced before they are assigned in sequential blocks.
+	UND - A signal is not driven.
+	UNI - Input pin of an primitive gate is not connected.
+	UNO - Output port of a module must be connected.
+	UNR - A bit-select or part-select of a net is not driven.
+	NO_SYNCH_DEASSERT_RST - Report on the reset signals not synchronously deasserted.
+	UNCONNECTED_UNDRIVEN_USED_NET - Report signals that are used but which trace back to a floating node.
+	UNCONNECTED_UNDRIVEN_USED_PIN - Report hierarchical instance pins that are unconnected but used internal to the instance.
+	LATCH_CREATED - Report on every latch created or inferred.
+===============================
+Modified Message Severities:
+	ELAB-1002 - MSG_WARNING -> MSG_IGNORE
+	ELAB-1013 - MSG_WARNING -> MSG_IGNORE
+===============================
+Message Summary:
+	Message ID:  BPS-0015: 9 warnings - Output port '%s' is undriven.
+	Message ID:  BPS-0112: 2 warnings - Construct '%s' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools.
+	Message ID:  BPS-0534: 11 warnings - Signal '%s' is dangling.
+	Message ID:  BPS-0551: 14 warnings - Signal '%s' has no driver.
+	Message ID:  BPS-0729: 10 comments - Status: %s on '%s'
+	Message ID:  BPS-0730: 154 comments - Status: %s
+	Message ID:  BPS-0801: 5 warnings - Signal '%s' is undriven but is used in the design.
+	Message ID:  BPS-0802: 5 warnings - Signal '%s' is used but has no driver(s).
+	Message ID: SORT-9000: 1 informational - Pre-Analyzing '%s' file '%s' into library '%s'
+	Message ID: VERI-1018: 2 informationals - compiling module '%s'
+	Message ID: VERI-1209: 1 warning - expression size %d truncated to fit in target size %d
+	Message ID: VERI-1482: 1 comment - Analyzing %s file '%s' into library '%s'
+	Message ID: VERI-1509: 1 informational - The Verilog library search path for library "%s" is now "%s"
+	Message ID: VERI-2013: 1 warning - variable '%s' must explicitly be declared as automatic or static
+	Message ID: VERI-2561: 1 informational - undeclared symbol '%s', assumed default net type '%s'
+	Message ID: VERI-9004: 1 informational - extracting RAM for identifier '%s'
+	Message ID: VERI-9012: 1 informational - analyzing module '%s'
+	Message ID: VERI-9014: 1 informational - The Verilog search library for imported/instantiated design units now includes '%s'
+	Message ID: VERI-9015: 1 warning - index width is %d, it may assume value outside of prefix range [%d:%d] for '%s'
+	Message ID: VHDL-9010: 1 informational - The VHDL search library for imported/instantiated design units now includes '%s'
+	Message ID: VNLR-9000: 1 informational - The Verilog netlist search library for imported/instantiated design units now includes '%s'
+===============================
+Summary:
+	Total Number of Messages: 224
+	Number of Errors:         0
+	Number of Warnings:       49
+	Number of Informationals: 10
+	Number of Comments:       165
+===============================

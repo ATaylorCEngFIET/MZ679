@@ -1,0 +1,348 @@
+--BPS-0730: Status: Opening log file: 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/bluepearl.log' @ '28/09/2026 20:21'
+--BPS-0730: Status: Blue Pearl Visual Verification Suite Version 2026.4.68770.nightlyBuilds_2026.4.68770 07/16/2026 07:20. Windows (64-bit).
+Copyright (c) 2004-2026 Blue Pearl Software, Inc
+Portions of this software are (c) 2015 The Qt Company Ltd and other contributors under the GNU LGPL version 3 license.
+--BPS-0730: Status: Installation Path: C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64
+--BPS-0730: Status: Running as: aptay@Adiuvo_Adam
+--BPS-0730: Status: Running from: C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite
+--BPS-0730: Status: Unprocessed CLI Arguments: -root=axil_regs -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-145103-verilog-skill-amd-halo\qwen3.5_4b\axi_lite\bps -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv}; BPS::run analyze -forceload
+--BPS-0730: Status: Effective CLI Arguments: 
+   -root=axil_regs
+   -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-145103-verilog-skill-amd-halo\qwen3.5_4b\axi_lite\bps
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv}; BPS::run analyze -forceload"
+--BPS-0730: Status: Reading initialization file: 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/bps_setup.tcl'
+Time: Mon Sep 28 20:21:28 2026
+--BPS-0730: Status: Running user initialization program: 'source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv}; BPS::run analyze -forceload'
+*** args: analyze -forceload
+--BPS-0730: Status: Processing CDC in a Transitive manner.
+--BPS-0730: Status: Reading design...
+I-VERI-1509: The Verilog library search path for library "std" is now "C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/verilog_packages/sdbs/std"
+I-VERI-9014: The Verilog search library for imported/instantiated design units now includes 'work'
+I-VNLR-9000: The Verilog netlist search library for imported/instantiated design units now includes 'work'
+I-VHDL-9010: The VHDL search library for imported/instantiated design units now includes 'work'
+I-SORT-9000: Pre-Analyzing 'System Verilog' file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv' into library 'work'
+--VERI-1482: Analyzing System Verilog file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv' into library 'work'
+I-VERI-9012: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): analyzing module 'axil_regs'
+I-VERI-2561: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(20): undeclared symbol 'araddr_decoded', assumed default net type 'wire'
+W-VERI-2013: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(40): variable 'idx' must explicitly be declared as automatic or static
+--BPS-0730: Status: Determining HDL top level units
+--BPS-0730: Status: Running parse tree analysis phase 'Pre-Static Elaboration'
+W-BPS-0112: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(25): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools.
+W-BPS-0112: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(40): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools.
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Pre-Static Elaboration'
+--BPS-0729: Status: Elaborating (phase 1) into library work using the Verilog elaborator on 'axil_regs'
+I-VERI-1018: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): compiling module 'axil_regs'
+--BPS-0730: Status: Finished Elaborating (phase 1).
+--BPS-0730: Status: Running parse tree analysis phase 'Pre-Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Pre-Elaboration'
+--BPS-0729: Status: Elaborating (phase 2) into library work using the Verilog elaborator on 'axil_regs'
+I-VERI-1018: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): compiling module 'axil_regs'
+I-VERI-9004: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(10): extracting RAM for identifier 'regs'
+W-VERI-1209: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(20): expression size 2 truncated to fit in target size 1
+W-VERI-9015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(42): index width is 5, it may assume value outside of prefix range [0:3] for 'regs'
+--BPS-0730: Status: Running parse tree analysis phase 'Post-Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Post-Elaboration'
+--BPS-0730: Status: Finished Elaborating (phase 2).
+===============================
+Blue Pearl Missing Modules/Objects Report created on: Mon Sep 28 20:21:29 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.missing_modules.rpt'.
+===============================
+Missing Modules: 0
+===============================
+===============================
+Time to generate Missing Modules/Objects report: 0.01 seconds
+--BPS-0730: Status: Running static design modifications.
+--BPS-0730: Status: Finished Running static design modifications.
+--BPS-0730: Status: Running elaboration tree analysis.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Output port 'axil_regs.awready' is undriven.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Output port 'axil_regs.wready' is undriven.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(5): Module: 'axil_regs' Output port 'axil_regs.bresp[1:0]' is undriven.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Output port 'axil_regs.arready' is undriven.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(7): Module: 'axil_regs' Output port 'axil_regs.rresp[1:0]' is undriven.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Output port 'axil_regs.reg0[31:0]' is undriven.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Output port 'axil_regs.reg1[31:0]' is undriven.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Output port 'axil_regs.reg2[31:0]' is undriven.
+W-BPS-0015: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Output port 'axil_regs.reg3[31:0]' is undriven.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awvalid' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Signal 'axil_regs.wvalid' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(5): Module: 'axil_regs' Signal 'axil_regs.bready' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.arvalid' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(7): Module: 'axil_regs' Signal 'axil_regs.rready' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awaddr[31:4]' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awaddr[1:0]' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Signal 'axil_regs.wdata' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Signal 'axil_regs.wstrb' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.araddr[31:3]' is dangling.
+W-BPS-0534: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.araddr[1:0]' is dangling.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awready' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Signal 'axil_regs.wready' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.arready' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.aw_fire' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.w_fire' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.ar_fire' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.b_fire' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.r_fire' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(5): Module: 'axil_regs' Signal 'axil_regs.bresp[1:0]' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Signal 'axil_regs.reg0[31:0]' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Signal 'axil_regs.reg1[31:0]' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Signal 'axil_regs.reg2[31:0]' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Signal 'axil_regs.reg3[31:0]' has no driver.
+W-BPS-0551: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(7): Module: 'axil_regs' Signal 'axil_regs.rresp[1:0]' has no driver.
+--BPS-0730: Status: Finished Running elaboration tree analysis.
+--BPS-0729: Status: Running final elaboration on 'axil_regs'
+--BPS-0729: Status: Final Elaboration of Netlist on 'axil_regs'
+--BPS-0729: Status: Final Elaboration of Netlist on 'ram_regs'
+--BPS-0729: Status: Finished Final Elaboration of Netlist on 'ram_regs'
+--BPS-0729: Status: Finished Final Elaboration of Netlist on 'axil_regs'
+--BPS-0730: Status: Finished final elaboration.
+--BPS-0730: Status: Finished final elaboration. Elapsed Time: 0.02 seconds.
+--BPS-0730: Status: Finished elaborating design.
+--BPS-0730: Status: Finished Reading Design. Elapsed Time: 0.39 seconds.
+--BPS-0730: Status: Performing Netlist Expansion...
+--BPS-0729: Status: Running Top Level Expansion on 'axil_regs'
+--BPS-0729: Status: Running Expansion on 'ram_regs'
+--BPS-0730: Status: Performing Flattening Design
+--BPS-0730: Status: Running Design Flattening on module (1 of 2)
+--BPS-0730: Status: Running Design Flattening on Instance (1 of 1).
+--BPS-0730: Status: Running Design Flattening on module (2 of 2)
+--BPS-0730: Status: Replacing Port Nets with Flattened Nets...
+--BPS-0730: Status: Flattening Net on Port (1 of 10).
+--BPS-0730: Status: Flattening Net on Port (10 of 10).
+--BPS-0730: Status: Finished Replacing Port Nets with Flattened Nets
+--BPS-0730: Status: Finished Running Design Flattening on module 'axil_regs.ram_regs'
+--BPS-0730: Status: Processing DFF Register Nets
+--BPS-0730: Status: Processing DFF Register Net (1 of 6).
+--BPS-0730: Status: Processing DFF Register Net (6 of 6).
+--BPS-0730: Status: Finished Processing DFF Register Nets
+--BPS-0730: Status: Finished Running Design Flattening on module 'axil_regs'
+--BPS-0730: Status: Completed Flattening Design. Elapsed Time: 0.02 seconds.
+--BPS-0729: Status: Validating Expansion on 'axil_regs'
+--BPS-0730: Status: 	Finished validating expansion. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Completed expansion. Elapsed Time: 0.04 seconds.
+--BPS-0730: Status: Finished Netlist Expansion. Elapsed Time: 0.05 seconds.
+--BPS-0730: Status: Build and expand design. Elapsed Time: 0.44 seconds.
+--BPS-0730: Status: Performing Connection Analysis...
+--BPS-0730: Status: Running Connection Analysis Phase One on Net (1 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase One on Net (91 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Two on Net (1 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Two on Net (91 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Three on Net (1 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Three on Net (91 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Four on Net (1 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Four on Net (91 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Five on Net (1 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Six on Net (1 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Six on Net (91 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Seven on Net (1 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Seven on Net (91 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Eight on Net (1 of 91).
+W-BPS-0802: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'ram_regs' Signal 'axil_regs.rdata' is used but has no driver(s).
+W-BPS-0802: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'axil_regs' Signal 'axil_regs.rvalid' is used but has no driver(s).
+W-BPS-0802: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'axil_regs' Signal 'axil_regs.bvalid' is used but has no driver(s).
+W-BPS-0802: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'axil_regs' Signal 'axil_regs.w_full' is used but has no driver(s).
+W-BPS-0802: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'axil_regs' Signal 'axil_regs.aw_full' is used but has no driver(s).
+--BPS-0730: Status: Running Connection Analysis Phase Eight on Net (91 of 91).
+--BPS-0730: Status: Running Connection Analysis Phase Nine on Net (1 of 91).
+W-BPS-0801: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.r_fire' is undriven but is used in the design.
+W-BPS-0801: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.b_fire' is undriven but is used in the design.
+W-BPS-0801: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.ar_fire' is undriven but is used in the design.
+W-BPS-0801: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.w_fire' is undriven but is used in the design.
+W-BPS-0801: ../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.aw_fire' is undriven but is used in the design.
+--BPS-0730: Status: Running Connection Analysis Phase Nine on Net (91 of 91).
+--BPS-0730: Status: Completed Connection Analysis. Elapsed Time: 0.04 seconds.
+--BPS-0730: Status: Performing Reset Analysis Phase I...
+--BPS-0730: Status: Completed Reset Analysis Phase I. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Performing Reset Analysis Phase II...
+--BPS-0730: Status: Performing Staged Reset Analysis...
+--BPS-0730: Status: Analyzing Port for Staged Reset Analysis (1 of 23).
+--BPS-0730: Status: Analyzing Port for Staged Reset Analysis (23 of 23).
+--BPS-0730: Status: Analyzing DFF Stage 1 for Staged Reset Analysis (1 of 6).
+--BPS-0730: Status: Analyzing DFF Stage 1 for Staged Reset Analysis (6 of 6).
+--BPS-0730: Status: Analyzing DFF Stage 2 for Staged Reset Analysis (1 of 6).
+--BPS-0730: Status: Analyzing DFF Stage 2 for Staged Reset Analysis (6 of 6).
+--BPS-0730: Status: Completed Staged Reset Analysis. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Completed Reset Analysis Phase II. Elapsed Time: 0.001 seconds.
+--BPS-0730: Status: Performing Reset Analysis Phase III...
+--BPS-0730: Status: Completed Reset Analysis Phase III. Elapsed Time: 0 seconds.
+===============================
+Blue Pearl Sets/Resets Report created on: Mon Sep 28 20:21:29 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.setreset.rpt'.
+===============================
+===============================
+0 primary set/resets identified and reported.
+0 internal set/resets identified and reported.
+1 primary synchronous set/resets identified but not reported.
+===============================
+Time to generate Sets/Resets report: 0.00 seconds
+--BPS-0730: Status: Performing Clock Tree Analysis...
+--BPS-0730: Status: Completed Clock Tree Analysis. Elapsed Time: 0.001 seconds.
+--BPS-0730: Status: Running constant analysis...
+--BPS-0730: Status: Finished constant analysis...
+--BPS-0730: Status: Performing Clock Interactions Load Phase...
+--BPS-0730: Status: Performing Divided Clock Analysis...
+--BPS-0730: Status: Completed Divided Clock Analysis. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Performing Propagating Clock Tokens...
+--BPS-0730: Status: Processing clock tokens for primary clock axil_regs.aclk (1 of 1).
+--BPS-0730: Status: Processing clock tokens from port axil_regs.aclk for primary clock axil_regs.aclk
+--BPS-0730: Status: Completed Propagating Clock Tokens. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Performing Propagating Data Tokens...
+--BPS-0730: Status: Performing Propagating Data Tokens at DFFs...
+--BPS-0730: Status: Propagating Data Tokens at DFF (1 of 6).
+--BPS-0730: Status: Propagating Data Tokens at DFF (6 of 6).
+--BPS-0730: Status: Completed Propagating Data Tokens at DFFs. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Performing Propagating Data Tokens at Memories...
+--BPS-0730: Status: Propagating Data Tokens at Memory (1 of 5).
+--BPS-0730: Status: Propagating Data Tokens at Memory (5 of 5).
+--BPS-0730: Status: Completed Propagating Data Tokens at Memories. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Completed Propagating Data Tokens. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Performing Analyzing DFF Tokens...
+--BPS-0730: Status: Analyzing data tokens at DFF (1 of 6).
+--BPS-0730: Status: Analyzing data tokens at DFF (6 of 6).
+--BPS-0730: Status: Processing Output Tokens (1 of 23).
+--BPS-0730: Status: Processing Output Tokens (23 of 23).
+--BPS-0730: Status: Completed Analyzing DFF Tokens. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Checking Primary Outputs (1 of 23).
+--BPS-0730: Status: Checking Primary Outputs (23 of 23).
+--BPS-0730: Status: Tracing Forward From Ports (1 of 23).
+--BPS-0730: Status: Tracing Forward From Ports (23 of 23).
+===============================
+Blue Pearl Advanced Clock Environment Report Report created on: Mon Sep 28 20:21:29 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.adv_clk_environment.rpt'.
+===============================
+Advanced Clock Environment Report:
+From clock: Unknown Clock To clock: aclk
+Synchronized: 0
+Unsynchronized: 6
+Issue: Unknown Clock interacts with clock aclk in an unsynchronized manner across domains. Recommendation: Add synchronizers or merge the domains. Turning on the option to auto-detect clock domains may help merge domains.
+
+From clock: aclk To clock: Unknown Clock
+Synchronized: 0
+Unsynchronized: 3
+Issue: aclk interacts with clock Unknown Clock in an unsynchronized manner across domains. Recommendation: Add synchronizers or merge the domains. Turning on the option to auto-detect clock domains may help merge domains.
+===============================
+Time to generate Advanced Clock Environment Report report: 0.00 seconds
+--BPS-0730: Status: Writing SDC file with formatting set by user options
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.ace.sdc' SDC file.
+--BPS-0730: Status: Completed Clock Interactions Load Phase. Elapsed Time: 0.02 seconds.
+--BPS-0730: Status: Checking Combinational Loops...
+--BPS-0730: Status: Completed Combinational Loop Analysis. Elapsed Time: 0 seconds.
+===============================
+Blue Pearl Clocks Report created on: Mon Sep 28 20:21:29 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.clk.rpt'.
+===============================
+Clock Report:
+All Clocks automatically detected
+1 primary clock identified:
+Clock Name: aclk Clock Domain Name: aclk_group (automatically detected) Fanout: 78
+===============================
+Internal Clock Report:
+0 internally generated clocks identified
+===============================
+Time to generate Clocks report: 0.00 seconds
+===============================
+Blue Pearl Gated Clocks Report created on: Mon Sep 28 20:21:29 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.gated_clk.rpt'.
+===============================
+===============================
+Gated Clock Report:
+0 gated clocks identified
+===============================
+Time to generate Gated Clocks report: 0.01 seconds
+===============================
+Blue Pearl Equivalent Clocks Report created on: Mon Sep 28 20:21:29 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.equiv_clk.rpt'.
+===============================
+No equivalent clocks
+===============================
+Time to generate Equivalent Clocks report: 0.01 seconds
+--BPS-0730: Status: Writing design database.
+--BPS-0730: Status: Writing to Design Database (1 of 2).
+--BPS-0730: Status: Writing to Design Database (2 of 2).
+--BPS-0730: Status: Writing Module Usage to Design Database (1 of 1).
+--BPS-0730: Status: Writing Clock Information to Design Database Clock (1 of 1).
+--BPS-0730: Status: Finished writing design database. Elapsed Time: 0.006 seconds.
+--BPS-0730: Status: Running dynamic property checks...
+--BPS-0730: Status: Performing Net Constant Analysis...
+--BPS-0730: Status: Analyzing Net for Constant Analysis (1 of 21).
+--BPS-0730: Status: Analyzing Net for Constant Analysis (21 of 21).
+--BPS-0730: Status: Completed Net Constant Analysis. Elapsed Time: 0.000000 seconds.
+--BPS-0730: Status: Clearing Net Constant Propagation Info...
+--BPS-0730: Status: Clearing Constant Propagation info for Net (1 of 21).
+--BPS-0730: Status: Clearing Constant Propagation info for Net (21 of 21).
+--BPS-0730: Status: Completed Clearing Net Constant Propagation Info...
+--BPS-0730: Status: Performing Constant Analysis on Registers...
+--BPS-0730: Status: Analyzing DFF for Register Constant Analysis (1 of 6).
+--BPS-0730: Status: Analyzing DFF for Register Constant Analysis (6 of 6).
+--BPS-0730: Status: Completed Constant Analysis on Registers. Elapsed Time: 0.001000 seconds.
+--BPS-0730: Status: Finished dynamic property checks...
+--BPS-0730: Status: Performing Design Reports Processing...
+===============================
+Blue Pearl Latches Report created on: Mon Sep 28 20:21:29 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.lth.rpt'.
+===============================
+0 D-type latch registers:
+===============================
+===============================
+Time to generate Latches report: 0.01 seconds
+===============================
+Blue Pearl DFFs Report created on: Mon Sep 28 20:21:29 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/axil_regs.dff.rpt'.
+===============================
+6 D-type flip-flop registers:
+===============================
+--BPS-0730: Status: Reporting flip-flop (1 of 6).
+axil_regs.aw_full type Dff Data Clock Domain: aclk_group Clock Pin's Domain: aclk_group Fanout: 2
+axil_regs.w_full type Dff Data Clock Domain: aclk_group Clock Pin's Domain: aclk_group Fanout: 2
+axil_regs.bvalid type Dff Data Clock Domain: aclk_group Clock Pin's Domain: aclk_group Fanout: 3
+axil_regs.rvalid type Dff Data Clock Domain: aclk_group Clock Pin's Domain: aclk_group Fanout: 2
+axil_regs.idx[31:0] type Dff register Data Clock Domain: aclk_group Clock Pin's Domain: aclk_group Fanout: 2
+--BPS-0730: Status: Reporting flip-flop (6 of 6).
+axil_regs.rdata[31:0] type Dff register Data Clock Domain: aclk_group Clock Pin's Domain: aclk_group Fanout: 3
+===============================
+Time to generate DFFs report: 0.01 seconds
+--BPS-0730: Status: Completed Design Reports Processing. Elapsed Time: 0.02 seconds.
+--BPS-0730: Status: Performing Writing databases...
+--BPS-0730: Status: Completed Writing databases. Elapsed Time: 0.004 seconds.
+===============================
+--BPS-0730: Status: Blue Pearl completed.
+--BPS-0730: Status: Time: Mon Sep 28 20:21:29 2026
+===============================
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite/bps/DesignSummary.rpt'.
+Time to generate Design Summary report: 0.01 seconds
+===============================
+Message ID Summary Report:
+Property Check  BPS-0015: 9 warnings
+Property Check  BPS-0112: 2 warnings
+Property Check  BPS-0534: 11 warnings
+Property Check  BPS-0551: 14 warnings
+Property Check  BPS-0729: 10 comments
+Property Check  BPS-0730: 154 comments
+Property Check  BPS-0801: 5 warnings
+Property Check  BPS-0802: 5 warnings
+Property Check SORT-9000: 1 informational
+Property Check VERI-1018: 2 informationals
+Property Check VERI-1209: 1 warning
+Property Check VERI-1482: 1 comment
+Property Check VERI-1509: 1 informational
+Property Check VERI-2013: 1 warning
+Property Check VERI-2561: 1 informational
+Property Check VERI-9004: 1 informational
+Property Check VERI-9012: 1 informational
+Property Check VERI-9014: 1 informational
+Property Check VERI-9015: 1 warning
+Property Check VHDL-9010: 1 informational
+Property Check VNLR-9000: 1 informational
+
+Property Check Message Severity Summary:
+0 errors
+49 warnings
+10 informationals
+165 comments
+--BPS-0730: Status: Total analysis Elapsed Time: 0 seconds
+
+BluePearl-01% ===============================
+--BPS-0730: Status: Blue Pearl completed.
+--BPS-0730: Status: Time: Mon Sep 28 20:21:29 2026
+===============================

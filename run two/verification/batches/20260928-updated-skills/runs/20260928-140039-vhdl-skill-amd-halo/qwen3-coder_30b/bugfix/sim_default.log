@@ -1,0 +1,292 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-140039-vhdl-skill-amd-halo\qwen3-coder_30b\bugfix\default.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" 
+# Start time: 20:27:52 on Sep 28,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mux_reg(rtl)#1
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL registered mux both paths t=66000
+# CHECK_FAIL registered mux both paths t=76000
+# CHECK_FAIL registered mux both paths t=86000
+# CHECK_FAIL registered mux both paths t=96000
+# CHECK_FAIL registered mux both paths t=106000
+# CHECK_FAIL registered mux both paths t=116000
+# CHECK_FAIL registered mux both paths t=126000
+# CHECK_FAIL registered mux both paths t=136000
+# CHECK_FAIL registered mux both paths t=146000
+# CHECK_FAIL registered mux both paths t=156000
+# CHECK_FAIL registered mux both paths t=166000
+# CHECK_FAIL registered mux both paths t=176000
+# CHECK_FAIL registered mux both paths t=186000
+# CHECK_FAIL registered mux both paths t=196000
+# CHECK_FAIL registered mux both paths t=206000
+# CHECK_FAIL registered mux both paths t=216000
+# CHECK_FAIL registered mux both paths t=226000
+# CHECK_FAIL registered mux both paths t=236000
+# CHECK_FAIL registered mux both paths t=246000
+# CHECK_FAIL registered mux both paths t=256000
+# CHECK_FAIL registered mux both paths t=266000
+# CHECK_FAIL registered mux both paths t=276000
+# CHECK_FAIL registered mux both paths t=286000
+# CHECK_FAIL registered mux both paths t=296000
+# CHECK_FAIL registered mux both paths t=306000
+# CHECK_FAIL registered mux both paths t=316000
+# CHECK_FAIL registered mux both paths t=326000
+# CHECK_FAIL registered mux both paths t=336000
+# CHECK_FAIL registered mux both paths t=346000
+# CHECK_FAIL registered mux both paths t=356000
+# CHECK_FAIL registered mux both paths t=366000
+# CHECK_FAIL registered mux both paths t=376000
+# CHECK_FAIL registered mux both paths t=386000
+# CHECK_FAIL output and reset synchronous t=392000
+# CHECK_FAIL registered mux both paths t=406000
+# CHECK_FAIL registered mux both paths t=416000
+# CHECK_FAIL registered mux both paths t=426000
+# CHECK_FAIL registered mux both paths t=436000
+# CHECK_FAIL registered mux both paths t=446000
+# CHECK_FAIL registered mux both paths t=456000
+# CHECK_FAIL registered mux both paths t=466000
+# CHECK_FAIL registered mux both paths t=476000
+# CHECK_FAIL registered mux both paths t=486000
+# CHECK_FAIL registered mux both paths t=496000
+# CHECK_FAIL registered mux both paths t=506000
+# CHECK_FAIL registered mux both paths t=516000
+# CHECK_FAIL registered mux both paths t=526000
+# CHECK_FAIL registered mux both paths t=536000
+# CHECK_FAIL registered mux both paths t=546000
+# CHECK_FAIL registered mux both paths t=556000
+# CHECK_FAIL registered mux both paths t=566000
+# CHECK_FAIL registered mux both paths t=576000
+# CHECK_FAIL registered mux both paths t=586000
+# CHECK_FAIL registered mux both paths t=596000
+# CHECK_FAIL registered mux both paths t=606000
+# CHECK_FAIL registered mux both paths t=616000
+# CHECK_FAIL registered mux both paths t=626000
+# CHECK_FAIL registered mux both paths t=636000
+# CHECK_FAIL registered mux both paths t=646000
+# CHECK_FAIL registered mux both paths t=656000
+# CHECK_FAIL registered mux both paths t=666000
+# CHECK_FAIL registered mux both paths t=676000
+# CHECK_FAIL registered mux both paths t=686000
+# CHECK_FAIL registered mux both paths t=696000
+# CHECK_FAIL registered mux both paths t=706000
+# CHECK_FAIL registered mux both paths t=716000
+# CHECK_FAIL registered mux both paths t=726000
+# CHECK_FAIL registered mux both paths t=736000
+# CHECK_FAIL registered mux both paths t=746000
+# CHECK_FAIL registered mux both paths t=756000
+# CHECK_FAIL registered mux both paths t=766000
+# CHECK_FAIL registered mux both paths t=776000
+# CHECK_FAIL registered mux both paths t=786000
+# CHECK_FAIL registered mux both paths t=796000
+# CHECK_FAIL registered mux both paths t=806000
+# CHECK_FAIL registered mux both paths t=816000
+# CHECK_FAIL registered mux both paths t=826000
+# CHECK_FAIL registered mux both paths t=836000
+# CHECK_FAIL registered mux both paths t=846000
+# CHECK_FAIL registered mux both paths t=856000
+# CHECK_FAIL registered mux both paths t=866000
+# CHECK_FAIL registered mux both paths t=876000
+# CHECK_FAIL registered mux both paths t=886000
+# CHECK_FAIL registered mux both paths t=896000
+# CHECK_FAIL registered mux both paths t=906000
+# CHECK_FAIL registered mux both paths t=916000
+# CHECK_FAIL registered mux both paths t=926000
+# CHECK_FAIL registered mux both paths t=936000
+# CHECK_FAIL registered mux both paths t=946000
+# CHECK_FAIL registered mux both paths t=956000
+# CHECK_FAIL registered mux both paths t=966000
+# CHECK_FAIL registered mux both paths t=976000
+# CHECK_FAIL registered mux both paths t=986000
+# CHECK_FAIL registered mux both paths t=996000
+# CHECK_FAIL registered mux both paths t=1006000
+# CHECK_FAIL registered mux both paths t=1016000
+# CHECK_FAIL registered mux both paths t=1026000
+# CHECK_FAIL registered mux both paths t=1036000
+# CHECK_FAIL registered mux both paths t=1046000
+# CHECK_FAIL registered mux both paths t=1056000
+# CHECK_FAIL registered mux both paths t=1066000
+# CHECK_FAIL registered mux both paths t=1076000
+# CHECK_FAIL registered mux both paths t=1086000
+# CHECK_FAIL registered mux both paths t=1096000
+# CHECK_FAIL registered mux both paths t=1106000
+# CHECK_FAIL registered mux both paths t=1116000
+# CHECK_FAIL registered mux both paths t=1126000
+# CHECK_FAIL registered mux both paths t=1136000
+# CHECK_FAIL registered mux both paths t=1146000
+# CHECK_FAIL registered mux both paths t=1156000
+# CHECK_FAIL registered mux both paths t=1166000
+# CHECK_FAIL registered mux both paths t=1176000
+# CHECK_FAIL registered mux both paths t=1186000
+# CHECK_FAIL registered mux both paths t=1196000
+# CHECK_FAIL registered mux both paths t=1206000
+# CHECK_FAIL registered mux both paths t=1216000
+# CHECK_FAIL registered mux both paths t=1226000
+# CHECK_FAIL registered mux both paths t=1236000
+# CHECK_FAIL registered mux both paths t=1246000
+# CHECK_FAIL registered mux both paths t=1256000
+# CHECK_FAIL registered mux both paths t=1266000
+# CHECK_FAIL registered mux both paths t=1276000
+# CHECK_FAIL registered mux both paths t=1286000
+# CHECK_FAIL registered mux both paths t=1296000
+# CHECK_FAIL registered mux both paths t=1306000
+# CHECK_FAIL registered mux both paths t=1316000
+# CHECK_FAIL registered mux both paths t=1326000
+# CHECK_FAIL registered mux both paths t=1336000
+# CHECK_FAIL registered mux both paths t=1356000
+# CHECK_FAIL registered mux both paths t=1366000
+# CHECK_FAIL registered mux both paths t=1376000
+# CHECK_FAIL registered mux both paths t=1386000
+# CHECK_FAIL registered mux both paths t=1396000
+# CHECK_FAIL registered mux both paths t=1406000
+# CHECK_FAIL registered mux both paths t=1416000
+# CHECK_FAIL registered mux both paths t=1426000
+# CHECK_FAIL registered mux both paths t=1436000
+# CHECK_FAIL registered mux both paths t=1446000
+# CHECK_FAIL registered mux both paths t=1456000
+# CHECK_FAIL registered mux both paths t=1466000
+# CHECK_FAIL registered mux both paths t=1476000
+# CHECK_FAIL registered mux both paths t=1486000
+# CHECK_FAIL registered mux both paths t=1496000
+# CHECK_FAIL registered mux both paths t=1506000
+# CHECK_FAIL registered mux both paths t=1516000
+# CHECK_FAIL registered mux both paths t=1526000
+# CHECK_FAIL registered mux both paths t=1536000
+# CHECK_FAIL registered mux both paths t=1546000
+# CHECK_FAIL registered mux both paths t=1556000
+# CHECK_FAIL registered mux both paths t=1566000
+# CHECK_FAIL registered mux both paths t=1576000
+# CHECK_FAIL registered mux both paths t=1586000
+# CHECK_FAIL registered mux both paths t=1596000
+# CHECK_FAIL registered mux both paths t=1606000
+# CHECK_FAIL registered mux both paths t=1616000
+# CHECK_FAIL registered mux both paths t=1626000
+# CHECK_FAIL registered mux both paths t=1636000
+# CHECK_FAIL registered mux both paths t=1646000
+# CHECK_FAIL registered mux both paths t=1656000
+# CHECK_FAIL registered mux both paths t=1666000
+# CHECK_FAIL registered mux both paths t=1676000
+# CHECK_FAIL registered mux both paths t=1686000
+# CHECK_FAIL registered mux both paths t=1696000
+# CHECK_FAIL registered mux both paths t=1706000
+# CHECK_FAIL registered mux both paths t=1716000
+# CHECK_FAIL registered mux both paths t=1726000
+# CHECK_FAIL registered mux both paths t=1736000
+# CHECK_FAIL registered mux both paths t=1746000
+# CHECK_FAIL registered mux both paths t=1756000
+# CHECK_FAIL registered mux both paths t=1766000
+# CHECK_FAIL registered mux both paths t=1776000
+# CHECK_FAIL registered mux both paths t=1786000
+# CHECK_FAIL registered mux both paths t=1796000
+# CHECK_FAIL registered mux both paths t=1806000
+# CHECK_FAIL registered mux both paths t=1816000
+# CHECK_FAIL registered mux both paths t=1826000
+# CHECK_FAIL registered mux both paths t=1836000
+# CHECK_FAIL registered mux both paths t=1846000
+# CHECK_FAIL registered mux both paths t=1856000
+# CHECK_FAIL registered mux both paths t=1866000
+# CHECK_FAIL registered mux both paths t=1876000
+# CHECK_FAIL registered mux both paths t=1886000
+# CHECK_FAIL registered mux both paths t=1896000
+# CHECK_FAIL registered mux both paths t=1906000
+# CHECK_FAIL registered mux both paths t=1916000
+# CHECK_FAIL registered mux both paths t=1926000
+# CHECK_FAIL registered mux both paths t=1936000
+# CHECK_FAIL registered mux both paths t=1946000
+# CHECK_FAIL registered mux both paths t=1956000
+# CHECK_FAIL registered mux both paths t=1966000
+# CHECK_FAIL registered mux both paths t=1976000
+# CHECK_FAIL registered mux both paths t=1986000
+# CHECK_FAIL registered mux both paths t=1996000
+# CHECK_FAIL registered mux both paths t=2006000
+# CHECK_FAIL registered mux both paths t=2016000
+# CHECK_FAIL registered mux both paths t=2026000
+# CHECK_FAIL registered mux both paths t=2036000
+# CHECK_FAIL registered mux both paths t=2046000
+# CHECK_FAIL registered mux both paths t=2056000
+# CHECK_FAIL registered mux both paths t=2066000
+# CHECK_FAIL registered mux both paths t=2076000
+# CHECK_FAIL registered mux both paths t=2086000
+# CHECK_FAIL registered mux both paths t=2096000
+# CHECK_FAIL registered mux both paths t=2106000
+# CHECK_FAIL registered mux both paths t=2116000
+# CHECK_FAIL registered mux both paths t=2126000
+# CHECK_FAIL registered mux both paths t=2136000
+# CHECK_FAIL registered mux both paths t=2146000
+# CHECK_FAIL registered mux both paths t=2156000
+# CHECK_FAIL registered mux both paths t=2166000
+# CHECK_FAIL registered mux both paths t=2176000
+# CHECK_FAIL registered mux both paths t=2186000
+# CHECK_FAIL registered mux both paths t=2196000
+# CHECK_FAIL registered mux both paths t=2206000
+# CHECK_FAIL registered mux both paths t=2216000
+# CHECK_FAIL registered mux both paths t=2226000
+# CHECK_FAIL registered mux both paths t=2236000
+# CHECK_FAIL registered mux both paths t=2246000
+# CHECK_FAIL registered mux both paths t=2256000
+# CHECK_FAIL registered mux both paths t=2266000
+# CHECK_FAIL registered mux both paths t=2276000
+# CHECK_FAIL registered mux both paths t=2286000
+# CHECK_FAIL registered mux both paths t=2296000
+# CHECK_FAIL registered mux both paths t=2306000
+# CHECK_FAIL registered mux both paths t=2316000
+# CHECK_FAIL registered mux both paths t=2326000
+# CHECK_FAIL registered mux both paths t=2336000
+# CHECK_FAIL registered mux both paths t=2346000
+# CHECK_FAIL registered mux both paths t=2356000
+# CHECK_FAIL registered mux both paths t=2366000
+# CHECK_FAIL registered mux both paths t=2376000
+# CHECK_FAIL registered mux both paths t=2386000
+# CHECK_FAIL registered mux both paths t=2396000
+# CHECK_FAIL registered mux both paths t=2406000
+# CHECK_FAIL registered mux both paths t=2416000
+# CHECK_FAIL registered mux both paths t=2426000
+# CHECK_FAIL registered mux both paths t=2436000
+# CHECK_FAIL registered mux both paths t=2446000
+# CHECK_FAIL registered mux both paths t=2456000
+# CHECK_FAIL registered mux both paths t=2466000
+# CHECK_FAIL registered mux both paths t=2476000
+# CHECK_FAIL registered mux both paths t=2486000
+# CHECK_FAIL registered mux both paths t=2496000
+# CHECK_FAIL registered mux both paths t=2506000
+# CHECK_FAIL registered mux both paths t=2516000
+# CHECK_FAIL registered mux both paths t=2526000
+# CHECK_FAIL registered mux both paths t=2536000
+# CHECK_FAIL registered mux both paths t=2546000
+# CHECK_FAIL registered mux both paths t=2556000
+# CHECK_FAIL registered mux both paths t=2566000
+# CHECK_FAIL registered mux both paths t=2576000
+# CHECK_FAIL registered mux both paths t=2586000
+# CHECK_FAIL registered mux both paths t=2596000
+# CHECK_FAIL registered mux both paths t=2606000
+# CHECK_FAIL registered mux both paths t=2616000
+# OBSERVATION unknown-select q=ff (unspecified, not scored)
+# RESULT checks=513 failures=255
+# ** Note: $finish    : tb.sv(13)
+#    Time: 2626 ns  Iteration: 0  Instance: /tb
+# End time: 20:27:53 on Sep 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

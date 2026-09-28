@@ -1,0 +1,93 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:23+0100",
+  "language": "vhdl",
+  "model": "qwen3-coder_30b",
+  "task": "bugfix",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3-coder_30b\\bugfix.vhd",
+  "sha256": "b3ecbb5d987c071c42e751f978a48ee20aa70b01a10be1c184c7317d74b2cb8f",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "sel",
+      "sel",
+      "in",
+      "std_logic"
+    ],
+    [
+      "a",
+      "a",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "b",
+      "b",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "q",
+      "q",
+      "out",
+      "std_logic_vector(7 downto 0))"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "ELAB_OR_TOOL_FAIL",
+        "checks": 0,
+        "failures": null,
+        "seconds": 3.12,
+        "returncode": 12
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen3-coder_30b\\bugfix\\bps",
+    "returncode": 0,
+    "seconds": 1.95,
+    "status": "COMPLETE",
+    "warnings": 4,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3-coder_30b/bugfix.vhd(17): Module: 'mux_reg' The asynchronous reset signal 'mux_reg.rst' is not synchronously deasserted for the following register: 'mux_reg.q'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0453",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3-coder_30b/bugfix.vhd(5): Module: 'mux_reg' The asynchronous reset signal 'mux_reg.rst' is not synchronously deasserted for the following register: 'mux_reg.r'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3-coder_30b/bugfix.vhd(5): Module: 'mux_reg' Asynchronous preset/clear used with register: mux_reg.r."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0054",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3-coder_30b/bugfix.vhd(17): Module: 'mux_reg' Asynchronous preset/clear used with register: mux_reg.q."
+      }
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:21:27+0100",
+  "language": "verilog",
+  "model": "qwen3.5_4b",
+  "task": "axi_lite",
+  "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.5_4b\\axi_lite.sv",
+  "sha256": "5d4d4bf809faddcd76462b6dd0d52b187e0cd9abe3359486ddf20e21f7d10b5c",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "aclk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "aresetn",
+      "rst_n",
+      "in",
+      ""
+    ],
+    [
+      "awvalid",
+      "awvalid",
+      "in",
+      ""
+    ],
+    [
+      "awready",
+      "awready",
+      "out",
+      ""
+    ],
+    [
+      "awaddr",
+      "awaddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "wvalid",
+      "wvalid",
+      "in",
+      ""
+    ],
+    [
+      "wready",
+      "wready",
+      "out",
+      ""
+    ],
+    [
+      "wdata",
+      "wdata",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "wstrb",
+      "wstrb",
+      "in",
+      "[3:0]"
+    ],
+    [
+      "bvalid",
+      "bvalid",
+      "out",
+      ""
+    ],
+    [
+      "bready",
+      "bready",
+      "in",
+      ""
+    ],
+    [
+      "bresp",
+      "bresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "arvalid",
+      "arvalid",
+      "in",
+      ""
+    ],
+    [
+      "arready",
+      "arready",
+      "out",
+      ""
+    ],
+    [
+      "araddr",
+      "araddr",
+      "in",
+      "[31:0]"
+    ],
+    [
+      "rvalid",
+      "rvalid",
+      "out",
+      ""
+    ],
+    [
+      "rready",
+      "rready",
+      "in",
+      ""
+    ],
+    [
+      "rdata",
+      "rdata",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "rresp",
+      "rresp",
+      "out",
+      "[1:0]"
+    ],
+    [
+      "reg0",
+      "reg0",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg1",
+      "reg1",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg2",
+      "reg2",
+      "out",
+      "[31:0]"
+    ],
+    [
+      "reg3",
+      "reg3",
+      "out",
+      "[31:0]"
+    ]
+  ],
+  "simulation": {
+    "status": "COMPILE_FAIL"
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\qwen3.5_4b\\axi_lite\\bps",
+    "returncode": 0,
+    "seconds": 2.1,
+    "status": "COMPLETE",
+    "warnings": 49,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "VERI-2013",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(40): variable 'idx' must explicitly be declared as automatic or static"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0112",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(25): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0112",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(40): Module: 'axil_regs' Construct 'register initialization' may not be synthesizable, partially synthesizable or may be ignored by some logic synthesis tools."
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-1209",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(20): expression size 2 truncated to fit in target size 1"
+      },
+      {
+        "severity": "warning",
+        "id": "VERI-9015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(42): index width is 5, it may assume value outside of prefix range [0:3] for 'regs'"
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Output port 'axil_regs.awready' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Output port 'axil_regs.wready' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(5): Module: 'axil_regs' Output port 'axil_regs.bresp[1:0]' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Output port 'axil_regs.arready' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(7): Module: 'axil_regs' Output port 'axil_regs.rresp[1:0]' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Output port 'axil_regs.reg0[31:0]' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Output port 'axil_regs.reg1[31:0]' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Output port 'axil_regs.reg2[31:0]' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0015",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Output port 'axil_regs.reg3[31:0]' is undriven."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awvalid' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Signal 'axil_regs.wvalid' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(5): Module: 'axil_regs' Signal 'axil_regs.bready' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.arvalid' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(7): Module: 'axil_regs' Signal 'axil_regs.rready' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awaddr[31:4]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awaddr[1:0]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Signal 'axil_regs.wdata' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Signal 'axil_regs.wstrb' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.araddr[31:3]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0534",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.araddr[1:0]' is dangling."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(3): Module: 'axil_regs' Signal 'axil_regs.awready' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(4): Module: 'axil_regs' Signal 'axil_regs.wready' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(6): Module: 'axil_regs' Signal 'axil_regs.arready' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.aw_fire' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.w_fire' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.ar_fire' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.b_fire' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.r_fire' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(5): Module: 'axil_regs' Signal 'axil_regs.bresp[1:0]' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Signal 'axil_regs.reg0[31:0]' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Signal 'axil_regs.reg1[31:0]' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Signal 'axil_regs.reg2[31:0]' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(8): Module: 'axil_regs' Signal 'axil_regs.reg3[31:0]' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0551",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(7): Module: 'axil_regs' Signal 'axil_regs.rresp[1:0]' has no driver."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0802",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'ram_regs' Signal 'axil_regs.rdata' is used but has no driver(s)."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0802",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'axil_regs' Signal 'axil_regs.rvalid' is used but has no driver(s)."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0802",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'axil_regs' Signal 'axil_regs.bvalid' is used but has no driver(s)."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0802",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'axil_regs' Signal 'axil_regs.w_full' is used but has no driver(s)."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0802",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(1): Module: 'axil_regs' Signal 'axil_regs.aw_full' is used but has no driver(s)."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0801",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.r_fire' is undriven but is used in the design."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0801",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.b_fire' is undriven but is used in the design."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0801",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.ar_fire' is undriven but is used in the design."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0801",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.w_fire' is undriven but is used in the design."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0801",
+        "message": "../../../../../../../20260928-145103-verilog-skill-amd-halo/qwen3.5_4b/axi_lite.sv(15): Module: 'axil_regs' Signal 'axil_regs.aw_fire' is undriven but is used in the design."
+      }
+    ]
+  }
+}

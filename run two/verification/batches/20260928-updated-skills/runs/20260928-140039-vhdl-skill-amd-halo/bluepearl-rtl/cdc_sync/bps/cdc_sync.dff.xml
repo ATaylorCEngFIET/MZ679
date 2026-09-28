@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="DFFs" Created="Mon Sep 28 20:22:01 2026">
+    <Headers>
+        <Header Column="0" Name="Name" IntegerValue="No"/>
+        <Header Column="1" Name="Type" IntegerValue="No"/>
+        <Header Column="2" Name="Data Clock Domain" IntegerValue="No"/>
+        <Header Column="3" Name="Clock Pin's Domain" IntegerValue="No"/>
+        <Header Column="4" Name="Fanout" IntegerValue="Yes"/>
+    </Headers>
+    <Row FileID="0" LineNum="19">
+        <Column Column="0" Data="cdc_sync.sync_r[1:0]"/>
+        <Column Column="1" Data="Dff register"/>
+        <Column Column="2" Data="clk_group"/>
+        <Column Column="3" Data="clk_group"/>
+        <Column Column="4" Data="1"/>
+    </Row>
+    <FileIDs>
+        <File name="../../../../../../../20260928-140039-vhdl-skill-amd-halo/bluepearl-rtl/cdc_sync.vhd" id="0"/>
+    </FileIDs>
+</BluePearlReport>

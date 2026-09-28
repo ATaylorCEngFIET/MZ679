@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSClockInteractionReport>
+    <ClockGroups>
+        <ClockGroup Name="clk_src_group">
+            <Clock Name="clk_src" FileID="0" LineNum="5"/>
+        </ClockGroup>
+    </ClockGroups>
+    <ClockInteractions/>
+    <ClockGroupInteractions/>
+    <FileIDs>
+        <File name="../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3-coder_30b/cdc_sync.vhd" id="0"/>
+    </FileIDs>
+</BPSClockInteractionReport>

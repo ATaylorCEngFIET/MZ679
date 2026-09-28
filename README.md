@@ -1,21 +1,12 @@
 # Local AI RTL results
 
-Final RTL and saved verification results for seven model configurations, six tasks and two languages: **84 implementations**. Sources were generated on 21 September 2026 and verified in batch 20260922-161336 on 22 September 2026.
+- [Run one](run%20one/README.md): the previously published RTL and verification snapshot, generated on 21 September 2026.
+- [Run two — AMD-Halo](run%20two/README.md): 84 new AMD-Halo implementations generated on 28 September 2026 using the updated protocol skills, with saved simulation and Blue Pearl results.
+- [VHDL skills](skills/vhdl/vhdl_skill.md) and [protocol examples](skills/vhdl/vhdl_protocols.md).
+- [SystemVerilog skills](skills/verilog/verilog_skill.md) and [protocol examples](skills/verilog/verilog_protocols.md).
 
-- [VHDL results](verification/results_vhdl.md)
-- [SystemVerilog results](verification/results_verilog.md)
-- [HTML report](verification/results.html) — clone/download and open locally
-- [Model summary](model_summary.csv) and [per-design results](design_results.csv)
-- [Full result records and recorded methodology](results.json)
-- [Questa permissive-flag results](verification/flag_probe_20260927/README.md)
+Each run covers the same seven selected blog model configurations, six tasks and two HDL languages. Run two contains AMD-Halo only; no new Spark or Atlas data is included. Simulations and lint ran centrally on Windows, rather than on the generation machine.
 
-The dated directories contain the 84 final RTL files. The verification directories contain saved compiler, simulation and Blue Pearl diagnostics. Reports link directly to the RTL and lint results. Generation drafts, skills, scripts and testbenches are not distributed in this repository. References in historical diagnostics describe the original execution environment.
+The skills folder is the current version, including the corrected AXI-Lite reference examples. Both protocol-file hashes match the AMD-Halo run-two manifests. The accompanying coding-rule files are the current local versions; generation metadata retains the exact hashes used during generation.
 
-| Language | Designs | Behavioral passes | Checked request passes | Lint errors | Lint warnings |
-|---|---:|---:|---:|---:|---:|
-| VHDL | 42 | 16 | 11 | 204 | 61 |
-| SystemVerilog | 42 | 17 | 15 | 159 | 150 |
-
-Results cover the recorded checks; they are not exhaustive correctness proofs. The separate permissive-flag experiment did not rerun behavioral tests or change these scores. No HDL tools were rerun while packaging this repository.
-
-`FILES_SHA256.json` records the delivered files. Original RTL bytes and all per-design result records are preserved.
+Original RTL and saved result records are preserved. Articles, generation drafts, testbenches, verification scripts and tool databases are not included. Historical logs can reference the original local execution paths. Run one's README describes its original publication scope; skills are now supplied separately at the repository root.

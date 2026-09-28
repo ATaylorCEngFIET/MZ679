@@ -1,0 +1,8 @@
+===============================
+Blue Pearl Sets/Resets Report created on: Mon Sep 28 20:22:29 2026
+===============================
+Reset/Set: mux_reg.rst is Asynchronous. It is a Primary Reset signal which is active High with reset logic None and is not synchronously de-asserted. Fanout: 2.
+===============================
+1 primary set/resets identified and reported.
+0 internal set/resets identified and reported.
+===============================

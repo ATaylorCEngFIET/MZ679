@@ -1,0 +1,60 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:18+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "counter",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\counter.vhd",
+  "sha256": "a0317d7df06cf361e0d5910368360a6b64353f356ad6e86ec88b61f122f14ee9",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "en",
+      "en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "count",
+      "count",
+      "out",
+      "unsigned(3 downto 0))"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 321,
+        "failures": 0,
+        "seconds": 2.5,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\counter\\bps",
+    "returncode": 0,
+    "seconds": 2.0,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="uart_tx(rtl)(state_r)" Language="VHDL" SingleProcess="Yes" CurrStateVar="state_r" NextStateVar="" ResetState="ST_IDLE" FileID="0" LineNum="44">
+            <States NumStates="4">
+                <State Name="ST_IDLE" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="45">
+                    <Transition To="ST_START" FileID="0" LineNum="50"/>
+                </State>
+                <State Name="ST_START" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="52">
+                    <Transition To="ST_DATA" FileID="0" LineNum="55"/>
+                </State>
+                <State Name="ST_DATA" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="57">
+                    <Transition To="ST_STOP" FileID="0" LineNum="62"/>
+                </State>
+                <State Name="ST_STOP" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="67">
+                    <Transition To="ST_IDLE" FileID="0" LineNum="70"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260928-140039-vhdl-skill-amd-halo/gemma4-fpga/uart_tx.vhd" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

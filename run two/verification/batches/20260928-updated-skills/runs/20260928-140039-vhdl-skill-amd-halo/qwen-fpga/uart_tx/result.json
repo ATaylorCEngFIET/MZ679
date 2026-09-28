@@ -1,0 +1,101 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:23+0100",
+  "language": "vhdl",
+  "model": "qwen-fpga",
+  "task": "uart_tx",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\uart_tx.vhd",
+  "sha256": "fc92d0fbb80bcee7ddb3cdec0c1aa8d02672ee0d39a5fa941db75ed7891ce38d",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "std_logic_vector(7 downto 0)"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      "std_logic"
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      "std_logic"
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      "std_logic)"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 624,
+        "failures": 0,
+        "seconds": 3.24,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "PASS",
+        "checks": 1004,
+        "failures": 0,
+        "seconds": 3.09,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\uart_tx\\bps",
+    "returncode": 0,
+    "seconds": 1.95,
+    "status": "COMPLETE",
+    "warnings": 4,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/uart_tx.vhd(13): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/uart_tx.vhd(14): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/uart_tx.vhd(15): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/uart_tx.vhd(16): Module: 'uart_tx(rtl)' Initial statements should not be used."
+      }
+    ]
+  }
+}

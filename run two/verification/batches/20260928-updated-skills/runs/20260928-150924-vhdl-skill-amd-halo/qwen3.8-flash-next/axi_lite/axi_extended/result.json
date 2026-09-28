@@ -1,0 +1,12 @@
+{
+  "machine": "amd-halo",
+  "language": "vhdl",
+  "model": "qwen3.8-flash-next",
+  "source": "20260928-150924-vhdl-skill-amd-halo\\qwen3.8-flash-next\\axi_lite.vhd",
+  "sha256": "7e9d87fa07804014f802c03f1af9344394d838594a77205ba11516f045ac46fb",
+  "status": "PASS",
+  "checks": 907,
+  "failures": 0,
+  "failed_checks": [],
+  "seconds": 2.35
+}

@@ -1,0 +1,80 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:23+0100",
+  "language": "verilog",
+  "model": "gemma4-fpga",
+  "task": "uart_tx",
+  "source": "20260928-145103-verilog-skill-amd-halo\\gemma4-fpga\\uart_tx.sv",
+  "sha256": "c3f249f9a6152893461f0da6d62fb371e90463bf143d18eee05fb33295c54a83",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 624,
+        "failures": 0,
+        "seconds": 2.47,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "PASS",
+        "checks": 1004,
+        "failures": 0,
+        "seconds": 2.42,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\gemma4-fpga\\uart_tx\\bps",
+    "returncode": 0,
+    "seconds": 1.99,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

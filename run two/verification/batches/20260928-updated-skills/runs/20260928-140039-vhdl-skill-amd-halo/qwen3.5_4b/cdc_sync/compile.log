@@ -1,0 +1,12 @@
+QuestaSim Base Edition-64 vcom 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 20:27:53 on Sep 28,2026
+vcom -2008 -work work C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\20260928-140039-vhdl-skill-amd-halo\qwen3.5_4b\cdc_sync.vhd 
+** Note: (vcom-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cdc_sync
+-- Compiling architecture rtl of cdc_sync
+End time: 20:27:53 on Sep 28,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

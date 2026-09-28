@@ -1,0 +1,12 @@
+{
+  "machine": "amd-halo",
+  "language": "vhdl",
+  "model": "qwen3-coder_30b",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3-coder_30b\\axi_lite.vhd",
+  "sha256": "594fc9712b3380f13ad1922e605fd446180f0c41f83d8775f519a96a4b393d5b",
+  "status": "PASS",
+  "checks": 907,
+  "failures": 0,
+  "failed_checks": [],
+  "seconds": 2.33
+}

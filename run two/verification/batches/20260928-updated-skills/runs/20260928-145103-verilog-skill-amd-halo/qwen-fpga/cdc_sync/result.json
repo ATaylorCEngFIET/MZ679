@@ -1,0 +1,62 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:26+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "cdc_sync",
+  "source": "20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\cdc_sync.sv",
+  "sha256": "3ce13995eae44bd5434eb0bbeba16c05b1bd518c49976a00f6a21b1bdd5b82cc",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "async_in",
+      "din",
+      "in",
+      ""
+    ],
+    [
+      "sync_out",
+      "dout",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 400,
+        "failures": 0,
+        "seconds": 2.48,
+        "returncode": 0
+      },
+      {
+        "variant": "stages3",
+        "status": "PASS",
+        "checks": 400,
+        "failures": 0,
+        "seconds": 2.92,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\cdc_sync\\bps",
+    "returncode": 0,
+    "seconds": 1.94,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

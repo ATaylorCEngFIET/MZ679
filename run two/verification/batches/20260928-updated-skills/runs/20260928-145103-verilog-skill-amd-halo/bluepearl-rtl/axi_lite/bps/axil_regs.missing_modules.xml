@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlReport ReportName="Missing Modules/Objects" Created="Mon Sep 28 20:21:23 2026">
+    <Headers>
+        <Header Column="0" Name="Object Name" IntegerValue="No"/>
+        <Header Column="1" Name="Usage Language" IntegerValue="No"/>
+        <Header Column="2" Name="Definition Language" IntegerValue="No"/>
+        <Header Column="3" Name="Definition Library" IntegerValue="No"/>
+        <Header Column="4" Name="Definition Location" IntegerValue="No"/>
+        <Header Column="5" Name="Definition Name" IntegerValue="No"/>
+    </Headers>
+    <FileIDs/>
+</BluePearlReport>

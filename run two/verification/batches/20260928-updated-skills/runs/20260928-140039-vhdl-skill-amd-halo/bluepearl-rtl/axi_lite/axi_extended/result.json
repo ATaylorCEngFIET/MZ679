@@ -1,0 +1,12 @@
+{
+  "machine": "amd-halo",
+  "language": "vhdl",
+  "model": "bluepearl-rtl",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\bluepearl-rtl\\axi_lite.vhd",
+  "sha256": "6bba89ae9aed7b6a207cf94d1306d8f9ad715b5e9174896cbadc3429fcfa87ff",
+  "status": "PASS",
+  "checks": 907,
+  "failures": 0,
+  "failed_checks": [],
+  "seconds": 2.45
+}

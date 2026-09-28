@@ -1,0 +1,103 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:57+0100",
+  "language": "vhdl",
+  "model": "qwen3.8_27b",
+  "task": "fifo",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.8_27b\\fifo.vhd",
+  "sha256": "7b789c1a73f228a767217151c8b6e643d41ac7dee7b793902bea06b0a3d6deec",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      "std_logic"
+    ],
+    [
+      "wr_en",
+      "wr_en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "wr_data",
+      "wr_data",
+      "in",
+      "std_logic_vector(WIDTH-1 downto 0)"
+    ],
+    [
+      "rd_en",
+      "rd_en",
+      "in",
+      "std_logic"
+    ],
+    [
+      "rd_data",
+      "rd_data",
+      "out",
+      "std_logic_vector(WIDTH-1 downto 0)"
+    ],
+    [
+      "full",
+      "full",
+      "out",
+      "std_logic"
+    ],
+    [
+      "empty",
+      "empty",
+      "out",
+      "std_logic)"
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 3455,
+        "failures": 0,
+        "seconds": 2.64,
+        "returncode": 0
+      },
+      {
+        "variant": "width16_depth4",
+        "status": "PASS",
+        "checks": 3381,
+        "failures": 0,
+        "seconds": 3.04,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen3.8_27b\\fifo\\bps",
+    "returncode": 0,
+    "seconds": 1.99,
+    "status": "COMPLETE",
+    "warnings": 2,
+    "errors": 0,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.8_27b/fifo.vhd(29): Module: 'sync_fifo(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.8_27b/fifo.vhd(30): Module: 'sync_fifo(rtl)' Initial statements should not be used."
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+QuestaSim Base Edition-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+Start time: 20:24:03 on Sep 28,2026
+vlog -sv -work work C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\20260928-145103-verilog-skill-amd-halo\qwen3.8_27b\fifo.sv 
+** Note: (vlog-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+-- Compiling module sync_fifo
+
+Top level modules:
+	sync_fifo
+End time: 20:24:03 on Sep 28,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

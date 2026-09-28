@@ -1,0 +1,94 @@
+{
+  "source_run": "20260928-140039-vhdl-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:22:40+0100",
+  "language": "vhdl",
+  "model": "qwen3.5_4b",
+  "task": "cdc_sync",
+  "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\cdc_sync.vhd",
+  "sha256": "181f64aeb53e27b47a80b5a5e8b2fc098fba3942df0d3499f0c7aab801862ab9",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk_i",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "clk_o",
+      "clk",
+      "in",
+      "std_logic"
+    ],
+    [
+      "async_in",
+      "din",
+      "in",
+      "std_logic"
+    ],
+    [
+      "sync_out",
+      "dout",
+      "out",
+      "std_logic)"
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 400,
+        "failures": 39,
+        "seconds": 2.51,
+        "returncode": 0
+      },
+      {
+        "variant": "stages3",
+        "status": "FAIL",
+        "checks": 400,
+        "failures": 39,
+        "seconds": 3.96,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\cdc_sync\\bps",
+    "returncode": 101,
+    "seconds": 2.03,
+    "status": "COMPLETE",
+    "warnings": 1,
+    "errors": 4,
+    "messages": [
+      {
+        "severity": "warning",
+        "id": "BPS-0272",
+        "message": "../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd(10): Module: 'cdc_sync(rtl)' Initial statements should not be used."
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0723",
+        "message": "Module: 'cdc_sync.rtl' Problem elaborating cdc_sync.rtl into library work. Please see previous messages."
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Termination due to non-recoverable errors"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: Running user initialization program: source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language VHDL_2008 {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-140039-vhdl-skill-amd-halo/qwen3.5_4b/cdc_sync.vhd}; BPS::run analyze -forceload"
+      },
+      {
+        "severity": "error",
+        "id": "BPS-0752",
+        "message": "ERROR: BPS::run - Failed to read in netlist."
+      }
+    ]
+  }
+}

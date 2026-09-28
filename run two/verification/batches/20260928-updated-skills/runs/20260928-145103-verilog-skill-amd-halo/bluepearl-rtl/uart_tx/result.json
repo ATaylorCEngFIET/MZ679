@@ -1,0 +1,80 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:10+0100",
+  "language": "verilog",
+  "model": "bluepearl-rtl",
+  "task": "uart_tx",
+  "source": "20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\uart_tx.sv",
+  "sha256": "51f82c89c7dbb0c9c0988531bf04e7a441eeb5f5aef95cf44ba4cacf7c8f2bf5",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "PASS",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "PASS",
+        "checks": 624,
+        "failures": 0,
+        "seconds": 2.41,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "PASS",
+        "checks": 1004,
+        "failures": 0,
+        "seconds": 2.56,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\uart_tx\\bps",
+    "returncode": 0,
+    "seconds": 1.89,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

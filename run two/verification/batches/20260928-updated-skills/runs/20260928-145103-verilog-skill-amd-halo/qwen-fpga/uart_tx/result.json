@@ -1,0 +1,80 @@
+{
+  "source_run": "20260928-145103-verilog-skill-amd-halo",
+  "batch": "20260928-updated-skills",
+  "executed_at": "2026-09-28T20:23:34+0100",
+  "language": "verilog",
+  "model": "qwen-fpga",
+  "task": "uart_tx",
+  "source": "20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\uart_tx.sv",
+  "sha256": "9c94385596e2f64eced505ab7a06244d0848cb86d58ec29a629a0896c0bfc186",
+  "interface_errors": [],
+  "request_findings": [],
+  "port_mapping": [
+    [
+      "clk",
+      "clk",
+      "in",
+      ""
+    ],
+    [
+      "rst",
+      "rst",
+      "in",
+      ""
+    ],
+    [
+      "data",
+      "data",
+      "in",
+      "[7:0]"
+    ],
+    [
+      "data_valid",
+      "data_valid",
+      "in",
+      ""
+    ],
+    [
+      "tx",
+      "tx",
+      "out",
+      ""
+    ],
+    [
+      "busy",
+      "busy",
+      "out",
+      ""
+    ]
+  ],
+  "simulation": {
+    "status": "FAIL",
+    "runs": [
+      {
+        "variant": "default",
+        "status": "FAIL",
+        "checks": 624,
+        "failures": 338,
+        "seconds": 2.39,
+        "returncode": 0
+      },
+      {
+        "variant": "divisor13",
+        "status": "FAIL",
+        "checks": 1004,
+        "failures": 606,
+        "seconds": 2.39,
+        "returncode": 0
+      }
+    ]
+  },
+  "lint": {
+    "directory": "batches\\20260928-updated-skills\\runs\\20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\uart_tx\\bps",
+    "returncode": 0,
+    "seconds": 1.96,
+    "status": "COMPLETE",
+    "warnings": 0,
+    "errors": 0,
+    "messages": []
+  }
+}

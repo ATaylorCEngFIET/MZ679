@@ -1,0 +1,689 @@
+Reading pref.tcl
+
+# 2025.3
+
+# ** Note: (vsim-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# vsim -c -onfinish exit -wlf C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-145103-verilog-skill-amd-halo\qwen3.5_4b\uart_tx\divisor13.wlf work.tb -do "onerror {quit -code 2 -f}; run -all; quit -f" -gDIVISOR=13 
+# Start time: 20:23:59 on Sep 28,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questa_base64_2025.3/win64/../modelsim.ini' is used as the ini file.
+# //  QuestaSim Base Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# onerror {quit -code 2 -f}
+#  Warning: onerror command for use within macro
+#  run -all
+# CHECK_FAIL 8N1 bit=1 cycle=1 payload=55 t=216000
+# CHECK_FAIL 8N1 bit=1 cycle=3 payload=55 t=236000
+# CHECK_FAIL 8N1 bit=1 cycle=5 payload=55 t=256000
+# CHECK_FAIL 8N1 bit=1 cycle=7 payload=55 t=276000
+# CHECK_FAIL busy during start/data t=286000
+# CHECK_FAIL busy during start/data t=296000
+# CHECK_FAIL busy during start/data t=306000
+# CHECK_FAIL busy during start/data t=316000
+# CHECK_FAIL busy during start/data t=326000
+# CHECK_FAIL 8N1 bit=2 cycle=0 payload=55 t=336000
+# CHECK_FAIL busy during start/data t=336000
+# CHECK_FAIL 8N1 bit=2 cycle=1 payload=55 t=346000
+# CHECK_FAIL busy during start/data t=346000
+# CHECK_FAIL 8N1 bit=2 cycle=2 payload=55 t=356000
+# CHECK_FAIL busy during start/data t=356000
+# CHECK_FAIL 8N1 bit=2 cycle=3 payload=55 t=366000
+# CHECK_FAIL busy during start/data t=366000
+# CHECK_FAIL 8N1 bit=2 cycle=4 payload=55 t=376000
+# CHECK_FAIL busy during start/data t=376000
+# CHECK_FAIL 8N1 bit=2 cycle=5 payload=55 t=386000
+# CHECK_FAIL busy during start/data t=386000
+# CHECK_FAIL 8N1 bit=2 cycle=6 payload=55 t=396000
+# CHECK_FAIL busy during start/data t=396000
+# CHECK_FAIL 8N1 bit=2 cycle=7 payload=55 t=406000
+# CHECK_FAIL busy during start/data t=406000
+# CHECK_FAIL 8N1 bit=2 cycle=8 payload=55 t=416000
+# CHECK_FAIL busy during start/data t=416000
+# CHECK_FAIL 8N1 bit=2 cycle=9 payload=55 t=426000
+# CHECK_FAIL busy during start/data t=426000
+# CHECK_FAIL 8N1 bit=2 cycle=10 payload=55 t=436000
+# CHECK_FAIL busy during start/data t=436000
+# CHECK_FAIL 8N1 bit=2 cycle=11 payload=55 t=446000
+# CHECK_FAIL busy during start/data t=446000
+# CHECK_FAIL 8N1 bit=2 cycle=12 payload=55 t=456000
+# CHECK_FAIL busy during start/data t=456000
+# CHECK_FAIL busy during start/data t=466000
+# CHECK_FAIL busy during start/data t=476000
+# CHECK_FAIL busy during start/data t=486000
+# CHECK_FAIL busy during start/data t=496000
+# CHECK_FAIL busy during start/data t=506000
+# CHECK_FAIL busy during start/data t=516000
+# CHECK_FAIL busy during start/data t=526000
+# CHECK_FAIL busy during start/data t=536000
+# CHECK_FAIL busy during start/data t=546000
+# CHECK_FAIL busy during start/data t=556000
+# CHECK_FAIL busy during start/data t=566000
+# CHECK_FAIL busy during start/data t=576000
+# CHECK_FAIL busy during start/data t=586000
+# CHECK_FAIL 8N1 bit=4 cycle=0 payload=55 t=596000
+# CHECK_FAIL busy during start/data t=596000
+# CHECK_FAIL 8N1 bit=4 cycle=1 payload=55 t=606000
+# CHECK_FAIL busy during start/data t=606000
+# CHECK_FAIL 8N1 bit=4 cycle=2 payload=55 t=616000
+# CHECK_FAIL busy during start/data t=616000
+# CHECK_FAIL 8N1 bit=4 cycle=3 payload=55 t=626000
+# CHECK_FAIL busy during start/data t=626000
+# CHECK_FAIL 8N1 bit=4 cycle=4 payload=55 t=636000
+# CHECK_FAIL busy during start/data t=636000
+# CHECK_FAIL 8N1 bit=4 cycle=5 payload=55 t=646000
+# CHECK_FAIL busy during start/data t=646000
+# CHECK_FAIL 8N1 bit=4 cycle=6 payload=55 t=656000
+# CHECK_FAIL busy during start/data t=656000
+# CHECK_FAIL 8N1 bit=4 cycle=7 payload=55 t=666000
+# CHECK_FAIL busy during start/data t=666000
+# CHECK_FAIL 8N1 bit=4 cycle=8 payload=55 t=676000
+# CHECK_FAIL busy during start/data t=676000
+# CHECK_FAIL 8N1 bit=4 cycle=9 payload=55 t=686000
+# CHECK_FAIL busy during start/data t=686000
+# CHECK_FAIL 8N1 bit=4 cycle=10 payload=55 t=696000
+# CHECK_FAIL busy during start/data t=696000
+# CHECK_FAIL 8N1 bit=4 cycle=11 payload=55 t=706000
+# CHECK_FAIL busy during start/data t=706000
+# CHECK_FAIL 8N1 bit=4 cycle=12 payload=55 t=716000
+# CHECK_FAIL busy during start/data t=716000
+# CHECK_FAIL busy during start/data t=726000
+# CHECK_FAIL busy during start/data t=736000
+# CHECK_FAIL busy during start/data t=746000
+# CHECK_FAIL busy during start/data t=756000
+# CHECK_FAIL busy during start/data t=766000
+# CHECK_FAIL busy during start/data t=776000
+# CHECK_FAIL busy during start/data t=786000
+# CHECK_FAIL busy during start/data t=796000
+# CHECK_FAIL busy during start/data t=806000
+# CHECK_FAIL busy during start/data t=816000
+# CHECK_FAIL busy during start/data t=826000
+# CHECK_FAIL busy during start/data t=836000
+# CHECK_FAIL busy during start/data t=846000
+# CHECK_FAIL 8N1 bit=6 cycle=0 payload=55 t=856000
+# CHECK_FAIL busy during start/data t=856000
+# CHECK_FAIL 8N1 bit=6 cycle=1 payload=55 t=866000
+# CHECK_FAIL busy during start/data t=866000
+# CHECK_FAIL 8N1 bit=6 cycle=2 payload=55 t=876000
+# CHECK_FAIL busy during start/data t=876000
+# CHECK_FAIL 8N1 bit=6 cycle=3 payload=55 t=886000
+# CHECK_FAIL busy during start/data t=886000
+# CHECK_FAIL 8N1 bit=6 cycle=4 payload=55 t=896000
+# CHECK_FAIL busy during start/data t=896000
+# CHECK_FAIL 8N1 bit=6 cycle=5 payload=55 t=906000
+# CHECK_FAIL busy during start/data t=906000
+# CHECK_FAIL 8N1 bit=6 cycle=6 payload=55 t=916000
+# CHECK_FAIL busy during start/data t=916000
+# CHECK_FAIL 8N1 bit=6 cycle=7 payload=55 t=926000
+# CHECK_FAIL busy during start/data t=926000
+# CHECK_FAIL 8N1 bit=6 cycle=8 payload=55 t=936000
+# CHECK_FAIL busy during start/data t=936000
+# CHECK_FAIL 8N1 bit=6 cycle=9 payload=55 t=946000
+# CHECK_FAIL busy during start/data t=946000
+# CHECK_FAIL 8N1 bit=6 cycle=10 payload=55 t=956000
+# CHECK_FAIL busy during start/data t=956000
+# CHECK_FAIL 8N1 bit=6 cycle=11 payload=55 t=966000
+# CHECK_FAIL busy during start/data t=966000
+# CHECK_FAIL 8N1 bit=6 cycle=12 payload=55 t=976000
+# CHECK_FAIL busy during start/data t=976000
+# CHECK_FAIL busy during start/data t=986000
+# CHECK_FAIL busy during start/data t=996000
+# CHECK_FAIL busy during start/data t=1006000
+# CHECK_FAIL busy during start/data t=1016000
+# CHECK_FAIL busy during start/data t=1026000
+# CHECK_FAIL busy during start/data t=1036000
+# CHECK_FAIL busy during start/data t=1046000
+# CHECK_FAIL busy during start/data t=1056000
+# CHECK_FAIL busy during start/data t=1066000
+# CHECK_FAIL busy during start/data t=1076000
+# CHECK_FAIL busy during start/data t=1086000
+# CHECK_FAIL busy during start/data t=1096000
+# CHECK_FAIL busy during start/data t=1106000
+# CHECK_FAIL 8N1 bit=8 cycle=0 payload=55 t=1116000
+# CHECK_FAIL busy during start/data t=1116000
+# CHECK_FAIL 8N1 bit=8 cycle=1 payload=55 t=1126000
+# CHECK_FAIL busy during start/data t=1126000
+# CHECK_FAIL 8N1 bit=8 cycle=2 payload=55 t=1136000
+# CHECK_FAIL busy during start/data t=1136000
+# CHECK_FAIL 8N1 bit=8 cycle=3 payload=55 t=1146000
+# CHECK_FAIL busy during start/data t=1146000
+# CHECK_FAIL 8N1 bit=8 cycle=4 payload=55 t=1156000
+# CHECK_FAIL busy during start/data t=1156000
+# CHECK_FAIL 8N1 bit=8 cycle=5 payload=55 t=1166000
+# CHECK_FAIL busy during start/data t=1166000
+# CHECK_FAIL 8N1 bit=8 cycle=6 payload=55 t=1176000
+# CHECK_FAIL busy during start/data t=1176000
+# CHECK_FAIL 8N1 bit=8 cycle=7 payload=55 t=1186000
+# CHECK_FAIL busy during start/data t=1186000
+# CHECK_FAIL 8N1 bit=8 cycle=8 payload=55 t=1196000
+# CHECK_FAIL busy during start/data t=1196000
+# CHECK_FAIL 8N1 bit=8 cycle=9 payload=55 t=1206000
+# CHECK_FAIL busy during start/data t=1206000
+# CHECK_FAIL 8N1 bit=8 cycle=10 payload=55 t=1216000
+# CHECK_FAIL busy during start/data t=1216000
+# CHECK_FAIL 8N1 bit=8 cycle=11 payload=55 t=1226000
+# CHECK_FAIL busy during start/data t=1226000
+# CHECK_FAIL 8N1 bit=8 cycle=12 payload=55 t=1236000
+# CHECK_FAIL busy during start/data t=1236000
+# CHECK_FAIL 8N1 bit=0 cycle=2 payload=a6 t=1676000
+# CHECK_FAIL 8N1 bit=0 cycle=3 payload=a6 t=1686000
+# CHECK_FAIL 8N1 bit=0 cycle=6 payload=a6 t=1716000
+# CHECK_FAIL 8N1 bit=0 cycle=8 payload=a6 t=1736000
+# CHECK_FAIL 8N1 bit=0 cycle=9 payload=a6 t=1746000
+# CHECK_FAIL busy during start/data t=1746000
+# CHECK_FAIL 8N1 bit=0 cycle=10 payload=a6 t=1756000
+# CHECK_FAIL busy during start/data t=1756000
+# CHECK_FAIL 8N1 bit=0 cycle=11 payload=a6 t=1766000
+# CHECK_FAIL busy during start/data t=1766000
+# CHECK_FAIL 8N1 bit=0 cycle=12 payload=a6 t=1776000
+# CHECK_FAIL busy during start/data t=1776000
+# CHECK_FAIL 8N1 bit=1 cycle=0 payload=a6 t=1786000
+# CHECK_FAIL busy during start/data t=1786000
+# CHECK_FAIL 8N1 bit=1 cycle=1 payload=a6 t=1796000
+# CHECK_FAIL busy during start/data t=1796000
+# CHECK_FAIL 8N1 bit=1 cycle=2 payload=a6 t=1806000
+# CHECK_FAIL busy during start/data t=1806000
+# CHECK_FAIL 8N1 bit=1 cycle=3 payload=a6 t=1816000
+# CHECK_FAIL busy during start/data t=1816000
+# CHECK_FAIL 8N1 bit=1 cycle=4 payload=a6 t=1826000
+# CHECK_FAIL busy during start/data t=1826000
+# CHECK_FAIL 8N1 bit=1 cycle=5 payload=a6 t=1836000
+# CHECK_FAIL busy during start/data t=1836000
+# CHECK_FAIL 8N1 bit=1 cycle=6 payload=a6 t=1846000
+# CHECK_FAIL busy during start/data t=1846000
+# CHECK_FAIL 8N1 bit=1 cycle=7 payload=a6 t=1856000
+# CHECK_FAIL busy during start/data t=1856000
+# CHECK_FAIL 8N1 bit=1 cycle=8 payload=a6 t=1866000
+# CHECK_FAIL busy during start/data t=1866000
+# CHECK_FAIL 8N1 bit=1 cycle=9 payload=a6 t=1876000
+# CHECK_FAIL busy during start/data t=1876000
+# CHECK_FAIL 8N1 bit=1 cycle=10 payload=a6 t=1886000
+# CHECK_FAIL busy during start/data t=1886000
+# CHECK_FAIL 8N1 bit=1 cycle=11 payload=a6 t=1896000
+# CHECK_FAIL busy during start/data t=1896000
+# CHECK_FAIL 8N1 bit=1 cycle=12 payload=a6 t=1906000
+# CHECK_FAIL busy during start/data t=1906000
+# CHECK_FAIL busy during start/data t=1916000
+# CHECK_FAIL busy during start/data t=1926000
+# CHECK_FAIL busy during start/data t=1936000
+# CHECK_FAIL busy during start/data t=1946000
+# CHECK_FAIL busy during start/data t=1956000
+# CHECK_FAIL busy during start/data t=1966000
+# CHECK_FAIL busy during start/data t=1976000
+# CHECK_FAIL busy during start/data t=1986000
+# CHECK_FAIL busy during start/data t=1996000
+# CHECK_FAIL busy during start/data t=2006000
+# CHECK_FAIL busy during start/data t=2016000
+# CHECK_FAIL busy during start/data t=2026000
+# CHECK_FAIL busy during start/data t=2036000
+# CHECK_FAIL busy during start/data t=2046000
+# CHECK_FAIL busy during start/data t=2056000
+# CHECK_FAIL busy during start/data t=2066000
+# CHECK_FAIL busy during start/data t=2076000
+# CHECK_FAIL busy during start/data t=2086000
+# CHECK_FAIL busy during start/data t=2096000
+# CHECK_FAIL busy during start/data t=2106000
+# CHECK_FAIL busy during start/data t=2116000
+# CHECK_FAIL busy during start/data t=2126000
+# CHECK_FAIL busy during start/data t=2136000
+# CHECK_FAIL busy during start/data t=2146000
+# CHECK_FAIL busy during start/data t=2156000
+# CHECK_FAIL busy during start/data t=2166000
+# CHECK_FAIL 8N1 bit=4 cycle=0 payload=a6 t=2176000
+# CHECK_FAIL busy during start/data t=2176000
+# CHECK_FAIL 8N1 bit=4 cycle=1 payload=a6 t=2186000
+# CHECK_FAIL busy during start/data t=2186000
+# CHECK_FAIL 8N1 bit=4 cycle=2 payload=a6 t=2196000
+# CHECK_FAIL busy during start/data t=2196000
+# CHECK_FAIL 8N1 bit=4 cycle=3 payload=a6 t=2206000
+# CHECK_FAIL busy during start/data t=2206000
+# CHECK_FAIL 8N1 bit=4 cycle=4 payload=a6 t=2216000
+# CHECK_FAIL busy during start/data t=2216000
+# CHECK_FAIL 8N1 bit=4 cycle=5 payload=a6 t=2226000
+# CHECK_FAIL busy during start/data t=2226000
+# CHECK_FAIL 8N1 bit=4 cycle=6 payload=a6 t=2236000
+# CHECK_FAIL busy during start/data t=2236000
+# CHECK_FAIL 8N1 bit=4 cycle=7 payload=a6 t=2246000
+# CHECK_FAIL busy during start/data t=2246000
+# CHECK_FAIL 8N1 bit=4 cycle=8 payload=a6 t=2256000
+# CHECK_FAIL busy during start/data t=2256000
+# CHECK_FAIL 8N1 bit=4 cycle=9 payload=a6 t=2266000
+# CHECK_FAIL busy during start/data t=2266000
+# CHECK_FAIL 8N1 bit=4 cycle=10 payload=a6 t=2276000
+# CHECK_FAIL busy during start/data t=2276000
+# CHECK_FAIL 8N1 bit=4 cycle=11 payload=a6 t=2286000
+# CHECK_FAIL busy during start/data t=2286000
+# CHECK_FAIL 8N1 bit=4 cycle=12 payload=a6 t=2296000
+# CHECK_FAIL busy during start/data t=2296000
+# CHECK_FAIL 8N1 bit=5 cycle=0 payload=a6 t=2306000
+# CHECK_FAIL busy during start/data t=2306000
+# CHECK_FAIL 8N1 bit=5 cycle=1 payload=a6 t=2316000
+# CHECK_FAIL busy during start/data t=2316000
+# CHECK_FAIL 8N1 bit=5 cycle=2 payload=a6 t=2326000
+# CHECK_FAIL busy during start/data t=2326000
+# CHECK_FAIL 8N1 bit=5 cycle=3 payload=a6 t=2336000
+# CHECK_FAIL busy during start/data t=2336000
+# CHECK_FAIL 8N1 bit=5 cycle=4 payload=a6 t=2346000
+# CHECK_FAIL busy during start/data t=2346000
+# CHECK_FAIL 8N1 bit=5 cycle=5 payload=a6 t=2356000
+# CHECK_FAIL busy during start/data t=2356000
+# CHECK_FAIL 8N1 bit=5 cycle=6 payload=a6 t=2366000
+# CHECK_FAIL busy during start/data t=2366000
+# CHECK_FAIL 8N1 bit=5 cycle=7 payload=a6 t=2376000
+# CHECK_FAIL busy during start/data t=2376000
+# CHECK_FAIL 8N1 bit=5 cycle=8 payload=a6 t=2386000
+# CHECK_FAIL busy during start/data t=2386000
+# CHECK_FAIL 8N1 bit=5 cycle=9 payload=a6 t=2396000
+# CHECK_FAIL busy during start/data t=2396000
+# CHECK_FAIL 8N1 bit=5 cycle=10 payload=a6 t=2406000
+# CHECK_FAIL busy during start/data t=2406000
+# CHECK_FAIL 8N1 bit=5 cycle=11 payload=a6 t=2416000
+# CHECK_FAIL busy during start/data t=2416000
+# CHECK_FAIL 8N1 bit=5 cycle=12 payload=a6 t=2426000
+# CHECK_FAIL busy during start/data t=2426000
+# CHECK_FAIL busy during start/data t=2436000
+# CHECK_FAIL busy during start/data t=2446000
+# CHECK_FAIL busy during start/data t=2456000
+# CHECK_FAIL busy during start/data t=2466000
+# CHECK_FAIL busy during start/data t=2476000
+# CHECK_FAIL busy during start/data t=2486000
+# CHECK_FAIL busy during start/data t=2496000
+# CHECK_FAIL busy during start/data t=2506000
+# CHECK_FAIL busy during start/data t=2516000
+# CHECK_FAIL busy during start/data t=2526000
+# CHECK_FAIL busy during start/data t=2536000
+# CHECK_FAIL busy during start/data t=2546000
+# CHECK_FAIL busy during start/data t=2556000
+# CHECK_FAIL 8N1 bit=7 cycle=0 payload=a6 t=2566000
+# CHECK_FAIL busy during start/data t=2566000
+# CHECK_FAIL 8N1 bit=7 cycle=1 payload=a6 t=2576000
+# CHECK_FAIL busy during start/data t=2576000
+# CHECK_FAIL 8N1 bit=7 cycle=2 payload=a6 t=2586000
+# CHECK_FAIL busy during start/data t=2586000
+# CHECK_FAIL 8N1 bit=7 cycle=3 payload=a6 t=2596000
+# CHECK_FAIL busy during start/data t=2596000
+# CHECK_FAIL 8N1 bit=7 cycle=4 payload=a6 t=2606000
+# CHECK_FAIL busy during start/data t=2606000
+# CHECK_FAIL 8N1 bit=7 cycle=5 payload=a6 t=2616000
+# CHECK_FAIL busy during start/data t=2616000
+# CHECK_FAIL 8N1 bit=7 cycle=6 payload=a6 t=2626000
+# CHECK_FAIL busy during start/data t=2626000
+# CHECK_FAIL 8N1 bit=7 cycle=7 payload=a6 t=2636000
+# CHECK_FAIL busy during start/data t=2636000
+# CHECK_FAIL 8N1 bit=7 cycle=8 payload=a6 t=2646000
+# CHECK_FAIL busy during start/data t=2646000
+# CHECK_FAIL 8N1 bit=7 cycle=9 payload=a6 t=2656000
+# CHECK_FAIL busy during start/data t=2656000
+# CHECK_FAIL 8N1 bit=7 cycle=10 payload=a6 t=2666000
+# CHECK_FAIL busy during start/data t=2666000
+# CHECK_FAIL 8N1 bit=7 cycle=11 payload=a6 t=2676000
+# CHECK_FAIL busy during start/data t=2676000
+# CHECK_FAIL 8N1 bit=7 cycle=12 payload=a6 t=2686000
+# CHECK_FAIL busy during start/data t=2686000
+# CHECK_FAIL busy during start/data t=2696000
+# CHECK_FAIL busy during start/data t=2706000
+# CHECK_FAIL busy during start/data t=2716000
+# CHECK_FAIL busy during start/data t=2726000
+# CHECK_FAIL busy during start/data t=2736000
+# CHECK_FAIL busy during start/data t=2746000
+# CHECK_FAIL busy during start/data t=2756000
+# CHECK_FAIL busy during start/data t=2766000
+# CHECK_FAIL busy during start/data t=2776000
+# CHECK_FAIL busy during start/data t=2786000
+# CHECK_FAIL busy during start/data t=2796000
+# CHECK_FAIL busy during start/data t=2806000
+# CHECK_FAIL busy during start/data t=2816000
+# CHECK_FAIL 8N1 bit=0 cycle=9 payload=00 t=3326000
+# CHECK_FAIL busy during start/data t=3326000
+# CHECK_FAIL 8N1 bit=0 cycle=10 payload=00 t=3336000
+# CHECK_FAIL busy during start/data t=3336000
+# CHECK_FAIL 8N1 bit=0 cycle=11 payload=00 t=3346000
+# CHECK_FAIL busy during start/data t=3346000
+# CHECK_FAIL 8N1 bit=0 cycle=12 payload=00 t=3356000
+# CHECK_FAIL busy during start/data t=3356000
+# CHECK_FAIL 8N1 bit=1 cycle=0 payload=00 t=3366000
+# CHECK_FAIL busy during start/data t=3366000
+# CHECK_FAIL 8N1 bit=1 cycle=1 payload=00 t=3376000
+# CHECK_FAIL busy during start/data t=3376000
+# CHECK_FAIL 8N1 bit=1 cycle=2 payload=00 t=3386000
+# CHECK_FAIL busy during start/data t=3386000
+# CHECK_FAIL 8N1 bit=1 cycle=3 payload=00 t=3396000
+# CHECK_FAIL busy during start/data t=3396000
+# CHECK_FAIL 8N1 bit=1 cycle=4 payload=00 t=3406000
+# CHECK_FAIL busy during start/data t=3406000
+# CHECK_FAIL 8N1 bit=1 cycle=5 payload=00 t=3416000
+# CHECK_FAIL busy during start/data t=3416000
+# CHECK_FAIL 8N1 bit=1 cycle=6 payload=00 t=3426000
+# CHECK_FAIL busy during start/data t=3426000
+# CHECK_FAIL 8N1 bit=1 cycle=7 payload=00 t=3436000
+# CHECK_FAIL busy during start/data t=3436000
+# CHECK_FAIL 8N1 bit=1 cycle=8 payload=00 t=3446000
+# CHECK_FAIL busy during start/data t=3446000
+# CHECK_FAIL 8N1 bit=1 cycle=9 payload=00 t=3456000
+# CHECK_FAIL busy during start/data t=3456000
+# CHECK_FAIL 8N1 bit=1 cycle=10 payload=00 t=3466000
+# CHECK_FAIL busy during start/data t=3466000
+# CHECK_FAIL 8N1 bit=1 cycle=11 payload=00 t=3476000
+# CHECK_FAIL busy during start/data t=3476000
+# CHECK_FAIL 8N1 bit=1 cycle=12 payload=00 t=3486000
+# CHECK_FAIL busy during start/data t=3486000
+# CHECK_FAIL 8N1 bit=2 cycle=0 payload=00 t=3496000
+# CHECK_FAIL busy during start/data t=3496000
+# CHECK_FAIL 8N1 bit=2 cycle=1 payload=00 t=3506000
+# CHECK_FAIL busy during start/data t=3506000
+# CHECK_FAIL 8N1 bit=2 cycle=2 payload=00 t=3516000
+# CHECK_FAIL busy during start/data t=3516000
+# CHECK_FAIL 8N1 bit=2 cycle=3 payload=00 t=3526000
+# CHECK_FAIL busy during start/data t=3526000
+# CHECK_FAIL 8N1 bit=2 cycle=4 payload=00 t=3536000
+# CHECK_FAIL busy during start/data t=3536000
+# CHECK_FAIL 8N1 bit=2 cycle=5 payload=00 t=3546000
+# CHECK_FAIL busy during start/data t=3546000
+# CHECK_FAIL 8N1 bit=2 cycle=6 payload=00 t=3556000
+# CHECK_FAIL busy during start/data t=3556000
+# CHECK_FAIL 8N1 bit=2 cycle=7 payload=00 t=3566000
+# CHECK_FAIL busy during start/data t=3566000
+# CHECK_FAIL 8N1 bit=2 cycle=8 payload=00 t=3576000
+# CHECK_FAIL busy during start/data t=3576000
+# CHECK_FAIL 8N1 bit=2 cycle=9 payload=00 t=3586000
+# CHECK_FAIL busy during start/data t=3586000
+# CHECK_FAIL 8N1 bit=2 cycle=10 payload=00 t=3596000
+# CHECK_FAIL busy during start/data t=3596000
+# CHECK_FAIL 8N1 bit=2 cycle=11 payload=00 t=3606000
+# CHECK_FAIL busy during start/data t=3606000
+# CHECK_FAIL 8N1 bit=2 cycle=12 payload=00 t=3616000
+# CHECK_FAIL busy during start/data t=3616000
+# CHECK_FAIL 8N1 bit=3 cycle=0 payload=00 t=3626000
+# CHECK_FAIL busy during start/data t=3626000
+# CHECK_FAIL 8N1 bit=3 cycle=1 payload=00 t=3636000
+# CHECK_FAIL busy during start/data t=3636000
+# CHECK_FAIL 8N1 bit=3 cycle=2 payload=00 t=3646000
+# CHECK_FAIL busy during start/data t=3646000
+# CHECK_FAIL 8N1 bit=3 cycle=3 payload=00 t=3656000
+# CHECK_FAIL busy during start/data t=3656000
+# CHECK_FAIL 8N1 bit=3 cycle=4 payload=00 t=3666000
+# CHECK_FAIL busy during start/data t=3666000
+# CHECK_FAIL 8N1 bit=3 cycle=5 payload=00 t=3676000
+# CHECK_FAIL busy during start/data t=3676000
+# CHECK_FAIL 8N1 bit=3 cycle=6 payload=00 t=3686000
+# CHECK_FAIL busy during start/data t=3686000
+# CHECK_FAIL 8N1 bit=3 cycle=7 payload=00 t=3696000
+# CHECK_FAIL busy during start/data t=3696000
+# CHECK_FAIL 8N1 bit=3 cycle=8 payload=00 t=3706000
+# CHECK_FAIL busy during start/data t=3706000
+# CHECK_FAIL 8N1 bit=3 cycle=9 payload=00 t=3716000
+# CHECK_FAIL busy during start/data t=3716000
+# CHECK_FAIL 8N1 bit=3 cycle=10 payload=00 t=3726000
+# CHECK_FAIL busy during start/data t=3726000
+# CHECK_FAIL 8N1 bit=3 cycle=11 payload=00 t=3736000
+# CHECK_FAIL busy during start/data t=3736000
+# CHECK_FAIL 8N1 bit=3 cycle=12 payload=00 t=3746000
+# CHECK_FAIL busy during start/data t=3746000
+# CHECK_FAIL 8N1 bit=4 cycle=0 payload=00 t=3756000
+# CHECK_FAIL busy during start/data t=3756000
+# CHECK_FAIL 8N1 bit=4 cycle=1 payload=00 t=3766000
+# CHECK_FAIL busy during start/data t=3766000
+# CHECK_FAIL 8N1 bit=4 cycle=2 payload=00 t=3776000
+# CHECK_FAIL busy during start/data t=3776000
+# CHECK_FAIL 8N1 bit=4 cycle=3 payload=00 t=3786000
+# CHECK_FAIL busy during start/data t=3786000
+# CHECK_FAIL 8N1 bit=4 cycle=4 payload=00 t=3796000
+# CHECK_FAIL busy during start/data t=3796000
+# CHECK_FAIL 8N1 bit=4 cycle=5 payload=00 t=3806000
+# CHECK_FAIL busy during start/data t=3806000
+# CHECK_FAIL 8N1 bit=4 cycle=6 payload=00 t=3816000
+# CHECK_FAIL busy during start/data t=3816000
+# CHECK_FAIL 8N1 bit=4 cycle=7 payload=00 t=3826000
+# CHECK_FAIL busy during start/data t=3826000
+# CHECK_FAIL 8N1 bit=4 cycle=8 payload=00 t=3836000
+# CHECK_FAIL busy during start/data t=3836000
+# CHECK_FAIL 8N1 bit=4 cycle=9 payload=00 t=3846000
+# CHECK_FAIL busy during start/data t=3846000
+# CHECK_FAIL 8N1 bit=4 cycle=10 payload=00 t=3856000
+# CHECK_FAIL busy during start/data t=3856000
+# CHECK_FAIL 8N1 bit=4 cycle=11 payload=00 t=3866000
+# CHECK_FAIL busy during start/data t=3866000
+# CHECK_FAIL 8N1 bit=4 cycle=12 payload=00 t=3876000
+# CHECK_FAIL busy during start/data t=3876000
+# CHECK_FAIL 8N1 bit=5 cycle=0 payload=00 t=3886000
+# CHECK_FAIL busy during start/data t=3886000
+# CHECK_FAIL 8N1 bit=5 cycle=1 payload=00 t=3896000
+# CHECK_FAIL busy during start/data t=3896000
+# CHECK_FAIL 8N1 bit=5 cycle=2 payload=00 t=3906000
+# CHECK_FAIL busy during start/data t=3906000
+# CHECK_FAIL 8N1 bit=5 cycle=3 payload=00 t=3916000
+# CHECK_FAIL busy during start/data t=3916000
+# CHECK_FAIL 8N1 bit=5 cycle=4 payload=00 t=3926000
+# CHECK_FAIL busy during start/data t=3926000
+# CHECK_FAIL 8N1 bit=5 cycle=5 payload=00 t=3936000
+# CHECK_FAIL busy during start/data t=3936000
+# CHECK_FAIL 8N1 bit=5 cycle=6 payload=00 t=3946000
+# CHECK_FAIL busy during start/data t=3946000
+# CHECK_FAIL 8N1 bit=5 cycle=7 payload=00 t=3956000
+# CHECK_FAIL busy during start/data t=3956000
+# CHECK_FAIL 8N1 bit=5 cycle=8 payload=00 t=3966000
+# CHECK_FAIL busy during start/data t=3966000
+# CHECK_FAIL 8N1 bit=5 cycle=9 payload=00 t=3976000
+# CHECK_FAIL busy during start/data t=3976000
+# CHECK_FAIL 8N1 bit=5 cycle=10 payload=00 t=3986000
+# CHECK_FAIL busy during start/data t=3986000
+# CHECK_FAIL 8N1 bit=5 cycle=11 payload=00 t=3996000
+# CHECK_FAIL busy during start/data t=3996000
+# CHECK_FAIL 8N1 bit=5 cycle=12 payload=00 t=4006000
+# CHECK_FAIL busy during start/data t=4006000
+# CHECK_FAIL 8N1 bit=6 cycle=0 payload=00 t=4016000
+# CHECK_FAIL busy during start/data t=4016000
+# CHECK_FAIL 8N1 bit=6 cycle=1 payload=00 t=4026000
+# CHECK_FAIL busy during start/data t=4026000
+# CHECK_FAIL 8N1 bit=6 cycle=2 payload=00 t=4036000
+# CHECK_FAIL busy during start/data t=4036000
+# CHECK_FAIL 8N1 bit=6 cycle=3 payload=00 t=4046000
+# CHECK_FAIL busy during start/data t=4046000
+# CHECK_FAIL 8N1 bit=6 cycle=4 payload=00 t=4056000
+# CHECK_FAIL busy during start/data t=4056000
+# CHECK_FAIL 8N1 bit=6 cycle=5 payload=00 t=4066000
+# CHECK_FAIL busy during start/data t=4066000
+# CHECK_FAIL 8N1 bit=6 cycle=6 payload=00 t=4076000
+# CHECK_FAIL busy during start/data t=4076000
+# CHECK_FAIL 8N1 bit=6 cycle=7 payload=00 t=4086000
+# CHECK_FAIL busy during start/data t=4086000
+# CHECK_FAIL 8N1 bit=6 cycle=8 payload=00 t=4096000
+# CHECK_FAIL busy during start/data t=4096000
+# CHECK_FAIL 8N1 bit=6 cycle=9 payload=00 t=4106000
+# CHECK_FAIL busy during start/data t=4106000
+# CHECK_FAIL 8N1 bit=6 cycle=10 payload=00 t=4116000
+# CHECK_FAIL busy during start/data t=4116000
+# CHECK_FAIL 8N1 bit=6 cycle=11 payload=00 t=4126000
+# CHECK_FAIL busy during start/data t=4126000
+# CHECK_FAIL 8N1 bit=6 cycle=12 payload=00 t=4136000
+# CHECK_FAIL busy during start/data t=4136000
+# CHECK_FAIL 8N1 bit=7 cycle=0 payload=00 t=4146000
+# CHECK_FAIL busy during start/data t=4146000
+# CHECK_FAIL 8N1 bit=7 cycle=1 payload=00 t=4156000
+# CHECK_FAIL busy during start/data t=4156000
+# CHECK_FAIL 8N1 bit=7 cycle=2 payload=00 t=4166000
+# CHECK_FAIL busy during start/data t=4166000
+# CHECK_FAIL 8N1 bit=7 cycle=3 payload=00 t=4176000
+# CHECK_FAIL busy during start/data t=4176000
+# CHECK_FAIL 8N1 bit=7 cycle=4 payload=00 t=4186000
+# CHECK_FAIL busy during start/data t=4186000
+# CHECK_FAIL 8N1 bit=7 cycle=5 payload=00 t=4196000
+# CHECK_FAIL busy during start/data t=4196000
+# CHECK_FAIL 8N1 bit=7 cycle=6 payload=00 t=4206000
+# CHECK_FAIL busy during start/data t=4206000
+# CHECK_FAIL 8N1 bit=7 cycle=7 payload=00 t=4216000
+# CHECK_FAIL busy during start/data t=4216000
+# CHECK_FAIL 8N1 bit=7 cycle=8 payload=00 t=4226000
+# CHECK_FAIL busy during start/data t=4226000
+# CHECK_FAIL 8N1 bit=7 cycle=9 payload=00 t=4236000
+# CHECK_FAIL busy during start/data t=4236000
+# CHECK_FAIL 8N1 bit=7 cycle=10 payload=00 t=4246000
+# CHECK_FAIL busy during start/data t=4246000
+# CHECK_FAIL 8N1 bit=7 cycle=11 payload=00 t=4256000
+# CHECK_FAIL busy during start/data t=4256000
+# CHECK_FAIL 8N1 bit=7 cycle=12 payload=00 t=4266000
+# CHECK_FAIL busy during start/data t=4266000
+# CHECK_FAIL 8N1 bit=8 cycle=0 payload=00 t=4276000
+# CHECK_FAIL busy during start/data t=4276000
+# CHECK_FAIL 8N1 bit=8 cycle=1 payload=00 t=4286000
+# CHECK_FAIL busy during start/data t=4286000
+# CHECK_FAIL 8N1 bit=8 cycle=2 payload=00 t=4296000
+# CHECK_FAIL busy during start/data t=4296000
+# CHECK_FAIL 8N1 bit=8 cycle=3 payload=00 t=4306000
+# CHECK_FAIL busy during start/data t=4306000
+# CHECK_FAIL 8N1 bit=8 cycle=4 payload=00 t=4316000
+# CHECK_FAIL busy during start/data t=4316000
+# CHECK_FAIL 8N1 bit=8 cycle=5 payload=00 t=4326000
+# CHECK_FAIL busy during start/data t=4326000
+# CHECK_FAIL 8N1 bit=8 cycle=6 payload=00 t=4336000
+# CHECK_FAIL busy during start/data t=4336000
+# CHECK_FAIL 8N1 bit=8 cycle=7 payload=00 t=4346000
+# CHECK_FAIL busy during start/data t=4346000
+# CHECK_FAIL 8N1 bit=8 cycle=8 payload=00 t=4356000
+# CHECK_FAIL busy during start/data t=4356000
+# CHECK_FAIL 8N1 bit=8 cycle=9 payload=00 t=4366000
+# CHECK_FAIL busy during start/data t=4366000
+# CHECK_FAIL 8N1 bit=8 cycle=10 payload=00 t=4376000
+# CHECK_FAIL busy during start/data t=4376000
+# CHECK_FAIL 8N1 bit=8 cycle=11 payload=00 t=4386000
+# CHECK_FAIL busy during start/data t=4386000
+# CHECK_FAIL 8N1 bit=8 cycle=12 payload=00 t=4396000
+# CHECK_FAIL busy during start/data t=4396000
+# CHECK_FAIL 8N1 bit=0 cycle=1 payload=ff t=4826000
+# CHECK_FAIL 8N1 bit=0 cycle=2 payload=ff t=4836000
+# CHECK_FAIL 8N1 bit=0 cycle=3 payload=ff t=4846000
+# CHECK_FAIL 8N1 bit=0 cycle=4 payload=ff t=4856000
+# CHECK_FAIL 8N1 bit=0 cycle=5 payload=ff t=4866000
+# CHECK_FAIL 8N1 bit=0 cycle=6 payload=ff t=4876000
+# CHECK_FAIL 8N1 bit=0 cycle=7 payload=ff t=4886000
+# CHECK_FAIL 8N1 bit=0 cycle=8 payload=ff t=4896000
+# CHECK_FAIL 8N1 bit=0 cycle=9 payload=ff t=4906000
+# CHECK_FAIL busy during start/data t=4906000
+# CHECK_FAIL 8N1 bit=0 cycle=10 payload=ff t=4916000
+# CHECK_FAIL busy during start/data t=4916000
+# CHECK_FAIL 8N1 bit=0 cycle=11 payload=ff t=4926000
+# CHECK_FAIL busy during start/data t=4926000
+# CHECK_FAIL 8N1 bit=0 cycle=12 payload=ff t=4936000
+# CHECK_FAIL busy during start/data t=4936000
+# CHECK_FAIL busy during start/data t=4946000
+# CHECK_FAIL busy during start/data t=4956000
+# CHECK_FAIL busy during start/data t=4966000
+# CHECK_FAIL busy during start/data t=4976000
+# CHECK_FAIL busy during start/data t=4986000
+# CHECK_FAIL busy during start/data t=4996000
+# CHECK_FAIL busy during start/data t=5006000
+# CHECK_FAIL busy during start/data t=5016000
+# CHECK_FAIL busy during start/data t=5026000
+# CHECK_FAIL busy during start/data t=5036000
+# CHECK_FAIL busy during start/data t=5046000
+# CHECK_FAIL busy during start/data t=5056000
+# CHECK_FAIL busy during start/data t=5066000
+# CHECK_FAIL busy during start/data t=5076000
+# CHECK_FAIL busy during start/data t=5086000
+# CHECK_FAIL busy during start/data t=5096000
+# CHECK_FAIL busy during start/data t=5106000
+# CHECK_FAIL busy during start/data t=5116000
+# CHECK_FAIL busy during start/data t=5126000
+# CHECK_FAIL busy during start/data t=5136000
+# CHECK_FAIL busy during start/data t=5146000
+# CHECK_FAIL busy during start/data t=5156000
+# CHECK_FAIL busy during start/data t=5166000
+# CHECK_FAIL busy during start/data t=5176000
+# CHECK_FAIL busy during start/data t=5186000
+# CHECK_FAIL busy during start/data t=5196000
+# CHECK_FAIL busy during start/data t=5206000
+# CHECK_FAIL busy during start/data t=5216000
+# CHECK_FAIL busy during start/data t=5226000
+# CHECK_FAIL busy during start/data t=5236000
+# CHECK_FAIL busy during start/data t=5246000
+# CHECK_FAIL busy during start/data t=5256000
+# CHECK_FAIL busy during start/data t=5266000
+# CHECK_FAIL busy during start/data t=5276000
+# CHECK_FAIL busy during start/data t=5286000
+# CHECK_FAIL busy during start/data t=5296000
+# CHECK_FAIL busy during start/data t=5306000
+# CHECK_FAIL busy during start/data t=5316000
+# CHECK_FAIL busy during start/data t=5326000
+# CHECK_FAIL busy during start/data t=5336000
+# CHECK_FAIL busy during start/data t=5346000
+# CHECK_FAIL busy during start/data t=5356000
+# CHECK_FAIL busy during start/data t=5366000
+# CHECK_FAIL busy during start/data t=5376000
+# CHECK_FAIL busy during start/data t=5386000
+# CHECK_FAIL busy during start/data t=5396000
+# CHECK_FAIL busy during start/data t=5406000
+# CHECK_FAIL busy during start/data t=5416000
+# CHECK_FAIL busy during start/data t=5426000
+# CHECK_FAIL busy during start/data t=5436000
+# CHECK_FAIL busy during start/data t=5446000
+# CHECK_FAIL busy during start/data t=5456000
+# CHECK_FAIL busy during start/data t=5466000
+# CHECK_FAIL busy during start/data t=5476000
+# CHECK_FAIL busy during start/data t=5486000
+# CHECK_FAIL busy during start/data t=5496000
+# CHECK_FAIL busy during start/data t=5506000
+# CHECK_FAIL busy during start/data t=5516000
+# CHECK_FAIL busy during start/data t=5526000
+# CHECK_FAIL busy during start/data t=5536000
+# CHECK_FAIL busy during start/data t=5546000
+# CHECK_FAIL busy during start/data t=5556000
+# CHECK_FAIL busy during start/data t=5566000
+# CHECK_FAIL busy during start/data t=5576000
+# CHECK_FAIL busy during start/data t=5586000
+# CHECK_FAIL busy during start/data t=5596000
+# CHECK_FAIL busy during start/data t=5606000
+# CHECK_FAIL busy during start/data t=5616000
+# CHECK_FAIL busy during start/data t=5626000
+# CHECK_FAIL busy during start/data t=5636000
+# CHECK_FAIL busy during start/data t=5646000
+# CHECK_FAIL busy during start/data t=5656000
+# CHECK_FAIL busy during start/data t=5666000
+# CHECK_FAIL busy during start/data t=5676000
+# CHECK_FAIL busy during start/data t=5686000
+# CHECK_FAIL busy during start/data t=5696000
+# CHECK_FAIL busy during start/data t=5706000
+# CHECK_FAIL busy during start/data t=5716000
+# CHECK_FAIL busy during start/data t=5726000
+# CHECK_FAIL busy during start/data t=5736000
+# CHECK_FAIL busy during start/data t=5746000
+# CHECK_FAIL busy during start/data t=5756000
+# CHECK_FAIL busy during start/data t=5766000
+# CHECK_FAIL busy during start/data t=5776000
+# CHECK_FAIL busy during start/data t=5786000
+# CHECK_FAIL busy during start/data t=5796000
+# CHECK_FAIL busy during start/data t=5806000
+# CHECK_FAIL busy during start/data t=5816000
+# CHECK_FAIL busy during start/data t=5826000
+# CHECK_FAIL busy during start/data t=5836000
+# CHECK_FAIL busy during start/data t=5846000
+# CHECK_FAIL busy during start/data t=5856000
+# CHECK_FAIL busy during start/data t=5866000
+# CHECK_FAIL busy during start/data t=5876000
+# CHECK_FAIL busy during start/data t=5886000
+# CHECK_FAIL busy during start/data t=5896000
+# CHECK_FAIL busy during start/data t=5906000
+# CHECK_FAIL busy during start/data t=5916000
+# CHECK_FAIL busy during start/data t=5926000
+# CHECK_FAIL busy during start/data t=5936000
+# CHECK_FAIL busy during start/data t=5946000
+# CHECK_FAIL busy during start/data t=5956000
+# CHECK_FAIL busy during start/data t=5966000
+# CHECK_FAIL busy during start/data t=5976000
+# RESULT checks=1004 failures=656
+# ** Note: $finish    : tb.sv(13)
+#    Time: 6406 ns  Iteration: 0  Instance: /tb
+# End time: 20:24:00 on Sep 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

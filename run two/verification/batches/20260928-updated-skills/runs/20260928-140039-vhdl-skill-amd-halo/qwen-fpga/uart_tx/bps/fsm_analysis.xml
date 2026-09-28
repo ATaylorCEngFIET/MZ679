@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPSFsmReport>
+    <FSMs>
+        <FSM Name="uart_tx(rtl)(state_r)" Language="VHDL" SingleProcess="Yes" CurrStateVar="state_r" NextStateVar="" ResetState="ST_IDLE" FileID="0" LineNum="30">
+            <States NumStates="4">
+                <State Name="ST_IDLE" ResetState="Yes" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="31">
+                    <Transition To="ST_START" FileID="0" LineNum="33"/>
+                </State>
+                <State Name="ST_START" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="34">
+                    <Transition To="ST_DATA" FileID="0" LineNum="36"/>
+                </State>
+                <State Name="ST_DATA" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="37">
+                    <Transition To="ST_STOP" FileID="0" LineNum="41"/>
+                </State>
+                <State Name="ST_STOP" ResetState="No" DefaultState="No" IsTerminalState="No" UnreachableState="No" MissingCaseItem="No" FileID="0" LineNum="43">
+                    <Transition To="ST_IDLE" FileID="0" LineNum="45"/>
+                </State>
+            </States>
+        </FSM>
+    </FSMs>
+    <FileIDs>
+        <File name="../../../../../../../20260928-140039-vhdl-skill-amd-halo/qwen-fpga/uart_tx.vhd" id="0"/>
+    </FileIDs>
+</BPSFsmReport>

@@ -1,0 +1,266 @@
+[
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\bluepearl-rtl\\bugfix.vhd",
+    "sha256": "d90ae8cabe68ce930352794f772278499de888b114d042f7f96052d4db7199f1",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\bluepearl-rtl\\cdc_sync.vhd",
+    "sha256": "da7b12ec4919cea979a411fd03119812e8e3df7f4db224e83a4b1b6893ebddb3",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\bluepearl-rtl\\fifo.vhd",
+    "sha256": "af6dccaa5c67d943fd148195d4139c5d82022d3356bfec252f706b98acea6aa4",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\gemma4-fpga\\bugfix.vhd",
+    "sha256": "c2e85cce4c81582dc161167b26c024c3ffd2f707c9d1f9848ac075b11c4ea972",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\gemma4-fpga\\cdc_sync.vhd",
+    "sha256": "498753fca41cb05a5d032ab3e43eda703cc68236ed58cab760256b91e316a672",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\gemma4-fpga\\fifo.vhd",
+    "sha256": "5f47716ddfe3a81f92b38d0ad48d7d126fa49689f20a8abbc7e16af290645ca3",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\bugfix.vhd",
+    "sha256": "538f18d1ee95aa8e3043ea8da5e04e17eb4a668a1280153908667f5c8355ae69",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": [
+      "Reset is outside rising_edge(clk) although rst is absent from the sensitivity list; reset can act on a falling clock edge and simulation/synthesis reset behaviour can differ."
+    ]
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\cdc_sync.vhd",
+    "sha256": "3834dfc3837a08c6cd9ab4196f4dc189b1383d2809e542dfe06f0a3087e5ab64",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen-fpga\\fifo.vhd",
+    "sha256": "b8d9db8f77dc9ce5a921f8a890a8af62e260715e917202b14629b693fb70e59f",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3-coder_30b\\bugfix.vhd",
+    "sha256": "b3ecbb5d987c071c42e751f978a48ee20aa70b01a10be1c184c7317d74b2cb8f",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": [
+      "Direct asynchronous reset remains without deassertion synchronization; the common repair test assumes synchronous reset."
+    ]
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3-coder_30b\\cdc_sync.vhd",
+    "sha256": "323debe5162b5cb176274e0347524fc79d2e5284caf47ac25477df5ec7005ca1",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": [
+      "The STAGES chain is clocked by clk_src; clk_dst is unused. This is not a destination-clock synchronizer."
+    ]
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3-coder_30b\\fifo.vhd",
+    "sha256": "7759eedffe575279da6f88d908adebc543cdf775f16e32f5109925beb9aaa870",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\bugfix.vhd",
+    "sha256": "33f29f5b16d0937c7cd2617259725d718d0fdf75eb62d6e3cf276faa5100849a",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\cdc_sync.vhd",
+    "sha256": "181f64aeb53e27b47a80b5a5e8b2fc098fba3942df0d3499f0c7aab801862ab9",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": [
+      "The chain shifts on clk_i and sync_out is driven both concurrently and on clk_o. This is not a valid STAGES-flop destination-clock synchronizer."
+    ]
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.5_4b\\fifo.vhd",
+    "sha256": "b8d9db8f77dc9ce5a921f8a890a8af62e260715e917202b14629b693fb70e59f",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.8_27b\\bugfix.vhd",
+    "sha256": "5e8a493db1ec3df2f11be634326c70fc66b0dd39e2f8373768541e8b62b9a5a0",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.8_27b\\cdc_sync.vhd",
+    "sha256": "de893efe96f604e21f9518a9eb0eab711ab5956ff59cf8243225730e62a36062",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-140039-vhdl-skill-amd-halo\\qwen3.8_27b\\fifo.vhd",
+    "sha256": "7b789c1a73f228a767217151c8b6e643d41ac7dee7b793902bea06b0a3d6deec",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\bugfix.sv",
+    "sha256": "5d58e2af25bc2f46b114f136a1137a9e376398e40405a357587cd75e65f209ec",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\cdc_sync.sv",
+    "sha256": "46d228e2ab9635770c5c9559f8130ad7823e62b6bb7bb647d8fa0c78dbcd1280",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\bluepearl-rtl\\fifo.sv",
+    "sha256": "df707a8050f279d1f52f81d3ccc1ba64a997f10fff9bf8e1b7b1279a68cc8ff8",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\gemma4-fpga\\bugfix.sv",
+    "sha256": "650065dc1f16856824ec0cb79475dde5ed9f87f24d84f06e59f1ea77805288e7",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\gemma4-fpga\\cdc_sync.sv",
+    "sha256": "3f3bc1d7803d5555cf2389b833a1d9d2ff9dd15488bb3ddbc6aa4b80d133df6e",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\gemma4-fpga\\fifo.sv",
+    "sha256": "b1a51f74ff0100986b6c8d1b0153064ed855393d108e63e974c1ffcaa0e25488",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\bugfix.sv",
+    "sha256": "f9e354b2397557c5d65267a7dc2bbb02f40adf0ec294404c81a43053958b8dfd",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": [
+      "Direct asynchronous reset remains although the SystemVerilog repair request explicitly requires synchronous reset."
+    ]
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\cdc_sync.sv",
+    "sha256": "3ce13995eae44bd5434eb0bbeba16c05b1bd518c49976a00f6a21b1bdd5b82cc",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen-fpga\\fifo.sv",
+    "sha256": "9a80cdce11b9ea1f6f9360f86adc61681e67f9023afb0ebc6cc8c5df736a87d6",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3-coder_30b\\bugfix.sv",
+    "sha256": "abbbb10fdbc637f22619731b058461719a911a1c4020d4a3d44c4266613b2815",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3-coder_30b\\cdc_sync.sv",
+    "sha256": "4795086f8d7c010aa7a3a8421b83e5a3770eb0ad4e9a56ce4321890b78010f1f",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3-coder_30b\\fifo.sv",
+    "sha256": "48f31823109ce0d8479282e126a8e54a1af784d1226013c6faee4fd6df1c9de0",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.5_4b\\bugfix.sv",
+    "sha256": "aaf3b7f4854cacbc4052a28bf5c9b8852367a634fdfdcf320ba9a0ab23cdbb1e",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": [
+      "Direct asynchronous reset remains although the SystemVerilog repair request explicitly requires synchronous reset."
+    ]
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.5_4b\\cdc_sync.sv",
+    "sha256": "4595d3956893a14ffb0dcf77fb309d732fbe4114856d09a7ede083241f9c9efb",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.5_4b\\fifo.sv",
+    "sha256": "2f04fff471f07cac6673e53de8ae409cb045140d329051ba850dde0592b3ca1c",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\bugfix.sv",
+    "sha256": "e2dd631bb41a2fd7a13655dc25a61f43d295f9c2de4733b365fd76464d6f2f52",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\cdc_sync.sv",
+    "sha256": "db4659d070f6b53ac60a73e7e5f78767ed059eff8f8ab3c4a88f41fdb932a51f",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-145103-verilog-skill-amd-halo\\qwen3.8_27b\\fifo.sv",
+    "sha256": "8773a90ecb8e62da445f6b1c4941a55a4e38461bc1c1bbcf16369578b65284de",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-150924-vhdl-skill-amd-halo\\qwen3.8-flash-next\\bugfix.vhd",
+    "sha256": "4ce24cb198fc33f6e56d95b1b39a0f1949381e4a5c774a7e27da4f3d87db2215",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-150924-vhdl-skill-amd-halo\\qwen3.8-flash-next\\cdc_sync.vhd",
+    "sha256": "95d67c32421d84a65c1d0072115927948f9d41b421b815d3e3974c3d4f855210",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-150924-vhdl-skill-amd-halo\\qwen3.8-flash-next\\fifo.vhd",
+    "sha256": "b8d9db8f77dc9ce5a921f8a890a8af62e260715e917202b14629b693fb70e59f",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-151023-verilog-skill-amd-halo\\qwen3.8-flash-next\\bugfix.sv",
+    "sha256": "b4a240f5017a8e107fdb8fef27957162f1a31e7e996cb7fdfb5e689b33380095",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-151023-verilog-skill-amd-halo\\qwen3.8-flash-next\\cdc_sync.sv",
+    "sha256": "a058b5ded3b1c05dc581687d59595bd09991528d6fee96b9c7864cec4b38299c",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  },
+  {
+    "source": "20260928-151023-verilog-skill-amd-halo\\qwen3.8-flash-next\\fifo.sv",
+    "sha256": "e739bad259071c3f993f00672c2e99f3ea0a05af4386eff83e82306170c4cc16",
+    "scope": "CDC clocking/attribute structure, FIFO clocked memory reads, or bugfix reset structure",
+    "findings": []
+  }
+]

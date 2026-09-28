@@ -1,0 +1,149 @@
+{
+  "vhdl": [
+    {
+      "model": "bluepearl-rtl",
+      "folder": "bluepearl-rtl",
+      "behavior_pass": 6,
+      "request_pass": 5,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 13,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "gemma4-fpga",
+      "folder": "gemma4-fpga",
+      "behavior_pass": 5,
+      "request_pass": 4,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 13,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen-fpga",
+      "folder": "qwen-fpga",
+      "behavior_pass": 5,
+      "request_pass": 4,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 17,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen3-coder:30b",
+      "folder": "qwen3-coder_30b",
+      "behavior_pass": 4,
+      "request_pass": 3,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 18,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen3.5:4b",
+      "folder": "qwen3.5_4b",
+      "behavior_pass": 4,
+      "request_pass": 3,
+      "compile_fail": 1,
+      "lint_errors": 25,
+      "lint_warnings": 9,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen3.8-flash-next",
+      "folder": "qwen3.8-flash-next",
+      "behavior_pass": 6,
+      "request_pass": 5,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 12,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen3.8:27b",
+      "folder": "qwen3.8_27b",
+      "behavior_pass": 6,
+      "request_pass": 5,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 12,
+      "lint_incomplete": 0
+    }
+  ],
+  "verilog": [
+    {
+      "model": "bluepearl-rtl",
+      "folder": "bluepearl-rtl",
+      "behavior_pass": 6,
+      "request_pass": 6,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 6,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "gemma4-fpga",
+      "folder": "gemma4-fpga",
+      "behavior_pass": 5,
+      "request_pass": 5,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 6,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen-fpga",
+      "folder": "qwen-fpga",
+      "behavior_pass": 3,
+      "request_pass": 3,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 8,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen3-coder:30b",
+      "folder": "qwen3-coder_30b",
+      "behavior_pass": 6,
+      "request_pass": 6,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 6,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen3.5:4b",
+      "folder": "qwen3.5_4b",
+      "behavior_pass": 3,
+      "request_pass": 3,
+      "compile_fail": 1,
+      "lint_errors": 0,
+      "lint_warnings": 51,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen3.8-flash-next",
+      "folder": "qwen3.8-flash-next",
+      "behavior_pass": 6,
+      "request_pass": 6,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 6,
+      "lint_incomplete": 0
+    },
+    {
+      "model": "qwen3.8:27b",
+      "folder": "qwen3.8_27b",
+      "behavior_pass": 6,
+      "request_pass": 6,
+      "compile_fail": 0,
+      "lint_errors": 0,
+      "lint_warnings": 6,
+      "lint_incomplete": 0
+    }
+  ]
+}
+Total assertions: 143172
+Simulation statuses: {'PASS': 71, 'FAIL': 11, 'COMPILE_FAIL': 2}
+Lint statuses: {'COMPLETE': 82, 'ANALYSIS_ERROR': 2}

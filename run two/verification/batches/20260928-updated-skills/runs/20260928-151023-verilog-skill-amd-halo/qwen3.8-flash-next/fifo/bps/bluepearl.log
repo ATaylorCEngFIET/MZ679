@@ -1,0 +1,284 @@
+--BPS-0730: Status: Opening log file: 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/bluepearl.log' @ '28/09/2026 20:24'
+--BPS-0730: Status: Blue Pearl Visual Verification Suite Version 2026.4.68770.nightlyBuilds_2026.4.68770 07/16/2026 07:20. Windows (64-bit).
+Copyright (c) 2004-2026 Blue Pearl Software, Inc
+Portions of this software are (c) 2015 The Qt Company Ltd and other contributors under the GNU LGPL version 3 license.
+--BPS-0730: Status: Installation Path: C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64
+--BPS-0730: Status: Running as: aptay@Adiuvo_Adam
+--BPS-0730: Status: Running from: C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo
+--BPS-0730: Status: Unprocessed CLI Arguments: -root=sync_fifo -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-151023-verilog-skill-amd-halo\qwen3.8-flash-next\fifo\bps -verbosity=2 -e source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv}; BPS::run analyze -forceload
+--BPS-0730: Status: Effective CLI Arguments: 
+   -root=sync_fifo
+   -output=C:\hdl_projects\ai_on_prem\results\comparison-20260928-updated-skills\amd-halo\verification\batches\20260928-updated-skills\runs\20260928-151023-verilog-skill-amd-halo\qwen3.8-flash-next\fifo\bps
+   -verbosity=2
+   -e
+   "source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv}; BPS::run analyze -forceload"
+--BPS-0730: Status: Reading initialization file: 'C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/bps_setup.tcl'
+Time: Mon Sep 28 20:24:33 2026
+--BPS-0730: Status: Running user initialization program: 'source {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/lint.tcl}; BPS::add_input_files -language SYS_VERILOG {C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv}; BPS::run analyze -forceload'
+*** args: analyze -forceload
+--BPS-0730: Status: Processing CDC in a Transitive manner.
+--BPS-0730: Status: Reading design...
+I-VERI-1509: The Verilog library search path for library "std" is now "C:/Program Files/Blue Pearl Software, Inc/Blue Pearl Visual Verification Environment x64/verilog_packages/sdbs/std"
+I-VERI-9014: The Verilog search library for imported/instantiated design units now includes 'work'
+I-VNLR-9000: The Verilog netlist search library for imported/instantiated design units now includes 'work'
+I-VHDL-9010: The VHDL search library for imported/instantiated design units now includes 'work'
+I-SORT-9000: Pre-Analyzing 'System Verilog' file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv' into library 'work'
+--VERI-1482: Analyzing System Verilog file 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv' into library 'work'
+I-VERI-9012: ../../../../../../../20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv(1): analyzing module 'sync_fifo'
+--BPS-0730: Status: Determining HDL top level units
+--BPS-0730: Status: Running parse tree analysis phase 'Pre-Static Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Pre-Static Elaboration'
+--BPS-0729: Status: Elaborating (phase 1) into library work using the Verilog elaborator on 'sync_fifo'
+I-VERI-1018: ../../../../../../../20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv(1): compiling module 'sync_fifo'
+--BPS-0730: Status: Finished Elaborating (phase 1).
+--BPS-0730: Status: Running parse tree analysis phase 'Pre-Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Pre-Elaboration'
+--BPS-0729: Status: Elaborating (phase 2) into library work using the Verilog elaborator on 'sync_fifo'
+I-VERI-1018: ../../../../../../../20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv(1): compiling module 'sync_fifo'
+I-VERI-9004: ../../../../../../../20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo.sv(17): extracting RAM for identifier 'mem'
+--BPS-0730: Status: Running parse tree analysis phase 'Post-Elaboration'
+--BPS-0730: Status: Completed Running parse tree analysis phase 'Post-Elaboration'
+--BPS-0730: Status: Finished Elaborating (phase 2).
+===============================
+Blue Pearl Missing Modules/Objects Report created on: Mon Sep 28 20:24:33 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.missing_modules.rpt'.
+===============================
+Missing Modules: 0
+===============================
+===============================
+Time to generate Missing Modules/Objects report: 0.01 seconds
+--BPS-0730: Status: Running static design modifications.
+--BPS-0730: Status: Finished Running static design modifications.
+--BPS-0730: Status: Running elaboration tree analysis.
+--BPS-0730: Status: Finished Running elaboration tree analysis.
+--BPS-0729: Status: Running final elaboration on 'sync_fifo'
+--BPS-0729: Status: Final Elaboration of Netlist on 'sync_fifo'
+--BPS-0729: Status: Final Elaboration of Netlist on 'ram_mem'
+--BPS-0729: Status: Finished Final Elaboration of Netlist on 'ram_mem'
+--BPS-0729: Status: Finished Final Elaboration of Netlist on 'sync_fifo'
+--BPS-0730: Status: Finished final elaboration.
+--BPS-0730: Status: Finished final elaboration. Elapsed Time: 0.01 seconds.
+--BPS-0730: Status: Finished elaborating design.
+--BPS-0730: Status: Finished Reading Design. Elapsed Time: 0.21 seconds.
+--BPS-0730: Status: Performing Netlist Expansion...
+--BPS-0729: Status: Running Top Level Expansion on 'sync_fifo'
+--BPS-0729: Status: Running Expansion on 'ram_mem'
+--BPS-0730: Status: Performing Flattening Design
+--BPS-0730: Status: Running Design Flattening on module (1 of 2)
+--BPS-0730: Status: Running Design Flattening on Instance (1 of 1).
+--BPS-0730: Status: Running Design Flattening on module (2 of 2)
+--BPS-0730: Status: Replacing Port Nets with Flattened Nets...
+--BPS-0730: Status: Flattening Net on Port (1 of 9).
+--BPS-0730: Status: Flattening Net on Port (9 of 9).
+--BPS-0730: Status: Finished Replacing Port Nets with Flattened Nets
+--BPS-0730: Status: Finished Running Design Flattening on module 'sync_fifo.ram_mem'
+--BPS-0730: Status: Processing DFF Register Nets
+--BPS-0730: Status: Processing DFF Register Net (1 of 3).
+--BPS-0730: Status: Processing DFF Register Net (3 of 3).
+--BPS-0730: Status: Finished Processing DFF Register Nets
+--BPS-0730: Status: Finished Running Design Flattening on module 'sync_fifo'
+--BPS-0730: Status: Completed Flattening Design. Elapsed Time: 0.02 seconds.
+--BPS-0729: Status: Validating Expansion on 'sync_fifo'
+--BPS-0730: Status: 	Finished validating expansion. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Completed expansion. Elapsed Time: 0.04 seconds.
+--BPS-0730: Status: Finished Netlist Expansion. Elapsed Time: 0.04 seconds.
+--BPS-0730: Status: Build and expand design. Elapsed Time: 0.26 seconds.
+--BPS-0730: Status: Performing Connection Analysis...
+--BPS-0730: Status: Running Connection Analysis Phase One on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase One on Net (49 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Two on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Two on Net (49 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Three on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Three on Net (49 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Four on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Four on Net (49 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Five on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Six on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Six on Net (49 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Seven on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Seven on Net (49 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Eight on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Eight on Net (49 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Nine on Net (1 of 49).
+--BPS-0730: Status: Running Connection Analysis Phase Nine on Net (49 of 49).
+--BPS-0730: Status: Completed Connection Analysis. Elapsed Time: 0.002 seconds.
+--BPS-0730: Status: Performing Reset Analysis Phase I...
+--BPS-0730: Status: Completed Reset Analysis Phase I. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Performing Reset Analysis Phase II...
+--BPS-0730: Status: Performing Staged Reset Analysis...
+--BPS-0730: Status: Analyzing Port for Staged Reset Analysis (1 of 8).
+--BPS-0730: Status: Analyzing Port for Staged Reset Analysis (8 of 8).
+--BPS-0730: Status: Analyzing DFF Stage 1 for Staged Reset Analysis (1 of 3).
+--BPS-0730: Status: Analyzing DFF Stage 1 for Staged Reset Analysis (3 of 3).
+--BPS-0730: Status: Analyzing DFF Stage 2 for Staged Reset Analysis (1 of 3).
+--BPS-0730: Status: Analyzing DFF Stage 2 for Staged Reset Analysis (3 of 3).
+--BPS-0730: Status: Completed Staged Reset Analysis. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Completed Reset Analysis Phase II. Elapsed Time: 0.001 seconds.
+--BPS-0730: Status: Performing Reset Analysis Phase III...
+--BPS-0730: Status: Completed Reset Analysis Phase III. Elapsed Time: 0 seconds.
+===============================
+Blue Pearl Sets/Resets Report created on: Mon Sep 28 20:24:33 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.setreset.rpt'.
+===============================
+===============================
+0 primary set/resets identified and reported.
+0 internal set/resets identified and reported.
+1 primary synchronous set/resets identified but not reported.
+===============================
+Time to generate Sets/Resets report: 0.01 seconds
+--BPS-0730: Status: Performing Clock Tree Analysis...
+--BPS-0730: Status: Completed Clock Tree Analysis. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Running constant analysis...
+--BPS-0730: Status: Finished constant analysis...
+--BPS-0730: Status: Performing Clock Interactions Load Phase...
+--BPS-0730: Status: Performing Divided Clock Analysis...
+--BPS-0730: Status: Completed Divided Clock Analysis. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Performing Propagating Clock Tokens...
+--BPS-0730: Status: Processing clock tokens for primary clock sync_fifo.clk (1 of 1).
+--BPS-0730: Status: Processing clock tokens from port sync_fifo.clk for primary clock sync_fifo.clk
+--BPS-0730: Status: Completed Propagating Clock Tokens. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Performing Propagating Data Tokens...
+--BPS-0730: Status: Performing Propagating Data Tokens at DFFs...
+--BPS-0730: Status: Propagating Data Tokens at DFF (1 of 3).
+--BPS-0730: Status: Propagating Data Tokens at DFF (3 of 3).
+--BPS-0730: Status: Completed Propagating Data Tokens at DFFs. Elapsed Time: 0.001 seconds.
+--BPS-0730: Status: Performing Propagating Data Tokens at Memories...
+--BPS-0730: Status: Propagating Data Tokens at Memory (1 of 1).
+--BPS-0730: Status: Completed Propagating Data Tokens at Memories. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Completed Propagating Data Tokens. Elapsed Time: 0.001 seconds.
+--BPS-0730: Status: Performing Analyzing DFF Tokens...
+--BPS-0730: Status: Analyzing data tokens at DFF (1 of 3).
+--BPS-0730: Status: Analyzing data tokens at DFF (3 of 3).
+--BPS-0730: Status: Processing Output Tokens (1 of 8).
+--BPS-0730: Status: Processing Output Tokens (8 of 8).
+--BPS-0730: Status: Completed Analyzing DFF Tokens. Elapsed Time: 0 seconds.
+--BPS-0730: Status: Checking Primary Outputs (1 of 8).
+--BPS-0730: Status: Checking Primary Outputs (8 of 8).
+--BPS-0730: Status: Tracing Forward From Ports (1 of 8).
+--BPS-0730: Status: Tracing Forward From Ports (8 of 8).
+===============================
+Blue Pearl Advanced Clock Environment Report Report created on: Mon Sep 28 20:24:33 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.adv_clk_environment.rpt'.
+===============================
+Advanced Clock Environment Report:
+From clock: Unknown Clock To clock: clk
+Synchronized: 0
+Unsynchronized: 3
+Issue: Unknown Clock interacts with clock clk in an unsynchronized manner across domains. Recommendation: Add synchronizers or merge the domains. Turning on the option to auto-detect clock domains may help merge domains.
+
+From clock: clk To clock: Unknown Clock
+Synchronized: 0
+Unsynchronized: 3
+Issue: clk interacts with clock Unknown Clock in an unsynchronized manner across domains. Recommendation: Add synchronizers or merge the domains. Turning on the option to auto-detect clock domains may help merge domains.
+===============================
+Time to generate Advanced Clock Environment Report report: 0.01 seconds
+--BPS-0730: Status: Writing SDC file with formatting set by user options
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.ace.sdc' SDC file.
+--BPS-0730: Status: Completed Clock Interactions Load Phase. Elapsed Time: 0.02 seconds.
+--BPS-0730: Status: Checking Combinational Loops...
+--BPS-0730: Status: Completed Combinational Loop Analysis. Elapsed Time: 0 seconds.
+===============================
+Blue Pearl Clocks Report created on: Mon Sep 28 20:24:33 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.clk.rpt'.
+===============================
+Clock Report:
+All Clocks automatically detected
+1 primary clock identified:
+Clock Name: clk Clock Domain Name: clk_group (automatically detected) Fanout: 22
+===============================
+Internal Clock Report:
+0 internally generated clocks identified
+===============================
+Time to generate Clocks report: 0.01 seconds
+===============================
+Blue Pearl Gated Clocks Report created on: Mon Sep 28 20:24:33 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.gated_clk.rpt'.
+===============================
+===============================
+Gated Clock Report:
+0 gated clocks identified
+===============================
+Time to generate Gated Clocks report: 0.00 seconds
+===============================
+Blue Pearl Equivalent Clocks Report created on: Mon Sep 28 20:24:33 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.equiv_clk.rpt'.
+===============================
+No equivalent clocks
+===============================
+Time to generate Equivalent Clocks report: 0.00 seconds
+--BPS-0730: Status: Writing design database.
+--BPS-0730: Status: Writing to Design Database (1 of 2).
+--BPS-0730: Status: Writing to Design Database (2 of 2).
+--BPS-0730: Status: Writing Module Usage to Design Database (1 of 1).
+--BPS-0730: Status: Writing Clock Information to Design Database Clock (1 of 1).
+--BPS-0730: Status: Finished writing design database. Elapsed Time: 0.005 seconds.
+--BPS-0730: Status: Running dynamic property checks...
+--BPS-0730: Status: Performing Net Constant Analysis...
+--BPS-0730: Status: Analyzing Net for Constant Analysis (1 of 11).
+--BPS-0730: Status: Analyzing Net for Constant Analysis (11 of 11).
+--BPS-0730: Status: Completed Net Constant Analysis. Elapsed Time: 0.000000 seconds.
+--BPS-0730: Status: Clearing Net Constant Propagation Info...
+--BPS-0730: Status: Clearing Constant Propagation info for Net (1 of 11).
+--BPS-0730: Status: Clearing Constant Propagation info for Net (11 of 11).
+--BPS-0730: Status: Completed Clearing Net Constant Propagation Info...
+--BPS-0730: Status: Performing Constant Analysis on Registers...
+--BPS-0730: Status: Analyzing DFF for Register Constant Analysis (1 of 3).
+--BPS-0730: Status: Analyzing DFF for Register Constant Analysis (3 of 3).
+--BPS-0730: Status: Completed Constant Analysis on Registers. Elapsed Time: 0.000000 seconds.
+--BPS-0730: Status: Finished dynamic property checks...
+--BPS-0730: Status: Performing Design Reports Processing...
+===============================
+Blue Pearl Latches Report created on: Mon Sep 28 20:24:34 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.lth.rpt'.
+===============================
+0 D-type latch registers:
+===============================
+===============================
+Time to generate Latches report: 0.01 seconds
+===============================
+Blue Pearl DFFs Report created on: Mon Sep 28 20:24:34 2026
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/sync_fifo.dff.rpt'.
+===============================
+3 D-type flip-flop registers:
+===============================
+--BPS-0730: Status: Reporting flip-flop (1 of 3).
+sync_fifo.wr_ptr[4:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 3
+sync_fifo.rd_ptr[4:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 3
+--BPS-0730: Status: Reporting flip-flop (3 of 3).
+sync_fifo.rd_data[7:0] type Dff register Data Clock Domain: clk_group Clock Pin's Domain: clk_group Fanout: 2
+===============================
+Time to generate DFFs report: 0.01 seconds
+--BPS-0730: Status: Completed Design Reports Processing. Elapsed Time: 0.02 seconds.
+--BPS-0730: Status: Performing Writing databases...
+--BPS-0730: Status: Completed Writing databases. Elapsed Time: 0.003 seconds.
+===============================
+--BPS-0730: Status: Blue Pearl completed.
+--BPS-0730: Status: Time: Mon Sep 28 20:24:34 2026
+===============================
+--BPS-0730: Status: Creating 'C:/hdl_projects/ai_on_prem/results/comparison-20260928-updated-skills/amd-halo/verification/batches/20260928-updated-skills/runs/20260928-151023-verilog-skill-amd-halo/qwen3.8-flash-next/fifo/bps/DesignSummary.rpt'.
+Time to generate Design Summary report: 0.01 seconds
+===============================
+Message ID Summary Report:
+Property Check  BPS-0729: 10 comments
+Property Check  BPS-0730: 153 comments
+Property Check SORT-9000: 1 informational
+Property Check VERI-1018: 2 informationals
+Property Check VERI-1482: 1 comment
+Property Check VERI-1509: 1 informational
+Property Check VERI-9004: 1 informational
+Property Check VERI-9012: 1 informational
+Property Check VERI-9014: 1 informational
+Property Check VHDL-9010: 1 informational
+Property Check VNLR-9000: 1 informational
+
+Property Check Message Severity Summary:
+0 errors
+0 warnings
+9 informationals
+164 comments
+--BPS-0730: Status: Total analysis Elapsed Time: 0 seconds
+
+BluePearl-01% ===============================
+--BPS-0730: Status: Blue Pearl completed.
+--BPS-0730: Status: Time: Mon Sep 28 20:24:34 2026
+===============================
